@@ -1,0 +1,11 @@
+---
+indexpage:
+  title: BlueXP  ワークロードファクトリリリースノート
+  summary: このリリースノートでは、BlueXP  ワークロードファクトリに含まれるクラウドサービスに対する最近の機能拡張について説明します。
+  keywords: BlueXP Workload Factory, release notes, what's new
+  lead: このリリースノートでは、BlueXP  ワークロードファクトリに含まれるクラウドサービスに対する最近の機能拡張について説明します。
+  tiles:
+  - title: 新機能
+    links:
+    - title: Workload Factoryの最近の変更点
+      url: whats-new.html
