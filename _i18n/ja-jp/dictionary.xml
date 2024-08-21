@@ -37,7 +37,6 @@
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
   <block id="a0d5836b9915a7e404d529a2ee0d2af5" category="section-title">Storage Calculatorに推奨されるスループットとIOPS</block>
   <block id="b48a7422f4f1f71c3ef03d7a8291f43f" category="paragraph">ストレージ計算ツールは、AWSのベストプラクティスに基づいて、FSx for ONTAPファイルシステム構成のスループットとIOPSに関する推奨事項を提示し、選択に対する最適なガイダンスを提供します。</block>
-  <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="doc">2024/08/04</block>
-  <block id="4739ec54be7be4e135209eb24300ab14" category="paragraph">&lt;stdin&gt;の未解決のディレクティブ-include：：_include /workload-fsx-adoc[] ONTAP：leveloffset：+1</block>
-  <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">2024/07/07</block>
+  <block id="7ff3a8c05743322eb30cf5ff925b4e8c" category="summary">BlueXP  ワークロードファクトリに含まれるワークロードに対する最新の変更について説明します。</block>
+  <block id="1684f64d26a47808cac743ad7a9404f2" category="doc">BlueXP  ワークロードファクトリの最新の変更点</block>
 </blocks>

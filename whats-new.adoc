@@ -1,38 +1,14 @@
-= 2024/08/04
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, setup, administration, amazon fsx for ontap, databases, genai, vmware' 
+summary: BlueXP  ワークロードファクトリに含まれるワークロードに対する最新の変更について説明します。 
+---
+= BlueXP  ワークロードファクトリの最新の変更点
 :allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
 
 
-
-
-== 2024/08/04
-
-<stdin>の未解決のディレクティブ-include：：_include /workload-fsx-adoc[] ONTAP：leveloffset：+1
-
-
-
-=== Terraformのサポート
-
-CodeboxのTerraformを使用して、ファイルシステムとStorage VMを導入および管理できるようになりました。
-
-* link:create-file-system.html["ファイルシステムの作成"]
-* link:create-storage-vm.html["Storage VM を作成"]
-* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["コードボックスからTerraformを使用"^]
-
-
-
-
-=== Storage Calculatorに推奨されるスループットとIOPS
-
-ストレージ計算ツールは、AWSのベストプラクティスに基づいて、FSx for ONTAPファイルシステム構成のスループットとIOPSに関する推奨事項を提示し、選択に対する最適なガイダンスを提供します。
-
-
-
-== 2024/07/07
-
-<stdin>の未解決のディレクティブ-include：：_include /workload-fsx-adoc[] ONTAP：leveloffset：+1
-
-
-
-=== Amazon FSx for NetApp ONTAP向けWorkload Factoryの初版リリース
-
-Amazon FSx for NetApp ONTAPがWorkload Factoryで一般提供されるようになりました。
+[role="lead"]
+BlueXP  ワークロードファクトリに含まれるワークロードに対する最新の変更について説明します。
