@@ -6,7 +6,7 @@
 
 === Terraformのサポート
 
-CodeboxのTerraformを使用して、ファイルシステムとStorage VMを導入および管理できるようになりました。
+CodeboxのTerraformを使用してファイルシステムとStorage VMを導入できるようになりました。
 
 * link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["ファイルシステムの作成"]
 * link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-storage-vm.html["Storage VM を作成"]
