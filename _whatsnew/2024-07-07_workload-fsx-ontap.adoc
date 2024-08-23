@@ -6,4 +6,4 @@
 
 === Amazon FSx for NetApp ONTAP向けWorkload Factoryの初版リリース
 
-Amazon FSx for NetApp ONTAPは、Workload Factoryで一般提供されています。
+Amazon FSx for NetApp ONTAPがWorkload Factoryで一般提供されるようになりました。
