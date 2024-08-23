@@ -40,4 +40,8 @@
   <block id="03b2cfc949418819e16b1dc5fa3660ae" category="list-text"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
   <block id="3b915cd68add8a6cdac4cd1adeb5f100" category="list-text"><block ref="3b915cd68add8a6cdac4cd1adeb5f100" category="inline-link-macro-rx"></block></block>
   <block id="bbccc2f370efe6824018b613b1dd5839" category="paragraph">Amazon FSx for NetApp ONTAPがWorkload Factoryで一般提供されるようになりました。</block>
+  <block id="0cd06f0acd63988f29fda6d11297591b" category="doc">Workload Factoryの初回リリース</block>
+  <block id="40e01e3ae3c6f388cb88b96223a5b962" category="paragraph">BlueXP Workload Factory for AWSは、Amazon FSx for NetApp ONTAPファイルシステムを使用してワークロードを最適化するために設計された、強力なライフサイクル管理プラットフォームです。Workload FactoryとFSx for ONTAPを使用して合理化できるワークロードには、データベース、VMware Cloud on AWSへの移行、AIチャットボットなどがあります。</block>
+  <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">Terraformは、Amazon FSx for NetApp ONTAPファイルシステムの導入とStorage VMの作成で利用できます。セットアップガイドと管理ガイドに、CodeboxからTerraformを使用する方法が記載されました。</block>
+  <block id="19d7c7753798a40c0d5e3308b54e64e6" category="paragraph">&lt;stdin&gt;の未解決のディレクティブ-include：：_include/workload-setup-admin.adoc[]：leveloffset：+1</block>
 </blocks>

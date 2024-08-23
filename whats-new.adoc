@@ -25,6 +25,16 @@ CodeboxのTerraformを使用して、ファイルシステムとStorage VMを導
 
 ストレージ計算ツールは、AWSのベストプラクティスに基づいて、FSx for ONTAPファイルシステム構成のスループットとIOPSに関する推奨事項を提示し、選択に対する最適なガイダンスを提供します。
 
+<stdin>の未解決のディレクティブ-include：：_include/workload-setup-admin.adoc[]：leveloffset：+1
+
+
+
+=== Terraformのサポート
+
+Terraformは、Amazon FSx for NetApp ONTAPファイルシステムの導入とStorage VMの作成で利用できます。セットアップガイドと管理ガイドに、CodeboxからTerraformを使用する方法が記載されました。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["コードボックスからTerraformを使用"^]
+
 
 
 == 2024/07/07
@@ -36,3 +46,11 @@ CodeboxのTerraformを使用して、ファイルシステムとStorage VMを導
 === Amazon FSx for NetApp ONTAP向けWorkload Factoryの初版リリース
 
 Amazon FSx for NetApp ONTAPがWorkload Factoryで一般提供されるようになりました。
+
+<stdin>の未解決のディレクティブ-include：：_include/workload-setup-admin.adoc[]：leveloffset：+1
+
+
+
+=== Workload Factoryの初回リリース
+
+BlueXP Workload Factory for AWSは、Amazon FSx for NetApp ONTAPファイルシステムを使用してワークロードを最適化するために設計された、強力なライフサイクル管理プラットフォームです。Workload FactoryとFSx for ONTAPを使用して合理化できるワークロードには、データベース、VMware Cloud on AWSへの移行、AIチャットボットなどがあります。
