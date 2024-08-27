@@ -33,15 +33,18 @@
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
   <block id="a0d5836b9915a7e404d529a2ee0d2af5" category="section-title">Storage Calculatorに推奨されるスループットとIOPS</block>
   <block id="b48a7422f4f1f71c3ef03d7a8291f43f" category="paragraph">ストレージ計算ツールは、AWSのベストプラクティスに基づいて、FSx for ONTAPファイルシステム構成のスループットとIOPSに関する推奨事項を提示し、選択に対する最適なガイダンスを提供します。</block>
-  <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="doc">2024/08/04</block>
-  <block id="4739ec54be7be4e135209eb24300ab14" category="paragraph">&lt;stdin&gt;の未解決のディレクティブ-include：：_include /workload-fsx-adoc[] ONTAP：leveloffset：+1</block>
-  <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">2024/07/07</block>
   <block id="03b2cfc949418819e16b1dc5fa3660ae" category="list-text"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
   <block id="3b915cd68add8a6cdac4cd1adeb5f100" category="list-text"><block ref="3b915cd68add8a6cdac4cd1adeb5f100" category="inline-link-macro-rx"></block></block>
   <block id="bbccc2f370efe6824018b613b1dd5839" category="paragraph">Amazon FSx for NetApp ONTAPがWorkload Factoryで一般提供されるようになりました。</block>
   <block id="0cd06f0acd63988f29fda6d11297591b" category="doc">Workload Factoryの初回リリース</block>
   <block id="40e01e3ae3c6f388cb88b96223a5b962" category="paragraph">BlueXP Workload Factory for AWSは、Amazon FSx for NetApp ONTAPファイルシステムを使用してワークロードを最適化するために設計された、強力なライフサイクル管理プラットフォームです。Workload FactoryとFSx for ONTAPを使用して合理化できるワークロードには、データベース、VMware Cloud on AWSへの移行、AIチャットボットなどがあります。</block>
   <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">Terraformは、Amazon FSx for NetApp ONTAPファイルシステムの導入とStorage VMの作成で利用できます。セットアップガイドと管理ガイドに、CodeboxからTerraformを使用する方法が記載されました。</block>
-  <block id="19d7c7753798a40c0d5e3308b54e64e6" category="paragraph">&lt;stdin&gt;の未解決のディレクティブ-include：：_include/workload-setup-admin.adoc[]：leveloffset：+1</block>
   <block id="0fd886acd6700c343d655429665d7e6a" category="paragraph">CodeboxのTerraformを使用してファイルシステムとStorage VMを導入できるようになりました。</block>
+  <block id="38bd169945a371832b0b65c9086b1792" category="doc">データベースワークロード</block>
+  <block id="4d82a1ec1af02725042c8c785564ee7a" category="doc">NetApp ONTAP 対応の Amazon FSX</block>
+  <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">生成AIワークロード</block>
+  <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">セットアップと管理</block>
+  <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMwareワークロード</block>
+  <block id="7ff3a8c05743322eb30cf5ff925b4e8c" category="summary">BlueXP  ワークロードファクトリに含まれるワークロードに対する最新の変更について説明します。</block>
+  <block id="1684f64d26a47808cac743ad7a9404f2" category="doc">BlueXP  ワークロードファクトリの最新の変更点</block>
 </blocks>
