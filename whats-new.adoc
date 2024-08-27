@@ -12,3 +12,64 @@ summary: BlueXP  ワークロードファクトリに含まれるワークロ�
 
 [role="lead"]
 BlueXP  ワークロードファクトリに含まれるワークロードに対する最新の変更について説明します。
+
+
+
+== 2024/08/04
+
+
+
+=== NetApp ONTAP 対応の Amazon FSX
+
+
+
+==== Terraformのサポート
+
+CodeboxのTerraformを使用してファイルシステムとStorage VMを導入できるようになりました。
+
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["ファイルシステムの作成"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-storage-vm.html["Storage VM を作成"]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["コードボックスからTerraformを使用"^]
+
+
+
+
+==== Storage Calculatorに推奨されるスループットとIOPS
+
+ストレージ計算ツールは、AWSのベストプラクティスに基づいて、FSx for ONTAPファイルシステム構成のスループットとIOPSに関する推奨事項を提示し、選択に対する最適なガイダンスを提供します。
+
+
+
+=== セットアップと管理
+
+
+
+==== Terraformのサポート
+
+Terraformは、Amazon FSx for NetApp ONTAPファイルシステムの導入とStorage VMの作成で利用できます。セットアップガイドと管理ガイドに、CodeboxからTerraformを使用する方法が記載されました。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["コードボックスからTerraformを使用"^]
+
+
+
+== 2024/07/07
+
+
+
+=== NetApp ONTAP 対応の Amazon FSX
+
+
+
+==== Amazon FSx for NetApp ONTAP向けWorkload Factoryの初版リリース
+
+Amazon FSx for NetApp ONTAPがWorkload Factoryで一般提供されるようになりました。
+
+
+
+=== セットアップと管理
+
+
+
+==== Workload Factoryの初回リリース
+
+BlueXP Workload Factory for AWSは、Amazon FSx for NetApp ONTAPファイルシステムを使用してワークロードを最適化するために設計された、強力なライフサイクル管理プラットフォームです。Workload FactoryとFSx for ONTAPを使用して合理化できるワークロードには、データベース、VMware Cloud on AWSへの移行、AIチャットボットなどがあります。
