@@ -1,0 +1,11 @@
+= Workload Factory for Databasesの初版リリース
+:allow-uri-read: 
+
+
+
+
+=== Workload Factory for Databasesの初版リリース
+
+初期リリースには、データベースワークロードのストレージ環境としてAmazon FSx for NetApp ONTAPを使用した場合のコスト削減の検討、Microsoft SQL Serverの検出、管理、導入、データベースの導入とクローニング、Workload Factory内でのジョブの監視が含まれています。
+
+link:learn-databases.html["データベースの詳細"]です。

@@ -1,0 +1,19 @@
+= カスタマイズによるコスト削減の詳細
+:allow-uri-read: 
+
+
+
+
+=== カスタマイズによるコスト削減の詳細
+
+Amazon EC2上のMicrosoft SQL Serverの構成設定を、FSx for Windows File ServerとElastic Block Storeストレージを使用してコスト削減試算ツールでカスタマイズできるようになりました。お客様のストレージ要件によっては、FSx for ONTAPストレージがデータベースワークロードにとって最も対費用効果の高いストレージであることがわかります。
+
+link:explore-savings.html["データベースワークロードのためのFSx for ONTAPによるコスト削減についてご説明します。"]
+
+
+
+=== ホームページからSavings Calculatorに移動する
+
+link:https://console.workloads.netapp.com["Workload Factoryコンソール"^]ホームページからSavings Calculatorに移動できるようになりました。まずは、Elastic Block StoreとFSx for Windows File Serverから選択してください。
+
+image:screenshot-explore-savings-home-small.png["Workload Factoryコンソールのホームページのスクリーンショット。新しい[Explore Savings]ボタンが表示されたデータベースタイルの図。ボタンをクリックしてドロップダウンメニューを開きます。ドロップダウンメニューには、Elastic Block StoreとFSx for Windows File Serverの2つのオプションがあります。いずれかのオプションを選択すると、Savings Calculatorに移動して、削減効果を確認できます。"]

@@ -15,6 +15,30 @@ BlueXP  ワークロードファクトリに含まれるワークロードに�
 
 
 
+== 2024/09/01
+
+
+
+=== データベースワークロード
+
+
+
+==== カスタマイズによるコスト削減の詳細
+
+Amazon EC2上のMicrosoft SQL Serverの構成設定を、FSx for Windows File ServerとElastic Block Storeストレージを使用してコスト削減試算ツールでカスタマイズできるようになりました。お客様のストレージ要件によっては、FSx for ONTAPストレージがデータベースワークロードにとって最も対費用効果の高いストレージであることがわかります。
+
+link:explore-savings.html["データベースワークロードのためのFSx for ONTAPによるコスト削減についてご説明します。"]
+
+
+
+==== ホームページからSavings Calculatorに移動する
+
+link:https://console.workloads.netapp.com["Workload Factoryコンソール"^]ホームページからSavings Calculatorに移動できるようになりました。まずは、Elastic Block StoreとFSx for Windows File Serverから選択してください。
+
+image:screenshot-explore-savings-home-small.png["Workload Factoryコンソールのホームページのスクリーンショット。新しい[Explore Savings]ボタンが表示されたデータベースタイルの図。ボタンをクリックしてドロップダウンメニューを開きます。ドロップダウンメニューには、Elastic Block StoreとFSx for Windows File Serverの2つのオプションがあります。いずれかのオプションを選択すると、Savings Calculatorに移動して、削減効果を確認できます。"]
+
+
+
 == 2024/08/04
 
 
@@ -37,6 +61,38 @@ CodeboxのTerraformを使用してファイルシステムとStorage VMを導入
 ==== Storage Calculatorに推奨されるスループットとIOPS
 
 ストレージ計算ツールは、AWSのベストプラクティスに基づいて、FSx for ONTAPファイルシステム構成のスループットとIOPSに関する推奨事項を提示し、選択に対する最適なガイダンスを提供します。
+
+
+
+=== データベースワークロード
+
+
+
+==== Savings Calculatorの機能拡張
+
+* コスト見積もりの説明
++
+コスト見積もりの計算方法を節約計算ツールで確認できるようになりました。また、Amazon Elastic Block Storeストレージを使用したMicrosoft SQL Serverインスタンスについて、Amazon FSx for ONTAPストレージを使用した場合と比較したすべての計算の説明を確認できます。
+
+* Always-On可用性グループのサポート
++
+Amazon Elastic Block Storeを使用したMicrosoft SQL Serverでは、Always-On可用性グループ導入タイプのコスト削減額を計算できるようになりました。
+
+* FSx for ONTAPでSQLサーバのライセンスを最適化
++
+Databases Calculatorは、Amazon Elastic Block Storeストレージで使用するSQLライセンスエディションがデータベースワークロード向けに最適化されているかどうかを判断します。FSx for ONTAPストレージで最適なSQLライセンスを取得するための推奨事項が提示されます。
+
+* 複数のSQL Serverインスタンス
++
+Amazon Elastic Block Storeを使用して、複数のMicrosoft SQL Serverインスタンスをホストする構成のコスト削減額を計算できるようになりました。
+
+* 計算ツールの設定をカスタマイズ
++
+Microsoft SQL Server、Amazon EC2、Elastic Block Storeの設定をカスタマイズして、削減効果を手動で確認できるようになりました。コスト削減試算ツールは、コストに基づいて最適な構成を判断します。
+
+
+
+link:explore-savings.html["データベースワークロードのためのFSx for ONTAPによるコスト削減についてご説明します。"]
 
 
 
@@ -63,6 +119,18 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["コー
 ==== Amazon FSx for NetApp ONTAP向けWorkload Factoryの初版リリース
 
 Amazon FSx for NetApp ONTAPがWorkload Factoryで一般提供されるようになりました。
+
+
+
+=== データベースワークロード
+
+
+
+==== Workload Factory for Databasesの初版リリース
+
+初期リリースには、データベースワークロードのストレージ環境としてAmazon FSx for NetApp ONTAPを使用した場合のコスト削減の検討、Microsoft SQL Serverの検出、管理、導入、データベースの導入とクローニング、Workload Factory内でのジョブの監視が含まれています。
+
+link:learn-databases.html["データベースの詳細"]です。
 
 
 

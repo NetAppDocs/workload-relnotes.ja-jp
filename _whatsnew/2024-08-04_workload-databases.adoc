@@ -1,0 +1,31 @@
+= Savings Calculatorの機能拡張
+:allow-uri-read: 
+
+
+
+
+=== Savings Calculatorの機能拡張
+
+* コスト見積もりの説明
++
+コスト見積もりの計算方法を節約計算ツールで確認できるようになりました。また、Amazon Elastic Block Storeストレージを使用したMicrosoft SQL Serverインスタンスについて、Amazon FSx for ONTAPストレージを使用した場合と比較したすべての計算の説明を確認できます。
+
+* Always-On可用性グループのサポート
++
+Amazon Elastic Block Storeを使用したMicrosoft SQL Serverでは、Always-On可用性グループ導入タイプのコスト削減額を計算できるようになりました。
+
+* FSx for ONTAPでSQLサーバのライセンスを最適化
++
+Databases Calculatorは、Amazon Elastic Block Storeストレージで使用するSQLライセンスエディションがデータベースワークロード向けに最適化されているかどうかを判断します。FSx for ONTAPストレージで最適なSQLライセンスを取得するための推奨事項が提示されます。
+
+* 複数のSQL Serverインスタンス
++
+Amazon Elastic Block Storeを使用して、複数のMicrosoft SQL Serverインスタンスをホストする構成のコスト削減額を計算できるようになりました。
+
+* 計算ツールの設定をカスタマイズ
++
+Microsoft SQL Server、Amazon EC2、Elastic Block Storeの設定をカスタマイズして、削減効果を手動で確認できるようになりました。コスト削減試算ツールは、コストに基づいて最適な構成を判断します。
+
+
+
+link:explore-savings.html["データベースワークロードのためのFSx for ONTAPによるコスト削減についてご説明します。"]
