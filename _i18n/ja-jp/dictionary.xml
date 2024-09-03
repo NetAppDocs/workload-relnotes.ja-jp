@@ -74,4 +74,12 @@
   <block id="1bd7517fe14fe5f1784a4d71ebf0c2e1" category="inline-image-macro">Workload Factoryコンソールのホームページのスクリーンショット。新しい[Explore Savings]ボタンが表示されたデータベースタイルの図。ボタンをクリックしてドロップダウンメニューを開きます。ドロップダウンメニューには、Elastic Block StoreとFSx for Windows File Serverの2つのオプションがあります。いずれかのオプションを選択すると、Savings Calculatorに移動して、削減効果を確認できます。</block>
   <block id="ace456f52a384b923a9eedd83d20db48" category="paragraph"><block ref="ace456f52a384b923a9eedd83d20db48" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">2024/09/01</block>
+  <block id="f0881d896f399a09e86122a09c00b74d" category="doc">ストレージ管理用の読み取りモードのサポート</block>
+  <block id="8db376980442524a58ebd917532846d7" category="paragraph">読み取りモードはWorkload Factoryでストレージ管理に使用できます。読み取りモードでは、コードとしてのインフラストラクチャテンプレートに特定の変数が入力されるように、読み取り専用権限を追加することで、基本モードのエクスペリエンスが向上します。コードとしてのインフラストラクチャテンプレートは、Workload Factoryに変更権限を与えることなく、AWSアカウントから直接実行できます。</block>
+  <block id="06fdd4e2a129920e1eda56425068ba01" category="inline-link-macro">読み取りモードの詳細</block>
+  <block id="2d68ad2bd6b1f5ddb456706e84602c5e" category="paragraph"><block ref="2d68ad2bd6b1f5ddb456706e84602c5e" category="inline-link-macro-rx"></block></block>
+  <block id="fc30083e7a76ed4c8eb6167ea377c198" category="section-title">ボリューム削除前のバックアップのサポート</block>
+  <block id="8b97ffb47ece0280994594aa00a04a55" category="paragraph">ボリュームを削除する前にバックアップできるようになりました。バックアップは削除されるまでファイルシステムに残ります。</block>
+  <block id="8e9a64bda9d21f945b6489df2e7946e1" category="inline-link-macro">ボリュームを削除する</block>
+  <block id="8fb924f94cef9a4615d9910253ac7353" category="paragraph"><block ref="8fb924f94cef9a4615d9910253ac7353" category="inline-link-macro-rx"></block></block>
 </blocks>
