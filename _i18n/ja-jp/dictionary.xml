@@ -92,4 +92,8 @@
   <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="287ae8bc216279a75c04344894e04b7f" category="inline-link-macro">AWSクレデンシャルをWorkload Factoryに追加</block>
   <block id="1db25aada4bff8233b24c1d7b39230cd" category="paragraph"><block ref="1db25aada4bff8233b24c1d7b39230cd" category="inline-link-macro-rx"></block></block>
+  <block id="e34fc91d682ebcf23e9732294872ca80" category="doc">Workload Factory for VMwareの初版リリース</block>
+  <block id="9bab53a02593423437540c8ac9802fde" category="paragraph">初期リリースには、VMware Migration Advisorを使用してオンプレミスのvSphere環境で現在の仮想マシン構成を分析し、推奨されるVMレイアウトをVMware Cloud on AWSに導入し、カスタマイズしたAmazon FSx for NetApp ONTAPファイルシステムを外部データストアとして使用するための計画を生成する機能が含まれています。</block>
+  <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">Amazon EC2への移行</block>
+  <block id="a8d4a316d0df9e6b884220ad60451578" category="paragraph">Workload Factory for VMwareでは、VMware Migration Advisorを使用したAmazon EC2への移行がサポートされるようになりました。</block>
 </blocks>
