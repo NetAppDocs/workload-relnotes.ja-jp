@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, administration, amazon fsx for ontap, databases, genai, vmware' 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, administration, amazon fsx for netapp ontap, databases, genai, vmware' 
 summary: BlueXP  ワークロードファクトリに含まれるワークロードに対する最新の変更について説明します。 
 ---
 = BlueXP  ワークロードファクトリの最新の変更点
