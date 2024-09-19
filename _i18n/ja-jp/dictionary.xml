@@ -106,4 +106,9 @@
   <block id="a0a464c97ca1835adf3bddc803b001cd" category="paragraph">ジェネレーティブAIワークロードで、データソースに対してマルチセンテンスチャンキングとオーバーラップベースのチャンキングがサポートされるようになりました。</block>
   <block id="4cb92325ae7034576f6dff7fe48e3254" category="section-title">ナレッジベースごとの専用ボリューム</block>
   <block id="a023a8333417a130bf6fb2c729aaa7f1" category="paragraph">ジェネレーティブAIワークロードでは、新しいナレッジベースごとに専用のAmazon FSx for NetApp ONTAPボリュームが作成されるようになりました。これにより、ナレッジベースごとに個別のSnapshotポリシーが有効になり、障害やデータポイズニングに対する保護が強化されます。</block>
+  <block id="2792e29ba30bdded6461ac9b9f0816a4" category="doc">VMware Migration Advisorの機能拡張</block>
+  <block id="bdcdfcdfcb9e0d2084c9c9ff58163d0b" category="paragraph">このリリースのWorkload Factory for VMwareには、機能と安定性が強化されたほか、VMware Migration Advisorを使用して移行計画をインポートおよびエクスポートできる機能があります。</block>
+  <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">移行アドバイザを使用してAmazon EC2の導入計画を作成</block>
+  <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
+  <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">2024/09/19</block>
 </blocks>
