@@ -1,0 +1,14 @@
+= リンク作成の更新
+:allow-uri-read: 
+
+
+
+
+=== リンク作成の更新
+
+* Codeboxビューア: Codeboxがリンク作成プロセスに統合されました。操作を実行するためにAWSにリダイレクトする前に、Workload FactoryのCodeboxからCloudFormationテンプレートを表示およびコピーできます。
+* 必要な権限: AWS CloudFormationでリンク作成を実行するために必要な権限が、Workload FactoryのCreate Linkウィザードで表示およびコピーできるようになりました。
+* 手動リンク作成のサポート:この機能を使用すると、AWS CloudFormationでリンクARNを手動で登録してスタンドアロンで作成できます。これは、セキュリティチームまたはDevOpsチームがリンク作成プロセスを支援する場合に役立ちます。
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["リンクの作成"^]
