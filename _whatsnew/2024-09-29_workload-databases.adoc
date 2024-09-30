@@ -8,4 +8,4 @@
 
 Amazon EC2上で検出されたMicrosoft SQL Serverの削減効果を、FSx for Windows File Serverストレージを使用して試算ツールで確認できるようになりました。SQL Serverとストレージの要件によっては、FSx for ONTAPストレージがデータベースワークロードにとって最も対費用効果の高いストレージであることがわかります。
 
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["データベースワークロードのためのFSx for ONTAPによるコスト削減効果をご確認ください^"]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["データベースワークロード向けFSx for ONTAPによるコスト削減額をご確認ください"^]
