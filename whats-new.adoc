@@ -46,6 +46,36 @@ link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["デ�
 
 
 
+=== 生成AIワークロード
+
+
+
+==== ナレッジベースボリュームのスナップショットの作成とリストア
+
+ナレッジベースのポイントインタイムコピーを作成することで、ジェネレーティブAIワークロードのデータを保護できるようになりました。これにより、偶発的な損失からデータを保護したり、ナレッジベースの設定の変更をテストしたりできます。以前のバージョンのナレッジベースボリュームはいつでもリストアできます。
+
+https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#take-a-snapshot-of-a-knowledge-base-volume["ナレッジベースボリュームのスナップショットの作成"]
+
+https://review.docs.netapp.com/us-en/workload-genai_29-sept-24-release/manage-knowledgebase.html#restore-a-snapshot-of-a-knowledge-base-volume["ナレッジベースボリュームのスナップショットのリストア"]
+
+
+
+==== スケジュール済みスキャンを一時停止
+
+スケジュールされたデータソーススキャンを一時停止できるようになりました。デフォルトでは、ジェネレーティブAIワークロードは各データソースを毎日スキャンし、各ナレッジベースに新しいデータを取り込みます。最新の変更を取り込みたくない場合（テスト中やスナップショットのリストア中など）は、スケジュールされたスキャンを一時停止していつでも再開できます。
+
+https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html["ナレッジベースの管理"]
+
+
+
+==== ナレッジベースでのデータ保護ボリュームのサポート
+
+ナレッジベースボリュームを選択する際に、NetApp SnapMirrorレプリケーション関係の一部であるデータ保護ボリュームを選択できるようになりました。これにより、SnapMirrorレプリケーションですでに保護されているボリュームにナレッジベースを格納できます。
+
+https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html["ナレッジベースに統合するデータソースを特定する"]
+
+
+
 == 2024/09/19
 
 
@@ -250,16 +280,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["コー
 ==== Workload Factory for VMwareの初版リリース
 
 初期リリースには、VMware Migration Advisorを使用してオンプレミスのvSphere環境で現在の仮想マシン構成を分析し、推奨されるVMレイアウトをVMware Cloud on AWSに導入し、カスタマイズしたAmazon FSx for NetApp ONTAPファイルシステムを外部データストアとして使用するための計画を生成する機能が含まれています。
-
-
-
-=== 生成AIワークロード
-
-
-
-==== 生成AI向けワークロードファクトリの初版リリース
-
-最初のリリースには、組織のデータを埋め込むことによってカスタマイズされたナレッジベースを開発する機能が含まれています。ナレッジベースには、ユーザー用のチャットボットアプリケーションからアクセスできます。この機能により、組織固有の質問に対する正確で適切な回答が保証され、すべてのユーザーの満足度と生産性が向上します。
 
 
 
