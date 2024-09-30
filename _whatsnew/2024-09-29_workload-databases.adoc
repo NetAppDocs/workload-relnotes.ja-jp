@@ -1,0 +1,11 @@
+= FSx for Windowsファイルサーバで検出されたMicrosoft SQLサーバの削減効果を確認
+:allow-uri-read: 
+
+
+
+
+=== FSx for Windowsファイルサーバで検出されたMicrosoft SQLサーバの削減効果を確認
+
+Amazon EC2上で検出されたMicrosoft SQL Serverの削減効果を、FSx for Windows File Serverストレージを使用して試算ツールで確認できるようになりました。SQL Serverとストレージの要件によっては、FSx for ONTAPストレージがデータベースワークロードにとって最も対費用効果の高いストレージであることがわかります。
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["データベースワークロードのためのFSx for ONTAPによるコスト削減効果をご確認ください^"]

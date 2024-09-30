@@ -28,4 +28,4 @@ Microsoft SQL Server、Amazon EC2、Elastic Block Storeの設定をカスタマ�
 
 
 
-link:explore-savings.html["データベースワークロードのためのFSx for ONTAPによるコスト削減についてご説明します。"]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["データベースワークロードのためのFSx for ONTAPによるコスト削減効果をご確認ください^"]
