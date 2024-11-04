@@ -1,0 +1,13 @@
+= 個人識別情報をデータガードレールでマスクする
+:allow-uri-read: 
+
+
+
+
+=== 個人識別情報をデータガードレールでマスクする
+
+ジェネレーティブAIワークロードには、BlueXP  分類を基盤とするデータガードレール機能が導入されています。データガードレール機能は、個人識別情報(PII)を識別してマスクし、組織の機密データのコンプライアンスを維持し、セキュリティを強化するのに役立ちます。
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#create-and-configure-the-knowledge-base["ナレッジベースの作成"]
+
+link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXPの分類について説明します"^]
