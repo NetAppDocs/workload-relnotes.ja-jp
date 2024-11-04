@@ -15,6 +15,24 @@ BlueXP  ワークロードファクトリに含まれるワークロードに�
 
 
 
+== 2024/11/03
+
+
+
+=== NetApp ONTAP 対応の Amazon FSX
+
+
+
+==== ストレージインベントリのタブビュー
+
+ストレージインベントリが2つのタブで構成されるように更新されました。
+
+* FSx for ONTAPタブ：現在お使いのFSx for ONTAPファイルシステムが表示されます。
+* コスト削減を確認するタブ：Elastic Block Store、FSx for Windows File Server、Elastic File Systemsの各ストレージシステムが表示されます。そこから、FSx for ONTAPと比較して、これらのシステムのコスト削減効果を確認できます。
+
+
+
+
 == 2024/09/29
 
 
@@ -185,27 +203,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["AW
 
 
 == 2024/08/04
-
-
-
-=== NetApp ONTAP 対応の Amazon FSX
-
-
-
-==== Terraformのサポート
-
-CodeboxのTerraformを使用してファイルシステムとStorage VMを導入できるようになりました。
-
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["ファイルシステムの作成"^]
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-storage-vm.html["Storage VM を作成"^]
-* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["コードボックスからTerraformを使用"^]
-
-
-
-
-==== Storage Calculatorに推奨されるスループットとIOPS
-
-ストレージ計算ツールは、AWSのベストプラクティスに基づいて、FSx for ONTAPファイルシステム構成のスループットとIOPSに関する推奨事項を提示し、選択に対する最適なガイダンスを提供します。
 
 
 

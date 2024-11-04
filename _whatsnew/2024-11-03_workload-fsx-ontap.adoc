@@ -1,0 +1,13 @@
+= ストレージインベントリのタブビュー
+:allow-uri-read: 
+
+
+
+
+=== ストレージインベントリのタブビュー
+
+ストレージインベントリが2つのタブで構成されるように更新されました。
+
+* FSx for ONTAPタブ：現在お使いのFSx for ONTAPファイルシステムが表示されます。
+* コスト削減を確認するタブ：Elastic Block Store、FSx for Windows File Server、Elastic File Systemsの各ストレージシステムが表示されます。そこから、FSx for ONTAPと比較して、これらのシステムのコスト削減効果を確認できます。
+

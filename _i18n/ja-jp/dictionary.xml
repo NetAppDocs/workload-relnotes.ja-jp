@@ -26,16 +26,11 @@
   <block id="7cdd7814bbdae8c80aca5d088683d506" category="sidebar">Workload Factoryリリースノート</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">最近の変更</block>
   <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Terraformのサポート</block>
-  <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">ファイルシステムの作成</block>
-  <block id="8272f5b23e79d0ee33bd5151dcddc454" category="inline-link-macro">Storage VM を作成</block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">コードボックスからTerraformを使用</block>
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
-  <block id="a0d5836b9915a7e404d529a2ee0d2af5" category="section-title">Storage Calculatorに推奨されるスループットとIOPS</block>
-  <block id="b48a7422f4f1f71c3ef03d7a8291f43f" category="paragraph">ストレージ計算ツールは、AWSのベストプラクティスに基づいて、FSx for ONTAPファイルシステム構成のスループットとIOPSに関する推奨事項を提示し、選択に対する最適なガイダンスを提供します。</block>
   <block id="0cd06f0acd63988f29fda6d11297591b" category="doc">Workload Factoryの初回リリース</block>
   <block id="40e01e3ae3c6f388cb88b96223a5b962" category="paragraph">BlueXP Workload Factory for AWSは、Amazon FSx for NetApp ONTAPファイルシステムを使用してワークロードを最適化するために設計された、強力なライフサイクル管理プラットフォームです。Workload FactoryとFSx for ONTAPを使用して合理化できるワークロードには、データベース、VMware Cloud on AWSへの移行、AIチャットボットなどがあります。</block>
   <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">Terraformは、Amazon FSx for NetApp ONTAPファイルシステムの導入とStorage VMの作成で利用できます。セットアップガイドと管理ガイドに、CodeboxからTerraformを使用する方法が記載されました。</block>
-  <block id="0fd886acd6700c343d655429665d7e6a" category="paragraph">CodeboxのTerraformを使用してファイルシステムとStorage VMを導入できるようになりました。</block>
   <block id="38bd169945a371832b0b65c9086b1792" category="doc">データベースワークロード</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="doc">NetApp ONTAP 対応の Amazon FSX</block>
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">生成AIワークロード</block>
@@ -102,8 +97,6 @@
   <block id="cf88fa43b4b0e1b1bfb66e894b188442" category="doc">FSx for Windowsファイルサーバで検出されたMicrosoft SQLサーバの削減効果を確認</block>
   <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">Amazon EC2上で検出されたMicrosoft SQL Serverの削減効果を、FSx for Windows File Serverストレージを使用して試算ツールで確認できるようになりました。SQL Serverとストレージの要件によっては、FSx for ONTAPストレージがデータベースワークロードにとって最も対費用効果の高いストレージであることがわかります。</block>
   <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">2024/09/29</block>
-  <block id="a384088a79fca35da6b697720f2ddd66" category="list-text"><block ref="a384088a79fca35da6b697720f2ddd66" category="inline-link-macro-rx"></block></block>
-  <block id="a9803c91b8fa40d3fdc106b005fdb16c" category="list-text"><block ref="a9803c91b8fa40d3fdc106b005fdb16c" category="inline-link-macro-rx"></block></block>
   <block id="cd1df627bd8e5b96916530ffbf4664f6" category="doc">リンク作成の更新</block>
   <block id="15f127e6d8c5111ce85f47eff68232a7" category="list-text">Codeboxビューア: Codeboxがリンク作成プロセスに統合されました。操作を実行するためにAWSにリダイレクトする前に、Workload FactoryのCodeboxからCloudFormationテンプレートを表示およびコピーできます。</block>
   <block id="8efc4e00ac03374d3e1dc5d19c40016b" category="list-text">必要な権限: AWS CloudFormationでリンク作成を実行するために必要な権限が、Workload FactoryのCreate Linkウィザードで表示およびコピーできるようになりました。</block>
@@ -126,4 +119,9 @@
   <block id="7d7b61e2696184ef2f1a673b4b505c10" category="inline-link">ナレッジベースに統合するデータソースを特定する</block>
   <block id="8afd34c2a29e7b6286f3ed0bf9e20c22" category="paragraph"><block ref="8afd34c2a29e7b6286f3ed0bf9e20c22" category="inline-link-rx"></block></block>
   <block id="4936442e55cb8f837f9616ca6aaf1e92" category="doc">ナレッジベースボリュームのSnapshotとリストアのサポート</block>
+  <block id="31139fb3d548620b7d82f880e4660606" category="doc">ストレージインベントリのタブビュー</block>
+  <block id="d4aa654cea4681dd5ca03650594006c6" category="paragraph">ストレージインベントリが2つのタブで構成されるように更新されました。</block>
+  <block id="71083868a2ec5abfee9a2647a74612c0" category="list-text">FSx for ONTAPタブ：現在お使いのFSx for ONTAPファイルシステムが表示されます。</block>
+  <block id="1113c9108b3e58789456954d1c2ea9c2" category="list-text">コスト削減を確認するタブ：Elastic Block Store、FSx for Windows File Server、Elastic File Systemsの各ストレージシステムが表示されます。そこから、FSx for ONTAPと比較して、これらのシステムのコスト削減効果を確認できます。</block>
+  <block id="ca385f8a90dc256c71e43f23f9b870f2" category="section-title">2024/11/03</block>
 </blocks>
