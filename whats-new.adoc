@@ -55,6 +55,18 @@ CodeboxからTerraformを使用してMicrosoft SQL Serverを導入できるよ�
 
 
 
+=== VMwareワークロード
+
+
+
+==== VMware Migration Advisorによるデータ削減比率の向上
+
+このリリースのWorkload Factory for VMwareには、データ削減比率アシスタントが搭載されています。データ削減比率アシスタントは、AWSクラウドのオンボーディングを準備する際に、VMwareのインベントリとストレージ資産に最適な比率を判断するのに役立ちます。
+
+https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["移行アドバイザを使用してAmazon EC2の導入計画を作成"]
+
+
+
 == 2024/09/29
 
 
@@ -257,16 +269,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["コー
 
 
 == 2024/07/07
-
-
-
-=== VMwareワークロード
-
-
-
-==== Workload Factory for VMwareの初版リリース
-
-初期リリースには、VMware Migration Advisorを使用してオンプレミスのvSphere環境で現在の仮想マシン構成を分析し、推奨されるVMレイアウトをVMware Cloud on AWSに導入し、カスタマイズしたAmazon FSx for NetApp ONTAPファイルシステムを外部データストアとして使用するための計画を生成する機能が含まれています。
 
 
 
