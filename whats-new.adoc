@@ -33,6 +33,28 @@ BlueXP  ワークロードファクトリに含まれるワークロードに�
 
 
 
+=== データベースワークロード
+
+
+
+==== データベースでMicrosoft SQL Serverワークロードを継続的に最適化
+
+BlueXP  ワークロードファクトリでは、Amazon FSx for NetApp ONTAP上のMicrosoft SQL Serverワークロードのストレージコンポーネントに関する継続的な最適化とベストプラクティスへの準拠を保証するために、継続的なガイダンスとガードレールが導入されています。この機能は、Microsoft SQL Serverの資産をオフラインで継続的にスキャンし、分析情報、機会、推奨事項の包括的なレポートを提供して、最高レベルのパフォーマンス、コスト効率、コンプライアンスの達成を支援します。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["SQL Serverワークロードを最適化"]
+
+
+
+==== Terraformのサポート
+
+CodeboxからTerraformを使用してMicrosoft SQL Serverを導入できるようになりました。
+
+* link:https://docs.netapp.com/us-en/workload-databases/create-database-server.html["データベースサーバの作成"^]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["コードボックスからTerraformを使用"^]
+
+
+
+
 == 2024/09/29
 
 
@@ -203,38 +225,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["AW
 
 
 == 2024/08/04
-
-
-
-=== データベースワークロード
-
-
-
-==== Savings Calculatorの機能拡張
-
-* コスト見積もりの説明
-+
-コスト見積もりの計算方法を節約計算ツールで確認できるようになりました。また、Amazon Elastic Block Storeストレージを使用したMicrosoft SQL Serverインスタンスについて、Amazon FSx for ONTAPストレージを使用した場合と比較したすべての計算の説明を確認できます。
-
-* Always-On可用性グループのサポート
-+
-Amazon Elastic Block Storeを使用したMicrosoft SQL Serverでは、Always-On可用性グループ導入タイプのコスト削減額を計算できるようになりました。
-
-* FSx for ONTAPでSQLサーバのライセンスを最適化
-+
-Databases Calculatorは、Amazon Elastic Block Storeストレージで使用するSQLライセンスエディションがデータベースワークロード向けに最適化されているかどうかを判断します。FSx for ONTAPストレージで最適なSQLライセンスを取得するための推奨事項が提示されます。
-
-* 複数のSQL Serverインスタンス
-+
-Amazon Elastic Block Storeを使用して、複数のMicrosoft SQL Serverインスタンスをホストする構成のコスト削減額を計算できるようになりました。
-
-* 計算ツールの設定をカスタマイズ
-+
-Microsoft SQL Server、Amazon EC2、Elastic Block Storeの設定をカスタマイズして、削減効果を手動で確認できるようになりました。コスト削減試算ツールは、コストに基づいて最適な構成を判断します。
-
-
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["データベースワークロード向けFSx for ONTAPによるコスト削減額をご確認ください"^]
 
 
 
