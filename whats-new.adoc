@@ -152,7 +152,7 @@ https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html["ナレ�
 
 ==== VMware Migration Advisorの機能拡張
 
-このリリースのWorkload Factory for VMwareには、機能と安定性が強化されたほか、VMware Migration Advisorを使用して移行計画をインポートおよびエクスポートできる機能があります。
+このリリースのVMware向けワークロードファクトリでは、機能と安定性が強化され、VMware Migration Advisorを使用して移行計画をインポートおよびエクスポートできるようになりました。
 
 https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["移行アドバイザを使用してAmazon EC2の導入計画を作成"]
 
@@ -208,7 +208,7 @@ image:screenshot-explore-savings-home-small.png["Workload Factoryコンソール
 
 ==== Amazon EC2への移行
 
-Workload Factory for VMwareでは、VMware Migration Advisorを使用したAmazon EC2への移行がサポートされるようになりました。
+VMwareのワークロードファクトリでは、VMware Migration Advisorを使用したAmazon EC2への移行がサポートされるようになりました。
 
 
 
