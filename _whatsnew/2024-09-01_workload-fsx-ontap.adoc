@@ -6,9 +6,9 @@
 
 === ストレージ管理用の読み取りモードのサポート
 
-読み取りモードはWorkload Factoryでストレージ管理に使用できます。読み取りモードでは、コードとしてのインフラストラクチャテンプレートに特定の変数が入力されるように、読み取り専用権限を追加することで、基本モードのエクスペリエンスが向上します。コードとしてのインフラストラクチャテンプレートは、Workload Factoryに変更権限を与えることなく、AWSアカウントから直接実行できます。
+読み取りモードはワークロード工場でのストレージ管理に使用できます。読み取りモードでは、コードとしてのインフラストラクチャテンプレートに特定の変数が入力されるように、読み取り専用権限を追加することで、基本モードのエクスペリエンスが向上します。コードとしてのインフラストラクチャテンプレートは、ワークロードファクトリに変更権限を与えることなく、AWSアカウントから直接実行できます。
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["読み取りモードの詳細"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["読み取りモードの詳細"]
 
 
 
@@ -16,4 +16,4 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["
 
 ボリュームを削除する前にバックアップできるようになりました。バックアップは削除されるまでファイルシステムに残ります。
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/delete-volume.html["ボリュームを削除する"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/delete-volume.html["ボリュームを削除する"]

@@ -41,13 +41,10 @@
   <block id="370242ff4edf6eea7ad9f29f501888cd" category="paragraph"><block ref="ed002915dbbbf90a20b3d8fdf4cc2390" category="inline-link-macro-rx"></block>ホームページからSavings Calculatorに移動できるようになりました。まずは、Elastic Block StoreとFSx for Windows File Serverから選択してください。</block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">2024/09/01</block>
   <block id="f0881d896f399a09e86122a09c00b74d" category="doc">ストレージ管理用の読み取りモードのサポート</block>
-  <block id="8db376980442524a58ebd917532846d7" category="paragraph">読み取りモードはWorkload Factoryでストレージ管理に使用できます。読み取りモードでは、コードとしてのインフラストラクチャテンプレートに特定の変数が入力されるように、読み取り専用権限を追加することで、基本モードのエクスペリエンスが向上します。コードとしてのインフラストラクチャテンプレートは、Workload Factoryに変更権限を与えることなく、AWSアカウントから直接実行できます。</block>
   <block id="06fdd4e2a129920e1eda56425068ba01" category="inline-link-macro">読み取りモードの詳細</block>
-  <block id="2d68ad2bd6b1f5ddb456706e84602c5e" category="paragraph"><block ref="2d68ad2bd6b1f5ddb456706e84602c5e" category="inline-link-macro-rx"></block></block>
   <block id="fc30083e7a76ed4c8eb6167ea377c198" category="section-title">ボリューム削除前のバックアップのサポート</block>
   <block id="8b97ffb47ece0280994594aa00a04a55" category="paragraph">ボリュームを削除する前にバックアップできるようになりました。バックアップは削除されるまでファイルシステムに残ります。</block>
   <block id="8e9a64bda9d21f945b6489df2e7946e1" category="inline-link-macro">ボリュームを削除する</block>
-  <block id="8fb924f94cef9a4615d9910253ac7353" category="paragraph"><block ref="8fb924f94cef9a4615d9910253ac7353" category="inline-link-macro-rx"></block></block>
   <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">RSSサブスクリプション</block>
   <block id="0fa776fabe30e41d70bd8d9c9e64c974" category="paragraph">RSSサブスクリプションは、から利用でき<block ref="372504cb6bb48559009ff8f8cdb9a245" category="inline-link-macro-rx"></block>ます。RSSフィードを使用すると、BlueXP  ワークロードファクトリの変更を簡単に把握できます。</block>
   <block id="447fb3de7bec10468f55367375163603" category="inline-image-macro">[Workload Factory]コンソールのヘルプドロップダウンメニューのスクリーンショット。RSSを購読するための新しいボタンがドロップダウンメニューにオプションとして表示されます。</block>
@@ -73,11 +70,8 @@
   <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">Amazon EC2上で検出されたMicrosoft SQL Serverの削減効果を、FSx for Windows File Serverストレージを使用して試算ツールで確認できるようになりました。SQL Serverとストレージの要件によっては、FSx for ONTAPストレージがデータベースワークロードにとって最も対費用効果の高いストレージであることがわかります。</block>
   <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">2024/09/29</block>
   <block id="cd1df627bd8e5b96916530ffbf4664f6" category="doc">リンク作成の更新</block>
-  <block id="15f127e6d8c5111ce85f47eff68232a7" category="list-text">Codeboxビューア: Codeboxがリンク作成プロセスに統合されました。操作を実行するためにAWSにリダイレクトする前に、Workload FactoryのCodeboxからCloudFormationテンプレートを表示およびコピーできます。</block>
-  <block id="8efc4e00ac03374d3e1dc5d19c40016b" category="list-text">必要な権限: AWS CloudFormationでリンク作成を実行するために必要な権限が、Workload FactoryのCreate Linkウィザードで表示およびコピーできるようになりました。</block>
   <block id="3721bd571f4111dad2c363436de34c51" category="list-text">手動リンク作成のサポート:この機能を使用すると、AWS CloudFormationでリンクARNを手動で登録してスタンドアロンで作成できます。これは、セキュリティチームまたはDevOpsチームがリンク作成プロセスを支援する場合に役立ちます。</block>
   <block id="8997880c88dd70fe80799ee97bb7ac0c" category="inline-link-macro">リンクの作成</block>
-  <block id="27f80dd01569e18971f783f257cc7294" category="paragraph"><block ref="27f80dd01569e18971f783f257cc7294" category="inline-link-macro-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">データベースワークロード向けFSx for ONTAPによるコスト削減額をご確認ください</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
   <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">ナレッジベースのポイントインタイムコピーを作成することで、ジェネレーティブAIワークロードのデータを保護できるようになりました。これにより、偶発的な損失からデータを保護したり、ナレッジベースの設定の変更をテストしたりできます。以前のバージョンのナレッジベースボリュームはいつでもリストアできます。</block>
@@ -120,4 +114,10 @@
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  ワークロード工場出荷時のリリースノート</block>
   <block id="c9b4182f157d4d581536f53df8cd512d" category="paragraph">VMwareのワークロードファクトリでは、VMware Migration Advisorを使用したAmazon EC2への移行がサポートされるようになりました。</block>
   <block id="21558f6938275b17b39171353ad95a65" category="paragraph">このリリースのVMware向けワークロードファクトリでは、機能と安定性が強化され、VMware Migration Advisorを使用して移行計画をインポートおよびエクスポートできるようになりました。</block>
+  <block id="4f75f1e69acbf2cd38f0862ac2b212c7" category="paragraph">読み取りモードはワークロード工場でのストレージ管理に使用できます。読み取りモードでは、コードとしてのインフラストラクチャテンプレートに特定の変数が入力されるように、読み取り専用権限を追加することで、基本モードのエクスペリエンスが向上します。コードとしてのインフラストラクチャテンプレートは、ワークロードファクトリに変更権限を与えることなく、AWSアカウントから直接実行できます。</block>
+  <block id="f584ba5824f9f0b7bb3a173d45332dd3" category="paragraph"><block ref="f584ba5824f9f0b7bb3a173d45332dd3" category="inline-link-macro-rx"></block></block>
+  <block id="a0fbee91270a9c1ec1d2bc9b56f87ff3" category="paragraph"><block ref="a0fbee91270a9c1ec1d2bc9b56f87ff3" category="inline-link-macro-rx"></block></block>
+  <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">Codeboxビューア: Codeboxがリンク作成プロセスに統合されました。操作を実行するためにAWSにリダイレクトする前に、ワークロードファクトリのCodeboxからCloudFormationテンプレートを表示およびコピーできます。</block>
+  <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">必要な権限: AWS CloudFormationでリンク作成を実行するために必要な権限が、ワークロードファクトリのCreate Linkウィザードで表示およびコピーできるようになりました。</block>
+  <block id="3874612023324fe909b90a886072b352" category="paragraph"><block ref="3874612023324fe909b90a886072b352" category="inline-link-macro-rx"></block></block>
 </blocks>
