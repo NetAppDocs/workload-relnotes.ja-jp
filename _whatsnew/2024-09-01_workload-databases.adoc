@@ -14,6 +14,6 @@ link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["デ�
 
 === ホームページからSavings Calculatorに移動する
 
-link:https://console.workloads.netapp.com["Workload Factoryコンソール"^]ホームページからSavings Calculatorに移動できるようになりました。まずは、Elastic Block StoreとFSx for Windows File Serverから選択してください。
+link:https://console.workloads.netapp.com["ワークロードファクトリコンソール"^]ホームページからSavings Calculatorに移動できるようになりました。まずは、Elastic Block StoreとFSx for Windows File Serverから選択してください。
 
-image:screenshot-explore-savings-home-small.png["Workload Factoryコンソールのホームページのスクリーンショット。新しい[Explore Savings]ボタンが表示されたデータベースタイルの図。ボタンをクリックしてドロップダウンメニューを開きます。ドロップダウンメニューには、Microsoft SQL Server on EBSとMicrosoft SQL Server on FSx for Windows File Serverの2つのオプションがあります。"]
+image:screenshot-explore-savings-home-small.png["ワークロードファクトリコンソールのホームページのスクリーンショット。新しい[Explore Savings]ボタンが表示されたデータベースタイルの図。ボタンをクリックしてドロップダウンメニューを開きます。ドロップダウンメニューには、Microsoft SQL Server on EBSとMicrosoft SQL Server on FSx for Windows File Serverの2つのオプションがあります。"]
