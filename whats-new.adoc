@@ -15,6 +15,22 @@ BlueXP  ワークロードファクトリに含まれているワークロー�
 
 
 
+== 2024/11/11
+
+
+
+=== セットアップと管理
+
+
+
+==== BlueXP  コンソールにワークロードを工場出荷時に統合
+
+これで、からワークロードファクトリを使用できるようになりlink:https://console.bluexp.netapp.com["BlueXPコンソール"^]ます。BlueXP  コンソールエクスペリエンスは、ワークロードファクトリコンソールと同じ機能を提供します。
+
+link:https://docs.netapp.com/workload-setup-admin/console-experiences.html["BlueXP  コンソールからワークロードファクトリにアクセスする方法"]
+
+
+
 == 2024/11/03
 
 
@@ -234,19 +250,19 @@ VMwareのワークロードファクトリでは、VMware Migration Advisorを�
 
 ==== RSSサブスクリプション
 
-RSSサブスクリプションは、から利用できlink:https://console.workloads.netapp.com/["Workload Factoryコンソール"^]ます。RSSフィードを使用すると、BlueXP  ワークロードファクトリの変更を簡単に把握できます。
+RSSサブスクリプションは、から利用できlink:https://console.workloads.netapp.com/["ワークロードファクトリコンソール"^]ます。RSSフィードを使用すると、BlueXP  ワークロードファクトリの変化を簡単に把握して把握できます。
 
-image:screenshot-rss-subscribe-button.png["[Workload Factory]コンソールのヘルプドロップダウンメニューのスクリーンショット。RSSを購読するための新しいボタンがドロップダウンメニューにオプションとして表示されます。"]
+image:screenshot-rss-subscribe-button.png["Workload Factory Consoleの[Help]ドロップダウンメニューのスクリーンショットRSSを購読するための新しいボタンがドロップダウンメニューにオプションとして表示されます。"]
 
 
 
 ==== ワークロードごとに1つの権限ポリシーをサポート
 
-Workload FactoryでAWSクレデンシャルを追加する際に、ワークロードおよびストレージ管理ごとに読み取りモードまたは自動モードのいずれか1つの権限ポリシーを選択できるようになりました。
+ワークロード工場でAWSクレデンシャルを追加する際に、ワークロードとストレージ管理ごとに読み取りモードまたは自動モードのいずれか1つの権限ポリシーを選択できるようになりました。
 
 image:screenshot-single-permission-policy-support.png["[Credentials]ページの権限設定セクションのスクリーンショット。ストレージ管理、AIワークロード、データベースワークロード、VMwareワークロードの権限ポリシーの読み取りまたは自動化を選択できます。"]
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["AWSクレデンシャルをWorkload Factoryに追加"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["ワークロードファクトリへのAWSクレデンシャルの追加"^]
 
 
 
@@ -263,17 +279,3 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["AW
 Terraformは、Amazon FSx for NetApp ONTAPファイルシステムの導入とStorage VMの作成で利用できます。セットアップガイドと管理ガイドに、CodeboxからTerraformを使用する方法が記載されました。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["コードボックスからTerraformを使用"^]
-
-
-
-== 2024/07/07
-
-
-
-=== セットアップと管理
-
-
-
-==== Workload Factoryの初回リリース
-
-BlueXP Workload Factory for AWSは、Amazon FSx for NetApp ONTAPファイルシステムを使用してワークロードを最適化するために設計された、強力なライフサイクル管理プラットフォームです。Workload FactoryとFSx for ONTAPを使用して合理化できるワークロードには、データベース、VMware Cloud on AWSへの移行、AIチャットボットなどがあります。
