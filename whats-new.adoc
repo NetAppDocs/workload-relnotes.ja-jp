@@ -15,6 +15,56 @@ BlueXP  ワークロードファクトリに含まれているワークロー�
 
 
 
+== 2024年12月1日
+
+
+
+=== NetApp ONTAP 対応の Amazon FSX
+
+
+
+==== スケールアウト型FSx for ONTAPファイルシステム向けブロックストレージ
+
+最大6つのHAペアで構成されたスケールアウトファイルシステム環境を使用して、FSx for ONTAP経由でブロックストレージをプロビジョニングできるようになりました。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["BlueXP  ワークロード工場でFSx for ONTAPファイルシステムを作成"]
+
+
+
+==== マウントコマンドが使用可能
+
+ボリュームへのNFSおよびCIFSアクセスで、マウントコマンドを使用できるようになりました。FSx for ONTAPファイルシステム内のボリュームのマウントポイントを取得するには、*基本的な操作*を選択し、*マウントコマンドの表示*を選択します。
+
+image:screenshot-view-mount-command.png["FSX for ONTAPファイルシステムに移動し、ボリュームメニューを選択し、基本的な操作を選択してから、マウントコマンドを表示するためのスクリーンショット。mount commandダイアログが表示され、CIFSまたはNFSアクセスのmountコマンドが表示されます。"]
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/access-data.html["ボリュームのView mountコマンド"]
+
+
+
+==== ボリューム作成後にStorage Efficiencyを更新
+
+FlexVolボリュームの作成後に、Storage Efficiencyを有効または無効にできるようになりました。Storage Efficiencyには、重複排除、データ圧縮、データコンパクションが含まれます。Storage Efficiencyを有効にすると、FlexVol volumeでスペースを最適に削減できます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/update-storage-efficiency.html["ボリュームのStorage Efficiencyの更新"]
+
+
+
+==== オンプレミスのONTAPクラスタの検出とレプリケーション
+
+オンプレミスのONTAPクラスタデータを検出してFSx for ONTAPファイルシステムにレプリケートすることで、AIのナレッジベースを強化できます。オンプレミスの検出とレプリケーションのすべてのワークフローは、ストレージインベントリの新しい*オンプレミスONTAP *タブから実行できます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["オンプレミスの ONTAP クラスタを検出"]
+
+
+
+==== AWSクレデンシャルでコスト削減試算ツールの分析を強化
+
+AWSクレデンシャルをSavings Calculatorから追加できるようになりました。クレデンシャルを追加すると、FSx for ONTAPと比較して、Amazon Elastic Block Store、Elastic File Systems、FSx for Windowsファイルサーバのストレージ環境のコスト削減試算ツールの分析精度が向上します。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html["BlueXP  ワークロード工場でのFSx for ONTAPによるコスト削減についてご確認ください"]
+
+
+
 == 2024/11/11
 
 
@@ -27,7 +77,7 @@ BlueXP  ワークロードファクトリに含まれているワークロー�
 
 これで、からワークロードファクトリを使用できるようになりlink:https://console.bluexp.netapp.com["BlueXPコンソール"^]ます。BlueXP  コンソールエクスペリエンスは、ワークロードファクトリコンソールと同じ機能を提供します。
 
-link:https://docs.netapp.com/workload-setup-admin/console-experiences.html["BlueXP  コンソールからワークロードファクトリにアクセスする方法"]
+link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["BlueXP  コンソールからワークロードファクトリにアクセスする方法"]
 
 
 
@@ -175,26 +225,6 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 
 == 2024/09/01
-
-
-
-=== NetApp ONTAP 対応の Amazon FSX
-
-
-
-==== ストレージ管理用の読み取りモードのサポート
-
-読み取りモードはワークロード工場でのストレージ管理に使用できます。読み取りモードでは、コードとしてのインフラストラクチャテンプレートに特定の変数が入力されるように、読み取り専用権限を追加することで、基本モードのエクスペリエンスが向上します。コードとしてのインフラストラクチャテンプレートは、ワークロードファクトリに変更権限を与えることなく、AWSアカウントから直接実行できます。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["読み取りモードの詳細"]
-
-
-
-==== ボリューム削除前のバックアップのサポート
-
-ボリュームを削除する前にバックアップできるようになりました。バックアップは削除されるまでファイルシステムに残ります。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/delete-volume.html["ボリュームを削除する"]
 
 
 

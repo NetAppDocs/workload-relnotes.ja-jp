@@ -35,11 +35,6 @@
   <block id="bfbd25ddeba7cedc974f1a5a1d0a295c" category="paragraph">Amazon EC2上のMicrosoft SQL Serverの構成設定を、FSx for Windows File ServerとElastic Block Storeストレージを使用してコスト削減試算ツールでカスタマイズできるようになりました。お客様のストレージ要件によっては、FSx for ONTAPストレージがデータベースワークロードにとって最も対費用効果の高いストレージであることがわかります。</block>
   <block id="f94c119bb7d164adbb1a390a249741e0" category="section-title">ホームページからSavings Calculatorに移動する</block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">2024/09/01</block>
-  <block id="f0881d896f399a09e86122a09c00b74d" category="doc">ストレージ管理用の読み取りモードのサポート</block>
-  <block id="06fdd4e2a129920e1eda56425068ba01" category="inline-link-macro">読み取りモードの詳細</block>
-  <block id="fc30083e7a76ed4c8eb6167ea377c198" category="section-title">ボリューム削除前のバックアップのサポート</block>
-  <block id="8b97ffb47ece0280994594aa00a04a55" category="paragraph">ボリュームを削除する前にバックアップできるようになりました。バックアップは削除されるまでファイルシステムに残ります。</block>
-  <block id="8e9a64bda9d21f945b6489df2e7946e1" category="inline-link-macro">ボリュームを削除する</block>
   <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">RSSサブスクリプション</block>
   <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">ワークロードごとに1つの権限ポリシーをサポート</block>
   <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">[Credentials]ページの権限設定セクションのスクリーンショット。ストレージ管理、AIワークロード、データベースワークロード、VMwareワークロードの権限ポリシーの読み取りまたは自動化を選択できます。</block>
@@ -101,9 +96,6 @@
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  ワークロード工場出荷時のリリースノート</block>
   <block id="c9b4182f157d4d581536f53df8cd512d" category="paragraph">VMwareのワークロードファクトリでは、VMware Migration Advisorを使用したAmazon EC2への移行がサポートされるようになりました。</block>
   <block id="21558f6938275b17b39171353ad95a65" category="paragraph">このリリースのVMware向けワークロードファクトリでは、機能と安定性が強化され、VMware Migration Advisorを使用して移行計画をインポートおよびエクスポートできるようになりました。</block>
-  <block id="4f75f1e69acbf2cd38f0862ac2b212c7" category="paragraph">読み取りモードはワークロード工場でのストレージ管理に使用できます。読み取りモードでは、コードとしてのインフラストラクチャテンプレートに特定の変数が入力されるように、読み取り専用権限を追加することで、基本モードのエクスペリエンスが向上します。コードとしてのインフラストラクチャテンプレートは、ワークロードファクトリに変更権限を与えることなく、AWSアカウントから直接実行できます。</block>
-  <block id="f584ba5824f9f0b7bb3a173d45332dd3" category="paragraph"><block ref="f584ba5824f9f0b7bb3a173d45332dd3" category="inline-link-macro-rx"></block></block>
-  <block id="a0fbee91270a9c1ec1d2bc9b56f87ff3" category="paragraph"><block ref="a0fbee91270a9c1ec1d2bc9b56f87ff3" category="inline-link-macro-rx"></block></block>
   <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">Codeboxビューア: Codeboxがリンク作成プロセスに統合されました。操作を実行するためにAWSにリダイレクトする前に、ワークロードファクトリのCodeboxからCloudFormationテンプレートを表示およびコピーできます。</block>
   <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">必要な権限: AWS CloudFormationでリンク作成を実行するために必要な権限が、ワークロードファクトリのCreate Linkウィザードで表示およびコピーできるようになりました。</block>
   <block id="3874612023324fe909b90a886072b352" category="paragraph"><block ref="3874612023324fe909b90a886072b352" category="inline-link-macro-rx"></block></block>
@@ -118,9 +110,32 @@
   <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">BlueXPコンソール</block>
   <block id="d2feef96259a41a7842dc5e7af577d63" category="paragraph">これで、からワークロードファクトリを使用できるようになり<block ref="391de7a3bac2bc77fa53dffb3f53801a" category="inline-link-macro-rx"></block>ます。BlueXP  コンソールエクスペリエンスは、ワークロードファクトリコンソールと同じ機能を提供します。</block>
   <block id="717f9c6475fbb39a24ab9942c1a903c0" category="inline-link-macro">BlueXP  コンソールからワークロードファクトリにアクセスする方法</block>
-  <block id="df2137c00b08ad833b0954cdd4247de3" category="paragraph"><block ref="df2137c00b08ad833b0954cdd4247de3" category="inline-link-macro-rx"></block></block>
   <block id="f462230f4e4289784e8469f2babda8fd" category="section-title">2024/11/11</block>
   <block id="e93e8519fa9c34d76ec0735119a46866" category="paragraph"><block ref="fe6e1b2479e1125e03c713ad62b5343f" category="inline-link-macro-rx"></block>ホームページからSavings Calculatorに移動できるようになりました。まずは、Elastic Block StoreとFSx for Windows File Serverから選択してください。</block>
   <block id="ab1e050e49bbc49befbca952f74f0443" category="inline-image-macro">ワークロードファクトリコンソールのホームページのスクリーンショット。新しい[Explore Savings]ボタンが表示されたデータベースタイルの図。ボタンをクリックしてドロップダウンメニューを開きます。ドロップダウンメニューには、Microsoft SQL Server on EBSとMicrosoft SQL Server on FSx for Windows File Serverの2つのオプションがあります。</block>
   <block id="923f11c15ceba3bc0e4d37309ab27ed2" category="paragraph"><block ref="923f11c15ceba3bc0e4d37309ab27ed2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1a34f743bd98b1658401ce2f8206ff9a" category="paragraph"><block ref="1a34f743bd98b1658401ce2f8206ff9a" category="inline-link-macro-rx"></block></block>
+  <block id="c4f10a04f7aa75535a8a0475261393eb" category="doc">スケールアウト型FSx for ONTAPファイルシステム向けブロックストレージ</block>
+  <block id="152983842f852ef5bae46ac675caec95" category="paragraph">最大6つのHAペアで構成されたスケールアウトファイルシステム環境を使用して、FSx for ONTAP経由でブロックストレージをプロビジョニングできるようになりました。</block>
+  <block id="88ece72bda0e38c0bdca32d19f42a979" category="inline-link-macro">BlueXP  ワークロード工場でFSx for ONTAPファイルシステムを作成</block>
+  <block id="8cce6f6c21973d5dff1898076cddb209" category="paragraph"><block ref="8cce6f6c21973d5dff1898076cddb209" category="inline-link-macro-rx"></block></block>
+  <block id="609b2d9256f15ecb9d57d3f545d91174" category="section-title">マウントコマンドが使用可能</block>
+  <block id="67ba5d91692276a76737790f2df885ec" category="paragraph">ボリュームへのNFSおよびCIFSアクセスで、マウントコマンドを使用できるようになりました。FSx for ONTAPファイルシステム内のボリュームのマウントポイントを取得するには、*基本的な操作*を選択し、*マウントコマンドの表示*を選択します。</block>
+  <block id="f12470a0bbf95a722b70847640bd40c9" category="inline-image-macro">FSX for ONTAPファイルシステムに移動し、ボリュームメニューを選択し、基本的な操作を選択してから、マウントコマンドを表示するためのスクリーンショット。mount commandダイアログが表示され、CIFSまたはNFSアクセスのmountコマンドが表示されます。</block>
+  <block id="21817bf964617ea4f875252102707119" category="paragraph"><block ref="21817bf964617ea4f875252102707119" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0087bca38db021c2b14c65d5893a9339" category="inline-link-macro">ボリュームのView mountコマンド</block>
+  <block id="41cd808fdcb8411a8a73071649aca98e" category="paragraph"><block ref="41cd808fdcb8411a8a73071649aca98e" category="inline-link-macro-rx"></block></block>
+  <block id="70bf70871888ae321ee591627f1f149f" category="section-title">ボリューム作成後にStorage Efficiencyを更新</block>
+  <block id="4b1987aeb3ee9f5859457d872de9697a" category="paragraph">FlexVolボリュームの作成後に、Storage Efficiencyを有効または無効にできるようになりました。Storage Efficiencyには、重複排除、データ圧縮、データコンパクションが含まれます。Storage Efficiencyを有効にすると、FlexVol volumeでスペースを最適に削減できます。</block>
+  <block id="b8ae90ddbb68f3303ee755cd1d9b5819" category="inline-link-macro">ボリュームのStorage Efficiencyの更新</block>
+  <block id="d26d51c8a86d1db1cfe8dd0317cc6274" category="paragraph"><block ref="d26d51c8a86d1db1cfe8dd0317cc6274" category="inline-link-macro-rx"></block></block>
+  <block id="aadb8a2a44b75c1333f5a52c2ceb1516" category="section-title">オンプレミスのONTAPクラスタの検出とレプリケーション</block>
+  <block id="490a30e9496a9d55f2cfdb934812658b" category="paragraph">オンプレミスのONTAPクラスタデータを検出してFSx for ONTAPファイルシステムにレプリケートすることで、AIのナレッジベースを強化できます。オンプレミスの検出とレプリケーションのすべてのワークフローは、ストレージインベントリの新しい*オンプレミスONTAP *タブから実行できます。</block>
+  <block id="c6f905e067bdaa7ba33a58a907e59477" category="inline-link-macro">オンプレミスの ONTAP クラスタを検出</block>
+  <block id="b169507cd10826b5a52f573e2f75ad2c" category="paragraph"><block ref="b169507cd10826b5a52f573e2f75ad2c" category="inline-link-macro-rx"></block></block>
+  <block id="67e962050c9494ada1eab84c21826e3c" category="section-title">AWSクレデンシャルでコスト削減試算ツールの分析を強化</block>
+  <block id="81e738c909aeee7a4a781716391eae27" category="paragraph">AWSクレデンシャルをSavings Calculatorから追加できるようになりました。クレデンシャルを追加すると、FSx for ONTAPと比較して、Amazon Elastic Block Store、Elastic File Systems、FSx for Windowsファイルサーバのストレージ環境のコスト削減試算ツールの分析精度が向上します。</block>
+  <block id="dd0818ef84ecf338be3c795b4a57e5c4" category="inline-link-macro">BlueXP  ワークロード工場でのFSx for ONTAPによるコスト削減についてご確認ください</block>
+  <block id="f98d47c0920e02232d981da56f082627" category="paragraph"><block ref="f98d47c0920e02232d981da56f082627" category="inline-link-macro-rx"></block></block>
+  <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024年12月1日</block>
 </blocks>
