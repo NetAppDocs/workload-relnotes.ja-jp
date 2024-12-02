@@ -65,6 +65,46 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html["Blue
 
 
 
+=== データベースワークロード
+
+
+
+==== 継続的な最適化により、コンピューティングの修正と評価を追加
+
+Microsoft SQL Serverインスタンスのコンピューティングリソースの最適化に役立つ分析情報と推奨事項がデータベースから提供されるようになりました。CPU利用率を測定し、AWS Compute Optimizerサービスを活用して最適なサイズのインスタンスタイプを推奨し、利用可能なオペレーティングシステムパッチをユーザに通知します。コンピューティングリソースを最適化することで、インスタンスタイプに関する十分な情報に基づいた意思決定が可能になり、コスト削減とリソース利用率の効率化につながります。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["コンピューティングリソースの構成を最適化"]
+
+
+
+==== PostgreSQLのサポート
+
+スタンドアロンPostgreSQLサーバーの配置をデータベースに配置して管理できるようになりました。
+
+link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["PostgreSQLサーバの作成"]
+
+
+
+=== 生成AIワークロード
+
+
+
+==== Snapshotからナレッジベースをクローニング
+
+生成AI向けのBlueXP  ワークロードファクトリでは、スナップショットからのナレッジベースのクローニングがサポートされるようになりました。これにより、ナレッジベースの迅速なリカバリと既存のデータソースを使用した新しいナレッジベースの作成が可能になり、データのリカバリと開発に役立ちます。
+
+link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#clone-a-knowledge-base["ナレッジベースの複製"]
+
+
+
+==== オンプレミスのONTAPクラスタの検出とレプリケーション
+
+オンプレミスのONTAPクラスタデータを検出してFSx for ONTAPファイルシステムにレプリケートすることで、AIのナレッジベースを強化できます。オンプレミスの検出とレプリケーションのすべてのワークフローは、ストレージインベントリの新しい*オンプレミスONTAP *タブから実行できます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["オンプレミスの ONTAP クラスタを検出"]
+
+
+
 == 2024/11/11
 
 
@@ -228,26 +268,6 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 
 
-=== データベースワークロード
-
-
-
-==== カスタマイズによるコスト削減の詳細
-
-Amazon EC2上のMicrosoft SQL Serverの構成設定を、FSx for Windows File ServerとElastic Block Storeストレージを使用してコスト削減試算ツールでカスタマイズできるようになりました。お客様のストレージ要件によっては、FSx for ONTAPストレージがデータベースワークロードにとって最も対費用効果の高いストレージであることがわかります。
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["データベースワークロード向けFSx for ONTAPによるコスト削減額をご確認ください"^]
-
-
-
-==== ホームページからSavings Calculatorに移動する
-
-link:https://console.workloads.netapp.com["ワークロードファクトリコンソール"^]ホームページからSavings Calculatorに移動できるようになりました。まずは、Elastic Block StoreとFSx for Windows File Serverから選択してください。
-
-image:screenshot-explore-savings-home-small.png["ワークロードファクトリコンソールのホームページのスクリーンショット。新しい[Explore Savings]ボタンが表示されたデータベースタイルの図。ボタンをクリックしてドロップダウンメニューを開きます。ドロップダウンメニューには、Microsoft SQL Server on EBSとMicrosoft SQL Server on FSx for Windows File Serverの2つのオプションがあります。"]
-
-
-
 === VMwareワークロード
 
 
@@ -255,22 +275,6 @@ image:screenshot-explore-savings-home-small.png["ワークロードファクト�
 ==== Amazon EC2への移行
 
 VMwareのワークロードファクトリでは、VMware Migration Advisorを使用したAmazon EC2への移行がサポートされるようになりました。
-
-
-
-=== 生成AIワークロード
-
-
-
-==== その他のチャンキング戦略
-
-ジェネレーティブAIワークロードで、データソースに対してマルチセンテンスチャンキングとオーバーラップベースのチャンキングがサポートされるようになりました。
-
-
-
-==== ナレッジベースごとの専用ボリューム
-
-ジェネレーティブAIワークロードでは、新しいナレッジベースごとに専用のAmazon FSx for NetApp ONTAPボリュームが作成されるようになりました。これにより、ナレッジベースごとに個別のSnapshotポリシーが有効になり、障害やデータポイズニングに対する保護が強化されます。
 
 
 
