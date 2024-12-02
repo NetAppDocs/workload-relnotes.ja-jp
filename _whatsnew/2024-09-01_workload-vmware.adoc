@@ -1,9 +1,0 @@
-= Amazon EC2への移行
-:allow-uri-read: 
-
-
-
-
-=== Amazon EC2への移行
-
-VMwareのワークロードファクトリでは、VMware Migration Advisorを使用したAmazon EC2への移行がサポートされるようになりました。
