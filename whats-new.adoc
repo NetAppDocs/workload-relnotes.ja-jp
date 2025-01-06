@@ -78,6 +78,22 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cifs-share.html["CI
 
 
 
+=== VMwareワークロード
+
+
+
+==== Amazon EC2 Migration Advisorの機能強化
+
+今回リリースされたVMware向けBlueXP  ワークロードファクトリでは、Migration Advisorのエクスペリエンスが次のように改善されています。
+
+* *移行計画を保存またはダウンロードする*:これで、移行計画を保存またはダウンロードし、移行計画をロードして移行アドバイザに取り込むことができます。移行計画を保存すると、その計画はワークロードファクトリアカウントに保存されます。
+* *仮想マシン選択の改善*：VMware向けBlueXP  ワークロードファクトリでは、移行環境に含める仮想マシンのリストのフィルタリングと検索がサポートされるようになりました。
+
+
+https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["移行アドバイザを使用してAmazon EC2の導入計画を作成"]
+
+
+
 === 生成AIワークロード
 
 
@@ -103,6 +119,18 @@ link:https://docs.netapp.com/us-en/workload-genai/deploy-infrastructure.html["�
 AIエンジンインスタンスが破損したり、何らかの理由で削除されたりした場合は、ワークロードファクトリに再構築を依頼できます。ワークロードファクトリは、再構築が完了した後、ナレッジベースをインフラストラクチャに自動的に再接続して、すぐに使用できるようにします。
 
 link:https://docs.netapp.com/us-en/workload-genai/troubleshooting.html["トラブルシューティング"]
+
+
+
+=== セットアップと管理
+
+
+
+==== BlueXP  Workload Factoryでのサービスアカウントのサポート
+
+BlueXP  ワークロードファクトリでサービスアカウントがサポートされるようになりました。サービスアカウントを作成して、インフラの運用を自動化するマシンユーザとして機能させることができます。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-service-accounts.html["サービスアカウントを作成および管理します"]
 
 
 
@@ -295,22 +323,6 @@ link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-complianc
 
 
 
-== 2024/09/19
-
-
-
-=== VMwareワークロード
-
-
-
-==== VMware Migration Advisorの機能拡張
-
-このリリースのVMware向けワークロードファクトリでは、機能と安定性が強化され、VMware Migration Advisorを使用して移行計画をインポートおよびエクスポートできるようになりました。
-
-https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["移行アドバイザを使用してAmazon EC2の導入計画を作成"]
-
-
-
 == 2024/09/01
 
 
@@ -334,19 +346,3 @@ image:screenshot-rss-subscribe-button.png["Workload Factory Consoleの[Help]ド�
 image:screenshot-single-permission-policy-support.png["[Credentials]ページの権限設定セクションのスクリーンショット。ストレージ管理、AIワークロード、データベースワークロード、VMwareワークロードの権限ポリシーの読み取りまたは自動化を選択できます。"]
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["ワークロードファクトリへのAWSクレデンシャルの追加"^]
-
-
-
-== 2024/08/04
-
-
-
-=== セットアップと管理
-
-
-
-==== Terraformのサポート
-
-Terraformは、Amazon FSx for NetApp ONTAPファイルシステムの導入とStorage VMの作成で利用できます。セットアップガイドと管理ガイドに、CodeboxからTerraformを使用する方法が記載されました。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["コードボックスからTerraformを使用"^]
