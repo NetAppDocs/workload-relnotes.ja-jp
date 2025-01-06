@@ -43,9 +43,6 @@
   <block id="cf88fa43b4b0e1b1bfb66e894b188442" category="doc">FSx for Windowsファイルサーバで検出されたMicrosoft SQLサーバの削減効果を確認</block>
   <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">Amazon EC2上で検出されたMicrosoft SQL Serverの削減効果を、FSx for Windows File Serverストレージを使用して試算ツールで確認できるようになりました。SQL Serverとストレージの要件によっては、FSx for ONTAPストレージがデータベースワークロードにとって最も対費用効果の高いストレージであることがわかります。</block>
   <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">2024/09/29</block>
-  <block id="cd1df627bd8e5b96916530ffbf4664f6" category="doc">リンク作成の更新</block>
-  <block id="3721bd571f4111dad2c363436de34c51" category="list-text">手動リンク作成のサポート:この機能を使用すると、AWS CloudFormationでリンクARNを手動で登録してスタンドアロンで作成できます。これは、セキュリティチームまたはDevOpsチームがリンク作成プロセスを支援する場合に役立ちます。</block>
-  <block id="8997880c88dd70fe80799ee97bb7ac0c" category="inline-link-macro">リンクの作成</block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">データベースワークロード向けFSx for ONTAPによるコスト削減額をご確認ください</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
   <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">ナレッジベースのポイントインタイムコピーを作成することで、ジェネレーティブAIワークロードのデータを保護できるようになりました。これにより、偶発的な損失からデータを保護したり、ナレッジベースの設定の変更をテストしたりできます。以前のバージョンのナレッジベースボリュームはいつでもリストアできます。</block>
@@ -87,9 +84,6 @@
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">このリリースノートでは、BlueXP  ワークロードファクトリに含まれるクラウドサービスに対する最近の機能拡張について説明します。</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  ワークロード工場出荷時のリリースノート</block>
   <block id="21558f6938275b17b39171353ad95a65" category="paragraph">このリリースのVMware向けワークロードファクトリでは、機能と安定性が強化され、VMware Migration Advisorを使用して移行計画をインポートおよびエクスポートできるようになりました。</block>
-  <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">Codeboxビューア: Codeboxがリンク作成プロセスに統合されました。操作を実行するためにAWSにリダイレクトする前に、ワークロードファクトリのCodeboxからCloudFormationテンプレートを表示およびコピーできます。</block>
-  <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">必要な権限: AWS CloudFormationでリンク作成を実行するために必要な権限が、ワークロードファクトリのCreate Linkウィザードで表示およびコピーできるようになりました。</block>
-  <block id="3874612023324fe909b90a886072b352" category="paragraph"><block ref="3874612023324fe909b90a886072b352" category="inline-link-macro-rx"></block></block>
   <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">ワークロードファクトリコンソール</block>
   <block id="3171014553de64cf509a3b587c8baeb3" category="paragraph">RSSサブスクリプションは、から利用でき<block ref="9d5ad87a67c1830e37fdd19a7a179db6" category="inline-link-macro-rx"></block>ます。RSSフィードを使用すると、BlueXP  ワークロードファクトリの変化を簡単に把握して把握できます。</block>
   <block id="0796995437665af1d920169e03b4542b" category="inline-image-macro">Workload Factory Consoleの[Help]ドロップダウンメニューのスクリーンショットRSSを購読するための新しいボタンがドロップダウンメニューにオプションとして表示されます。</block>
@@ -145,4 +139,13 @@
   <block id="3f4f1b85f4effee9c5e9ae9034f0e684" category="list-text">*クイックエクスペリエンスと高度なエクスペリエンス*：Migration Advisorを使用すると、RVtoolsを使用したクイックマイグレーションエクスペリエンスまたはMigration Advisorデータコレクタを使用した高度なエクスペリエンスを選択できるようになりました。</block>
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP  ワークロードファクトリ</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
+  <block id="442b133d7d895a50d67d2f8514b6fc0a" category="doc">ボリュームCIFS共有の機能拡張</block>
+  <block id="c67048e1717263df3fc8ffc894f40785" category="paragraph">BlueXP  ワークロード工場のAmazon FSx for ONTAPファイルシステムでボリュームのCIFS共有を管理するために使用できる機能拡張は次のとおりです。</block>
+  <block id="28ee2134fc1275e4f2052b7bd91a9f8d" category="list-text">ボリュームでの複数のCIFS共有のサポート</block>
+  <block id="aa8a0747da321d7501a2f34bb5326b65" category="list-text">ユーザとグループをいつでも更新できるオプション</block>
+  <block id="a85d37847efda31b7b7b0ee3ee3cd2ab" category="list-text">ユーザとグループの権限をいつでも更新できるオプション</block>
+  <block id="0c05c06c8c5abf5cf4956491502d212a" category="list-text">CIFS共有の削除</block>
+  <block id="1122186beaf8563a5f76bdc23dfd22a5" category="inline-link-macro">CIFS共有を管理します。</block>
+  <block id="f59eead66ce9829f954d28d72a4e99b1" category="paragraph"><block ref="f59eead66ce9829f954d28d72a4e99b1" category="inline-link-macro-rx"></block></block>
+  <block id="065531f581a60b79025f539bd1ff1cff" category="section-title">2025年1月5日</block>
 </blocks>

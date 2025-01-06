@@ -1,0 +1,17 @@
+= ボリュームCIFS共有の機能拡張
+:allow-uri-read: 
+
+
+
+
+=== ボリュームCIFS共有の機能拡張
+
+BlueXP  ワークロード工場のAmazon FSx for ONTAPファイルシステムでボリュームのCIFS共有を管理するために使用できる機能拡張は次のとおりです。
+
+* ボリュームでの複数のCIFS共有のサポート
+* ユーザとグループをいつでも更新できるオプション
+* ユーザとグループの権限をいつでも更新できるオプション
+* CIFS共有の削除
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cifs-share.html["CIFS共有を管理します。"]

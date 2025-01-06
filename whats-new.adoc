@@ -15,6 +15,28 @@ BlueXP  ワークロードファクトリに含まれているワークロー�
 
 
 
+== 2025年1月5日
+
+
+
+=== NetApp ONTAP 対応の Amazon FSX
+
+
+
+==== ボリュームCIFS共有の機能拡張
+
+BlueXP  ワークロード工場のAmazon FSx for ONTAPファイルシステムでボリュームのCIFS共有を管理するために使用できる機能拡張は次のとおりです。
+
+* ボリュームでの複数のCIFS共有のサポート
+* ユーザとグループをいつでも更新できるオプション
+* ユーザとグループの権限をいつでも更新できるオプション
+* CIFS共有の削除
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cifs-share.html["CIFS共有を管理します。"]
+
+
+
 == 2024年12月1日
 
 
@@ -205,21 +227,6 @@ link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-complianc
 
 
 == 2024/09/29
-
-
-
-=== NetApp ONTAP 対応の Amazon FSX
-
-
-
-==== リンク作成の更新
-
-* Codeboxビューア: Codeboxがリンク作成プロセスに統合されました。操作を実行するためにAWSにリダイレクトする前に、ワークロードファクトリのCodeboxからCloudFormationテンプレートを表示およびコピーできます。
-* 必要な権限: AWS CloudFormationでリンク作成を実行するために必要な権限が、ワークロードファクトリのCreate Linkウィザードで表示およびコピーできるようになりました。
-* 手動リンク作成のサポート:この機能を使用すると、AWS CloudFormationでリンクARNを手動で登録してスタンドアロンで作成できます。これは、セキュリティチームまたはDevOpsチームがリンク作成プロセスを支援する場合に役立ちます。
-
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["リンクの作成"]
 
 
 
