@@ -1,0 +1,36 @@
+= データベースダッシュボードの機能拡張
+:allow-uri-read: 
+
+
+
+
+=== データベースダッシュボードの機能拡張
+
+ダッシュボードの新しい設計には、次のグラフィックと機能拡張が含まれています。
+
+* ホスト分散グラフには、Microsoft SQL ServerホストとPostgreSQLホストの数が表示されます。
+* インスタンス分散の詳細には、検出されたインスタンスの総数、管理対象のMicrosoft SQL ServerおよびPostgreSQLインスタンスの数が含まれます。
+* データベース配布の詳細には、データベースの総数、管理対象のMicrosoft SQL ServerおよびPostgreSQLデータベースの数が含まれます。
+* 管理対象インスタンスとオンラインインスタンスの最適化スコアとステータス
+* ストレージ、コンピューティング、アプリケーションのカテゴリの最適化の詳細
+* Microsoft SQL Serverインスタンス構成の最適化の詳細（ストレージサイジング、ストレージレイアウト、ONTAPストレージ、コンピューティング、アプリケーションなど）
+* Amazon Elastic Block StoreおよびFSx for Windowsファイルサーバストレージ環境で実行されるデータベースワークロードについて、Amazon FSx for NetApp ONTAPストレージと比較して削減可能
+
+
+
+
+=== ジョブ監視の新しい「問題ありで完了」ステータス
+
+データベースのジョブ監視機能で、新しい「問題ありで完了」ステータスが提供されるようになりました。これにより、問題が発生したサブジョブと問題の内容を確認できます。
+
+link:https://docs.netapp.com/us-en/workload-databases/monitor-databases.html["データベースの監視"]
+
+
+
+=== オーバープロビジョニングされたMicrosoft SQL Serverライセンスの評価と最適化
+
+コスト削減試算ツールで、Microsoft SQL Server環境にEnterprise Editionが必要かどうかを評価できるようになりました。ライセンスがオーバープロビジョニングされている場合は、ダウングレードすることを推奨します。アプリケーションを最適化することで、データベースのライセンスを自動的にダウングレードできます。
+
+* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["データベースワークロード向けFSx for ONTAPによるコスト削減額をご確認ください"^]
+* link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["SQL Serverワークロードを最適化"]
+

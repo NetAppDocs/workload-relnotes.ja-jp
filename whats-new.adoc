@@ -15,6 +15,47 @@ BlueXP  ワークロードファクトリに含まれているワークロー�
 
 
 
+== 2025年1月6日
+
+
+
+=== データベースワークロード
+
+
+
+==== データベースダッシュボードの機能拡張
+
+ダッシュボードの新しい設計には、次のグラフィックと機能拡張が含まれています。
+
+* ホスト分散グラフには、Microsoft SQL ServerホストとPostgreSQLホストの数が表示されます。
+* インスタンス分散の詳細には、検出されたインスタンスの総数、管理対象のMicrosoft SQL ServerおよびPostgreSQLインスタンスの数が含まれます。
+* データベース配布の詳細には、データベースの総数、管理対象のMicrosoft SQL ServerおよびPostgreSQLデータベースの数が含まれます。
+* 管理対象インスタンスとオンラインインスタンスの最適化スコアとステータス
+* ストレージ、コンピューティング、アプリケーションのカテゴリの最適化の詳細
+* Microsoft SQL Serverインスタンス構成の最適化の詳細（ストレージサイジング、ストレージレイアウト、ONTAPストレージ、コンピューティング、アプリケーションなど）
+* Amazon Elastic Block StoreおよびFSx for Windowsファイルサーバストレージ環境で実行されるデータベースワークロードについて、Amazon FSx for NetApp ONTAPストレージと比較して削減可能
+
+
+
+
+==== ジョブ監視の新しい「問題ありで完了」ステータス
+
+データベースのジョブ監視機能で、新しい「問題ありで完了」ステータスが提供されるようになりました。これにより、問題が発生したサブジョブと問題の内容を確認できます。
+
+link:https://docs.netapp.com/us-en/workload-databases/monitor-databases.html["データベースの監視"]
+
+
+
+==== オーバープロビジョニングされたMicrosoft SQL Serverライセンスの評価と最適化
+
+コスト削減試算ツールで、Microsoft SQL Server環境にEnterprise Editionが必要かどうかを評価できるようになりました。ライセンスがオーバープロビジョニングされている場合は、ダウングレードすることを推奨します。アプリケーションを最適化することで、データベースのライセンスを自動的にダウングレードできます。
+
+* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["データベースワークロード向けFSx for ONTAPによるコスト削減額をご確認ください"^]
+* link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["SQL Serverワークロードを最適化"]
+
+
+
+
 == 2025年1月5日
 
 
@@ -227,18 +268,6 @@ link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-complianc
 
 
 == 2024/09/29
-
-
-
-=== データベースワークロード
-
-
-
-==== FSx for Windowsファイルサーバで検出されたMicrosoft SQLサーバの削減効果を確認
-
-Amazon EC2上で検出されたMicrosoft SQL Serverの削減効果を、FSx for Windows File Serverストレージを使用して試算ツールで確認できるようになりました。SQL Serverとストレージの要件によっては、FSx for ONTAPストレージがデータベースワークロードにとって最も対費用効果の高いストレージであることがわかります。
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["データベースワークロード向けFSx for ONTAPによるコスト削減額をご確認ください"^]
 
 
 
