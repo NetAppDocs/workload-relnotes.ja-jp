@@ -1,0 +1,35 @@
+= データソースのファイルタイプフィルタリング
+:allow-uri-read: 
+
+
+
+
+=== データソースのファイルタイプフィルタリング
+
+生成AIでは、データソースを追加するときに、データソーススキャンに含める特定のファイルタイプの選択がサポートされるようになりました。
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["ナレッジベースへのデータソースの追加"]
+
+
+
+=== データソースのファイル変更日のフィルタリング
+
+生成AIでは、データソースの追加時に変更日によってデータソーススキャンに含めるファイルのフィルタリングがサポートされるようになりました。インクルードされるファイルの変更日の範囲を選択できます。
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["ナレッジベースへのデータソースの追加"]
+
+
+
+=== 画像ファイルのサポートとPDFファイルのサポートの強化
+
+生成AIでは、画像ファイルおよびPDFファイル内の画像のスキャンがサポートされるようになりました（マルチモーダルファイルサポートとも呼ばれます）。画像ファイルを選択すると、画像のテキストがデータソースにスキャンされ、データとして使用されます。この機能には、PDFドキュメント内の画像が含まれます。PDFファイルタイプを含めると、各PDF内の画像でテキストがスキャンされ、そのテキストがデータソースの情報に含まれます。
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["ナレッジベースへのデータソースの追加"]
+
+
+
+=== ハイブリッド検索と再検索のサポート
+
+生成AIでは、ハイブリッド検索を使用して検索結果の関連性を高め、結果の順位を変更できるようになりました。ハイブリッド検索は、キーワード検索とベクトル検索およびセマンティック検索を組み合わせたものです。標準的なキーワード検索結果は、近い一致と言語的なニュアンスで強化され、関連性が向上します。生成AIは検索結果を再ランク付けし、関連性が最も高い結果のみを返します。
+
+link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html#benefits-of-using-genai-to-create-generative-ai-applications["生成AI向けBlueXP  ワークロードファクトリの詳細"]

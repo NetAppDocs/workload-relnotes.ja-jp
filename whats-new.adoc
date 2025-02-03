@@ -44,6 +44,46 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.ht
 
 
 
+== 2025年02月02日
+
+
+
+=== 生成AIワークロード
+
+
+
+==== データソースのファイルタイプフィルタリング
+
+生成AIでは、データソースを追加するときに、データソーススキャンに含める特定のファイルタイプの選択がサポートされるようになりました。
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["ナレッジベースへのデータソースの追加"]
+
+
+
+==== データソースのファイル変更日のフィルタリング
+
+生成AIでは、データソースの追加時に変更日によってデータソーススキャンに含めるファイルのフィルタリングがサポートされるようになりました。インクルードされるファイルの変更日の範囲を選択できます。
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["ナレッジベースへのデータソースの追加"]
+
+
+
+==== 画像ファイルのサポートとPDFファイルのサポートの強化
+
+生成AIでは、画像ファイルおよびPDFファイル内の画像のスキャンがサポートされるようになりました（マルチモーダルファイルサポートとも呼ばれます）。画像ファイルを選択すると、画像のテキストがデータソースにスキャンされ、データとして使用されます。この機能には、PDFドキュメント内の画像が含まれます。PDFファイルタイプを含めると、各PDF内の画像でテキストがスキャンされ、そのテキストがデータソースの情報に含まれます。
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["ナレッジベースへのデータソースの追加"]
+
+
+
+==== ハイブリッド検索と再検索のサポート
+
+生成AIでは、ハイブリッド検索を使用して検索結果の関連性を高め、結果の順位を変更できるようになりました。ハイブリッド検索は、キーワード検索とベクトル検索およびセマンティック検索を組み合わせたものです。標準的なキーワード検索結果は、近い一致と言語的なニュアンスで強化され、関連性が向上します。生成AIは検索結果を再ランク付けし、関連性が最も高い結果のみを返します。
+
+link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html#benefits-of-using-genai-to-create-generative-ai-applications["生成AI向けBlueXP  ワークロードファクトリの詳細"]
+
+
+
 == 2025年1月22日
 
 
@@ -329,17 +369,3 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html
 このリリースのWorkload Factory for VMwareには、データ削減比率アシスタントが搭載されています。データ削減比率アシスタントは、AWSクラウドのオンボーディングを準備する際に、VMwareのインベントリとストレージ資産に最適な比率を判断するのに役立ちます。
 
 https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["移行アドバイザを使用してAmazon EC2の導入計画を作成"]
-
-
-
-=== 生成AIワークロード
-
-
-
-==== 個人識別情報をデータガードレールでマスクする
-
-ジェネレーティブAIワークロードには、BlueXP  分類を基盤とするデータガードレール機能が導入されています。データガードレール機能は、個人識別情報(PII)を識別してマスクし、組織の機密データのコンプライアンスを維持し、セキュリティを強化するのに役立ちます。
-
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#create-and-configure-the-knowledge-base["ナレッジベースの作成"]
-
-link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXPの分類について説明します"^]
