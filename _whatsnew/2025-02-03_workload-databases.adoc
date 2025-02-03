@@ -1,0 +1,24 @@
+= オンプレミスデータベース環境のコスト分析と移行計画
+:allow-uri-read: 
+
+
+
+
+=== オンプレミスデータベース環境のコスト分析と移行計画
+
+BlueXP  Workload Factory for Databasesが、オンプレミスのAmazon FSx for NetApp ONTAPへのデータベース移行を検出、分析、計画できるようになりました。コスト削減試算ツールを使用して、オンプレミスのデータベース環境をクラウドで運用するコストを試算し、オンプレミスのデータベース環境をクラウドに移行する際の推奨事項を確認できます。
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["オンプレミスデータベース環境のコスト削減効果をご確認ください"]
+
+
+
+=== データベースの新しい最適化評価
+
+BlueXP  Workload Factory for Databasesでは、次の評価を利用できます。これらの評価は、潜在的なセキュリティの脆弱性を検出して防御し、パフォーマンスのボトルネックを検出して軽減することに重点を置いています。
+
+* *受信側スケーリング（RSS）設定*：RSS設定が有効になっているかどうか、およびキューの数が推奨値に設定されているかどうかを確認します。この評価では、RSS設定を最適化するための推奨事項も提供されます。
+* *Maximum Degree of Parallelism (MAXDOP)サーバ構成*:この評価では、MAXDOPが正しく構成されているかどうかをチェックし、パフォーマンスを最適化するための推奨事項を提供します。
+* * Microsoft SQL Serverパッチ*：この評価では、SQL Serverインスタンスに最新のパッチがインストールされているかどうかをチェックし、最新のパッチをインストールするための推奨事項を提供します。
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["構成を最適化"]

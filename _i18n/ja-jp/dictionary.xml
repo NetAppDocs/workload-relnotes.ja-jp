@@ -21,9 +21,6 @@
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルには、ネットアップソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が記載されています。</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">最近の変更</block>
-  <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Terraformのサポート</block>
-  <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">コードボックスからTerraformを使用</block>
-  <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
   <block id="38bd169945a371832b0b65c9086b1792" category="doc">データベースワークロード</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="doc">NetApp ONTAP 対応の Amazon FSX</block>
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">生成AIワークロード</block>
@@ -37,13 +34,8 @@
   <block id="71083868a2ec5abfee9a2647a74612c0" category="list-text">FSx for ONTAPタブ：現在お使いのFSx for ONTAPファイルシステムが表示されます。</block>
   <block id="1113c9108b3e58789456954d1c2ea9c2" category="list-text">コスト削減を確認するタブ：Elastic Block Store、FSx for Windows File Server、Elastic File Systemsの各ストレージシステムが表示されます。そこから、FSx for ONTAPと比較して、これらのシステムのコスト削減効果を確認できます。</block>
   <block id="ca385f8a90dc256c71e43f23f9b870f2" category="section-title">2024/11/03</block>
-  <block id="0928468cb2283b21e6802a78c6a64e3a" category="doc">データベースでMicrosoft SQL Serverワークロードを継続的に最適化</block>
-  <block id="e73fa899152fb6836032fef4e1c95da4" category="paragraph">BlueXP  ワークロードファクトリでは、Amazon FSx for NetApp ONTAP上のMicrosoft SQL Serverワークロードのストレージコンポーネントに関する継続的な最適化とベストプラクティスへの準拠を保証するために、継続的なガイダンスとガードレールが導入されています。この機能は、Microsoft SQL Serverの資産をオフラインで継続的にスキャンし、分析情報、機会、推奨事項の包括的なレポートを提供して、最高レベルのパフォーマンス、コスト効率、コンプライアンスの達成を支援します。</block>
   <block id="5d743e351f2bc0b96d19c12d46be8be2" category="inline-link-macro">SQL Serverワークロードを最適化</block>
   <block id="72d1af9ffdd277a1cf7789b588da9b4d" category="paragraph"><block ref="72d1af9ffdd277a1cf7789b588da9b4d" category="inline-link-macro-rx"></block></block>
-  <block id="822802a1673e79cb7dbd54947e4dc32c" category="paragraph">CodeboxからTerraformを使用してMicrosoft SQL Serverを導入できるようになりました。</block>
-  <block id="83f5267b900a40e93e73e9ace47d4412" category="inline-link-macro">データベースサーバの作成</block>
-  <block id="d83b54de9b50110195e4bf3c1f3c6a67" category="list-text"><block ref="d83b54de9b50110195e4bf3c1f3c6a67" category="inline-link-macro-rx"></block></block>
   <block id="3197d9ffc65dc1fe1469440d8891e79d" category="doc">VMware Migration Advisorによるデータ削減比率の向上</block>
   <block id="10ced15d9df199f8cb002561b8728770" category="paragraph">このリリースのWorkload Factory for VMwareには、データ削減比率アシスタントが搭載されています。データ削減比率アシスタントは、AWSクラウドのオンボーディングを準備する際に、VMwareのインベントリとストレージ資産に最適な比率を判断するのに役立ちます。</block>
   <block id="17e908b1a02b6ec45f4e125877322d0f" category="doc">個人識別情報をデータガードレールでマスクする</block>
@@ -152,4 +144,16 @@
   <block id="5291909ce92037a20a37f7a0c86dd921" category="paragraph">ストレージ環境の検出から、ストレージ内のファイルシステムや 生成AIワークロードのナレッジベースなどのAWSリソースの導入まで、BlueXP  ワークロードファクトリでさまざまな処理を実行するために使用される権限を確認できるようになりました。ストレージ、データベース、VMware、生成AIの各ワークロードのIAMポリシーと権限を表示できます。</block>
   <block id="f157db6a1ae10e7a29a28440d21f5cb8" category="paragraph"><block ref="f157db6a1ae10e7a29a28440d21f5cb8" category="inline-link-macro-rx"></block></block>
   <block id="43c56433351f336a8ecd0e9efa7ddca4" category="section-title">2025年1月22日</block>
+  <block id="efc2466e55cc45101064c2ade9e1ac96" category="doc">オンプレミスデータベース環境のコスト分析と移行計画</block>
+  <block id="b070dbce75db746d44b4965253ae3c9f" category="paragraph">BlueXP  Workload Factory for Databasesが、オンプレミスのAmazon FSx for NetApp ONTAPへのデータベース移行を検出、分析、計画できるようになりました。コスト削減試算ツールを使用して、オンプレミスのデータベース環境をクラウドで運用するコストを試算し、オンプレミスのデータベース環境をクラウドに移行する際の推奨事項を確認できます。</block>
+  <block id="ae5954c9b41b0bfb09043a4117743d2d" category="inline-link-macro">オンプレミスデータベース環境のコスト削減効果をご確認ください</block>
+  <block id="9621b726ce4b31f0b7bc139a85ef6f38" category="paragraph"><block ref="9621b726ce4b31f0b7bc139a85ef6f38" category="inline-link-macro-rx"></block></block>
+  <block id="6003a521aa2fb4eca1577921d2f2d6ec" category="section-title">データベースの新しい最適化評価</block>
+  <block id="a66d8cac65b4a62026dda75c54de5093" category="paragraph">BlueXP  Workload Factory for Databasesでは、次の評価を利用できます。これらの評価は、潜在的なセキュリティの脆弱性を検出して防御し、パフォーマンスのボトルネックを検出して軽減することに重点を置いています。</block>
+  <block id="41e5288ef108e483da5a07bf4a8c654d" category="list-text">*受信側スケーリング（RSS）設定*：RSS設定が有効になっているかどうか、およびキューの数が推奨値に設定されているかどうかを確認します。この評価では、RSS設定を最適化するための推奨事項も提供されます。</block>
+  <block id="20c22843405fd91269ed56974f603ebf" category="list-text">*Maximum Degree of Parallelism (MAXDOP)サーバ構成*:この評価では、MAXDOPが正しく構成されているかどうかをチェックし、パフォーマンスを最適化するための推奨事項を提供します。</block>
+  <block id="288748eac82542205cccb2a59e324600" category="list-text">* Microsoft SQL Serverパッチ*：この評価では、SQL Serverインスタンスに最新のパッチがインストールされているかどうかをチェックし、最新のパッチをインストールするための推奨事項を提供します。</block>
+  <block id="d1e68728a28b7936858b1484445ef50f" category="inline-link-macro">構成を最適化</block>
+  <block id="7c2632b8df180cfa1528450b19070928" category="paragraph"><block ref="7c2632b8df180cfa1528450b19070928" category="inline-link-macro-rx"></block></block>
+  <block id="b19ee84dca9cb059a9aa42ed54c05752" category="section-title">2025年02月03日</block>
 </blocks>
