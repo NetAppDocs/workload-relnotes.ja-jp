@@ -29,10 +29,6 @@
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">移行アドバイザを使用してAmazon EC2の導入計画を作成</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">データベースワークロード向けFSx for ONTAPによるコスト削減額をご確認ください</block>
-  <block id="31139fb3d548620b7d82f880e4660606" category="doc">ストレージインベントリのタブビュー</block>
-  <block id="d4aa654cea4681dd5ca03650594006c6" category="paragraph">ストレージインベントリが2つのタブで構成されるように更新されました。</block>
-  <block id="71083868a2ec5abfee9a2647a74612c0" category="list-text">FSx for ONTAPタブ：現在お使いのFSx for ONTAPファイルシステムが表示されます。</block>
-  <block id="1113c9108b3e58789456954d1c2ea9c2" category="list-text">コスト削減を確認するタブ：Elastic Block Store、FSx for Windows File Server、Elastic File Systemsの各ストレージシステムが表示されます。そこから、FSx for ONTAPと比較して、これらのシステムのコスト削減効果を確認できます。</block>
   <block id="ca385f8a90dc256c71e43f23f9b870f2" category="section-title">2024/11/03</block>
   <block id="5d743e351f2bc0b96d19c12d46be8be2" category="inline-link-macro">SQL Serverワークロードを最適化</block>
   <block id="72d1af9ffdd277a1cf7789b588da9b4d" category="paragraph"><block ref="72d1af9ffdd277a1cf7789b588da9b4d" category="inline-link-macro-rx"></block></block>
@@ -165,4 +161,34 @@
   <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">データベースの_read_modeで次の権限を使用できるようになりました<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>。</block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">アクセス権参照変更ログ</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
+  <block id="ed2a329d6f9bf2181ff23014cff23ba5" category="doc">BlueXP  ワークロードファクトリコンソールのCloudShell</block>
+  <block id="5eaddd0f57f7eaddd8610d939876ec8d" category="paragraph">CloudShellは、BlueXP  Workload Factory for Storage内で利用できる組み込みのCLI機能です。CloudShellを使用すると、ワークロードファクトリコンソール内から、シェルのような環境の複数のセッションからONTAPまたはAWS CLIコマンドを作成、共有、実行できます。</block>
+  <block id="09a780ee2763ed81ce7dcd3480b57fe4" category="inline-link-macro">BlueXP  Workload FactoryでのCloudShellの詳細</block>
+  <block id="feff74472562237513e0ca0c55cd4e38" category="paragraph"><block ref="feff74472562237513e0ca0c55cd4e38" category="inline-link-macro-rx"></block></block>
+  <block id="9be163b55bb1cb61b0ccee4ea40ae6ee" category="section-title">インベントリデータのダウンロード</block>
+  <block id="e61fb273c97526db97c128ce9bfc04a9" category="paragraph">FSx for ONTAPのインベントリデータをBlueXP  ワークロード工場のストレージからMicrosoft ExcelまたはCSVファイルにダウンロードできるようになりました。</block>
+  <block id="1d242bf1e7b71fd8602570478aa1bdc8" category="inline-image-macro">BlueXP  ワークロード工場のストレージのスクリーンショット。FSx for ONTAPファイルシステムのインベントリデータをダウンロードするための新しいダウンロードボタンが表示されています。</block>
+  <block id="b8040f0b8b5eff64bb15c9fc0fbc96d6" category="paragraph"><block ref="b8040f0b8b5eff64bb15c9fc0fbc96d6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eae91301e6256990d5311778eafea0e5" category="section-title">FSx for ONTAPファイルシステムのその他のメニューオプション</block>
+  <block id="0ad83f6b2d6e8bf103be3683c0c87ef9" category="paragraph">FSx for ONTAPファイルシステムについては、ストレージのFSx for ONTAPタブで以下の操作が簡単になりました。</block>
+  <block id="8272f5b23e79d0ee33bd5151dcddc454" category="list-text">Storage VM を作成</block>
+  <block id="dc88dce8ec264777b2f90ec0af744f43" category="list-text">ボリュームの作成</block>
+  <block id="8221d5fcbb1b8ef8a3fa535553679b44" category="list-text">ボリュームデータのレプリケート</block>
+  <block id="bb8210b8fea9fd35bf14070e9b9f7cf9" category="inline-image-macro">[Storage]の[FSx for ONTAP ]タブのスクリーンショット。[create storage VM]、[create volume]、[replicate]の新しいメニューオプションが表示されています。</block>
+  <block id="2a10a5b76871c42edb3807a0dec574ae" category="paragraph"><block ref="2a10a5b76871c42edb3807a0dec574ae" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2f72c2c06d295d3f5420254934ac77b1" category="section-title">Terraformによるボリューム作成のサポート</block>
+  <block id="7f28d622584eb6b05ee5ce1609e2de38" category="paragraph">CodeboxのTerraformを使用してボリュームを作成できるようになりました。</block>
+  <block id="d3156376048c94102c97709d5ff05e75" category="paragraph"><block ref="d3156376048c94102c97709d5ff05e75" category="inline-link-macro-rx"></block></block>
+  <block id="eb139dd9cb815e502d04047858e7c930" category="section-title">不変ファイル機能によるファイルロック</block>
+  <block id="849a110e76510a6394e4b27714d0bc20" category="paragraph">FSx for ONTAPファイルシステムのボリュームを作成するときに、変更不可のファイル機能を使用してファイルをロックできるようになりました。ファイルロックは、あなたや他の人が指定された期間にわたって誤ってまたは意図的にファイルを削除するのを防ぐのに役立ちます。</block>
+  <block id="ea3d4df6f8aff21b2dfe549c5ecf9775" category="section-title">運用の監視と追跡に使用可能なトラッカー</block>
+  <block id="c016252819aa3f6ede2b315b76b5c5b2" category="paragraph">Trackerを使用すると、ストレージに新しい監視機能が追加されます。Trackerを使用して、クレデンシャル、ストレージ、およびリンク処理の進捗状況とステータスの監視と追跡、処理タスクとサブタスクの詳細の確認、問題や障害の診断、失敗した処理のパラメータの編集、失敗した処理の再試行を行うことができます。</block>
+  <block id="7512718e82771ab0f98e51652a2e97c6" category="inline-link-macro">Trackerを使用して運用を監視および追跡する方法をご確認ください</block>
+  <block id="30babb51ab17a107228fe65a4e65418b" category="paragraph"><block ref="30babb51ab17a107228fe65a4e65418b" category="inline-link-macro-rx"></block></block>
+  <block id="c1c23b72df9b53434f3c5ef6963cd2c1" category="section-title">第2世代のAmazon FSx for NetApp ONTAPファイルシステムをサポート</block>
+  <block id="327da4942931ea47a06f556d15726878" category="paragraph">BlueXP  ワークロード工場でAmazon FSx for NetApp ONTAPの第2世代ファイルシステムを使用できるようになりました。FSx for ONTAPの第2世代シングルAZファイルシステムには、最大12個のHAペアが搭載されており、最大72GB/秒のスループット容量と2,400,000 SSD IOPSを実現します。FSx for ONTAPの第2世代マルチAZファイルシステムは、1つのHAペアを基盤とし、6GBpsのスループット容量と20万SSD IOPSを提供します。</block>
+  <block id="a22d0116b85624117006e75d98d659db" category="inline-link-macro">ハイアベイラビリティペアを追加する</block>
+  <block id="8a34eb45ca4cf03ce0d5e71fbfafb73a" category="list-text"><block ref="8a34eb45ca4cf03ce0d5e71fbfafb73a" category="inline-link-macro-rx"></block></block>
+  <block id="eeb5242f698ac9fda34591a326f4c0a3" category="inline-link-macro">Amazon FSx for NetApp ONTAPのクォータと制限</block>
+  <block id="94f917accd36ed25f8a73175e8d4cdfb" category="list-text"><block ref="94f917accd36ed25f8a73175e8d4cdfb" category="inline-link-macro-rx"></block></block>
 </blocks>
