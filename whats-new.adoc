@@ -119,6 +119,14 @@ BlueXP  ワークロード工場でAmazon FSx for NetApp ONTAPの第2世代フ�
 
 
 
+==== Amazon Nova基盤モデルのサポート
+
+生成AIはAmazon Nova基盤モデルをサポートするようになりました。Amazon Nova Micro、Amazon Nova Lite、およびAmazon Nova Proがサポートされています。
+
+link:https://docs.netapp.com/us-en/workload-genai/requirements.html["生成AIの要件"]
+
+
+
 ==== データソースのファイルタイプフィルタリング
 
 生成AIでは、データソースを追加するときに、データソーススキャンに含める特定のファイルタイプの選択がサポートされるようになりました。

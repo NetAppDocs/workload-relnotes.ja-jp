@@ -1,6 +1,14 @@
-= データソースのファイルタイプフィルタリング
+= Amazon Nova基盤モデルのサポート
 :allow-uri-read: 
 
+
+
+
+=== Amazon Nova基盤モデルのサポート
+
+生成AIはAmazon Nova基盤モデルをサポートするようになりました。Amazon Nova Micro、Amazon Nova Lite、およびAmazon Nova Proがサポートされています。
+
+link:https://docs.netapp.com/us-en/workload-genai/requirements.html["生成AIの要件"]
 
 
 
