@@ -29,24 +29,13 @@
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">移行アドバイザを使用してAmazon EC2の導入計画を作成</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">データベースワークロード向けFSx for ONTAPによるコスト削減額をご確認ください</block>
-  <block id="ca385f8a90dc256c71e43f23f9b870f2" category="section-title">2024/11/03</block>
   <block id="5d743e351f2bc0b96d19c12d46be8be2" category="inline-link-macro">SQL Serverワークロードを最適化</block>
   <block id="72d1af9ffdd277a1cf7789b588da9b4d" category="paragraph"><block ref="72d1af9ffdd277a1cf7789b588da9b4d" category="inline-link-macro-rx"></block></block>
-  <block id="3197d9ffc65dc1fe1469440d8891e79d" category="doc">VMware Migration Advisorによるデータ削減比率の向上</block>
-  <block id="10ced15d9df199f8cb002561b8728770" category="paragraph">このリリースのWorkload Factory for VMwareには、データ削減比率アシスタントが搭載されています。データ削減比率アシスタントは、AWSクラウドのオンボーディングを準備する際に、VMwareのインベントリとストレージ資産に最適な比率を判断するのに役立ちます。</block>
   <block id="d2705530e45ff55c7a7db4a1196a8b0d" category="summary">BlueXP  ワークロードファクトリに含まれているワークロードに対する最新の変更について説明します。</block>
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">BlueXP  ワークロードファクトリにおける最近の変更</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">このリリースノートでは、BlueXP  ワークロードファクトリに含まれるクラウドサービスに対する最近の機能拡張について説明します。</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  ワークロード工場出荷時のリリースノート</block>
-  <block id="aadb8a2a44b75c1333f5a52c2ceb1516" category="section-title">オンプレミスのONTAPクラスタの検出とレプリケーション</block>
-  <block id="490a30e9496a9d55f2cfdb934812658b" category="paragraph">オンプレミスのONTAPクラスタデータを検出してFSx for ONTAPファイルシステムにレプリケートすることで、AIのナレッジベースを強化できます。オンプレミスの検出とレプリケーションのすべてのワークフローは、ストレージインベントリの新しい*オンプレミスONTAP *タブから実行できます。</block>
-  <block id="c6f905e067bdaa7ba33a58a907e59477" category="inline-link-macro">オンプレミスの ONTAP クラスタを検出</block>
-  <block id="b169507cd10826b5a52f573e2f75ad2c" category="paragraph"><block ref="b169507cd10826b5a52f573e2f75ad2c" category="inline-link-macro-rx"></block></block>
   <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024年12月1日</block>
-  <block id="f8a21101d47aa852f29a4be35904736e" category="doc">Snapshotからナレッジベースをクローニング</block>
-  <block id="c711d2f72cc16ad2c0919ebe70292834" category="paragraph">生成AI向けのBlueXP  ワークロードファクトリでは、スナップショットからのナレッジベースのクローニングがサポートされるようになりました。これにより、ナレッジベースの迅速なリカバリと既存のデータソースを使用した新しいナレッジベースの作成が可能になり、データのリカバリと開発に役立ちます。</block>
-  <block id="53ea9e78bbaa3e1c3ead030a954216c8" category="inline-link-macro">ナレッジベースの複製</block>
-  <block id="23899d33da818933cc59017a222d3f1f" category="paragraph"><block ref="23899d33da818933cc59017a222d3f1f" category="inline-link-macro-rx"></block></block>
   <block id="1d194f6c398ca78aaffd8c430203e1ec" category="doc">Amazon EC2 Migration Advisorの機能強化</block>
   <block id="1e5e06dbbf4cb0bb655126bc90757161" category="paragraph">今回リリースされたVMware向けBlueXP  ワークロードファクトリでは、Migration Advisorのエクスペリエンスが次のように改善されています。</block>
   <block id="80384840ba856b44e35be4918f28a26b" category="list-text">*データ収集*: BlueXP  Workload Factory for VMwareでは、Migration Advisorを使用する際に特定の期間のデータ収集機能をサポートしています。</block>
@@ -209,4 +198,21 @@
   <block id="4a21bedf189bb26f9f4aeb26c0dc26a2" category="section-title">コスト削減分析レポートをEメールで送信</block>
   <block id="5b89ef008454fd9a61723d3572865363" category="paragraph">Amazon Elastic Block StoreとFSx for Windowsファイルサーバのストレージ環境でFSx for ONTAPと比較してコスト削減を検討している場合、推奨レポートを自分、チームメンバー、お客様にEメールで送信できるようになりました。</block>
   <block id="22f6de27f80cdc30dc0dd58f113f7c70" category="section-title">2025年3月03日</block>
+  <block id="ca5a05186a2f243eb84efcf08152a8f2" category="doc">組み込みチャットボットの機能強化</block>
+  <block id="362c473fe2757bda1e0d68b3c2cdfbc8" category="paragraph">質問と回答をクリップボードに直接コピーしたり、チャットウィンドウのサイズを調整したり、タイトルを変更したりできるようになりました。さらに、チャット応答にテーブルを含めることができるようになりました。テーブルはコピー可能です。</block>
+  <block id="d9965afe654edc6d99fd1a5080f10f27" category="inline-link-macro">生成AIナレッジベースのテスト</block>
+  <block id="b7def3234606fc50e35ddaf4c351fbe6" category="paragraph"><block ref="b7def3234606fc50e35ddaf4c351fbe6" category="inline-link-macro-rx"></block></block>
+  <block id="4842fdf5dae1e7a3fb7ea049a091be73" category="section-title">チャット応答引用のサポート</block>
+  <block id="c010ca64710d07e36327c27318c0303f" category="paragraph">チャットの応答に、応答を生成するために使用されたファイルとデータのチャンクをリストする引用が含まれるようになりました。</block>
+  <block id="312fbafda6b72e176a3eb6272e48d799" category="section-title">ファイル形式のサポートの強化</block>
+  <block id="cb1c6d98111a4dc0f10d1914aabf97ff" category="paragraph">このリリースの 生成AIでは、ファイルサポートが強化されています。</block>
+  <block id="20fae993429f53ad24302c4bea3332d1" category="list-text">チャットモデル機能CSVサポートが改善されました。これにより、CSVファイルからデータを照会するときに、より便利な応答が可能になります。</block>
+  <block id="820ddf0d1fd0a9cf5aaea49d2b400838" category="list-text">生成AIは、データソースからApache Parquetファイルを取り込むことができるようになりました。</block>
+  <block id="ce2ed264c43f0733c7c1ccbd1b06fdab" category="list-text">生成AIでは、画像を含むMicrosoft Word DOCXファイルの取り込みがサポートされるようになりました。</block>
+  <block id="939bf2b00dbe77d4a65f4d265a755136" category="inline-link-macro">サポートされるデータソースファイル形式</block>
+  <block id="9e64c0f3360c80d2707e71b213c5fc58" category="paragraph"><block ref="9e64c0f3360c80d2707e71b213c5fc58" category="inline-link-macro-rx"></block></block>
+  <block id="cec87a8931004e5402a3f18575682723" category="paragraph">このリリースのVMware向けBlueXP  ワークロードファクトリでは、Amazon EC2 Migration Advisorのエクスペリエンスが次のように改善されています。</block>
+  <block id="13ba1ae4c82947e19de7e94ee0eaab45" category="list-text">*推定インスタンスタイプ*：Migration Advisorで環境の要件を確認し、VMごとに推定Amazon EC2インスタンスタイプを提供できるようになりました。移行アドバイザの「スコープ」ステップで、各VMの推定インスタンスタイプを含めるように選択できます。</block>
+  <block id="3006f7737352e976899743eaf6e2b28e" category="list-text">* Amazon EBSボリュームの推奨機能*：移行アドバイザーは、特定のリージョンの容量やパフォーマンスのニーズに応じて、Amazon FSx for NetApp ONTAPではなくAmazon Elastic Block Store（EBS）にデータボリュームを移行することを推奨できるようになりました。</block>
+  <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">*ファイルシステムの自動割り当ての強化*：Amazon FSx for NetApp ONTAPファイルシステムの割り当てが改善され、コストの最適化とスループットの最小化が実現しました。</block>
 </blocks>

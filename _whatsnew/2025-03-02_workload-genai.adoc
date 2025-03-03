@@ -1,0 +1,32 @@
+= 組み込みチャットボットの機能強化
+:allow-uri-read: 
+
+
+
+
+=== 組み込みチャットボットの機能強化
+
+質問と回答をクリップボードに直接コピーしたり、チャットウィンドウのサイズを調整したり、タイトルを変更したりできるようになりました。さらに、チャット応答にテーブルを含めることができるようになりました。テーブルはコピー可能です。
+
+link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["生成AIナレッジベースのテスト"]
+
+
+
+=== チャット応答引用のサポート
+
+チャットの応答に、応答を生成するために使用されたファイルとデータのチャンクをリストする引用が含まれるようになりました。
+
+link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["生成AIナレッジベースのテスト"]
+
+
+
+=== ファイル形式のサポートの強化
+
+このリリースの 生成AIでは、ファイルサポートが強化されています。
+
+* チャットモデル機能CSVサポートが改善されました。これにより、CSVファイルからデータを照会するときに、より便利な応答が可能になります。
+* 生成AIは、データソースからApache Parquetファイルを取り込むことができるようになりました。
+* 生成AIでは、画像を含むMicrosoft Word DOCXファイルの取り込みがサポートされるようになりました。
+
+
+link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["サポートされるデータソースファイル形式"]

@@ -122,6 +122,56 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["T
 
 
 
+=== VMwareワークロード
+
+
+
+==== Amazon EC2 Migration Advisorの機能強化
+
+このリリースのVMware向けBlueXP  ワークロードファクトリでは、Amazon EC2 Migration Advisorのエクスペリエンスが次のように改善されています。
+
+* *推定インスタンスタイプ*：Migration Advisorで環境の要件を確認し、VMごとに推定Amazon EC2インスタンスタイプを提供できるようになりました。移行アドバイザの「スコープ」ステップで、各VMの推定インスタンスタイプを含めるように選択できます。
+* * Amazon EBSボリュームの推奨機能*：移行アドバイザーは、特定のリージョンの容量やパフォーマンスのニーズに応じて、Amazon FSx for NetApp ONTAPではなくAmazon Elastic Block Store（EBS）にデータボリュームを移行することを推奨できるようになりました。
+* *ファイルシステムの自動割り当ての強化*：Amazon FSx for NetApp ONTAPファイルシステムの割り当てが改善され、コストの最適化とスループットの最小化が実現しました。
+
+
+https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["移行アドバイザを使用してAmazon EC2の導入計画を作成"]
+
+
+
+=== 生成AIワークロード
+
+
+
+==== 組み込みチャットボットの機能強化
+
+質問と回答をクリップボードに直接コピーしたり、チャットウィンドウのサイズを調整したり、タイトルを変更したりできるようになりました。さらに、チャット応答にテーブルを含めることができるようになりました。テーブルはコピー可能です。
+
+link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["生成AIナレッジベースのテスト"]
+
+
+
+==== チャット応答引用のサポート
+
+チャットの応答に、応答を生成するために使用されたファイルとデータのチャンクをリストする引用が含まれるようになりました。
+
+link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["生成AIナレッジベースのテスト"]
+
+
+
+==== ファイル形式のサポートの強化
+
+このリリースの 生成AIでは、ファイルサポートが強化されています。
+
+* チャットモデル機能CSVサポートが改善されました。これにより、CSVファイルからデータを照会するときに、より便利な応答が可能になります。
+* 生成AIは、データソースからApache Parquetファイルを取り込むことができるようになりました。
+* 生成AIでは、画像を含むMicrosoft Word DOCXファイルの取り込みがサポートされるようになりました。
+
+
+link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["サポートされるデータソースファイル形式"]
+
+
+
 == 2025年02月03日
 
 
@@ -437,41 +487,5 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/manage-service-accounts.
 * * VMの選択*：BlueXP  Workload Factory for VMwareでは、移行環境に含めるVMの選択がサポートされるようになりました。
 * *クイックエクスペリエンスと高度なエクスペリエンス*：Migration Advisorを使用すると、RVtoolsを使用したクイックマイグレーションエクスペリエンスまたはMigration Advisorデータコレクタを使用した高度なエクスペリエンスを選択できるようになりました。
 
-
-https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["移行アドバイザを使用してAmazon EC2の導入計画を作成"]
-
-
-
-=== 生成AIワークロード
-
-
-
-==== Snapshotからナレッジベースをクローニング
-
-生成AI向けのBlueXP  ワークロードファクトリでは、スナップショットからのナレッジベースのクローニングがサポートされるようになりました。これにより、ナレッジベースの迅速なリカバリと既存のデータソースを使用した新しいナレッジベースの作成が可能になり、データのリカバリと開発に役立ちます。
-
-link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#clone-a-knowledge-base["ナレッジベースの複製"]
-
-
-
-==== オンプレミスのONTAPクラスタの検出とレプリケーション
-
-オンプレミスのONTAPクラスタデータを検出してFSx for ONTAPファイルシステムにレプリケートすることで、AIのナレッジベースを強化できます。オンプレミスの検出とレプリケーションのすべてのワークフローは、ストレージインベントリの新しい*オンプレミスONTAP *タブから実行できます。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["オンプレミスの ONTAP クラスタを検出"]
-
-
-
-== 2024/11/03
-
-
-
-=== VMwareワークロード
-
-
-
-==== VMware Migration Advisorによるデータ削減比率の向上
-
-このリリースのWorkload Factory for VMwareには、データ削減比率アシスタントが搭載されています。データ削減比率アシスタントは、AWSクラウドのオンボーディングを準備する際に、VMwareのインベントリとストレージ資産に最適な比率を判断するのに役立ちます。
 
 https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["移行アドバイザを使用してAmazon EC2の導入計画を作成"]
