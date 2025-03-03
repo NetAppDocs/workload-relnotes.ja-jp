@@ -15,6 +15,58 @@ BlueXP  ワークロードファクトリに含まれているワークロー�
 
 
 
+== 2025年3月03日
+
+
+
+=== データベースワークロード
+
+
+
+==== PostgreSQLの高可用性構成と迅速な作成
+
+データベース用のBlueXP  ワークロードファクトリでサポートされる2つの新機能領域：
+
+* PostgreSQLハイアベイラビリティ（HA）構成：PostgreSQLサーバのHA構成を展開できるようになりました。
+* クイック作成:この高速配置オプションを使用すると、HA構成とベストプラクティスが組み込まれたPostgreSQLサーバを作成できます。
+
+
+link:https://review.docs.netapp.com/us-en/workload-databases_explore-savings-updates/create-postgresql-server.html["PostgreSQLサーバの作成"]
+
+
+
+==== PostgreSQLサーバ作成のTerraformサポート
+
+CodeboxからTerraformを使用してPostgreSQLをデプロイできるようになりました。
+
+* link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["PostgreSQLデータベースサーバの作成"^]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["コードボックスからTerraformを使用"^]
+
+
+
+
+==== ローカルSnapshotスケジュールの耐障害性評価
+
+データベースワークロードに新しい耐障害性評価を提供します。Microsoft SQL Serverインスタンスのボリュームにスケジュールされた有効なSnapshotポリシーが設定されているかどうかを評価します。Snapshotは、データのポイントインタイムコピーであり、データ損失が発生した場合にデータベース環境の耐障害性を維持するのに役立ちます。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["構成を最適化"]
+
+
+
+==== MAXDOPによるデータベースワークロードの修正
+
+BlueXP  Workload Factory for Databasesでは、最大並列化(MAXDOP)サーバ構成の修復がサポートされるようになりました。MAXDOP設定が最適でない場合、BlueXP  Workload Factoryに設定を最適化させることができます。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["構成を最適化"]
+
+
+
+==== コスト削減分析レポートをEメールで送信
+
+Amazon Elastic Block StoreとFSx for Windowsファイルサーバのストレージ環境でFSx for ONTAPと比較してコスト削減を検討している場合、推奨レポートを自分、チームメンバー、お客様にEメールで送信できるようになりました。
+
+
+
 == 2025年3月02日
 
 
@@ -370,26 +422,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/manage-service-accounts.
 
 
 == 2024年12月1日
-
-
-
-=== データベースワークロード
-
-
-
-==== 継続的な最適化により、コンピューティングの修正と評価を追加
-
-Microsoft SQL Serverインスタンスのコンピューティングリソースの最適化に役立つ分析情報と推奨事項がデータベースから提供されるようになりました。CPU利用率を測定し、AWS Compute Optimizerサービスを活用して最適なサイズのインスタンスタイプを推奨し、利用可能なオペレーティングシステムパッチをユーザに通知します。コンピューティングリソースを最適化することで、インスタンスタイプに関する十分な情報に基づいた意思決定が可能になり、コスト削減とリソース利用率の効率化につながります。
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["コンピューティングリソースの構成を最適化"]
-
-
-
-==== PostgreSQLのサポート
-
-スタンドアロンPostgreSQLサーバーの配置をデータベースに配置して管理できるようになりました。
-
-link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["PostgreSQLサーバの作成"]
 
 
 
