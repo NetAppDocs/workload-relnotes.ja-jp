@@ -8,7 +8,7 @@
 
 CloudShellは、BlueXP  Workload Factory for Storage内で利用できる組み込みのCLI機能です。CloudShellを使用すると、ワークロードファクトリコンソール内から、シェルのような環境の複数のセッションからONTAPまたはAWS CLIコマンドを作成、共有、実行できます。
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["BlueXP  Workload FactoryでのCloudShellの詳細"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["BlueXP  Workload FactoryでのCloudShellの詳細"]
 
 
 

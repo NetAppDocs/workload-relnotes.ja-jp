@@ -127,7 +127,6 @@
   <block id="ed2a329d6f9bf2181ff23014cff23ba5" category="doc">BlueXP  ワークロードファクトリコンソールのCloudShell</block>
   <block id="5eaddd0f57f7eaddd8610d939876ec8d" category="paragraph">CloudShellは、BlueXP  Workload Factory for Storage内で利用できる組み込みのCLI機能です。CloudShellを使用すると、ワークロードファクトリコンソール内から、シェルのような環境の複数のセッションからONTAPまたはAWS CLIコマンドを作成、共有、実行できます。</block>
   <block id="09a780ee2763ed81ce7dcd3480b57fe4" category="inline-link-macro">BlueXP  Workload FactoryでのCloudShellの詳細</block>
-  <block id="feff74472562237513e0ca0c55cd4e38" category="paragraph"><block ref="feff74472562237513e0ca0c55cd4e38" category="inline-link-macro-rx"></block></block>
   <block id="9be163b55bb1cb61b0ccee4ea40ae6ee" category="section-title">インベントリデータのダウンロード</block>
   <block id="e61fb273c97526db97c128ce9bfc04a9" category="paragraph">FSx for ONTAPのインベントリデータをBlueXP  ワークロード工場のストレージからMicrosoft ExcelまたはCSVファイルにダウンロードできるようになりました。</block>
   <block id="1d242bf1e7b71fd8602570478aa1bdc8" category="inline-image-macro">BlueXP  ワークロード工場のストレージのスクリーンショット。FSx for ONTAPファイルシステムのインベントリデータをダウンロードするための新しいダウンロードボタンが表示されています。</block>
@@ -167,7 +166,6 @@
   <block id="b811c826e0c0b54d5803fe35cb209c82" category="section-title">不変ファイルの更新</block>
   <block id="a321ab5f7c12f7cdaa9d6077d68dc055" category="paragraph">変更不可のファイル設定に対して、保持ポリシー、保持期間、自動コミット期間、およびボリュームアペンドモードを変更できるようになりました。</block>
   <block id="a864feef5272f034d55e1119c5495be8" category="inline-link-macro">変更不可ファイルの管理</block>
-  <block id="0825291b8f1461ab76888807d639764b" category="paragraph"><block ref="0825291b8f1461ab76888807d639764b" category="inline-link-macro-rx"></block></block>
   <block id="2915f18b56c3e4e3c1ef137551d9a65d" category="section-title">データレプリケーションの機能拡張</block>
   <block id="114e60d7d0f811f597761cf833328a96" category="list-text">アカウント間レプリケーション：2つのAWSアカウント間のレプリケーションは、BlueXP  ワークロードファクトリコンソールとレプリケーション管理でサポートされています。</block>
   <block id="6fa19d46a9961be1aeabe428c8550d2f" category="list-text">データ保護ボリュームのレプリケーション：ボリュームがレプリケートされたボリュームからレプリケートされる場合、データ保護ボリュームでカスケードレプリケーションがサポートされるようになりました。</block>
@@ -215,4 +213,6 @@
   <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">*ファイルシステムの自動割り当ての強化*：Amazon FSx for NetApp ONTAPファイルシステムの割り当てが改善され、コストの最適化とスループットの最小化が実現しました。</block>
   <block id="4666cc74583e6d5c1f202a52bee57a9b" category="list-text"><block ref="4666cc74583e6d5c1f202a52bee57a9b" category="inline-link-macro-rx"></block></block>
   <block id="7115d78353263dbb2dbe063624f9f601" category="list-text"><block ref="7115d78353263dbb2dbe063624f9f601" category="inline-link-macro-rx"></block></block>
+  <block id="95712b1074d83e6727c42aa16be5af5a" category="paragraph"><block ref="95712b1074d83e6727c42aa16be5af5a" category="inline-link-macro-rx"></block></block>
+  <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
 </blocks>

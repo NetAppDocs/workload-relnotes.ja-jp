@@ -24,7 +24,7 @@
 
 変更不可のファイル設定に対して、保持ポリシー、保持期間、自動コミット期間、およびボリュームアペンドモードを変更できるようになりました。
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["変更不可ファイルの管理"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["変更不可ファイルの管理"]
 
 
 
