@@ -20,8 +20,8 @@ link:https://review.docs.netapp.com/us-en/workload-databases_explore-savings-upd
 
 CodeboxからTerraformを使用してPostgreSQLをデプロイできるようになりました。
 
-* link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["PostgreSQLデータベースサーバの作成"^]
-* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["コードボックスからTerraformを使用"^]
+* link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["PostgreSQLデータベースサーバの作成"]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["コードボックスからTerraformを使用"]
 
 
 

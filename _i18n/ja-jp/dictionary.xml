@@ -188,9 +188,7 @@
   <block id="1414de2121340ce91492c56f7800fcc7" category="section-title">PostgreSQLサーバ作成のTerraformサポート</block>
   <block id="9156ac6cc60e32ed114af1a49af0ffed" category="paragraph">CodeboxからTerraformを使用してPostgreSQLをデプロイできるようになりました。</block>
   <block id="7a5745faeabd31c33609adf25373d8a1" category="inline-link-macro">PostgreSQLデータベースサーバの作成</block>
-  <block id="61b5b69de9c821f5e486ec9c30a821a4" category="list-text"><block ref="61b5b69de9c821f5e486ec9c30a821a4" category="inline-link-macro-rx"></block></block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">コードボックスからTerraformを使用</block>
-  <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
   <block id="6a7893eb24462b3da7dd0a66586c5738" category="section-title">ローカルSnapshotスケジュールの耐障害性評価</block>
   <block id="677bceea5ebbea10cf85a91ebf42050e" category="paragraph">データベースワークロードに新しい耐障害性評価を提供します。Microsoft SQL Serverインスタンスのボリュームにスケジュールされた有効なSnapshotポリシーが設定されているかどうかを評価します。Snapshotは、データのポイントインタイムコピーであり、データ損失が発生した場合にデータベース環境の耐障害性を維持するのに役立ちます。</block>
   <block id="90814442b7f0694d712f43efffe9c178" category="section-title">MAXDOPによるデータベースワークロードの修正</block>
@@ -215,4 +213,6 @@
   <block id="13ba1ae4c82947e19de7e94ee0eaab45" category="list-text">*推定インスタンスタイプ*：Migration Advisorで環境の要件を確認し、VMごとに推定Amazon EC2インスタンスタイプを提供できるようになりました。移行アドバイザの「スコープ」ステップで、各VMの推定インスタンスタイプを含めるように選択できます。</block>
   <block id="3006f7737352e976899743eaf6e2b28e" category="list-text">* Amazon EBSボリュームの推奨機能*：移行アドバイザーは、特定のリージョンの容量やパフォーマンスのニーズに応じて、Amazon FSx for NetApp ONTAPではなくAmazon Elastic Block Store（EBS）にデータボリュームを移行することを推奨できるようになりました。</block>
   <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">*ファイルシステムの自動割り当ての強化*：Amazon FSx for NetApp ONTAPファイルシステムの割り当てが改善され、コストの最適化とスループットの最小化が実現しました。</block>
+  <block id="4666cc74583e6d5c1f202a52bee57a9b" category="list-text"><block ref="4666cc74583e6d5c1f202a52bee57a9b" category="inline-link-macro-rx"></block></block>
+  <block id="7115d78353263dbb2dbe063624f9f601" category="list-text"><block ref="7115d78353263dbb2dbe063624f9f601" category="inline-link-macro-rx"></block></block>
 </blocks>
