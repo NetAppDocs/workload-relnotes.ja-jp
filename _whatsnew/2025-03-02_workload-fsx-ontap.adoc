@@ -29,10 +29,6 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.htm
 === データレプリケーションの機能拡張
 
 * アカウント間レプリケーション：2つのAWSアカウント間のレプリケーションは、BlueXP  ワークロードファクトリコンソールとレプリケーション管理でサポートされています。
-* データ保護ボリュームのレプリケーション：ボリュームがレプリケートされたボリュームからレプリケートされる場合、データ保護ボリュームでカスケードレプリケーションがサポートされるようになりました。
-+
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/cascade-replication.html["データ保護ボリュームをレプリケートする"]
-
 * レプリケーションの一時停止と再開：ソースボリュームからデスティネーションボリュームへのスケジュールされたレプリケーション更新を一時停止（休止）し、準備ができたらレプリケーションスケジュールを再開できます。一時停止中は、ソースボリュームとデスティネーションボリュームが独立し、デスティネーションボリュームは読み取り専用から読み書き可能に移行します。
 +
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/pause-resume-replication.html["レプリケーション関係の一時停止と再開"]
