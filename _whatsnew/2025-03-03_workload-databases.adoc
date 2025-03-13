@@ -1,16 +1,12 @@
-= PostgreSQLの高可用性構成と迅速な作成
+= PostgreSQLの高可用性構成
 :allow-uri-read: 
 
 
 
 
-=== PostgreSQLの高可用性構成と迅速な作成
+=== PostgreSQLの高可用性構成
 
-データベース用のBlueXP  ワークロードファクトリでサポートされる2つの新機能領域：
-
-* PostgreSQLハイアベイラビリティ（HA）構成：PostgreSQLサーバのHA構成を展開できるようになりました。
-* クイック作成:この高速配置オプションを使用すると、HA構成とベストプラクティスが組み込まれたPostgreSQLサーバを作成できます。
-
+PostgreSQLサーバにハイアベイラビリティ（HA）構成を導入できるようになりました。
 
 link:https://review.docs.netapp.com/us-en/workload-databases_explore-savings-updates/create-postgresql-server.html["PostgreSQLサーバの作成"]
 
