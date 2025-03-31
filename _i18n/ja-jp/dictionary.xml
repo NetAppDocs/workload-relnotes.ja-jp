@@ -43,14 +43,6 @@
   <block id="3f4f1b85f4effee9c5e9ae9034f0e684" category="list-text">*クイックエクスペリエンスと高度なエクスペリエンス*：Migration Advisorを使用すると、RVtoolsを使用したクイックマイグレーションエクスペリエンスまたはMigration Advisorデータコレクタを使用した高度なエクスペリエンスを選択できるようになりました。</block>
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP  ワークロードファクトリ</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
-  <block id="442b133d7d895a50d67d2f8514b6fc0a" category="doc">ボリュームCIFS共有の機能拡張</block>
-  <block id="c67048e1717263df3fc8ffc894f40785" category="paragraph">BlueXP  ワークロード工場のAmazon FSx for ONTAPファイルシステムでボリュームのCIFS共有を管理するために使用できる機能拡張は次のとおりです。</block>
-  <block id="28ee2134fc1275e4f2052b7bd91a9f8d" category="list-text">ボリュームでの複数のCIFS共有のサポート</block>
-  <block id="aa8a0747da321d7501a2f34bb5326b65" category="list-text">ユーザとグループをいつでも更新できるオプション</block>
-  <block id="a85d37847efda31b7b7b0ee3ee3cd2ab" category="list-text">ユーザとグループの権限をいつでも更新できるオプション</block>
-  <block id="0c05c06c8c5abf5cf4956491502d212a" category="list-text">CIFS共有の削除</block>
-  <block id="1122186beaf8563a5f76bdc23dfd22a5" category="inline-link-macro">CIFS共有を管理します。</block>
-  <block id="f59eead66ce9829f954d28d72a4e99b1" category="paragraph"><block ref="f59eead66ce9829f954d28d72a4e99b1" category="inline-link-macro-rx"></block></block>
   <block id="065531f581a60b79025f539bd1ff1cff" category="section-title">2025年1月5日</block>
   <block id="f418f614e126c9d215de85f00b5b7a7e" category="doc">データベースダッシュボードの機能拡張</block>
   <block id="c18a3eee23770f4e57bfa9ffe245c428" category="paragraph">ダッシュボードの新しい設計には、次のグラフィックと機能拡張が含まれています。</block>
@@ -210,4 +202,21 @@
   <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">IAM：SimulatePermissionPolicy権限の更新</block>
   <block id="906699741ebd9905a07af900abcfd438" category="paragraph">AWSアカウントのクレデンシャルを追加したり、生成AIワークロードなどの新しいワークロード機能を追加したりするときに、ワークロードファクトリコンソールから権限を管理できるようになりまし<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>た。</block>
   <block id="186057b8c375bff9b600d22bf8686fc5" category="section-title">2025年3月30日</block>
+  <block id="e2becee7c382badfb02490cd30d53c6a" category="doc">スケールアウトシステムの容量を自動管理</block>
+  <block id="5f7d427820d14cb172d0390463b259c4" category="paragraph">Workload factoryでは、ボリューム内の使用可能なinodeがスキャンされ、設定された容量の自動管理しきい値に従ってその数が増加します。この機能では、スケールアウトシステムの容量の自動管理がサポートされます。容量の自動管理の一環として、inode管理を有効にすることができます。</block>
+  <block id="ff117b5e42f4a60dd5b7859999c4f2bd" category="inline-link-macro">容量の自動管理を有効にする</block>
+  <block id="85729d1984aee9281a3cc017500ff795" category="paragraph"><block ref="85729d1984aee9281a3cc017500ff795" category="inline-link-macro-rx"></block></block>
+  <block id="d0405304bf4b7c3f042b05203316ddd5" category="section-title">FlexGroupリバランシングAPI</block>
+  <block id="90f7c93b8d9614f0fd7cc2ee87f199c1" category="paragraph">BlueXP  ワークロード工場では、FlexGroupリバランシングAPIがリリースされています。このAPIを使用すると、FlexGroup内のデータをリバランシングするプランを実行できます。リバランシングを実行すると、メンバーボリュームにデータが均等に再配分されます。</block>
+  <block id="1a256f86b88647f213e637c9cab0ed8b" category="inline-link-macro">BlueXP  ワークロードファクトリAPIドキュメント</block>
+  <block id="9f2e2c38a7baafe56307fced13716496" category="paragraph"><block ref="9f2e2c38a7baafe56307fced13716496" category="inline-link-macro-rx"></block></block>
+  <block id="40f45c6ac2dbe2255c8ef062d007653f" category="section-title">データの複製フォームにはユースケースが含まれる</block>
+  <block id="d3a1df9d08a100116ee8f443f56f895d" category="paragraph">データの複製フォームには、フォームへの入力を容易にするためのユースケースが含まれるようになりました。データレプリケーションのユースケースとして、移行、ホットディザスタリカバリ、コールドディザスタリカバリ、アーカイブなどのいずれかを選択します。ユースケースを選択したあと、Workload Factoryではベストプラクティスに従った値が推奨されます。事前選択された値を受け入れるか、フォームの値をカスタマイズできます。</block>
+  <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">データのレプリケート</block>
+  <block id="0c09136cc5ea602bb57eff7c2432239d" category="paragraph"><block ref="0c09136cc5ea602bb57eff7c2432239d" category="inline-link-macro-rx"></block></block>
+  <block id="9425459482ebc84a43dc550767dd3e0f" category="section-title">データ階層化ポリシーの用語の変更</block>
+  <block id="ac41e4be5fb8d94814ca592ccb928b7c" category="paragraph">ボリュームの作成時、データレプリケーション時、または既存の階層化ポリシーの更新時に階層化ポリシーを選択すると、階層化ポリシーを表す新しい用語が追加されます。</block>
+  <block id="1680d9abb7a22a23c44b7a4b6381f160" category="list-text">バランス（自動）_</block>
+  <block id="ba8ad03a370d66806f12b2e607ea29c7" category="list-text">_コスト最適化（すべて）_</block>
+  <block id="c9c6a4f8a60589f93e4860841bc03333" category="list-text">_パフォーマンスを最適化（Snapshotのみ）_</block>
 </blocks>
