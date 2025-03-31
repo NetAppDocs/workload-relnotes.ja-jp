@@ -1,0 +1,41 @@
+= ファイル形式のサポートの強化
+:allow-uri-read: 
+
+
+
+
+=== ファイル形式のサポートの強化
+
+このリリースの 生成AIでは、データソースからファイルを取り込む際のJSONおよびJSONPファイル形式のサポートが導入されて `.json`います。ネストされたオブジェクトを含むJSONファイルがサポートされますが、ネストされた配列はサポートされません。
+
+link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["サポートされるデータソースファイル形式"]
+
+
+
+=== 外部チャットボットサンプルアプリケーションの国際化サポート
+
+生成AIサンプル外部チャットボットアプリケーションのユーザーインターフェイスを別の言語やロケールに簡単に変更できるようになりました。
+
+link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/AI/GenAI-ChatBot-application-sample#netapp-workload-factory-genai-sample-application["生成AI外部サンプルチャットボットアプリケーション"]
+
+
+
+=== Anthropic Claude Sonnet 3.7チャットモデルのサポート
+
+生成AIでは、Anthropic Claude 3.7 Sonnetチャットモデルがサポートされるようになりました。Claude 3.7 Sonnetのベータ機能は、要求ごとに最大128Kの出力トークンを可能にし、新しいコンピュータの使用アクションをサポートします。Claude 3.7 Sonnet拡張思考モードは、将来の 生成AIリリースでサポートされる予定です。
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["生成AIナレッジベースの作成"]
+
+
+
+=== 汎用NFS / SMB共有からのデータソースの追加のサポート
+
+ワークロードファクトリAPIを使用して、一般的なNFSv3、NFSv4、またはSMB共有からデータソースを追加できるようになりました。NFS共有またはSMB共有からデータソースを追加しても、ナレッジベースボリュームはAmazon FSx for NetApp ONTAPボリュームに残ります。この機能は、ワークロードファクトリのWeb UIで今後のリリースでサポートされる予定です。
+
+
+
+=== vPCピアリングのサポート
+
+同じリージョンにあるに 生成AIインフラを導入し、同じAWSアカウントを使用できるようになりましlink:https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html["ピア関係にある仮想プライベートクラウド（VPC）"^]た。AIエンジンをVPCに導入してから、ピアVPCにナレッジベースを作成し、ピアVPCにあるAmazon FSx for NetApp ONTAPファイルシステムを選択できます。
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["生成AIナレッジベースの作成"]

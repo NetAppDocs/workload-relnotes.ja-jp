@@ -35,12 +35,8 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">BlueXP  ワークロードファクトリにおける最近の変更</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">このリリースノートでは、BlueXP  ワークロードファクトリに含まれるクラウドサービスに対する最近の機能拡張について説明します。</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  ワークロード工場出荷時のリリースノート</block>
-  <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024年12月1日</block>
   <block id="1d194f6c398ca78aaffd8c430203e1ec" category="doc">Amazon EC2 Migration Advisorの機能強化</block>
   <block id="1e5e06dbbf4cb0bb655126bc90757161" category="paragraph">今回リリースされたVMware向けBlueXP  ワークロードファクトリでは、Migration Advisorのエクスペリエンスが次のように改善されています。</block>
-  <block id="80384840ba856b44e35be4918f28a26b" category="list-text">*データ収集*: BlueXP  Workload Factory for VMwareでは、Migration Advisorを使用する際に特定の期間のデータ収集機能をサポートしています。</block>
-  <block id="2e47bf0e10f6acdee08b3889dc872c4c" category="list-text">* VMの選択*：BlueXP  Workload Factory for VMwareでは、移行環境に含めるVMの選択がサポートされるようになりました。</block>
-  <block id="3f4f1b85f4effee9c5e9ae9034f0e684" category="list-text">*クイックエクスペリエンスと高度なエクスペリエンス*：Migration Advisorを使用すると、RVtoolsを使用したクイックマイグレーションエクスペリエンスまたはMigration Advisorデータコレクタを使用した高度なエクスペリエンスを選択できるようになりました。</block>
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP  ワークロードファクトリ</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
   <block id="065531f581a60b79025f539bd1ff1cff" category="section-title">2025年1月5日</block>
@@ -60,18 +56,6 @@
   <block id="fd3039d7fbe9d24b3141aca3c62383a2" category="section-title">オーバープロビジョニングされたMicrosoft SQL Serverライセンスの評価と最適化</block>
   <block id="f90a806c02db45741274868bc065ab90" category="paragraph">コスト削減試算ツールで、Microsoft SQL Server環境にEnterprise Editionが必要かどうかを評価できるようになりました。ライセンスがオーバープロビジョニングされている場合は、ダウングレードすることを推奨します。アプリケーションを最適化することで、データベースのライセンスを自動的にダウングレードできます。</block>
   <block id="c5e3fb9d31cd8a0b458ca9e3c4a690f6" category="section-title">2025年1月6日</block>
-  <block id="a117d99fd0597e840921767ec50fe791" category="doc">カスタムSnapshot名</block>
-  <block id="34df51ccce053f8aef051fe069f6004a" category="paragraph">アドホックスナップショットのスナップショット名を指定できるようになりました。</block>
-  <block id="af467f026dd1b56c8564e770bf39737f" category="inline-link-macro">スナップショットでナレッジベースを保護</block>
-  <block id="2cbaa1be80e354895c4d9e497cad82ad" category="paragraph"><block ref="2cbaa1be80e354895c4d9e497cad82ad" category="inline-link-macro-rx"></block></block>
-  <block id="63713d130d6ced83e06b8a2f84ca4236" category="section-title">カスタムAIエンジンインスタンス名</block>
-  <block id="5a22f1756638135653917db715aeec43" category="paragraph">導入時にAIエンジンインスタンスにカスタム名を付けることができるようになりました。</block>
-  <block id="e379b913896cf9bdd4e2d6717212215a" category="inline-link-macro">生成AIインフラの導入</block>
-  <block id="c3e29d6f9db8b5f89b548e4659ce60ad" category="paragraph"><block ref="c3e29d6f9db8b5f89b548e4659ce60ad" category="inline-link-macro-rx"></block></block>
-  <block id="cc78f676d3193b6273b428bb17c26dd7" category="section-title">破損または欠落している 生成AIインフラの再構築</block>
-  <block id="1691fa3a19bfaa3082dd2f6e01934960" category="paragraph">AIエンジンインスタンスが破損したり、何らかの理由で削除されたりした場合は、ワークロードファクトリに再構築を依頼できます。ワークロードファクトリは、再構築が完了した後、ナレッジベースをインフラストラクチャに自動的に再接続して、すぐに使用できるようにします。</block>
-  <block id="231cf4c70d866b616c21baddaeed0696" category="inline-link-macro">トラブルシューティング</block>
-  <block id="b23e4d787bd591292c1d5f10247e0e53" category="paragraph"><block ref="b23e4d787bd591292c1d5f10247e0e53" category="inline-link-macro-rx"></block></block>
   <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">*移行計画を保存またはダウンロードする*:これで、移行計画を保存またはダウンロードし、移行計画をロードして移行アドバイザに取り込むことができます。移行計画を保存すると、その計画はワークロードファクトリアカウントに保存されます。</block>
   <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">*仮想マシン選択の改善*：VMware向けBlueXP  ワークロードファクトリでは、移行環境に含める仮想マシンのリストのフィルタリングと検索がサポートされるようになりました。</block>
   <block id="f2398fe4ddb880ba6c52b376ef9b960c" category="list-text"><block ref="f2398fe4ddb880ba6c52b376ef9b960c" category="inline-link-macro-rx"></block></block>
@@ -219,4 +203,20 @@
   <block id="1680d9abb7a22a23c44b7a4b6381f160" category="list-text">バランス（自動）_</block>
   <block id="ba8ad03a370d66806f12b2e607ea29c7" category="list-text">_コスト最適化（すべて）_</block>
   <block id="c9c6a4f8a60589f93e4860841bc03333" category="list-text">_パフォーマンスを最適化（Snapshotのみ）_</block>
+  <block id="f3a4976ab2464242211263cea7e247f9" category="paragraph">このリリースの 生成AIでは、データソースからファイルを取り込む際のJSONおよびJSONPファイル形式のサポートが導入されて<block ref="cc8f0c0e5a5cef9b33f236a0a9c19ca0" prefix=" " category="inline-code"></block>います。ネストされたオブジェクトを含むJSONファイルがサポートされますが、ネストされた配列はサポートされません。</block>
+  <block id="0a8f6f086d5f30a416a61fd3606f1025" category="section-title">外部チャットボットサンプルアプリケーションの国際化サポート</block>
+  <block id="a2f4023c744ab1521036ee54ec2e15ba" category="paragraph">生成AIサンプル外部チャットボットアプリケーションのユーザーインターフェイスを別の言語やロケールに簡単に変更できるようになりました。</block>
+  <block id="5b8a8facbec8623a03d7cae8b62bfeb7" category="inline-link-macro">生成AI外部サンプルチャットボットアプリケーション</block>
+  <block id="4d79fade08f1e8c2d92bbdf0e3237924" category="paragraph"><block ref="4d79fade08f1e8c2d92bbdf0e3237924" category="inline-link-macro-rx"></block></block>
+  <block id="26ea891fa4f63d071728537d886e0f6c" category="section-title">Anthropic Claude Sonnet 3.7チャットモデルのサポート</block>
+  <block id="4c58515c1bd9657f223b7731d306475c" category="paragraph">生成AIでは、Anthropic Claude 3.7 Sonnetチャットモデルがサポートされるようになりました。Claude 3.7 Sonnetのベータ機能は、要求ごとに最大128Kの出力トークンを可能にし、新しいコンピュータの使用アクションをサポートします。Claude 3.7 Sonnet拡張思考モードは、将来の 生成AIリリースでサポートされる予定です。</block>
+  <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">生成AIナレッジベースの作成</block>
+  <block id="fe72cb2aff5f7bf6138e806921c5d3d6" category="paragraph"><block ref="fe72cb2aff5f7bf6138e806921c5d3d6" category="inline-link-macro-rx"></block></block>
+  <block id="40bd8fe426c37e97f38be2c5a2728752" category="section-title">汎用NFS / SMB共有からのデータソースの追加のサポート</block>
+  <block id="1813c42a79840f7d495281cf050a30dc" category="paragraph">ワークロードファクトリAPIを使用して、一般的なNFSv3、NFSv4、またはSMB共有からデータソースを追加できるようになりました。NFS共有またはSMB共有からデータソースを追加しても、ナレッジベースボリュームはAmazon FSx for NetApp ONTAPボリュームに残ります。この機能は、ワークロードファクトリのWeb UIで今後のリリースでサポートされる予定です。</block>
+  <block id="fbc7eedf5c13a549330a0c3f52777db8" category="section-title">vPCピアリングのサポート</block>
+  <block id="52bc46202bc9013e258f32f66b8bf88a" category="inline-link-macro">ピア関係にある仮想プライベートクラウド（VPC）</block>
+  <block id="93dbde0ee04c36dce05b96f3551f8606" category="paragraph">同じリージョンにあるに 生成AIインフラを導入し、同じAWSアカウントを使用できるようになりまし<block ref="f008838004ac43a2c4a5b39672df7daf" category="inline-link-macro-rx"></block>た。AIエンジンをVPCに導入してから、ピアVPCにナレッジベースを作成し、ピアVPCにあるAmazon FSx for NetApp ONTAPファイルシステムを選択できます。</block>
+  <block id="6e62567f7c9b240a118b25fc64f2991f" category="list-text">*ボリューム割り当てガイダンスの強化*：EC2 Migration Advisorの「Classify」および「Package」ステップのボリューム割り当て情報には、読みやすさと操作性が向上しています。各ボリュームについて、より有益な情報が表示されるため、ボリュームの特定や割り当て方法の決定に役立ちます。</block>
+  <block id="5fc07f589f318bbf4f9475dbf3754c9f" category="list-text">*データコレクタスクリプトの効率化*: EC2移行アドバイザのデータコレクタスクリプトは、小規模なVM環境でデータを収集する際のCPU使用率を最適化します。</block>
 </blocks>
