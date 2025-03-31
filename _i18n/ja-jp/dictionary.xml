@@ -80,10 +80,6 @@
   <block id="1691fa3a19bfaa3082dd2f6e01934960" category="paragraph">AIエンジンインスタンスが破損したり、何らかの理由で削除されたりした場合は、ワークロードファクトリに再構築を依頼できます。ワークロードファクトリは、再構築が完了した後、ナレッジベースをインフラストラクチャに自動的に再接続して、すぐに使用できるようにします。</block>
   <block id="231cf4c70d866b616c21baddaeed0696" category="inline-link-macro">トラブルシューティング</block>
   <block id="b23e4d787bd591292c1d5f10247e0e53" category="paragraph"><block ref="b23e4d787bd591292c1d5f10247e0e53" category="inline-link-macro-rx"></block></block>
-  <block id="5baf4417d867f07ce7f16e7810f044d7" category="doc">BlueXP  Workload Factoryでのサービスアカウントのサポート</block>
-  <block id="369af9c9eae8f9673850f588a7ed5272" category="paragraph">BlueXP  ワークロードファクトリでサービスアカウントがサポートされるようになりました。サービスアカウントを作成して、インフラの運用を自動化するマシンユーザとして機能させることができます。</block>
-  <block id="f932d2619edea0dc69b40e9be53abdc4" category="inline-link-macro">サービスアカウントを作成および管理します</block>
-  <block id="3d6080aa10267e8c67d5c76a2bc1a9f3" category="paragraph"><block ref="3d6080aa10267e8c67d5c76a2bc1a9f3" category="inline-link-macro-rx"></block></block>
   <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">*移行計画を保存またはダウンロードする*:これで、移行計画を保存またはダウンロードし、移行計画をロードして移行アドバイザに取り込むことができます。移行計画を保存すると、その計画はワークロードファクトリアカウントに保存されます。</block>
   <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">*仮想マシン選択の改善*：VMware向けBlueXP  ワークロードファクトリでは、移行環境に含める仮想マシンのリストのフィルタリングと検索がサポートされるようになりました。</block>
   <block id="f2398fe4ddb880ba6c52b376ef9b960c" category="list-text"><block ref="f2398fe4ddb880ba6c52b376ef9b960c" category="inline-link-macro-rx"></block></block>
@@ -209,4 +205,9 @@
   <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
   <block id="292e876f4d1d5af73b815913bd3d9b26" category="doc">PostgreSQLの高可用性構成</block>
   <block id="047e8f86b83bb2e8d4c34b1dc560257b" category="paragraph">PostgreSQLサーバにハイアベイラビリティ（HA）構成を導入できるようになりました。</block>
+  <block id="42bc8432872c22cf4fdbb156ae58a17e" category="doc">ONTAP CLIコマンドでAIが生成するエラーが報告される</block>
+  <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">CloudShellを使用している場合、ONTAP CLIコマンドを発行してエラーが発生するたびに、失敗の説明、失敗の原因、詳細な解決策を含むAI生成のエラー応答を取得できます。</block>
+  <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">IAM：SimulatePermissionPolicy権限の更新</block>
+  <block id="906699741ebd9905a07af900abcfd438" category="paragraph">AWSアカウントのクレデンシャルを追加したり、生成AIワークロードなどの新しいワークロード機能を追加したりするときに、ワークロードファクトリコンソールから権限を管理できるようになりまし<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>た。</block>
+  <block id="186057b8c375bff9b600d22bf8686fc5" category="section-title">2025年3月30日</block>
 </blocks>

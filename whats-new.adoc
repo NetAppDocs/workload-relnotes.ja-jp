@@ -15,6 +15,30 @@ BlueXP  ワークロードファクトリに含まれているワークロー�
 
 
 
+== 2025年3月30日
+
+
+
+=== セットアップと管理
+
+
+
+==== ONTAP CLIコマンドでAIが生成するエラーが報告される
+
+CloudShellを使用している場合、ONTAP CLIコマンドを発行してエラーが発生するたびに、失敗の説明、失敗の原因、詳細な解決策を含むAI生成のエラー応答を取得できます。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["CloudShellを使用"]
+
+
+
+==== IAM：SimulatePermissionPolicy権限の更新
+
+AWSアカウントのクレデンシャルを追加したり、生成AIワークロードなどの新しいワークロード機能を追加したりするときに、ワークロードファクトリコンソールから権限を管理できるようになりまし `iam:SimulatePrincipalPolicy`た。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["アクセス権参照変更ログ"]
+
+
+
 == 2025年3月03日
 
 
@@ -446,18 +470,6 @@ link:https://docs.netapp.com/us-en/workload-genai/deploy-infrastructure.html["�
 AIエンジンインスタンスが破損したり、何らかの理由で削除されたりした場合は、ワークロードファクトリに再構築を依頼できます。ワークロードファクトリは、再構築が完了した後、ナレッジベースをインフラストラクチャに自動的に再接続して、すぐに使用できるようにします。
 
 link:https://docs.netapp.com/us-en/workload-genai/troubleshooting.html["トラブルシューティング"]
-
-
-
-=== セットアップと管理
-
-
-
-==== BlueXP  Workload Factoryでのサービスアカウントのサポート
-
-BlueXP  ワークロードファクトリでサービスアカウントがサポートされるようになりました。サービスアカウントを作成して、インフラの運用を自動化するマシンユーザとして機能させることができます。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/manage-service-accounts.html["サービスアカウントを作成および管理します"]
 
 
 
