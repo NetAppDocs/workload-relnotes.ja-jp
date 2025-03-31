@@ -32,6 +32,8 @@ link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["生
 
 ワークロードファクトリAPIを使用して、一般的なNFSv3、NFSv4、またはSMB共有からデータソースを追加できるようになりました。NFS共有またはSMB共有からデータソースを追加しても、ナレッジベースボリュームはAmazon FSx for NetApp ONTAPボリュームに残ります。この機能は、ワークロードファクトリのWeb UIで今後のリリースでサポートされる予定です。
 
+link:https://console.workloads.netapp.com/api-doc["ワークロードファクトリAPIを使用"^]
+
 
 
 === vPCピアリングのサポート
