@@ -221,4 +221,8 @@
   <block id="0fcf305133bffed241e3ea17efbba5fc" category="inline-link-macro">ワークロードファクトリAPIを使用</block>
   <block id="a6efc6ca3aa5af2c7a8cad1239df17c0" category="paragraph"><block ref="a6efc6ca3aa5af2c7a8cad1239df17c0" category="inline-link-macro-rx"></block></block>
   <block id="ef74d01649997b60252254da8a1573fd" category="doc">ONTAP CLIコマンドについて、AIによって生成されたエラー応答がCloudShellで報告される</block>
+  <block id="4992f7a0d7d6ee4776bb87ff9118642c" category="section-title">ファイルシステム作成のセキュリティグループの詳細</block>
+  <block id="b7cc50bb665bb63168fb8d2e9eebaedc" category="paragraph">セキュリティグループは、FSx for ONTAPファイルシステムの作成プロセスの一環として作成されます。セキュリティグループの詳細（プロトコル、ポート、ロールなど）を確認できるようになりました。</block>
+  <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">ファイルシステムの作成</block>
+  <block id="03b2cfc949418819e16b1dc5fa3660ae" category="paragraph"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
 </blocks>

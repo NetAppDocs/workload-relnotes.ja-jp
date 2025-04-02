@@ -36,3 +36,11 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["�
 * _コスト最適化（すべて）_
 * _パフォーマンスを最適化（Snapshotのみ）_
 
+
+
+
+=== ファイルシステム作成のセキュリティグループの詳細
+
+セキュリティグループは、FSx for ONTAPファイルシステムの作成プロセスの一環として作成されます。セキュリティグループの詳細（プロトコル、ポート、ロールなど）を確認できるようになりました。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["ファイルシステムの作成"]
