@@ -82,9 +82,7 @@
   <block id="f191d5f0a123d62966b3617a9d8c752c" category="section-title">データソースのファイル変更日のフィルタリング</block>
   <block id="b1be3e2e5ab05373dbf3927507ea84d2" category="paragraph">生成AIでは、データソースの追加時に変更日によってデータソーススキャンに含めるファイルのフィルタリングがサポートされるようになりました。インクルードされるファイルの変更日の範囲を選択できます。</block>
   <block id="7a7ba68ff13813a8c9d7413b67a91e34" category="section-title">画像ファイルのサポートとPDFファイルのサポートの強化</block>
-  <block id="02edd7a4065e5f73535b550150fc46f2" category="paragraph">生成AIでは、画像ファイルおよびPDFファイル内の画像のスキャンがサポートされるようになりました（マルチモーダルファイルサポートとも呼ばれます）。画像ファイルを選択すると、画像のテキストがデータソースにスキャンされ、データとして使用されます。この機能には、PDFドキュメント内の画像が含まれます。PDFファイルタイプを含めると、各PDF内の画像でテキストがスキャンされ、そのテキストがデータソースの情報に含まれます。</block>
   <block id="b9a5ff8382cbb9f5609b8bff25344245" category="section-title">ハイブリッド検索と再検索のサポート</block>
-  <block id="429b63d212adaceb6de8dae934d76ea4" category="paragraph">生成AIでは、ハイブリッド検索を使用して検索結果の関連性を高め、結果の順位を変更できるようになりました。ハイブリッド検索は、キーワード検索とベクトル検索およびセマンティック検索を組み合わせたものです。標準的なキーワード検索結果は、近い一致と言語的なニュアンスで強化され、関連性が向上します。生成AIは検索結果を再ランク付けし、関連性が最も高い結果のみを返します。</block>
   <block id="77c129bd3271a24d7bdf27f4904c52f4" category="inline-link-macro">生成AI向けBlueXP  ワークロードファクトリの詳細</block>
   <block id="397adcec169a6ce17f0abfc941258c0f" category="paragraph"><block ref="397adcec169a6ce17f0abfc941258c0f" category="inline-link-macro-rx"></block></block>
   <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">2025年02月02日</block>
@@ -168,7 +166,6 @@
   <block id="cb1c6d98111a4dc0f10d1914aabf97ff" category="paragraph">このリリースの 生成AIでは、ファイルサポートが強化されています。</block>
   <block id="20fae993429f53ad24302c4bea3332d1" category="list-text">チャットモデル機能CSVサポートが改善されました。これにより、CSVファイルからデータを照会するときに、より便利な応答が可能になります。</block>
   <block id="820ddf0d1fd0a9cf5aaea49d2b400838" category="list-text">生成AIは、データソースからApache Parquetファイルを取り込むことができるようになりました。</block>
-  <block id="ce2ed264c43f0733c7c1ccbd1b06fdab" category="list-text">生成AIでは、画像を含むMicrosoft Word DOCXファイルの取り込みがサポートされるようになりました。</block>
   <block id="939bf2b00dbe77d4a65f4d265a755136" category="inline-link-macro">サポートされるデータソースファイル形式</block>
   <block id="9e64c0f3360c80d2707e71b213c5fc58" category="paragraph"><block ref="9e64c0f3360c80d2707e71b213c5fc58" category="inline-link-macro-rx"></block></block>
   <block id="cec87a8931004e5402a3f18575682723" category="paragraph">このリリースのVMware向けBlueXP  ワークロードファクトリでは、Amazon EC2 Migration Advisorのエクスペリエンスが次のように改善されています。</block>
@@ -225,4 +222,7 @@
   <block id="b7cc50bb665bb63168fb8d2e9eebaedc" category="paragraph">セキュリティグループは、FSx for ONTAPファイルシステムの作成プロセスの一環として作成されます。セキュリティグループの詳細（プロトコル、ポート、ロールなど）を確認できるようになりました。</block>
   <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">ファイルシステムの作成</block>
   <block id="03b2cfc949418819e16b1dc5fa3660ae" category="paragraph"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
+  <block id="fdd252a657eafa925fe82da2c74ab41c" category="paragraph">生成AIでは、画像やグラフの説明、ドキュメントテキストからのインサイトを使用してナレッジベースのクエリへの応答を強化できるようになり、より豊かで高品質な回答が得られるようになりました。生成AIでは、PDFファイル内の画像ファイルおよび画像をスキャンできるようになりました（マルチモーダルファイルサポートとも呼ばれます）。画像またはPDFファイルのスキャンを選択した場合は、画像のテキスト（PDFドキュメントに埋め込まれた画像を含む）がデータソースにスキャンされ、スキャンからのインサイトがナレッジベースのクエリへの応答に含まれます。</block>
+  <block id="603e61783fa33cd04788f143e949760c" category="paragraph">生成AIでは、ハイブリッド検索を使用して結果をリランク付けすることで、検索結果の関連性と精度を大幅に向上させることができます。ハイブリッド検索は、従来のキーワードベース検索の強みと高度な高密度ベクトルベースのセマンティック検索技術を組み合わせたものです。標準的なキーワード検索結果は、近い一致と言語的なニュアンスで強化され、関連性が向上します。その後、生成AIはCohere RerankやAmazon Rerankなどの高度なリランキングモデルを使用してこれらの結果をさらに絞り込み、最も関連性の高い結果を返します。この機能は、新しく作成されたナレッジベースで使用できます。</block>
+  <block id="7c6f7e444c5d96b670cdcd189e2ee43a" category="list-text">生成AIでは、画像を含むMicrosoft Word DOCXファイルの取り込みがサポートされるようになりました。DOCXドキュメント内に埋め込まれた画像がスキャンされ、埋め込まれた画像からのテキストインサイトがナレッジベースのクエリへの応答に含まれます。</block>
 </blocks>
