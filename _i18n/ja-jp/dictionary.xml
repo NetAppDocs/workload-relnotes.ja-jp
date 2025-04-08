@@ -28,9 +28,6 @@
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMwareワークロード</block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">移行アドバイザを使用してAmazon EC2の導入計画を作成</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
-  <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">データベースワークロード向けFSx for ONTAPによるコスト削減額をご確認ください</block>
-  <block id="5d743e351f2bc0b96d19c12d46be8be2" category="inline-link-macro">SQL Serverワークロードを最適化</block>
-  <block id="72d1af9ffdd277a1cf7789b588da9b4d" category="paragraph"><block ref="72d1af9ffdd277a1cf7789b588da9b4d" category="inline-link-macro-rx"></block></block>
   <block id="d2705530e45ff55c7a7db4a1196a8b0d" category="summary">BlueXP  ワークロードファクトリに含まれているワークロードに対する最新の変更について説明します。</block>
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">BlueXP  ワークロードファクトリにおける最近の変更</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">このリリースノートでは、BlueXP  ワークロードファクトリに含まれるクラウドサービスに対する最近の機能拡張について説明します。</block>
@@ -40,25 +37,8 @@
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP  ワークロードファクトリ</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
   <block id="065531f581a60b79025f539bd1ff1cff" category="section-title">2025年1月5日</block>
-  <block id="f418f614e126c9d215de85f00b5b7a7e" category="doc">データベースダッシュボードの機能拡張</block>
-  <block id="c18a3eee23770f4e57bfa9ffe245c428" category="paragraph">ダッシュボードの新しい設計には、次のグラフィックと機能拡張が含まれています。</block>
-  <block id="47ecffc6ee3a1f9bca5a81d55169b8b6" category="list-text">ホスト分散グラフには、Microsoft SQL ServerホストとPostgreSQLホストの数が表示されます。</block>
-  <block id="ec506ecd03b96cac2e19d3abac7aa16e" category="list-text">インスタンス分散の詳細には、検出されたインスタンスの総数、管理対象のMicrosoft SQL ServerおよびPostgreSQLインスタンスの数が含まれます。</block>
-  <block id="9bb5ee528a11ed94b071f88a078be55e" category="list-text">データベース配布の詳細には、データベースの総数、管理対象のMicrosoft SQL ServerおよびPostgreSQLデータベースの数が含まれます。</block>
-  <block id="01fe24ee345a62672acb8a16826117d0" category="list-text">管理対象インスタンスとオンラインインスタンスの最適化スコアとステータス</block>
-  <block id="341934677d47967f5c6e737476247396" category="list-text">ストレージ、コンピューティング、アプリケーションのカテゴリの最適化の詳細</block>
-  <block id="fb2f60a13243e168f321a9de2af52d51" category="list-text">Microsoft SQL Serverインスタンス構成の最適化の詳細（ストレージサイジング、ストレージレイアウト、ONTAPストレージ、コンピューティング、アプリケーションなど）</block>
-  <block id="18168aa68b74c030711fe95b2b74afac" category="list-text">Amazon Elastic Block StoreおよびFSx for Windowsファイルサーバストレージ環境で実行されるデータベースワークロードについて、Amazon FSx for NetApp ONTAPストレージと比較して削減可能</block>
-  <block id="1886db6545ee593b7bf9014a318fd354" category="section-title">ジョブ監視の新しい「問題ありで完了」ステータス</block>
-  <block id="ddd4a54acb0820f07017dcad26528779" category="paragraph">データベースのジョブ監視機能で、新しい「問題ありで完了」ステータスが提供されるようになりました。これにより、問題が発生したサブジョブと問題の内容を確認できます。</block>
-  <block id="c72aad21ecf48b0a4f27430d70c166da" category="inline-link-macro">データベースの監視</block>
-  <block id="5c89f4f6af1a71c2ed6cfac605e94c16" category="paragraph"><block ref="5c89f4f6af1a71c2ed6cfac605e94c16" category="inline-link-macro-rx"></block></block>
-  <block id="fd3039d7fbe9d24b3141aca3c62383a2" category="section-title">オーバープロビジョニングされたMicrosoft SQL Serverライセンスの評価と最適化</block>
-  <block id="f90a806c02db45741274868bc065ab90" category="paragraph">コスト削減試算ツールで、Microsoft SQL Server環境にEnterprise Editionが必要かどうかを評価できるようになりました。ライセンスがオーバープロビジョニングされている場合は、ダウングレードすることを推奨します。アプリケーションを最適化することで、データベースのライセンスを自動的にダウングレードできます。</block>
-  <block id="c5e3fb9d31cd8a0b458ca9e3c4a690f6" category="section-title">2025年1月6日</block>
   <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">*移行計画を保存またはダウンロードする*:これで、移行計画を保存またはダウンロードし、移行計画をロードして移行アドバイザに取り込むことができます。移行計画を保存すると、その計画はワークロードファクトリアカウントに保存されます。</block>
   <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">*仮想マシン選択の改善*：VMware向けBlueXP  ワークロードファクトリでは、移行環境に含める仮想マシンのリストのフィルタリングと検索がサポートされるようになりました。</block>
-  <block id="f2398fe4ddb880ba6c52b376ef9b960c" category="list-text"><block ref="f2398fe4ddb880ba6c52b376ef9b960c" category="inline-link-macro-rx"></block></block>
   <block id="ca475a2b63c70fedcf8f6650024d480b" category="doc">BlueXP  ワークロードの工場出荷時の権限</block>
   <block id="5291909ce92037a20a37f7a0c86dd921" category="paragraph">ストレージ環境の検出から、ストレージ内のファイルシステムや 生成AIワークロードのナレッジベースなどのAWSリソースの導入まで、BlueXP  ワークロードファクトリでさまざまな処理を実行するために使用される権限を確認できるようになりました。ストレージ、データベース、VMware、生成AIの各ワークロードのIAMポリシーと権限を表示できます。</block>
   <block id="f157db6a1ae10e7a29a28440d21f5cb8" category="paragraph"><block ref="f157db6a1ae10e7a29a28440d21f5cb8" category="inline-link-macro-rx"></block></block>
@@ -225,4 +205,23 @@
   <block id="fdd252a657eafa925fe82da2c74ab41c" category="paragraph">生成AIでは、画像やグラフの説明、ドキュメントテキストからのインサイトを使用してナレッジベースのクエリへの応答を強化できるようになり、より豊かで高品質な回答が得られるようになりました。生成AIでは、PDFファイル内の画像ファイルおよび画像をスキャンできるようになりました（マルチモーダルファイルサポートとも呼ばれます）。画像またはPDFファイルのスキャンを選択した場合は、画像のテキスト（PDFドキュメントに埋め込まれた画像を含む）がデータソースにスキャンされ、スキャンからのインサイトがナレッジベースのクエリへの応答に含まれます。</block>
   <block id="603e61783fa33cd04788f143e949760c" category="paragraph">生成AIでは、ハイブリッド検索を使用して結果をリランク付けすることで、検索結果の関連性と精度を大幅に向上させることができます。ハイブリッド検索は、従来のキーワードベース検索の強みと高度な高密度ベクトルベースのセマンティック検索技術を組み合わせたものです。標準的なキーワード検索結果は、近い一致と言語的なニュアンスで強化され、関連性が向上します。その後、生成AIはCohere RerankやAmazon Rerankなどの高度なリランキングモデルを使用してこれらの結果をさらに絞り込み、最も関連性の高い結果を返します。この機能は、新しく作成されたナレッジベースで使用できます。</block>
   <block id="7c6f7e444c5d96b670cdcd189e2ee43a" category="list-text">生成AIでは、画像を含むMicrosoft Word DOCXファイルの取り込みがサポートされるようになりました。DOCXドキュメント内に埋め込まれた画像がスキャンされ、埋め込まれた画像からのテキストインサイトがナレッジベースのクエリへの応答に含まれます。</block>
+  <block id="8bb788607f31f673e25d0ba34b09a14d" category="doc">最適化の機能拡張</block>
+  <block id="7e9a755c644cbdbaab2927671606cf89" category="paragraph">データベース環境を最適化する際に、新しい最適化評価、修正、複数のリソースの表示を利用できます。</block>
+  <block id="3cde2cfbcdbdd79a3c1d3d6b547ab80d" category="section-title">耐障害性の評価</block>
+  <block id="218733e992141498b68631094f232446" category="paragraph">強化された機能には、データベース環境に対してデータの冗長性とディザスタリカバリ機能が設定されているかどうかをチェックするための新しい耐障害性評価が含まれています。</block>
+  <block id="a8b36cbcd13facdcd526df9ca0c4aba5" category="list-text">FSx for ONTAPバックアップ：SQL Serverインスタンスのボリュームを提供するFSx for ONTAPファイルシステムが、定期的なFSx for ONTAPバックアップで設定されているかどうかを分析します。</block>
+  <block id="3ddd695d01877806196cb9bc8be009da" category="list-text">リージョン間レプリケーション：Microsoft SQL Serverインスタンスを提供するFSx for ONTAPファイルシステムでリージョン間レプリケーションが設定されているかどうかを評価します。</block>
+  <block id="233f3c54635152d78b375495cd0b5580" category="section-title">コンピューティングの修正</block>
+  <block id="c4b982d56748631e5cf80fe05312f901" category="paragraph">受信側スケーリング（RSS）修正は、ネットワーク処理を複数のプロセッサに分散し、効率的な負荷分散を確保するようにRSSを構成します。</block>
+  <block id="9ed609dc6760dae060dbad52b3aa2d42" category="section-title">ローカルSnapshotの修正</block>
+  <block id="229b55b063b8208ec58911841f6bad18" category="paragraph">ローカルSnapshotの修正では、データ損失が発生した場合にデータベース環境の耐障害性を維持するために、Microsoft SQL ServerインスタンスのボリュームのSnapshotポリシーを設定します。</block>
+  <block id="14684cd0a52a7f7301e2400ff9ce8c16" category="section-title">複数リソース選択のサポート</block>
+  <block id="909e5b19987da9dd66e288802ac9729e" category="paragraph">データベース設定を最適化する際に、すべてのリソースではなく特定のリソースを選択できるようになりました。</block>
+  <block id="d36362545a72cd1eef4186ca8a99dca1" category="section-title">インベントリビューの改善</block>
+  <block id="9f3b67d6f0d3de869a895be1df755a3b" category="paragraph">ワークロードファクトリコンソールの[Inventory]タブは合理化され、Amazon FSx for NetApp ONTAPで実行されるSQLサーバのみが含まれるようになりました。SQLサーバーはオンプレミスで、Amazon Elastic Block StoreとAmazon FSx for Windows File Serverで稼働しています。</block>
+  <block id="b66e93ffc0672f74db831d8f9d81fdba" category="section-title">PostgreSQLサーバー展開で利用可能なクイック作成</block>
+  <block id="f7d019f8da84eee0771921896cbb0cd5" category="paragraph">この迅速な導入オプションを使用すると、HA構成とベストプラクティスが組み込まれたPostgreSQLサーバを作成できます。</block>
+  <block id="c4f70f11159098cce8873623bffb07aa" category="inline-link-macro">BlueXP  ワークロードファクトリでPostgreSQLサーバを作成する</block>
+  <block id="5963667f9fe01282fae9030cccbd24a3" category="paragraph"><block ref="5963667f9fe01282fae9030cccbd24a3" category="inline-link-macro-rx"></block></block>
+  <block id="813bb11b4f90c862c2b7c2d35cc082ff" category="section-title">2025年4月04日</block>
 </blocks>

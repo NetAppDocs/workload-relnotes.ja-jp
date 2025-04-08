@@ -1,0 +1,55 @@
+= 最適化の機能拡張
+:allow-uri-read: 
+
+
+
+
+=== 最適化の機能拡張
+
+データベース環境を最適化する際に、新しい最適化評価、修正、複数のリソースの表示を利用できます。
+
+
+
+==== 耐障害性の評価
+
+強化された機能には、データベース環境に対してデータの冗長性とディザスタリカバリ機能が設定されているかどうかをチェックするための新しい耐障害性評価が含まれています。
+
+* FSx for ONTAPバックアップ：SQL Serverインスタンスのボリュームを提供するFSx for ONTAPファイルシステムが、定期的なFSx for ONTAPバックアップで設定されているかどうかを分析します。
+* リージョン間レプリケーション：Microsoft SQL Serverインスタンスを提供するFSx for ONTAPファイルシステムでリージョン間レプリケーションが設定されているかどうかを評価します。
+
+
+
+
+==== コンピューティングの修正
+
+受信側スケーリング（RSS）修正は、ネットワーク処理を複数のプロセッサに分散し、効率的な負荷分散を確保するようにRSSを構成します。
+
+
+
+==== ローカルSnapshotの修正
+
+ローカルSnapshotの修正では、データ損失が発生した場合にデータベース環境の耐障害性を維持するために、Microsoft SQL ServerインスタンスのボリュームのSnapshotポリシーを設定します。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["構成を最適化"]
+
+
+
+==== 複数リソース選択のサポート
+
+データベース設定を最適化する際に、すべてのリソースではなく特定のリソースを選択できるようになりました。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["構成を最適化"]
+
+
+
+=== インベントリビューの改善
+
+ワークロードファクトリコンソールの[Inventory]タブは合理化され、Amazon FSx for NetApp ONTAPで実行されるSQLサーバのみが含まれるようになりました。SQLサーバーはオンプレミスで、Amazon Elastic Block StoreとAmazon FSx for Windows File Serverで稼働しています。
+
+
+
+=== PostgreSQLサーバー展開で利用可能なクイック作成
+
+この迅速な導入オプションを使用すると、HA構成とベストプラクティスが組み込まれたPostgreSQLサーバを作成できます。
+
+link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["BlueXP  ワークロードファクトリでPostgreSQLサーバを作成する"]
