@@ -8,7 +8,7 @@
 
 このリリースの 生成AIでは、データソースからファイルを取り込む際のJSONおよびJSONPファイル形式のサポートが導入されて `.json`います。ネストされたオブジェクトを含むJSONファイルがサポートされますが、ネストされた配列はサポートされません。
 
-link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["サポートされるデータソースファイル形式"]
+link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["サポートされるデータソースファイル形式"]
 
 
 
