@@ -15,6 +15,262 @@ BlueXP  ワークロードファクトリに含まれているワークロー�
 
 
 
+== 2025年5月04日
+
+
+
+=== NetApp ONTAP 対応の Amazon FSX
+
+
+
+==== FSx for ONTAPファイルシステム向け自律型ランサムウェア対策
+
+自律型ランサムウェア対策（ARP）でデータを保護：NAS（NFS / SMB）環境でワークロードを分析し、ランサムウェア攻撃の可能性がある異常なアクティビティを検出して警告する機能です。攻撃が疑われると、ARPは変更不可能な新しいスナップショットも作成し、そこからデータを復元できます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["自律型ランサムウェア対策でデータを保護"]
+
+
+
+==== FlexGroupボリュームのリバランシングの強化
+
+BlueXP  ワークロード工場出荷時に導入されたFlexGroupボリュームリバランシングウィザードには、FlexGroupボリューム内のデータをリバランシングするためのいくつかのレイアウトオプションが用意されています。リバランシングを実行すると、FlexGroupメンバーボリュームにデータが均等に再配分されます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/rebalance-volume.html["FlexGroupボリューム内の容量のリバランシング"]
+
+
+
+==== FSx for ONTAPファイルシステムのベストプラクティスを実装
+
+BlueXP  ワークロードファクトリには、ファイルシステム構成の適切な設計ステータスを確認できるダッシュボードが用意されています。この分析を活用して、FSx for ONTAPファイルシステムのベストプラクティスを実装できます。ファイルシステム構成の分析には、SSD容量のしきい値、スケジュールされたローカルスナップショット、FSx for ONTAPのスケジュールされたバックアップ、データ階層化、リモートデータレプリケーションなどの構成が含まれます。
+
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/configuration-analysis.html["ファイルシステム構成の適切に設計された分析をご紹介します"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["ファイルシステムのベストプラクティスの実装"]
+
+
+
+
+==== デュアルプロトコルボリュームのセキュリティ形式のオプション
+
+ボリュームのセキュリティ形式としてNTFSまたはUNIXを選択して、ユーザや権限がボリュームにアクセスする方法を決定できます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["ボリュームの作成"]
+
+
+
+==== レプリケーションの機能拡張
+
+
+
+===== FSx for ONTAPからオンプレミスへのリバースレプリケーションをサポート
+
+FSx for ONTAPファイルシステムからオンプレミスのONTAPクラスタへのリバースレプリケーションを、ワークロードファクトリコンソールから利用できるようになりました。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/reverse-replication.html["リバースレプリケーション"]
+
+
+
+===== データ保護ボリュームのレプリケーション
+
+データ保護ボリュームをレプリケートできるようになりました。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/cascade-replication.html["データ保護ボリュームをレプリケートする"]
+
+
+
+===== 複数ボリュームの選択
+
+複数のボリュームを選択できるため、レプリケートするボリュームを正確に選択できます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["レプリケーション関係を作成する"]
+
+
+
+===== 長期保持ポリシーのラベル
+
+レプリケーション関係に対して長期保持を有効にする場合は、ソースボリュームとターゲットボリュームのラベルが完全に一致している必要があります。BlueXP  ワークロードファクトリで、欠落しているソースボリュームラベルが自動的に作成されるようになりました。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["レプリケーション関係を作成する"]
+
+
+
+==== FSx for ONTAPのファイル名がボリューム作成時に表示される
+
+FSx for ONTAPファイルシステムのボリューム作成時の可視性が向上しました。ボリュームを作成するとFSx for ONTAPファイルシステムが表示されるため、ボリュームが作成されている場所を正確に把握できます。
+
+
+
+==== ストレージワークロード全体でAWSアカウントを認識
+
+ストレージワークロード全体のアカウントの可視性が向上しました。AWSアカウントは、*[ボリューム]*、*[Storage VM]*、*[レプリケーション]*の各タブに移動すると表示されます。
+
+
+
+==== リンクアソシエーションの機能拡張
+
+* FSx for ONTAPファイルシステムからのリンクは、[インベントリ]タブで簡単に関連付けることができます。
+* BlueXP  ワークロードファクトリでは、リンクの関連付けに代替ONTAPユーザクレデンシャルの使用がサポートされるようになりました。
+
+
+
+
+==== AWS Secrets Managerのリンク認証のサポート
+
+AWS Secrets Managerのシークレットを使用してリンクを認証できるようになり、BlueXP  ワークロードファクトリに保存されているクレデンシャルを使用する必要がなくなりました。
+
+
+
+==== トラッカー応答サポート
+
+TrackerでAPI応答が返されるようになり、タスクに関連するREST API出力を確認できるようになりました。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["Trackerを使用した操作の監視"]
+
+
+
+==== バックアップからボリュームをリストアする際の容量の検証
+
+バックアップからボリュームをリストアする場合、BlueXP  ワークロードの工場出荷時にリストアに十分な容量があるかどうかが確認され、十分でない場合はSSDストレージ階層の容量が自動的に追加されます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/restore-from-backup.html["バックアップからボリュームをリストアする"]
+
+
+
+==== 代替ONTAPユーザクレデンシャルのサポート
+
+Workload Factoryでは、ファイルシステムを作成するためのONTAPクレデンシャルの代替セットがサポートされるようになりました。fsxadminユーザだけを使用する代わりに、別のONTAPクレデンシャルのセットを選択するか、fsxadminユーザとvsaadminユーザのパスワードを指定しないように選択できます。
+
+
+
+==== 権限に関する用語を更新
+
+ワークロードファクトリのユーザインターフェイスとドキュメントでは、読み取り権限を「読み取り専用」に、自動権限を「読み取り/書き込み」に指定するようになりました。
+
+
+
+=== データベースワークロード
+
+
+
+==== ダッシュボードの機能拡張
+
+* BlueXP  ワークロードファクトリコンソールのタブ間を移動すると、アカウント間ビューとリージョン間ビューを使用できます。新しいビューは、リソースの管理、監視、最適化を改善します。
+* ダッシュボードの* Potential Savings *タイルから、Amazon Elastic Block StoreまたはAmazon FSx for WindowsファイルサーバからFSx for ONTAPに切り替えることで、削減可能なコストをすばやく確認できます。
+
+
+
+
+==== データベース構成で使用可能なアドホックスキャン
+
+BlueXP  Workload Factory for Databasesは、管理対象のMicrosoft SQL ServerインスタンスをFSx for ONTAPストレージで自動的にスキャンし、潜在的な構成の問題がないかどうかを確認します。毎日のスキャンに加えて、いつでもスキャンできます。
+
+
+
+==== オンプレミス評価記録の削除
+
+オンプレミスのMicrosoft SQL Serverホストの削減効果を確認したら、オンプレミスのホストレコードをBlueXP  ワークロードファクトリから削除することもできます。
+
+
+
+==== 最適化の機能拡張
+
+
+
+===== クローンのクリーンアップ
+
+クローンクリーンアップの評価と修正では、コストのかかる古いクローンを特定して管理します。60日を経過したクローンは、BlueXP  ワークロードファクトリコンソールで更新または削除できます。
+
+
+
+===== 構成分析の延期と却下
+
+一部の設定はデータベース環境に適用されない場合があります。特定の構成分析を30日延期するか、分析を却下するかを選択できるようになりました。
+
+
+
+==== オンプレミス評価記録の削除
+
+オンプレミスのMicrosoft SQL Serverホストの削減効果を確認したら、オンプレミスのホストレコードをBlueXP  ワークロードファクトリから削除することもできます。
+
+
+
+==== 権限に関する用語を更新
+
+ワークロードファクトリのユーザインターフェイスとドキュメントでは、読み取り権限を「読み取り専用」に、自動権限を「読み取り/書き込み」に指定するようになりました。
+
+
+
+=== VMwareワークロード
+
+
+
+==== Amazon EC2 Migration Advisorの機能強化
+
+このリリースのVMware向けBlueXP  ワークロードファクトリでは、Amazon EC2 Migration Advisorのエクスペリエンスが次のように改善されています。
+
+* NetAppデータインフラのインサイトをデータソースとして*：ワークロードファクトリは、EC2移行アドバイザのデータコレクタを使用すると、NetAppデータインフラのインサイトに直接接続して、VMwareの導入情報を収集できるようになりました。
+
+https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["移行アドバイザを使用してAmazon EC2の導入計画を作成"]
+
+
+
+==== 権限に関する用語を更新
+
+ワークロードファクトリのユーザインターフェイスとドキュメントでは、読み取り権限を「読み取り専用」に、自動権限を「読み取り/書き込み」に指定するようになりました。
+
+
+
+=== 生成AIワークロード
+
+
+
+==== Amazon Q向けNetApp ONTAP Connectorのサポート
+
+このリリースの 生成AIでは、NetApp ONTAP Connector for Amazon Qのサポートが導入され、Amazon Q Business用のコネクタを作成できるようになりました。Amazon Bedrock用の 生成AIナレッジベースを構築するよりも、初期設定が少なくて済み、Amazon Q Business AIアシスタントをすばやく簡単に活用できます。
+
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Amazon Q Business用の 生成AIコネクタの作成"]
+
+
+
+==== 強化されたチャットモデルサポート
+
+生成AIでは、ナレッジベース用に次の追加チャットモデルがサポートされるようになりました。
+
+* link:https://docs.mistral.ai/getting-started/models/models_overview/["Mistral AIモデル"^]
+* link:https://docs.aws.amazon.com/bedrock/latest/userguide/titan-text-models.html["Amazon Titanテキストモデル"^]
+* link:https://www.llama.com/docs/model-cards-and-prompt-formats/["Meta Llamaモデル"^]
+* link:https://docs.ai21.com/["Jamba 1.5モデル"^]
+* link:https://docs.cohere.com/docs/the-cohere-platform["Cohereコマンドモデル"^]
+* link:https://aws.amazon.com/bedrock/deepseek/["ディープシークモデル"^]
+
+
+生成AIは、Amazon Bedrockがサポートする各プロバイダのモデルをサポートしています。link:https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html["Amazon Bedrockでサポートされる基盤モデル"^]
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["生成AIナレッジベースの作成"]
+
+
+
+==== 権限に関する用語を更新
+
+ワークロードファクトリのユーザインターフェイスとドキュメントでは、読み取り権限を「読み取り専用」に、自動権限を「読み取り/書き込み」に指定するようになりました。
+
+
+
+=== セットアップと管理
+
+
+
+==== CloudShellオートコンプリートのサポート
+
+BlueXP  ワークロードファクトリCloudShellを使用している場合は、コマンドの入力を開始してTabキーを押すと、使用可能なオプションが表示されます。複数の候補が存在する場合は、CLIに候補のリストが表示されます。この機能は、エラーを最小限に抑え、コマンド実行を高速化することで、生産性を向上させます。
+
+
+
+==== 権限に関する用語を更新
+
+ワークロードファクトリのユーザインターフェイスとドキュメントでは、読み取り権限を「読み取り専用」に、自動権限を「読み取り/書き込み」に指定するようになりました。
+
+
+
 == 2025年4月04日
 
 
@@ -150,7 +406,7 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 このリリースの 生成AIでは、データソースからファイルを取り込む際のJSONおよびJSONPファイル形式のサポートが導入されて `.json`います。ネストされたオブジェクトを含むJSONファイルがサポートされますが、ネストされた配列はサポートされません。
 
-link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["サポートされるデータソースファイル形式"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/identify-data-sources-knowledge-base.html#supported-data-source-file-formats["サポートされるデータソースファイル形式"]
 
 
 
@@ -166,7 +422,7 @@ link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/AI/GenAI-Chat
 
 生成AIでは、Anthropic Claude 3.7 Sonnetチャットモデルがサポートされるようになりました。Claude 3.7 Sonnetのベータ機能は、要求ごとに最大128Kの出力トークンを可能にし、新しいコンピュータの使用アクションをサポートします。Claude 3.7 Sonnet拡張思考モードは、将来の 生成AIリリースでサポートされる予定です。
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["生成AIナレッジベースの作成"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["生成AIナレッジベースの作成"]
 
 
 
@@ -182,7 +438,7 @@ link:https://console.workloads.netapp.com/api-doc["ワークロードファク�
 
 同じリージョンにあるに 生成AIインフラを導入し、同じAWSアカウントを使用できるようになりましlink:https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html["ピア関係にある仮想プライベートクラウド（VPC）"^]た。AIエンジンをVPCに導入してから、ピアVPCにナレッジベースを作成し、ピアVPCにあるAmazon FSx for NetApp ONTAPファイルシステムを選択できます。
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["生成AIナレッジベースの作成"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["生成AIナレッジベースの作成"]
 
 
 
@@ -328,7 +584,7 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 質問と回答をクリップボードに直接コピーしたり、チャットウィンドウのサイズを調整したり、タイトルを変更したりできるようになりました。さらに、チャット応答にテーブルを含めることができるようになりました。テーブルはコピー可能です。
 
-link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["生成AIナレッジベースのテスト"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/test-knowledgebase.html["生成AIナレッジベースのテスト"]
 
 
 
@@ -336,7 +592,7 @@ link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["生�
 
 チャットの応答に、応答を生成するために使用されたファイルとデータのチャンクをリストする引用が含まれるようになりました。
 
-link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["生成AIナレッジベースのテスト"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/test-knowledgebase.html["生成AIナレッジベースのテスト"]
 
 
 
@@ -349,151 +605,11 @@ link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["生�
 * 生成AIでは、画像を含むMicrosoft Word DOCXファイルの取り込みがサポートされるようになりました。DOCXドキュメント内に埋め込まれた画像がスキャンされ、埋め込まれた画像からのテキストインサイトがナレッジベースのクエリへの応答に含まれます。
 
 
-link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["サポートされるデータソースファイル形式"]
-
-
-
-== 2025年02月03日
-
-
-
-=== データベースワークロード
-
-
-
-==== オンプレミスデータベース環境のコスト分析と移行計画
-
-BlueXP  Workload Factory for Databasesが、オンプレミスのAmazon FSx for NetApp ONTAPへのデータベース移行を検出、分析、計画できるようになりました。コスト削減試算ツールを使用して、オンプレミスのデータベース環境をクラウドで運用するコストを試算し、オンプレミスのデータベース環境をクラウドに移行する際の推奨事項を確認できます。
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["オンプレミスデータベース環境のコスト削減効果をご確認ください"]
-
-
-
-==== データベースの新しい最適化評価
-
-BlueXP  Workload Factory for Databasesでは、次の評価を利用できます。これらの評価は、潜在的なセキュリティの脆弱性を検出して防御し、パフォーマンスのボトルネックを検出して軽減することに重点を置いています。
-
-* *受信側スケーリング（RSS）設定*：RSS設定が有効になっているかどうか、およびキューの数が推奨値に設定されているかどうかを確認します。この評価では、RSS設定を最適化するための推奨事項も提供されます。
-* *Maximum Degree of Parallelism (MAXDOP)サーバ構成*:この評価では、MAXDOPが正しく構成されているかどうかをチェックし、パフォーマンスを最適化するための推奨事項を提供します。
-* * Microsoft SQL Serverパッチ*：この評価では、SQL Serverインスタンスに最新のパッチがインストールされているかどうかをチェックし、最新のパッチをインストールするための推奨事項を提供します。
-
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["構成を最適化"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/identify-data-sources-knowledge-base.html#supported-data-source-file-formats["サポートされるデータソースファイル形式"]
 
 
 
 == 2025年02月02日
-
-
-
-=== NetApp ONTAP 対応の Amazon FSX
-
-
-
-==== BlueXP  ワークロードファクトリコンソールのCloudShell
-
-CloudShellは、BlueXP  Workload Factory for Storage内で利用できる組み込みのCLI機能です。CloudShellを使用すると、ワークロードファクトリコンソール内から、シェルのような環境の複数のセッションからONTAPまたはAWS CLIコマンドを作成、共有、実行できます。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["BlueXP  Workload FactoryでのCloudShellの詳細"]
-
-
-
-==== インベントリデータのダウンロード
-
-FSx for ONTAPのインベントリデータをBlueXP  ワークロード工場のストレージからMicrosoft ExcelまたはCSVファイルにダウンロードできるようになりました。
-
-image:screenshot-fsx-inventory-download.png["BlueXP  ワークロード工場のストレージのスクリーンショット。FSx for ONTAPファイルシステムのインベントリデータをダウンロードするための新しいダウンロードボタンが表示されています。"]
-
-
-
-==== FSx for ONTAPファイルシステムのその他のメニューオプション
-
-FSx for ONTAPファイルシステムについては、ストレージのFSx for ONTAPタブで以下の操作が簡単になりました。
-
-* Storage VM を作成
-* ボリュームの作成
-* ボリュームデータのレプリケート
-
-
-image:screenshot-filesystem-menu-options.png["[Storage]の[FSx for ONTAP ]タブのスクリーンショット。[create storage VM]、[create volume]、[replicate]の新しいメニューオプションが表示されています。"]
-
-
-
-==== Terraformによるボリューム作成のサポート
-
-CodeboxのTerraformを使用してボリュームを作成できるようになりました。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["ボリュームの作成"]
-
-
-
-==== 不変ファイル機能によるファイルロック
-
-FSx for ONTAPファイルシステムのボリュームを作成するときに、変更不可のファイル機能を使用してファイルをロックできるようになりました。ファイルロックは、あなたや他の人が指定された期間にわたって誤ってまたは意図的にファイルを削除するのを防ぐのに役立ちます。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["ボリュームの作成"]
-
-
-
-==== 運用の監視と追跡に使用可能なトラッカー
-
-Trackerを使用すると、ストレージに新しい監視機能が追加されます。Trackerを使用して、クレデンシャル、ストレージ、およびリンク処理の進捗状況とステータスの監視と追跡、処理タスクとサブタスクの詳細の確認、問題や障害の診断、失敗した処理のパラメータの編集、失敗した処理の再試行を行うことができます。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["Trackerを使用して運用を監視および追跡する方法をご確認ください"]
-
-
-
-==== 第2世代のAmazon FSx for NetApp ONTAPファイルシステムをサポート
-
-BlueXP  ワークロード工場でAmazon FSx for NetApp ONTAPの第2世代ファイルシステムを使用できるようになりました。FSx for ONTAPの第2世代シングルAZファイルシステムには、最大12個のHAペアが搭載されており、最大72GB/秒のスループット容量と2,400,000 SSD IOPSを実現します。FSx for ONTAPの第2世代マルチAZファイルシステムは、1つのHAペアを基盤とし、6GBpsのスループット容量と20万SSD IOPSを提供します。
-
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/add-ha-pairs.html["ハイアベイラビリティペアを追加する"]
-* link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/limits.html["Amazon FSx for NetApp ONTAPのクォータと制限"^]
-
-
-
-
-=== 生成AIワークロード
-
-
-
-==== Amazon Nova基盤モデルのサポート
-
-生成AIはAmazon Nova基盤モデルをサポートするようになりました。Amazon Nova Micro、Amazon Nova Lite、およびAmazon Nova Proがサポートされています。
-
-link:https://docs.netapp.com/us-en/workload-genai/requirements.html["生成AIの要件"]
-
-
-
-==== データソースのファイルタイプフィルタリング
-
-生成AIでは、データソースを追加するときに、データソーススキャンに含める特定のファイルタイプの選択がサポートされるようになりました。
-
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["ナレッジベースへのデータソースの追加"]
-
-
-
-==== データソースのファイル変更日のフィルタリング
-
-生成AIでは、データソースの追加時に変更日によってデータソーススキャンに含めるファイルのフィルタリングがサポートされるようになりました。インクルードされるファイルの変更日の範囲を選択できます。
-
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["ナレッジベースへのデータソースの追加"]
-
-
-
-==== 画像ファイルのサポートとPDFファイルのサポートの強化
-
-生成AIでは、画像やグラフの説明、ドキュメントテキストからのインサイトを使用してナレッジベースのクエリへの応答を強化できるようになり、より豊かで高品質な回答が得られるようになりました。生成AIでは、PDFファイル内の画像ファイルおよび画像をスキャンできるようになりました（マルチモーダルファイルサポートとも呼ばれます）。画像またはPDFファイルのスキャンを選択した場合は、画像のテキスト（PDFドキュメントに埋め込まれた画像を含む）がデータソースにスキャンされ、スキャンからのインサイトがナレッジベースのクエリへの応答に含まれます。
-
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["ナレッジベースへのデータソースの追加"]
-
-
-
-==== ハイブリッド検索と再検索のサポート
-
-生成AIでは、ハイブリッド検索を使用して結果をリランク付けすることで、検索結果の関連性と精度を大幅に向上させることができます。ハイブリッド検索は、従来のキーワードベース検索の強みと高度な高密度ベクトルベースのセマンティック検索技術を組み合わせたものです。標準的なキーワード検索結果は、近い一致と言語的なニュアンスで強化され、関連性が向上します。その後、生成AIはCohere RerankやAmazon Rerankなどの高度なリランキングモデルを使用してこれらの結果をさらに絞り込み、最も関連性の高い結果を返します。この機能は、新しく作成されたナレッジベースで使用できます。
-
-link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html#benefits-of-using-genai-to-create-generative-ai-applications["生成AI向けBlueXP  ワークロードファクトリの詳細"]
 
 
 
@@ -514,39 +630,3 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Clo
 データベースの_read_modeで次の権限を使用できるようになりました `iam:SimulatePrincipalPolicy`。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["アクセス権参照変更ログ"]
-
-
-
-== 2025年1月22日
-
-
-
-=== セットアップと管理
-
-
-
-==== BlueXP  ワークロードの工場出荷時の権限
-
-ストレージ環境の検出から、ストレージ内のファイルシステムや 生成AIワークロードのナレッジベースなどのAWSリソースの導入まで、BlueXP  ワークロードファクトリでさまざまな処理を実行するために使用される権限を確認できるようになりました。ストレージ、データベース、VMware、生成AIの各ワークロードのIAMポリシーと権限を表示できます。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["BlueXP  ワークロードの工場出荷時の権限"]
-
-
-
-== 2025年1月5日
-
-
-
-=== VMwareワークロード
-
-
-
-==== Amazon EC2 Migration Advisorの機能強化
-
-今回リリースされたVMware向けBlueXP  ワークロードファクトリでは、Migration Advisorのエクスペリエンスが次のように改善されています。
-
-* *移行計画を保存またはダウンロードする*:これで、移行計画を保存またはダウンロードし、移行計画をロードして移行アドバイザに取り込むことができます。移行計画を保存すると、その計画はワークロードファクトリアカウントに保存されます。
-* *仮想マシン選択の改善*：VMware向けBlueXP  ワークロードファクトリでは、移行環境に含める仮想マシンのリストのフィルタリングと検索がサポートされるようになりました。
-
-
-https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["移行アドバイザを使用してAmazon EC2の導入計画を作成"]

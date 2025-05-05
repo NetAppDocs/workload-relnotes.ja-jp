@@ -1,0 +1,35 @@
+= Amazon Q向けNetApp ONTAP Connectorのサポート
+:allow-uri-read: 
+
+
+
+
+=== Amazon Q向けNetApp ONTAP Connectorのサポート
+
+このリリースの 生成AIでは、NetApp ONTAP Connector for Amazon Qのサポートが導入され、Amazon Q Business用のコネクタを作成できるようになりました。Amazon Bedrock用の 生成AIナレッジベースを構築するよりも、初期設定が少なくて済み、Amazon Q Business AIアシスタントをすばやく簡単に活用できます。
+
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Amazon Q Business用の 生成AIコネクタの作成"]
+
+
+
+=== 強化されたチャットモデルサポート
+
+生成AIでは、ナレッジベース用に次の追加チャットモデルがサポートされるようになりました。
+
+* link:https://docs.mistral.ai/getting-started/models/models_overview/["Mistral AIモデル"^]
+* link:https://docs.aws.amazon.com/bedrock/latest/userguide/titan-text-models.html["Amazon Titanテキストモデル"^]
+* link:https://www.llama.com/docs/model-cards-and-prompt-formats/["Meta Llamaモデル"^]
+* link:https://docs.ai21.com/["Jamba 1.5モデル"^]
+* link:https://docs.cohere.com/docs/the-cohere-platform["Cohereコマンドモデル"^]
+* link:https://aws.amazon.com/bedrock/deepseek/["ディープシークモデル"^]
+
+
+生成AIは、Amazon Bedrockがサポートする各プロバイダのモデルをサポートしています。link:https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html["Amazon Bedrockでサポートされる基盤モデル"^]
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["生成AIナレッジベースの作成"]
+
+
+
+=== 権限に関する用語を更新
+
+ワークロードファクトリのユーザインターフェイスとドキュメントでは、読み取り権限を「読み取り専用」に、自動権限を「読み取り/書き込み」に指定するようになりました。

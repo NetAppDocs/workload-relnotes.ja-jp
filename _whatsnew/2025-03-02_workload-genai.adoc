@@ -8,7 +8,7 @@
 
 質問と回答をクリップボードに直接コピーしたり、チャットウィンドウのサイズを調整したり、タイトルを変更したりできるようになりました。さらに、チャット応答にテーブルを含めることができるようになりました。テーブルはコピー可能です。
 
-link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["生成AIナレッジベースのテスト"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/test-knowledgebase.html["生成AIナレッジベースのテスト"]
 
 
 
@@ -16,7 +16,7 @@ link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["生�
 
 チャットの応答に、応答を生成するために使用されたファイルとデータのチャンクをリストする引用が含まれるようになりました。
 
-link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["生成AIナレッジベースのテスト"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/test-knowledgebase.html["生成AIナレッジベースのテスト"]
 
 
 
@@ -29,4 +29,4 @@ link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["生�
 * 生成AIでは、画像を含むMicrosoft Word DOCXファイルの取り込みがサポートされるようになりました。DOCXドキュメント内に埋め込まれた画像がスキャンされ、埋め込まれた画像からのテキストインサイトがナレッジベースのクエリへの応答に含まれます。
 
 
-link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["サポートされるデータソースファイル形式"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/identify-data-sources-knowledge-base.html#supported-data-source-file-formats["サポートされるデータソースファイル形式"]

@@ -33,38 +33,10 @@
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">このリリースノートでは、BlueXP  ワークロードファクトリに含まれるクラウドサービスに対する最近の機能拡張について説明します。</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  ワークロード工場出荷時のリリースノート</block>
   <block id="1d194f6c398ca78aaffd8c430203e1ec" category="doc">Amazon EC2 Migration Advisorの機能強化</block>
-  <block id="1e5e06dbbf4cb0bb655126bc90757161" category="paragraph">今回リリースされたVMware向けBlueXP  ワークロードファクトリでは、Migration Advisorのエクスペリエンスが次のように改善されています。</block>
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP  ワークロードファクトリ</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
-  <block id="065531f581a60b79025f539bd1ff1cff" category="section-title">2025年1月5日</block>
-  <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">*移行計画を保存またはダウンロードする*:これで、移行計画を保存またはダウンロードし、移行計画をロードして移行アドバイザに取り込むことができます。移行計画を保存すると、その計画はワークロードファクトリアカウントに保存されます。</block>
-  <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">*仮想マシン選択の改善*：VMware向けBlueXP  ワークロードファクトリでは、移行環境に含める仮想マシンのリストのフィルタリングと検索がサポートされるようになりました。</block>
-  <block id="ca475a2b63c70fedcf8f6650024d480b" category="doc">BlueXP  ワークロードの工場出荷時の権限</block>
-  <block id="5291909ce92037a20a37f7a0c86dd921" category="paragraph">ストレージ環境の検出から、ストレージ内のファイルシステムや 生成AIワークロードのナレッジベースなどのAWSリソースの導入まで、BlueXP  ワークロードファクトリでさまざまな処理を実行するために使用される権限を確認できるようになりました。ストレージ、データベース、VMware、生成AIの各ワークロードのIAMポリシーと権限を表示できます。</block>
-  <block id="f157db6a1ae10e7a29a28440d21f5cb8" category="paragraph"><block ref="f157db6a1ae10e7a29a28440d21f5cb8" category="inline-link-macro-rx"></block></block>
-  <block id="43c56433351f336a8ecd0e9efa7ddca4" category="section-title">2025年1月22日</block>
-  <block id="efc2466e55cc45101064c2ade9e1ac96" category="doc">オンプレミスデータベース環境のコスト分析と移行計画</block>
-  <block id="b070dbce75db746d44b4965253ae3c9f" category="paragraph">BlueXP  Workload Factory for Databasesが、オンプレミスのAmazon FSx for NetApp ONTAPへのデータベース移行を検出、分析、計画できるようになりました。コスト削減試算ツールを使用して、オンプレミスのデータベース環境をクラウドで運用するコストを試算し、オンプレミスのデータベース環境をクラウドに移行する際の推奨事項を確認できます。</block>
-  <block id="ae5954c9b41b0bfb09043a4117743d2d" category="inline-link-macro">オンプレミスデータベース環境のコスト削減効果をご確認ください</block>
-  <block id="9621b726ce4b31f0b7bc139a85ef6f38" category="paragraph"><block ref="9621b726ce4b31f0b7bc139a85ef6f38" category="inline-link-macro-rx"></block></block>
-  <block id="6003a521aa2fb4eca1577921d2f2d6ec" category="section-title">データベースの新しい最適化評価</block>
-  <block id="a66d8cac65b4a62026dda75c54de5093" category="paragraph">BlueXP  Workload Factory for Databasesでは、次の評価を利用できます。これらの評価は、潜在的なセキュリティの脆弱性を検出して防御し、パフォーマンスのボトルネックを検出して軽減することに重点を置いています。</block>
-  <block id="41e5288ef108e483da5a07bf4a8c654d" category="list-text">*受信側スケーリング（RSS）設定*：RSS設定が有効になっているかどうか、およびキューの数が推奨値に設定されているかどうかを確認します。この評価では、RSS設定を最適化するための推奨事項も提供されます。</block>
-  <block id="20c22843405fd91269ed56974f603ebf" category="list-text">*Maximum Degree of Parallelism (MAXDOP)サーバ構成*:この評価では、MAXDOPが正しく構成されているかどうかをチェックし、パフォーマンスを最適化するための推奨事項を提供します。</block>
-  <block id="288748eac82542205cccb2a59e324600" category="list-text">* Microsoft SQL Serverパッチ*：この評価では、SQL Serverインスタンスに最新のパッチがインストールされているかどうかをチェックし、最新のパッチをインストールするための推奨事項を提供します。</block>
   <block id="d1e68728a28b7936858b1484445ef50f" category="inline-link-macro">構成を最適化</block>
   <block id="7c2632b8df180cfa1528450b19070928" category="paragraph"><block ref="7c2632b8df180cfa1528450b19070928" category="inline-link-macro-rx"></block></block>
-  <block id="b19ee84dca9cb059a9aa42ed54c05752" category="section-title">2025年02月03日</block>
-  <block id="77fd00559b8279b555e48d21e5e67c34" category="doc">データソースのファイルタイプフィルタリング</block>
-  <block id="47cf5538cc85b7acf0e24098fc5bbffd" category="paragraph">生成AIでは、データソースを追加するときに、データソーススキャンに含める特定のファイルタイプの選択がサポートされるようになりました。</block>
-  <block id="9bd079cbc91b32393983ae28a378c00c" category="inline-link-macro">ナレッジベースへのデータソースの追加</block>
-  <block id="e57c1e86c82776cdcb9c50b4e82943f8" category="paragraph"><block ref="e57c1e86c82776cdcb9c50b4e82943f8" category="inline-link-macro-rx"></block></block>
-  <block id="f191d5f0a123d62966b3617a9d8c752c" category="section-title">データソースのファイル変更日のフィルタリング</block>
-  <block id="b1be3e2e5ab05373dbf3927507ea84d2" category="paragraph">生成AIでは、データソースの追加時に変更日によってデータソーススキャンに含めるファイルのフィルタリングがサポートされるようになりました。インクルードされるファイルの変更日の範囲を選択できます。</block>
-  <block id="7a7ba68ff13813a8c9d7413b67a91e34" category="section-title">画像ファイルのサポートとPDFファイルのサポートの強化</block>
-  <block id="b9a5ff8382cbb9f5609b8bff25344245" category="section-title">ハイブリッド検索と再検索のサポート</block>
-  <block id="77c129bd3271a24d7bdf27f4904c52f4" category="inline-link-macro">生成AI向けBlueXP  ワークロードファクトリの詳細</block>
-  <block id="397adcec169a6ce17f0abfc941258c0f" category="paragraph"><block ref="397adcec169a6ce17f0abfc941258c0f" category="inline-link-macro-rx"></block></block>
   <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">2025年02月02日</block>
   <block id="e2cc7d8ef2a865dce7c7e225dd72d92c" category="doc">BlueXP  Workload FactoryコンソールでCloudShellを使用可能</block>
   <block id="7f1ab9d2ad99562dfd8cff4cb4c70b29" category="paragraph">CloudShellは、BlueXP  ワークロードファクトリコンソールのどこからでも使用できます。CloudShellを使用すると、BlueXP  アカウントで提供したAWSとONTAPのクレデンシャルを使用して、シェルに似た環境でAWS CLIコマンドまたはONTAP CLIコマンドを実行できます。</block>
@@ -74,39 +46,10 @@
   <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">データベースの_read_modeで次の権限を使用できるようになりました<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>。</block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">アクセス権参照変更ログ</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
-  <block id="ed2a329d6f9bf2181ff23014cff23ba5" category="doc">BlueXP  ワークロードファクトリコンソールのCloudShell</block>
-  <block id="5eaddd0f57f7eaddd8610d939876ec8d" category="paragraph">CloudShellは、BlueXP  Workload Factory for Storage内で利用できる組み込みのCLI機能です。CloudShellを使用すると、ワークロードファクトリコンソール内から、シェルのような環境の複数のセッションからONTAPまたはAWS CLIコマンドを作成、共有、実行できます。</block>
-  <block id="09a780ee2763ed81ce7dcd3480b57fe4" category="inline-link-macro">BlueXP  Workload FactoryでのCloudShellの詳細</block>
-  <block id="9be163b55bb1cb61b0ccee4ea40ae6ee" category="section-title">インベントリデータのダウンロード</block>
-  <block id="e61fb273c97526db97c128ce9bfc04a9" category="paragraph">FSx for ONTAPのインベントリデータをBlueXP  ワークロード工場のストレージからMicrosoft ExcelまたはCSVファイルにダウンロードできるようになりました。</block>
-  <block id="1d242bf1e7b71fd8602570478aa1bdc8" category="inline-image-macro">BlueXP  ワークロード工場のストレージのスクリーンショット。FSx for ONTAPファイルシステムのインベントリデータをダウンロードするための新しいダウンロードボタンが表示されています。</block>
-  <block id="b8040f0b8b5eff64bb15c9fc0fbc96d6" category="paragraph"><block ref="b8040f0b8b5eff64bb15c9fc0fbc96d6" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="eae91301e6256990d5311778eafea0e5" category="section-title">FSx for ONTAPファイルシステムのその他のメニューオプション</block>
-  <block id="0ad83f6b2d6e8bf103be3683c0c87ef9" category="paragraph">FSx for ONTAPファイルシステムについては、ストレージのFSx for ONTAPタブで以下の操作が簡単になりました。</block>
-  <block id="8272f5b23e79d0ee33bd5151dcddc454" category="list-text">Storage VM を作成</block>
   <block id="dc88dce8ec264777b2f90ec0af744f43" category="list-text">ボリュームの作成</block>
-  <block id="8221d5fcbb1b8ef8a3fa535553679b44" category="list-text">ボリュームデータのレプリケート</block>
-  <block id="bb8210b8fea9fd35bf14070e9b9f7cf9" category="inline-image-macro">[Storage]の[FSx for ONTAP ]タブのスクリーンショット。[create storage VM]、[create volume]、[replicate]の新しいメニューオプションが表示されています。</block>
-  <block id="2a10a5b76871c42edb3807a0dec574ae" category="paragraph"><block ref="2a10a5b76871c42edb3807a0dec574ae" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2f72c2c06d295d3f5420254934ac77b1" category="section-title">Terraformによるボリューム作成のサポート</block>
-  <block id="7f28d622584eb6b05ee5ce1609e2de38" category="paragraph">CodeboxのTerraformを使用してボリュームを作成できるようになりました。</block>
   <block id="d3156376048c94102c97709d5ff05e75" category="paragraph"><block ref="d3156376048c94102c97709d5ff05e75" category="inline-link-macro-rx"></block></block>
-  <block id="eb139dd9cb815e502d04047858e7c930" category="section-title">不変ファイル機能によるファイルロック</block>
-  <block id="849a110e76510a6394e4b27714d0bc20" category="paragraph">FSx for ONTAPファイルシステムのボリュームを作成するときに、変更不可のファイル機能を使用してファイルをロックできるようになりました。ファイルロックは、あなたや他の人が指定された期間にわたって誤ってまたは意図的にファイルを削除するのを防ぐのに役立ちます。</block>
-  <block id="ea3d4df6f8aff21b2dfe549c5ecf9775" category="section-title">運用の監視と追跡に使用可能なトラッカー</block>
-  <block id="c016252819aa3f6ede2b315b76b5c5b2" category="paragraph">Trackerを使用すると、ストレージに新しい監視機能が追加されます。Trackerを使用して、クレデンシャル、ストレージ、およびリンク処理の進捗状況とステータスの監視と追跡、処理タスクとサブタスクの詳細の確認、問題や障害の診断、失敗した処理のパラメータの編集、失敗した処理の再試行を行うことができます。</block>
   <block id="7512718e82771ab0f98e51652a2e97c6" category="inline-link-macro">Trackerを使用して運用を監視および追跡する方法をご確認ください</block>
   <block id="30babb51ab17a107228fe65a4e65418b" category="paragraph"><block ref="30babb51ab17a107228fe65a4e65418b" category="inline-link-macro-rx"></block></block>
-  <block id="c1c23b72df9b53434f3c5ef6963cd2c1" category="section-title">第2世代のAmazon FSx for NetApp ONTAPファイルシステムをサポート</block>
-  <block id="327da4942931ea47a06f556d15726878" category="paragraph">BlueXP  ワークロード工場でAmazon FSx for NetApp ONTAPの第2世代ファイルシステムを使用できるようになりました。FSx for ONTAPの第2世代シングルAZファイルシステムには、最大12個のHAペアが搭載されており、最大72GB/秒のスループット容量と2,400,000 SSD IOPSを実現します。FSx for ONTAPの第2世代マルチAZファイルシステムは、1つのHAペアを基盤とし、6GBpsのスループット容量と20万SSD IOPSを提供します。</block>
-  <block id="a22d0116b85624117006e75d98d659db" category="inline-link-macro">ハイアベイラビリティペアを追加する</block>
-  <block id="8a34eb45ca4cf03ce0d5e71fbfafb73a" category="list-text"><block ref="8a34eb45ca4cf03ce0d5e71fbfafb73a" category="inline-link-macro-rx"></block></block>
-  <block id="eeb5242f698ac9fda34591a326f4c0a3" category="inline-link-macro">Amazon FSx for NetApp ONTAPのクォータと制限</block>
-  <block id="94f917accd36ed25f8a73175e8d4cdfb" category="list-text"><block ref="94f917accd36ed25f8a73175e8d4cdfb" category="inline-link-macro-rx"></block></block>
-  <block id="9a7d43c72f0d1a35c2a2cdfb58c6cc0d" category="doc">Amazon Nova基盤モデルのサポート</block>
-  <block id="ba0908c46e81d6dfcc41f1af42be123c" category="paragraph">生成AIはAmazon Nova基盤モデルをサポートするようになりました。Amazon Nova Micro、Amazon Nova Lite、およびAmazon Nova Proがサポートされています。</block>
-  <block id="43b842fd441ce1ce92d22fb0ca25a507" category="inline-link-macro">生成AIの要件</block>
-  <block id="5ddfb412189af7bcce0a056c9fcef326" category="paragraph"><block ref="5ddfb412189af7bcce0a056c9fcef326" category="inline-link-macro-rx"></block></block>
   <block id="4a922c367b35639ecb9d911b81fdb458" category="doc">容量管理の自動化の強化</block>
   <block id="5868fd5ebf39f0f3dce9bd4ba23dcb6f" category="paragraph">容量の自動管理を有効にすると、BlueXP  ワークロードファクトリでは、ファイルシステムが容量のしきい値に達したかどうかが2時間ごとではなく30分ごとにチェックされるようになりました。</block>
   <block id="410d677b6db33c7f47c30b3d219c4846" category="paragraph">容量のしきい値に達しても、プロビジョニングIOPSの設定は影響を受けなくなりました。</block>
@@ -139,7 +82,6 @@
   <block id="ca5a05186a2f243eb84efcf08152a8f2" category="doc">組み込みチャットボットの機能強化</block>
   <block id="362c473fe2757bda1e0d68b3c2cdfbc8" category="paragraph">質問と回答をクリップボードに直接コピーしたり、チャットウィンドウのサイズを調整したり、タイトルを変更したりできるようになりました。さらに、チャット応答にテーブルを含めることができるようになりました。テーブルはコピー可能です。</block>
   <block id="d9965afe654edc6d99fd1a5080f10f27" category="inline-link-macro">生成AIナレッジベースのテスト</block>
-  <block id="b7def3234606fc50e35ddaf4c351fbe6" category="paragraph"><block ref="b7def3234606fc50e35ddaf4c351fbe6" category="inline-link-macro-rx"></block></block>
   <block id="4842fdf5dae1e7a3fb7ea049a091be73" category="section-title">チャット応答引用のサポート</block>
   <block id="c010ca64710d07e36327c27318c0303f" category="paragraph">チャットの応答に、応答を生成するために使用されたファイルとデータのチャンクをリストする引用が含まれるようになりました。</block>
   <block id="312fbafda6b72e176a3eb6272e48d799" category="section-title">ファイル形式のサポートの強化</block>
@@ -153,7 +95,6 @@
   <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">*ファイルシステムの自動割り当ての強化*：Amazon FSx for NetApp ONTAPファイルシステムの割り当てが改善され、コストの最適化とスループットの最小化が実現しました。</block>
   <block id="4666cc74583e6d5c1f202a52bee57a9b" category="list-text"><block ref="4666cc74583e6d5c1f202a52bee57a9b" category="inline-link-macro-rx"></block></block>
   <block id="7115d78353263dbb2dbe063624f9f601" category="list-text"><block ref="7115d78353263dbb2dbe063624f9f601" category="inline-link-macro-rx"></block></block>
-  <block id="95712b1074d83e6727c42aa16be5af5a" category="paragraph"><block ref="95712b1074d83e6727c42aa16be5af5a" category="inline-link-macro-rx"></block></block>
   <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
   <block id="292e876f4d1d5af73b815913bd3d9b26" category="doc">PostgreSQLの高可用性構成</block>
   <block id="047e8f86b83bb2e8d4c34b1dc560257b" category="paragraph">PostgreSQLサーバにハイアベイラビリティ（HA）構成を導入できるようになりました。</block>
@@ -201,8 +142,6 @@
   <block id="b7cc50bb665bb63168fb8d2e9eebaedc" category="paragraph">セキュリティグループは、FSx for ONTAPファイルシステムの作成プロセスの一環として作成されます。セキュリティグループの詳細（プロトコル、ポート、ロールなど）を確認できるようになりました。</block>
   <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">ファイルシステムの作成</block>
   <block id="03b2cfc949418819e16b1dc5fa3660ae" category="paragraph"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
-  <block id="fdd252a657eafa925fe82da2c74ab41c" category="paragraph">生成AIでは、画像やグラフの説明、ドキュメントテキストからのインサイトを使用してナレッジベースのクエリへの応答を強化できるようになり、より豊かで高品質な回答が得られるようになりました。生成AIでは、PDFファイル内の画像ファイルおよび画像をスキャンできるようになりました（マルチモーダルファイルサポートとも呼ばれます）。画像またはPDFファイルのスキャンを選択した場合は、画像のテキスト（PDFドキュメントに埋め込まれた画像を含む）がデータソースにスキャンされ、スキャンからのインサイトがナレッジベースのクエリへの応答に含まれます。</block>
-  <block id="603e61783fa33cd04788f143e949760c" category="paragraph">生成AIでは、ハイブリッド検索を使用して結果をリランク付けすることで、検索結果の関連性と精度を大幅に向上させることができます。ハイブリッド検索は、従来のキーワードベース検索の強みと高度な高密度ベクトルベースのセマンティック検索技術を組み合わせたものです。標準的なキーワード検索結果は、近い一致と言語的なニュアンスで強化され、関連性が向上します。その後、生成AIはCohere RerankやAmazon Rerankなどの高度なリランキングモデルを使用してこれらの結果をさらに絞り込み、最も関連性の高い結果を返します。この機能は、新しく作成されたナレッジベースで使用できます。</block>
   <block id="7c6f7e444c5d96b670cdcd189e2ee43a" category="list-text">生成AIでは、画像を含むMicrosoft Word DOCXファイルの取り込みがサポートされるようになりました。DOCXドキュメント内に埋め込まれた画像がスキャンされ、埋め込まれた画像からのテキストインサイトがナレッジベースのクエリへの応答に含まれます。</block>
   <block id="8bb788607f31f673e25d0ba34b09a14d" category="doc">最適化の機能拡張</block>
   <block id="7e9a755c644cbdbaab2927671606cf89" category="paragraph">データベース環境を最適化する際に、新しい最適化評価、修正、複数のリソースの表示を利用できます。</block>
@@ -223,5 +162,95 @@
   <block id="c4f70f11159098cce8873623bffb07aa" category="inline-link-macro">BlueXP  ワークロードファクトリでPostgreSQLサーバを作成する</block>
   <block id="5963667f9fe01282fae9030cccbd24a3" category="paragraph"><block ref="5963667f9fe01282fae9030cccbd24a3" category="inline-link-macro-rx"></block></block>
   <block id="813bb11b4f90c862c2b7c2d35cc082ff" category="section-title">2025年4月04日</block>
-  <block id="b70e34d229298faea8d481f1cfdd32a9" category="paragraph"><block ref="b70e34d229298faea8d481f1cfdd32a9" category="inline-link-macro-rx"></block></block>
+  <block id="77a89cd0e5a14d8b8709467f579b8edc" category="paragraph"><block ref="77a89cd0e5a14d8b8709467f579b8edc" category="inline-link-macro-rx"></block></block>
+  <block id="c9cbd1d1d65e3b0d2ec2922daec8bddf" category="paragraph"><block ref="c9cbd1d1d65e3b0d2ec2922daec8bddf" category="inline-link-macro-rx"></block></block>
+  <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
+  <block id="25696569671071b8bd3db9a4c5f6613e" category="doc">ダッシュボードの機能拡張</block>
+  <block id="04f9acced28b52e064ba8ccb957a615c" category="list-text">BlueXP  ワークロードファクトリコンソールのタブ間を移動すると、アカウント間ビューとリージョン間ビューを使用できます。新しいビューは、リソースの管理、監視、最適化を改善します。</block>
+  <block id="6e21267988cadc818dd398393c695465" category="list-text">ダッシュボードの* Potential Savings *タイルから、Amazon Elastic Block StoreまたはAmazon FSx for WindowsファイルサーバからFSx for ONTAPに切り替えることで、削減可能なコストをすばやく確認できます。</block>
+  <block id="255a96bb0a74416846fbad7e40f8ddf4" category="section-title">データベース構成で使用可能なアドホックスキャン</block>
+  <block id="2b1a16b6cd72c9555872ec61d3334af5" category="paragraph">BlueXP  Workload Factory for Databasesは、管理対象のMicrosoft SQL ServerインスタンスをFSx for ONTAPストレージで自動的にスキャンし、潜在的な構成の問題がないかどうかを確認します。毎日のスキャンに加えて、いつでもスキャンできます。</block>
+  <block id="365d8fe4130e8c12f4a3defc920178dd" category="section-title">オンプレミス評価記録の削除</block>
+  <block id="c4fd25bd6650f0eaedfd01e29fbecddd" category="paragraph">オンプレミスのMicrosoft SQL Serverホストの削減効果を確認したら、オンプレミスのホストレコードをBlueXP  ワークロードファクトリから削除することもできます。</block>
+  <block id="ae548505379d0043460d8c15540cb546" category="section-title">クローンのクリーンアップ</block>
+  <block id="0d003b1e16a8cf8a4b6c0774ee3a0f41" category="paragraph">クローンクリーンアップの評価と修正では、コストのかかる古いクローンを特定して管理します。60日を経過したクローンは、BlueXP  ワークロードファクトリコンソールで更新または削除できます。</block>
+  <block id="6da89f0beda0fbec41b06125b0b7ad32" category="section-title">構成分析の延期と却下</block>
+  <block id="4a9a50cea48d9e2ded3becc284af4e41" category="paragraph">一部の設定はデータベース環境に適用されない場合があります。特定の構成分析を30日延期するか、分析を却下するかを選択できるようになりました。</block>
+  <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">権限に関する用語を更新</block>
+  <block id="a7b97ab7d88b015e92ed51ef4bee9c25" category="paragraph">ワークロードファクトリのユーザインターフェイスとドキュメントでは、読み取り権限を「読み取り専用」に、自動権限を「読み取り/書き込み」に指定するようになりました。</block>
+  <block id="36099969c15a5d064d7174336be7e668" category="doc">FSx for ONTAPファイルシステム向け自律型ランサムウェア対策</block>
+  <block id="08c5452d94d72a6c740ead774c83f8a0" category="paragraph">自律型ランサムウェア対策（ARP）でデータを保護：NAS（NFS / SMB）環境でワークロードを分析し、ランサムウェア攻撃の可能性がある異常なアクティビティを検出して警告する機能です。攻撃が疑われると、ARPは変更不可能な新しいスナップショットも作成し、そこからデータを復元できます。</block>
+  <block id="19fcea201a57b2af997865e1bebd5eb8" category="inline-link-macro">自律型ランサムウェア対策でデータを保護</block>
+  <block id="8deff747fe441bd05b94960711ba6dc7" category="paragraph"><block ref="8deff747fe441bd05b94960711ba6dc7" category="inline-link-macro-rx"></block></block>
+  <block id="a915f8d1a90241b0905e5e0102866336" category="section-title">FlexGroupボリュームのリバランシングの強化</block>
+  <block id="b4e8b949e8b2a108d117e8d00573baa5" category="paragraph">BlueXP  ワークロード工場出荷時に導入されたFlexGroupボリュームリバランシングウィザードには、FlexGroupボリューム内のデータをリバランシングするためのいくつかのレイアウトオプションが用意されています。リバランシングを実行すると、FlexGroupメンバーボリュームにデータが均等に再配分されます。</block>
+  <block id="a3fa0d8d3f4c7edc445cef1c52eb31b4" category="inline-link-macro">FlexGroupボリューム内の容量のリバランシング</block>
+  <block id="ba5f40b0cbda6629d8835a8ddec32ba7" category="paragraph"><block ref="ba5f40b0cbda6629d8835a8ddec32ba7" category="inline-link-macro-rx"></block></block>
+  <block id="b4650b4ce326d6a3b7fad5e98b1b29d3" category="section-title">FSx for ONTAPファイルシステムのベストプラクティスを実装</block>
+  <block id="23298c67bec69aa678274ba1b4e76d09" category="paragraph">BlueXP  ワークロードファクトリには、ファイルシステム構成の適切な設計ステータスを確認できるダッシュボードが用意されています。この分析を活用して、FSx for ONTAPファイルシステムのベストプラクティスを実装できます。ファイルシステム構成の分析には、SSD容量のしきい値、スケジュールされたローカルスナップショット、FSx for ONTAPのスケジュールされたバックアップ、データ階層化、リモートデータレプリケーションなどの構成が含まれます。</block>
+  <block id="20c1cdeb819f1a107044754c5b7cd16d" category="inline-link-macro">ファイルシステム構成の適切に設計された分析をご紹介します</block>
+  <block id="f85ae2c7c8690dad4aad4469edd0d4d1" category="list-text"><block ref="f85ae2c7c8690dad4aad4469edd0d4d1" category="inline-link-macro-rx"></block></block>
+  <block id="ee8bd13e9852f521384a9366f9fddac8" category="inline-link-macro">ファイルシステムのベストプラクティスの実装</block>
+  <block id="809288260d1cdd9ac42626b2cf175ba5" category="list-text"><block ref="809288260d1cdd9ac42626b2cf175ba5" category="inline-link-macro-rx"></block></block>
+  <block id="b9b3a3dd5e7f3f2002c13a1dde978328" category="section-title">デュアルプロトコルボリュームのセキュリティ形式のオプション</block>
+  <block id="8138182381112922a4c0de3123a20759" category="paragraph">ボリュームのセキュリティ形式としてNTFSまたはUNIXを選択して、ユーザや権限がボリュームにアクセスする方法を決定できます。</block>
+  <block id="01723ef9eeaed61dd2633adc90d31f85" category="section-title">レプリケーションの機能拡張</block>
+  <block id="b2e52f2d95b8128fa0aa997184d2e917" category="section-title">FSx for ONTAPからオンプレミスへのリバースレプリケーションをサポート</block>
+  <block id="987500c5a62dc35588c50c1cdc64759a" category="paragraph">FSx for ONTAPファイルシステムからオンプレミスのONTAPクラスタへのリバースレプリケーションを、ワークロードファクトリコンソールから利用できるようになりました。</block>
+  <block id="7ffd90bebe955a3d38da9e78eaaaf49b" category="inline-link-macro">リバースレプリケーション</block>
+  <block id="ad52c9d51cc60d89ce36c30b38feb597" category="paragraph"><block ref="ad52c9d51cc60d89ce36c30b38feb597" category="inline-link-macro-rx"></block></block>
+  <block id="e949ed7c07a946c5c5337cf0219fbc8a" category="section-title">データ保護ボリュームのレプリケーション</block>
+  <block id="b160179bf174efa559aefeb2a6a265ff" category="paragraph">データ保護ボリュームをレプリケートできるようになりました。</block>
+  <block id="699cadf384181ae5970ed8c0de60e0ff" category="inline-link-macro">データ保護ボリュームをレプリケートする</block>
+  <block id="f4ae9aa33f99746ec1459126f50c3db7" category="paragraph"><block ref="f4ae9aa33f99746ec1459126f50c3db7" category="inline-link-macro-rx"></block></block>
+  <block id="f45e31e9eb62670abb227bd17e863909" category="section-title">複数ボリュームの選択</block>
+  <block id="11b72bb293d845376d594d8db15c5c42" category="paragraph">複数のボリュームを選択できるため、レプリケートするボリュームを正確に選択できます。</block>
+  <block id="ca0c3dd7dca9f636af3209d526098e1e" category="inline-link-macro">レプリケーション関係を作成する</block>
+  <block id="4027269222ebe19f8c7ce0489bd4a099" category="paragraph"><block ref="4027269222ebe19f8c7ce0489bd4a099" category="inline-link-macro-rx"></block></block>
+  <block id="a07aceed52eedb73437d4be9dffb7512" category="section-title">長期保持ポリシーのラベル</block>
+  <block id="4f41e87d14e054d42c2670ea8c528589" category="paragraph">レプリケーション関係に対して長期保持を有効にする場合は、ソースボリュームとターゲットボリュームのラベルが完全に一致している必要があります。BlueXP  ワークロードファクトリで、欠落しているソースボリュームラベルが自動的に作成されるようになりました。</block>
+  <block id="cfe8fde03c6d1a12606f20570c95dd3a" category="section-title">FSx for ONTAPのファイル名がボリューム作成時に表示される</block>
+  <block id="15ed156f4715eb4b7e7feb040d7c9c90" category="paragraph">FSx for ONTAPファイルシステムのボリューム作成時の可視性が向上しました。ボリュームを作成するとFSx for ONTAPファイルシステムが表示されるため、ボリュームが作成されている場所を正確に把握できます。</block>
+  <block id="92698312f3f978b9a3975381093aea27" category="section-title">ストレージワークロード全体でAWSアカウントを認識</block>
+  <block id="d4ba91ca8b32dac38d8a02560db45f99" category="paragraph">ストレージワークロード全体のアカウントの可視性が向上しました。AWSアカウントは、*[ボリューム]*、*[Storage VM]*、*[レプリケーション]*の各タブに移動すると表示されます。</block>
+  <block id="44918ad8d6b4fa49e31aa71e8c3e972b" category="section-title">リンクアソシエーションの機能拡張</block>
+  <block id="730fff71d8c1a3c83285cf73a189adc1" category="list-text">FSx for ONTAPファイルシステムからのリンクは、[インベントリ]タブで簡単に関連付けることができます。</block>
+  <block id="794643699de592957f5ae7ac7b70d1be" category="list-text">BlueXP  ワークロードファクトリでは、リンクの関連付けに代替ONTAPユーザクレデンシャルの使用がサポートされるようになりました。</block>
+  <block id="7dc7c15512069d38e071e0b7f2eb0075" category="section-title">AWS Secrets Managerのリンク認証のサポート</block>
+  <block id="9eee39cc8777da8f7dbd19a76d917105" category="paragraph">AWS Secrets Managerのシークレットを使用してリンクを認証できるようになり、BlueXP  ワークロードファクトリに保存されているクレデンシャルを使用する必要がなくなりました。</block>
+  <block id="e740d5331c1318c8aeedd3bc928fee0f" category="section-title">トラッカー応答サポート</block>
+  <block id="afa647328e65fc54651ec9202e08f684" category="paragraph">TrackerでAPI応答が返されるようになり、タスクに関連するREST API出力を確認できるようになりました。</block>
+  <block id="2e0c4c64c2671f5575eb184e577dcdae" category="inline-link-macro">Trackerを使用した操作の監視</block>
+  <block id="51901acdd0b1d27e153698e9d896b4ab" category="paragraph"><block ref="51901acdd0b1d27e153698e9d896b4ab" category="inline-link-macro-rx"></block></block>
+  <block id="3d84fc344c6f90d01ec1ed67bf66b2cf" category="section-title">バックアップからボリュームをリストアする際の容量の検証</block>
+  <block id="02fb27a360f5d3b300cee7fd194ec4ab" category="paragraph">バックアップからボリュームをリストアする場合、BlueXP  ワークロードの工場出荷時にリストアに十分な容量があるかどうかが確認され、十分でない場合はSSDストレージ階層の容量が自動的に追加されます。</block>
+  <block id="669e24f4895025d47b6321e03f0890e4" category="inline-link-macro">バックアップからボリュームをリストアする</block>
+  <block id="6a04144fb90318983f201c0a346bc6b3" category="paragraph"><block ref="6a04144fb90318983f201c0a346bc6b3" category="inline-link-macro-rx"></block></block>
+  <block id="2bbce7d3d059871083eb12013b7bc70d" category="section-title">代替ONTAPユーザクレデンシャルのサポート</block>
+  <block id="21fe54f48c52f1924f6b2b74751f1611" category="paragraph">Workload Factoryでは、ファイルシステムを作成するためのONTAPクレデンシャルの代替セットがサポートされるようになりました。fsxadminユーザだけを使用する代わりに、別のONTAPクレデンシャルのセットを選択するか、fsxadminユーザとvsaadminユーザのパスワードを指定しないように選択できます。</block>
+  <block id="fa499afb5b0e71cede67d6430b479aad" category="doc">Amazon Q向けNetApp ONTAP Connectorのサポート</block>
+  <block id="c77dd74f22a4c7346ab562d5eff0bc5a" category="paragraph">このリリースの 生成AIでは、NetApp ONTAP Connector for Amazon Qのサポートが導入され、Amazon Q Business用のコネクタを作成できるようになりました。Amazon Bedrock用の 生成AIナレッジベースを構築するよりも、初期設定が少なくて済み、Amazon Q Business AIアシスタントをすばやく簡単に活用できます。</block>
+  <block id="cf79fa4b0d1663f0ab76e8bc4b4e5ff3" category="inline-link-macro">Amazon Q Business用の 生成AIコネクタの作成</block>
+  <block id="9e4085aea7ddf49d777bc0d6415232d0" category="paragraph"><block ref="9e4085aea7ddf49d777bc0d6415232d0" category="inline-link-macro-rx"></block></block>
+  <block id="535baaac5969b3bd7fd10592a2cb8e22" category="section-title">強化されたチャットモデルサポート</block>
+  <block id="48ced6c80c0d41a7f68e3e9caece65d9" category="paragraph">生成AIでは、ナレッジベース用に次の追加チャットモデルがサポートされるようになりました。</block>
+  <block id="ba7ee7dc8867588bd50d38f7762f4e93" category="inline-link-macro">Mistral AIモデル</block>
+  <block id="fffe8738239ad19b2e24fda4b92d99f8" category="list-text"><block ref="fffe8738239ad19b2e24fda4b92d99f8" category="inline-link-macro-rx"></block></block>
+  <block id="ac4754b088e15ec23e2e33942607b0db" category="inline-link-macro">Amazon Titanテキストモデル</block>
+  <block id="91b642108b49f539aef5f1e7e8429b9a" category="list-text"><block ref="91b642108b49f539aef5f1e7e8429b9a" category="inline-link-macro-rx"></block></block>
+  <block id="3e431ea8f1bf6f1b755d11be49ab7215" category="inline-link-macro">Meta Llamaモデル</block>
+  <block id="957aa19111afb49cbdb72a75c11a7824" category="list-text"><block ref="957aa19111afb49cbdb72a75c11a7824" category="inline-link-macro-rx"></block></block>
+  <block id="025fda77b8ffb8c9e7812b66f625dcdb" category="inline-link-macro">Jamba 1.5モデル</block>
+  <block id="00be89811246b5f1554783fae811628a" category="list-text"><block ref="00be89811246b5f1554783fae811628a" category="inline-link-macro-rx"></block></block>
+  <block id="d5bedd5eb6b3c4a63a27527880abc5ae" category="inline-link-macro">Cohereコマンドモデル</block>
+  <block id="01f2d137c910887f5780defdf71aa720" category="list-text"><block ref="01f2d137c910887f5780defdf71aa720" category="inline-link-macro-rx"></block></block>
+  <block id="7af238b1ae959fcc9ca0417cb2d5f9a7" category="inline-link-macro">ディープシークモデル</block>
+  <block id="96734ae1eb62df22f906e39314369633" category="list-text"><block ref="96734ae1eb62df22f906e39314369633" category="inline-link-macro-rx"></block></block>
+  <block id="dbc68fe7976455ff2b6f2e5143dfd308" category="inline-link-macro">Amazon Bedrockでサポートされる基盤モデル</block>
+  <block id="b198f4cca9409499187762bec5420672" category="paragraph">生成AIは、Amazon Bedrockがサポートする各プロバイダのモデルをサポートしています。<block ref="9f10081366e85554159ed4dc640b95c7" category="inline-link-macro-rx"></block></block>
+  <block id="74d516ef8dfa098bb4cd92313c403475" category="doc">CloudShellオートコンプリートのサポート</block>
+  <block id="df96b6f4ceabb5c4dbc915475fd821fe" category="paragraph">BlueXP  ワークロードファクトリCloudShellを使用している場合は、コマンドの入力を開始してTabキーを押すと、使用可能なオプションが表示されます。複数の候補が存在する場合は、CLIに候補のリストが表示されます。この機能は、エラーを最小限に抑え、コマンド実行を高速化することで、生産性を向上させます。</block>
+  <block id="795a0e870c9420e8289ae895de63c851" category="paragraph">このリリースのVMware向けBlueXP  ワークロードファクトリでは、Amazon EC2 Migration Advisorのエクスペリエンスが次のように改善されています。</block>
+  <block id="81e3939f348a9727ff017a61306371bd" category="paragraph">* NetAppデータインフラのインサイトをデータソースとして*：ワークロードファクトリは、EC2移行アドバイザのデータコレクタを使用すると、NetAppデータインフラのインサイトに直接接続して、VMwareの導入情報を収集できるようになりました。</block>
+  <block id="4a8ef01af1fafc8c714496654fc2facc" category="section-title">2025年5月04日</block>
 </blocks>
