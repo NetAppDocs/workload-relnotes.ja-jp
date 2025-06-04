@@ -1,0 +1,19 @@
+= 運用の監視と追跡に使用可能なトラッカー
+:allow-uri-read: 
+
+
+
+
+=== 運用の監視と追跡に使用可能なトラッカー
+
+GenAIでTracker監視機能が利用可能になりました。Trackerを使用すると、保留中、進行中、完了済みの操作の進行状況とステータスを監視および追跡したり、操作タスクとサブタスクの詳細を確認したり、問題や失敗を診断したり、失敗した操作のパラメータを編集したり、失敗した操作を再試行したりできます。
+
+link:https://docs.netapp.com/us-en/workload-genai/general/monitor-operations.html["BlueXP ワークロード ファクトリーの Tracker を使用してワークロード操作を監視する"]
+
+
+
+=== 知識ベースの再ランク付けモデルを選択する
+
+ナレッジベースで使用する特定のリランカーモデルを選択することで、再ランク付けされたクエリ結果の関連性を高めることができます。GenAIは、Cohere RerankモデルとAmazon Rerankモデルをサポートしています。
+
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["生成AIナレッジベースの作成"]
