@@ -84,7 +84,6 @@
   <block id="26ea891fa4f63d071728537d886e0f6c" category="section-title">Anthropic Claude Sonnet 3.7チャットモデルのサポート</block>
   <block id="4c58515c1bd9657f223b7731d306475c" category="paragraph">生成AIでは、Anthropic Claude 3.7 Sonnetチャットモデルがサポートされるようになりました。Claude 3.7 Sonnetのベータ機能は、要求ごとに最大128Kの出力トークンを可能にし、新しいコンピュータの使用アクションをサポートします。Claude 3.7 Sonnet拡張思考モードは、将来の 生成AIリリースでサポートされる予定です。</block>
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">生成AIナレッジベースの作成</block>
-  <block id="fe72cb2aff5f7bf6138e806921c5d3d6" category="paragraph"><block ref="fe72cb2aff5f7bf6138e806921c5d3d6" category="inline-link-macro-rx"></block></block>
   <block id="40bd8fe426c37e97f38be2c5a2728752" category="section-title">汎用NFS / SMB共有からのデータソースの追加のサポート</block>
   <block id="1813c42a79840f7d495281cf050a30dc" category="paragraph">ワークロードファクトリAPIを使用して、一般的なNFSv3、NFSv4、またはSMB共有からデータソースを追加できるようになりました。NFS共有またはSMB共有からデータソースを追加しても、ナレッジベースボリュームはAmazon FSx for NetApp ONTAPボリュームに残ります。この機能は、ワークロードファクトリのWeb UIで今後のリリースでサポートされる予定です。</block>
   <block id="fbc7eedf5c13a549330a0c3f52777db8" category="section-title">vPCピアリングのサポート</block>
@@ -183,10 +182,6 @@
   <block id="6a04144fb90318983f201c0a346bc6b3" category="paragraph"><block ref="6a04144fb90318983f201c0a346bc6b3" category="inline-link-macro-rx"></block></block>
   <block id="2bbce7d3d059871083eb12013b7bc70d" category="section-title">代替ONTAPユーザクレデンシャルのサポート</block>
   <block id="21fe54f48c52f1924f6b2b74751f1611" category="paragraph">Workload Factoryでは、ファイルシステムを作成するためのONTAPクレデンシャルの代替セットがサポートされるようになりました。fsxadminユーザだけを使用する代わりに、別のONTAPクレデンシャルのセットを選択するか、fsxadminユーザとvsaadminユーザのパスワードを指定しないように選択できます。</block>
-  <block id="fa499afb5b0e71cede67d6430b479aad" category="doc">Amazon Q向けNetApp ONTAP Connectorのサポート</block>
-  <block id="c77dd74f22a4c7346ab562d5eff0bc5a" category="paragraph">このリリースの 生成AIでは、NetApp ONTAP Connector for Amazon Qのサポートが導入され、Amazon Q Business用のコネクタを作成できるようになりました。Amazon Bedrock用の 生成AIナレッジベースを構築するよりも、初期設定が少なくて済み、Amazon Q Business AIアシスタントをすばやく簡単に活用できます。</block>
-  <block id="cf79fa4b0d1663f0ab76e8bc4b4e5ff3" category="inline-link-macro">Amazon Q Business用の 生成AIコネクタの作成</block>
-  <block id="9e4085aea7ddf49d777bc0d6415232d0" category="paragraph"><block ref="9e4085aea7ddf49d777bc0d6415232d0" category="inline-link-macro-rx"></block></block>
   <block id="535baaac5969b3bd7fd10592a2cb8e22" category="section-title">強化されたチャットモデルサポート</block>
   <block id="48ced6c80c0d41a7f68e3e9caece65d9" category="paragraph">生成AIでは、ナレッジベース用に次の追加チャットモデルがサポートされるようになりました。</block>
   <block id="ba7ee7dc8867588bd50d38f7762f4e93" category="inline-link-macro">Mistral AIモデル</block>
@@ -243,4 +238,8 @@
   <block id="af1e7fa29b343a7d9bd55952a334e8c9" category="paragraph">新しいボリュームを作成すると、データの圧縮、圧縮、重複排除などのストレージ効率がデフォルトで有効になります。</block>
   <block id="55321b0c9d5d13d71a60766806796f90" category="inline-link-macro">ワークロードファクトリーに新しいボリュームを作成する</block>
   <block id="9257e0b60b0f1cd3867c62713d3370aa" category="paragraph"><block ref="9257e0b60b0f1cd3867c62713d3370aa" category="inline-link-macro-rx"></block></block>
+  <block id="93f953f50f24ae6dbf0400fde1bcc67d" category="doc">Amazon Q Business 向け NetApp コネクタのサポート</block>
+  <block id="f6f6ab51c21f03ba653ceea7301964e4" category="paragraph">GenAI のこのリリースでは、NetApp Connector for Amazon Q Business のサポートが導入され、Amazon Q Business 用のコネクタを作成できるようになりました。Amazon Bedrock用の 生成AIナレッジベースを構築するよりも、初期設定が少なくて済み、Amazon Q Business AIアシスタントをすばやく簡単に活用できます。</block>
+  <block id="3381eec0e48920855b86597d56709196" category="inline-link-macro">Amazon Q Business 用の NetApp コネクタを作成する</block>
+  <block id="8320a18edf6c2a7804ecd7a111b33314" category="paragraph"><block ref="8320a18edf6c2a7804ecd7a111b33314" category="inline-link-macro-rx"></block></block>
 </blocks>

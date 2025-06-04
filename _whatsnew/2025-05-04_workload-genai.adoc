@@ -1,14 +1,14 @@
-= Amazon Q向けNetApp ONTAP Connectorのサポート
+= Amazon Q Business 向け NetApp コネクタのサポート
 :allow-uri-read: 
 
 
 
 
-=== Amazon Q向けNetApp ONTAP Connectorのサポート
+=== Amazon Q Business 向け NetApp コネクタのサポート
 
-このリリースの 生成AIでは、NetApp ONTAP Connector for Amazon Qのサポートが導入され、Amazon Q Business用のコネクタを作成できるようになりました。Amazon Bedrock用の 生成AIナレッジベースを構築するよりも、初期設定が少なくて済み、Amazon Q Business AIアシスタントをすばやく簡単に活用できます。
+GenAI のこのリリースでは、NetApp Connector for Amazon Q Business のサポートが導入され、Amazon Q Business 用のコネクタを作成できるようになりました。Amazon Bedrock用の 生成AIナレッジベースを構築するよりも、初期設定が少なくて済み、Amazon Q Business AIアシスタントをすばやく簡単に活用できます。
 
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Amazon Q Business用の 生成AIコネクタの作成"]
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Amazon Q Business 用の NetApp コネクタを作成する"]
 
 
 
@@ -26,7 +26,7 @@ link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.htm
 
 生成AIは、Amazon Bedrockがサポートする各プロバイダのモデルをサポートしています。link:https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html["Amazon Bedrockでサポートされる基盤モデル"^]
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["生成AIナレッジベースの作成"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["生成AIナレッジベースの作成"]
 
 
 
