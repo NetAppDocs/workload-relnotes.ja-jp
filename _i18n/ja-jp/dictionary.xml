@@ -48,23 +48,6 @@
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
   <block id="dc88dce8ec264777b2f90ec0af744f43" category="list-text">ボリュームの作成</block>
   <block id="d3156376048c94102c97709d5ff05e75" category="paragraph"><block ref="d3156376048c94102c97709d5ff05e75" category="inline-link-macro-rx"></block></block>
-  <block id="7512718e82771ab0f98e51652a2e97c6" category="inline-link-macro">Trackerを使用して運用を監視および追跡する方法をご確認ください</block>
-  <block id="30babb51ab17a107228fe65a4e65418b" category="paragraph"><block ref="30babb51ab17a107228fe65a4e65418b" category="inline-link-macro-rx"></block></block>
-  <block id="4a922c367b35639ecb9d911b81fdb458" category="doc">容量管理の自動化の強化</block>
-  <block id="5868fd5ebf39f0f3dce9bd4ba23dcb6f" category="paragraph">容量の自動管理を有効にすると、BlueXP  ワークロードファクトリでは、ファイルシステムが容量のしきい値に達したかどうかが2時間ごとではなく30分ごとにチェックされるようになりました。</block>
-  <block id="410d677b6db33c7f47c30b3d219c4846" category="paragraph">容量のしきい値に達しても、プロビジョニングIOPSの設定は影響を受けなくなりました。</block>
-  <block id="c21bf517f636f8492b01232a674a8d2e" category="section-title">変更不可のSnapshot</block>
-  <block id="525386f4531b9b4bbd2b84ae92c59c07" category="paragraph">特定の保持期間にわたってSnapshotをロックし、変更不可にすることができるようになりました。ロックにより、スナップショットへの不正アクセスや悪意のある削除を防止できます。Snapshotポリシーの作成時、手動でのSnapshotの作成時、およびSnapshotの作成後に、変更不可のSnapshotを有効にすることができます。</block>
-  <block id="b811c826e0c0b54d5803fe35cb209c82" category="section-title">不変ファイルの更新</block>
-  <block id="a321ab5f7c12f7cdaa9d6077d68dc055" category="paragraph">変更不可のファイル設定に対して、保持ポリシー、保持期間、自動コミット期間、およびボリュームアペンドモードを変更できるようになりました。</block>
-  <block id="a864feef5272f034d55e1119c5495be8" category="inline-link-macro">変更不可ファイルの管理</block>
-  <block id="2915f18b56c3e4e3c1ef137551d9a65d" category="section-title">データレプリケーションの機能拡張</block>
-  <block id="114e60d7d0f811f597761cf833328a96" category="list-text">アカウント間レプリケーション：2つのAWSアカウント間のレプリケーションは、BlueXP  ワークロードファクトリコンソールとレプリケーション管理でサポートされています。</block>
-  <block id="0348e63af5ee6958b15125648a1ecae7" category="list-text">レプリケーションの一時停止と再開：ソースボリュームからデスティネーションボリュームへのスケジュールされたレプリケーション更新を一時停止（休止）し、準備ができたらレプリケーションスケジュールを再開できます。一時停止中は、ソースボリュームとデスティネーションボリュームが独立し、デスティネーションボリュームは読み取り専用から読み書き可能に移行します。</block>
-  <block id="38485996f06c5e13eed5605901b52530" category="inline-link-macro">レプリケーション関係の一時停止と再開</block>
-  <block id="fc81b1e4233a48b719520033e56b4194" category="paragraph"><block ref="fc81b1e4233a48b719520033e56b4194" category="inline-link-macro-rx"></block></block>
-  <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="section-title">TrackerのCloudShellイベント</block>
-  <block id="e7a6197673267c30b5dc86e0d5f6c536" category="paragraph">これで、TrackerでCloudShellイベントを追跡できるようになりました。</block>
   <block id="ab4a8520fe8e2e09df8b9471a8d923bf" category="section-title">2025年3月02日</block>
   <block id="312fbafda6b72e176a3eb6272e48d799" category="section-title">ファイル形式のサポートの強化</block>
   <block id="939bf2b00dbe77d4a65f4d265a755136" category="inline-link-macro">サポートされるデータソースファイル形式</block>
@@ -72,7 +55,6 @@
   <block id="13ba1ae4c82947e19de7e94ee0eaab45" category="list-text">*推定インスタンスタイプ*：Migration Advisorで環境の要件を確認し、VMごとに推定Amazon EC2インスタンスタイプを提供できるようになりました。移行アドバイザの「スコープ」ステップで、各VMの推定インスタンスタイプを含めるように選択できます。</block>
   <block id="3006f7737352e976899743eaf6e2b28e" category="list-text">* Amazon EBSボリュームの推奨機能*：移行アドバイザーは、特定のリージョンの容量やパフォーマンスのニーズに応じて、Amazon FSx for NetApp ONTAPではなくAmazon Elastic Block Store（EBS）にデータボリュームを移行することを推奨できるようになりました。</block>
   <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">*ファイルシステムの自動割り当ての強化*：Amazon FSx for NetApp ONTAPファイルシステムの割り当てが改善され、コストの最適化とスループットの最小化が実現しました。</block>
-  <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
   <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">CloudShellを使用している場合、ONTAP CLIコマンドを発行してエラーが発生するたびに、失敗の説明、失敗の原因、詳細な解決策を含むAI生成のエラー応答を取得できます。</block>
   <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">IAM：SimulatePermissionPolicy権限の更新</block>
   <block id="906699741ebd9905a07af900abcfd438" category="paragraph">AWSアカウントのクレデンシャルを追加したり、生成AIワークロードなどの新しいワークロード機能を追加したりするときに、ワークロードファクトリコンソールから権限を管理できるようになりまし<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>た。</block>
@@ -243,4 +225,22 @@
   <block id="a3a574ae48c14d14b1a16908815471f6" category="section-title">知識ベースの再ランク付けモデルを選択する</block>
   <block id="9e0cf47f3974a0b121f9381245ed8931" category="paragraph">ナレッジベースで使用する特定のリランカーモデルを選択することで、再ランク付けされたクエリ結果の関連性を高めることができます。GenAIは、Cohere RerankモデルとAmazon Rerankモデルをサポートしています。</block>
   <block id="8443221e1b90a24e56685750c704746a" category="section-title">2025年6月03日</block>
+  <block id="7583f12b4559f6687c67d8588da1e2f7" category="doc">ボリューム自動拡張の強化</block>
+  <block id="b57fe4f5ee65a0e01f61993297811ebf" category="paragraph">ビジネス ニーズやアプリケーション要件に応じて、ボリューム サイズがプロビジョニングされたサイズを超えて拡張できるように、ボリュームの自動拡張サイズを設定できるようになりました。</block>
+  <block id="9f1effd9ace68ca00fe9e9e3c024b362" category="inline-link-macro">ボリュームの自動拡張を有効にする</block>
+  <block id="0177289fb77b50bdfc34ab44aa432a21" category="paragraph"><block ref="0177289fb77b50bdfc34ab44aa432a21" category="inline-link-macro-rx"></block></block>
+  <block id="159687e1c95e32f1dcb6c9c1624ba327" category="section-title">Well-Architected 分析のアップデート</block>
+  <block id="8500b95246538dfef049532751c1e9f5" category="paragraph">Workload Factory は、FSx for ONTAP ファイルシステムを分析し、データコンパクション、圧縮、重複排除といったストレージ効率が活用されているかどうかを確認します。ストレージ効率は、ファイルシステムが利用可能なスペースをどれだけ効率的に使用しているかを測定します。</block>
+  <block id="26e5625f54c5c47a57293d23260101c7" category="inline-link-macro">ストレージ効率の適切なアーキテクチャの状態を表示する</block>
+  <block id="80378f8a6a0c86610258fa79cd78497b" category="paragraph"><block ref="80378f8a6a0c86610258fa79cd78497b" category="inline-link-macro-rx"></block></block>
+  <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">ストレージダッシュボードの機能強化</block>
+  <block id="47586d678be72b51ea7ac193f83c19b2" category="paragraph">本日より、ワークロードファクトリーコンソールからストレージワークロードを開くと、*ダッシュボード*が表示されます。新しく設計されたダッシュボードでは、ファイルシステムの数、SSDの総容量、Well-Architectedステータスの概要、データ保護の概要、レプリケーション関係の健全性など、FSx for ONTAPシステムの包括的なビューを提供します。</block>
+  <block id="74d3ed8321cbdac2928290eee4795cef" category="section-title">ボリュームタブの機能強化</block>
+  <block id="0d25e8e0a888c31329b48ed4a33f98f6" category="paragraph">ストレージワークロードでは、ワークロードファクトリーコンソールのFSx for ONTAPファイルシステム内の「ボリューム」タブが強化されました。強化された内容は次のとおりです。</block>
+  <block id="90a8a55f34e9e967f8619ecc5b0ba92a" category="list-text">*新しいカード*: SSD 容量、容量プール、自律ランサムウェア保護 (ARP)</block>
+  <block id="f80c9595c105a10d312aac80217ebb84" category="list-text">*新しい列*: 容量分布、使用済み SSD 容量、使用済み容量プール、SSD 効率</block>
+  <block id="92eacda944854c6bfa8676c60aaa4c96" category="section-title">ボリューム作成時のストレージ効率のアップデート</block>
+  <block id="af1e7fa29b343a7d9bd55952a334e8c9" category="paragraph">新しいボリュームを作成すると、データの圧縮、圧縮、重複排除などのストレージ効率がデフォルトで有効になります。</block>
+  <block id="55321b0c9d5d13d71a60766806796f90" category="inline-link-macro">ワークロードファクトリーに新しいボリュームを作成する</block>
+  <block id="9257e0b60b0f1cd3867c62713d3370aa" category="paragraph"><block ref="9257e0b60b0f1cd3867c62713d3370aa" category="inline-link-macro-rx"></block></block>
 </blocks>
