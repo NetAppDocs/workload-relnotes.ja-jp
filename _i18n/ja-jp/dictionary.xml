@@ -59,23 +59,6 @@
   <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">IAM：SimulatePermissionPolicy権限の更新</block>
   <block id="906699741ebd9905a07af900abcfd438" category="paragraph">AWSアカウントのクレデンシャルを追加したり、生成AIワークロードなどの新しいワークロード機能を追加したりするときに、ワークロードファクトリコンソールから権限を管理できるようになりまし<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>た。</block>
   <block id="186057b8c375bff9b600d22bf8686fc5" category="section-title">2025年3月30日</block>
-  <block id="e2becee7c382badfb02490cd30d53c6a" category="doc">スケールアウトシステムの容量を自動管理</block>
-  <block id="5f7d427820d14cb172d0390463b259c4" category="paragraph">Workload factoryでは、ボリューム内の使用可能なinodeがスキャンされ、設定された容量の自動管理しきい値に従ってその数が増加します。この機能では、スケールアウトシステムの容量の自動管理がサポートされます。容量の自動管理の一環として、inode管理を有効にすることができます。</block>
-  <block id="ff117b5e42f4a60dd5b7859999c4f2bd" category="inline-link-macro">容量の自動管理を有効にする</block>
-  <block id="85729d1984aee9281a3cc017500ff795" category="paragraph"><block ref="85729d1984aee9281a3cc017500ff795" category="inline-link-macro-rx"></block></block>
-  <block id="d0405304bf4b7c3f042b05203316ddd5" category="section-title">FlexGroupリバランシングAPI</block>
-  <block id="90f7c93b8d9614f0fd7cc2ee87f199c1" category="paragraph">BlueXP  ワークロード工場では、FlexGroupリバランシングAPIがリリースされています。このAPIを使用すると、FlexGroup内のデータをリバランシングするプランを実行できます。リバランシングを実行すると、メンバーボリュームにデータが均等に再配分されます。</block>
-  <block id="1a256f86b88647f213e637c9cab0ed8b" category="inline-link-macro">BlueXP  ワークロードファクトリAPIドキュメント</block>
-  <block id="9f2e2c38a7baafe56307fced13716496" category="paragraph"><block ref="9f2e2c38a7baafe56307fced13716496" category="inline-link-macro-rx"></block></block>
-  <block id="40f45c6ac2dbe2255c8ef062d007653f" category="section-title">データの複製フォームにはユースケースが含まれる</block>
-  <block id="d3a1df9d08a100116ee8f443f56f895d" category="paragraph">データの複製フォームには、フォームへの入力を容易にするためのユースケースが含まれるようになりました。データレプリケーションのユースケースとして、移行、ホットディザスタリカバリ、コールドディザスタリカバリ、アーカイブなどのいずれかを選択します。ユースケースを選択したあと、Workload Factoryではベストプラクティスに従った値が推奨されます。事前選択された値を受け入れるか、フォームの値をカスタマイズできます。</block>
-  <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">データのレプリケート</block>
-  <block id="0c09136cc5ea602bb57eff7c2432239d" category="paragraph"><block ref="0c09136cc5ea602bb57eff7c2432239d" category="inline-link-macro-rx"></block></block>
-  <block id="9425459482ebc84a43dc550767dd3e0f" category="section-title">データ階層化ポリシーの用語の変更</block>
-  <block id="ac41e4be5fb8d94814ca592ccb928b7c" category="paragraph">ボリュームの作成時、データレプリケーション時、または既存の階層化ポリシーの更新時に階層化ポリシーを選択すると、階層化ポリシーを表す新しい用語が追加されます。</block>
-  <block id="1680d9abb7a22a23c44b7a4b6381f160" category="list-text">バランス（自動）_</block>
-  <block id="ba8ad03a370d66806f12b2e607ea29c7" category="list-text">_コスト最適化（すべて）_</block>
-  <block id="c9c6a4f8a60589f93e4860841bc03333" category="list-text">_パフォーマンスを最適化（Snapshotのみ）_</block>
   <block id="f3a4976ab2464242211263cea7e247f9" category="paragraph">このリリースの 生成AIでは、データソースからファイルを取り込む際のJSONおよびJSONPファイル形式のサポートが導入されて<block ref="cc8f0c0e5a5cef9b33f236a0a9c19ca0" prefix=" " category="inline-code"></block>います。ネストされたオブジェクトを含むJSONファイルがサポートされますが、ネストされた配列はサポートされません。</block>
   <block id="0a8f6f086d5f30a416a61fd3606f1025" category="section-title">外部チャットボットサンプルアプリケーションの国際化サポート</block>
   <block id="a2f4023c744ab1521036ee54ec2e15ba" category="paragraph">生成AIサンプル外部チャットボットアプリケーションのユーザーインターフェイスを別の言語やロケールに簡単に変更できるようになりました。</block>
@@ -94,10 +77,6 @@
   <block id="0fcf305133bffed241e3ea17efbba5fc" category="inline-link-macro">ワークロードファクトリAPIを使用</block>
   <block id="a6efc6ca3aa5af2c7a8cad1239df17c0" category="paragraph"><block ref="a6efc6ca3aa5af2c7a8cad1239df17c0" category="inline-link-macro-rx"></block></block>
   <block id="ef74d01649997b60252254da8a1573fd" category="doc">ONTAP CLIコマンドについて、AIによって生成されたエラー応答がCloudShellで報告される</block>
-  <block id="4992f7a0d7d6ee4776bb87ff9118642c" category="section-title">ファイルシステム作成のセキュリティグループの詳細</block>
-  <block id="b7cc50bb665bb63168fb8d2e9eebaedc" category="paragraph">セキュリティグループは、FSx for ONTAPファイルシステムの作成プロセスの一環として作成されます。セキュリティグループの詳細（プロトコル、ポート、ロールなど）を確認できるようになりました。</block>
-  <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">ファイルシステムの作成</block>
-  <block id="03b2cfc949418819e16b1dc5fa3660ae" category="paragraph"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
   <block id="8bb788607f31f673e25d0ba34b09a14d" category="doc">最適化の機能拡張</block>
   <block id="7e9a755c644cbdbaab2927671606cf89" category="paragraph">データベース環境を最適化する際に、新しい最適化評価、修正、複数のリソースの表示を利用できます。</block>
   <block id="3cde2cfbcdbdd79a3c1d3d6b547ab80d" category="section-title">耐障害性の評価</block>
@@ -131,7 +110,6 @@
   <block id="6da89f0beda0fbec41b06125b0b7ad32" category="section-title">構成分析の延期と却下</block>
   <block id="4a9a50cea48d9e2ded3becc284af4e41" category="paragraph">一部の設定はデータベース環境に適用されない場合があります。特定の構成分析を30日延期するか、分析を却下するかを選択できるようになりました。</block>
   <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">権限に関する用語を更新</block>
-  <block id="a7b97ab7d88b015e92ed51ef4bee9c25" category="paragraph">ワークロードファクトリのユーザインターフェイスとドキュメントでは、読み取り権限を「読み取り専用」に、自動権限を「読み取り/書き込み」に指定するようになりました。</block>
   <block id="36099969c15a5d064d7174336be7e668" category="doc">FSx for ONTAPファイルシステム向け自律型ランサムウェア対策</block>
   <block id="08c5452d94d72a6c740ead774c83f8a0" category="paragraph">自律型ランサムウェア対策（ARP）でデータを保護：NAS（NFS / SMB）環境でワークロードを分析し、ランサムウェア攻撃の可能性がある異常なアクティビティを検出して警告する機能です。攻撃が疑われると、ARPは変更不可能な新しいスナップショットも作成し、そこからデータを復元できます。</block>
   <block id="19fcea201a57b2af997865e1bebd5eb8" category="inline-link-macro">自律型ランサムウェア対策でデータを保護</block>
@@ -243,4 +221,17 @@
   <block id="3381eec0e48920855b86597d56709196" category="inline-link-macro">Amazon Q Business 用の NetApp コネクタを作成する</block>
   <block id="8320a18edf6c2a7804ecd7a111b33314" category="paragraph"><block ref="8320a18edf6c2a7804ecd7a111b33314" category="inline-link-macro-rx"></block></block>
   <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">ワークロード ファクトリのユーザー インターフェースとドキュメントでは、読み取り権限を示すために「読み取り専用」を使用し、自動化権限を示すために「読み取り/書き込み」を使用するようになりました。</block>
+  <block id="2423cc9c7b9124d70e9fba7ab98b53df" category="doc">問題解決のための新しい優れた分析とサポート</block>
+  <block id="b03b65ae167fa7999b9020739117ae19" category="paragraph">FSx for ONTAP ファイルシステムの自動容量管理が、Well-Architected ステータス ダッシュボードの構成分析として含まれるようになりました。</block>
+  <block id="5a5b21f778da0dbaf4794873b0deb067" category="paragraph">さらに、ワークロード ファクトリーでは、次の構成の問題の修正がサポートされるようになりました。</block>
+  <block id="9d0e9f5c0aa1e38cfaa8e64e155bc5a8" category="list-text">SSD容量しきい値</block>
+  <block id="396928510e06818ef017921022cce2af" category="list-text">データの階層化</block>
+  <block id="aff279b636a9024db3b44375d88e80eb" category="list-text">スケジュールされたローカルSnapshot</block>
+  <block id="667bda9d5b08fe1666f3fe061ce424aa" category="list-text">FSx for ONTAP バックアップ</block>
+  <block id="887673b402c7bbc141e56321e277605f" category="list-text">リモートデータレプリケーション</block>
+  <block id="af20abc7154e9ee224c54b48b6ec7d63" category="list-text">ストレージの効率化</block>
+  <block id="f2be69b635c39988351f6636a52c66bd" category="list-text">自動容量管理</block>
+  <block id="6745decee5065276cebd3695be1fb7bd" category="inline-link-macro">構成の問題を修正する</block>
+  <block id="347dbce3139b58110904a187913fc7e1" category="paragraph"><block ref="347dbce3139b58110904a187913fc7e1" category="inline-link-macro-rx"></block></block>
+  <block id="b818e29403f1ec2f62ad7db43da773e1" category="section-title">2025年6月08日</block>
 </blocks>
