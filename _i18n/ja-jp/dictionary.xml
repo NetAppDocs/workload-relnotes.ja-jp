@@ -234,4 +234,9 @@
   <block id="6745decee5065276cebd3695be1fb7bd" category="inline-link-macro">構成の問題を修正する</block>
   <block id="347dbce3139b58110904a187913fc7e1" category="paragraph"><block ref="347dbce3139b58110904a187913fc7e1" category="inline-link-macro-rx"></block></block>
   <block id="b818e29403f1ec2f62ad7db43da773e1" category="section-title">2025年6月08日</block>
+  <block id="4cd460e2c71c2ffba346f4471ea0fa00" category="doc">ビルダーワークロードの初回リリース</block>
+  <block id="01885fa7b72aa9d947d8efa49fb4b8cd" category="paragraph">BlueXP  Workload Factory for Buildersは、ソフトウェアバージョンの消費とアクセスを簡素化し、カスタムツールやスクリプトの必要性を排除します。ソフトウェアバージョンをPerforce Helix Coreと統合されたインスタントクローンとして使用し、開発プロセスに便利なワークスペースとして使用できるため、時間とリソースを節約できます。</block>
+  <block id="5f9f7bdd8b86c6cc583afabbd903007c" category="paragraph">初期リリースには、プロジェクトとワークスペースを管理し、Codeboxを使用してアクションを自動化する機能が含まれています。また、BuildersとPerforce Helix Coreを統合することで、プロジェクトごとに異なるバージョンを管理し、すばやく切り替えることができます。</block>
+  <block id="e562428972beeca78a1b44b300444717" category="paragraph">&lt;stdin&gt; 内の未解決のディレクティブ - include::_include/workload-builders.adoc[] :leveloffset: +1</block>
+  <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024年12月01日</block>
 </blocks>

@@ -390,6 +390,14 @@ BlueXP  ワークロードファクトリCloudShellを使用している場合�
 
 ワークロード ファクトリのユーザー インターフェースとドキュメントでは、読み取り権限を示すために「読み取り専用」を使用し、自動化権限を示すために「読み取り/書き込み」を使用するようになりました。
 
+<stdin> 内の未解決のディレクティブ - include::_include/workload-builders.adoc[] :leveloffset: +1
+
+
+
+=== 権限に関する用語を更新
+
+ワークロード ファクトリのユーザー インターフェースとドキュメントでは、読み取り権限を示すために「読み取り専用」を使用し、自動化権限を示すために「読み取り/書き込み」を使用するようになりました。
+
 
 
 == 2025年4月04日
@@ -578,3 +586,17 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Clo
 データベースの_read_modeで次の権限を使用できるようになりました `iam:SimulatePrincipalPolicy`。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["アクセス権参照変更ログ"]
+
+
+
+== 2024年12月01日
+
+<stdin> 内の未解決のディレクティブ - include::_include/workload-builders.adoc[] :leveloffset: +1
+
+
+
+=== ビルダーワークロードの初回リリース
+
+BlueXP  Workload Factory for Buildersは、ソフトウェアバージョンの消費とアクセスを簡素化し、カスタムツールやスクリプトの必要性を排除します。ソフトウェアバージョンをPerforce Helix Coreと統合されたインスタントクローンとして使用し、開発プロセスに便利なワークスペースとして使用できるため、時間とリソースを節約できます。
+
+初期リリースには、プロジェクトとワークスペースを管理し、Codeboxを使用してアクションを自動化する機能が含まれています。また、BuildersとPerforce Helix Coreを統合することで、プロジェクトごとに異なるバージョンを管理し、すばやく切り替えることができます。
