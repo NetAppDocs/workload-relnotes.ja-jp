@@ -239,4 +239,9 @@
   <block id="5f9f7bdd8b86c6cc583afabbd903007c" category="paragraph">初期リリースには、プロジェクトとワークスペースを管理し、Codeboxを使用してアクションを自動化する機能が含まれています。また、BuildersとPerforce Helix Coreを統合することで、プロジェクトごとに異なるバージョンを管理し、すばやく切り替えることができます。</block>
   <block id="e562428972beeca78a1b44b300444717" category="paragraph">&lt;stdin&gt; 内の未解決のディレクティブ - include::_include/workload-builders.adoc[] :leveloffset: +1</block>
   <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024年12月01日</block>
+  <block id="fc031ba945e09cb6053f39527ae4937f" category="doc">クローンサポート</block>
+  <block id="e0fa1f53117aa72ea1061c2daaead5bc" category="paragraph">BlueXP Workload Factory for Builders でプロジェクトのクローンを作成できるようになりました。プロジェクトのクローンを作成すると、Builders はスナップショットから、元のプロジェクトと同じ構成の新しいプロジェクトを作成します。クローン作成は、類似のプロジェクトを素早く作成したり、テスト目的で使用する場合に便利です。新しいプロジェクトのクローンは、Builders の指示に従ってマウントできます。</block>
+  <block id="d88d0821a38808f607bab21c2cc4cf9e" category="inline-link">ビルダープロジェクトの BlueXP ワークロード ファクトリーのバージョンを管理する</block>
+  <block id="bbdb933c88b694592079931541c31eb3" category="paragraph"><block ref="bbdb933c88b694592079931541c31eb3" category="inline-link-rx"></block></block>
+  <block id="918963c77ef42064702ac721d5a06ebb" category="section-title">2025年6月16日</block>
 </blocks>
