@@ -232,7 +232,6 @@
   <block id="4cd460e2c71c2ffba346f4471ea0fa00" category="doc">ビルダーワークロードの初回リリース</block>
   <block id="01885fa7b72aa9d947d8efa49fb4b8cd" category="paragraph">BlueXP  Workload Factory for Buildersは、ソフトウェアバージョンの消費とアクセスを簡素化し、カスタムツールやスクリプトの必要性を排除します。ソフトウェアバージョンをPerforce Helix Coreと統合されたインスタントクローンとして使用し、開発プロセスに便利なワークスペースとして使用できるため、時間とリソースを節約できます。</block>
   <block id="5f9f7bdd8b86c6cc583afabbd903007c" category="paragraph">初期リリースには、プロジェクトとワークスペースを管理し、Codeboxを使用してアクションを自動化する機能が含まれています。また、BuildersとPerforce Helix Coreを統合することで、プロジェクトごとに異なるバージョンを管理し、すばやく切り替えることができます。</block>
-  <block id="e562428972beeca78a1b44b300444717" category="paragraph">&lt;stdin&gt; 内の未解決のディレクティブ - include::_include/workload-builders.adoc[] :leveloffset: +1</block>
   <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024年12月01日</block>
   <block id="fc031ba945e09cb6053f39527ae4937f" category="doc">クローンサポート</block>
   <block id="e0fa1f53117aa72ea1061c2daaead5bc" category="paragraph">BlueXP Workload Factory for Builders でプロジェクトのクローンを作成できるようになりました。プロジェクトのクローンを作成すると、Builders はスナップショットから、元のプロジェクトと同じ構成の新しいプロジェクトを作成します。クローン作成は、類似のプロジェクトを素早く作成したり、テスト目的で使用する場合に便利です。新しいプロジェクトのクローンは、Builders の指示に従ってマウントできます。</block>
@@ -244,4 +243,5 @@
   <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="section-title">データベースの権限の更新</block>
   <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">データベースの_read_modeで次の権限を使用できるようになりました<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>。</block>
   <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">2025年2月02日</block>
+  <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">ビルダーのワークロード</block>
 </blocks>
