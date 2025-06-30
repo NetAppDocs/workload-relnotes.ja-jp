@@ -1,0 +1,50 @@
+= BlueXPワークロードファクトリー通知サービスのサポート
+:allow-uri-read: 
+
+
+
+
+=== BlueXPワークロードファクトリー通知サービスのサポート
+
+BlueXP ワークロードファクトリー通知サービスを使用すると、ワークロードファクトリーは BlueXP アラートサービスまたは Amazon SNS トピックに通知を送信できます。BlueXPアラートに送信された通知は、BlueXP アラートパネルに表示されます。ワークロードファクトリーが Amazon SNS トピックに通知を発行すると、トピックのサブスクライバー（ユーザーや他のアプリケーションなど）は、トピックに設定されたエンドポイント（E メールや SMS メッセージなど）で通知を受け取ります。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["BlueXPワークロードファクトリー通知を構成する"^]
+
+ワークロード ファクトリーは、データベースに対して次の通知を提供します。
+
+* よく設計されたレポート
+* ホストの展開
+* 保護
+
+
+
+
+=== インスタンス登録のオンボーディング強化
+
+Workload Factory for Databases は、Amazon FSx for NetApp ONTAP ストレージ上で稼働するインスタンスの登録プロセスを改善しました。これにより、登録するインスタンスを一括で選択できるようになりました。インスタンスの登録が完了すると、Workload Factory コンソール内でデータベースホストリソースの作成と管理が可能になります。
+
+link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["インスタンス管理"]
+
+
+
+=== Microsoft マルチパス I/O タイムアウト設定の分析と修正
+
+データベースホストインスタンスのwell-architectedステータスに、Microsoft Multipath I/O（MPIO）タイムアウト設定の分析と修正が含まれるようになりました。MPIOタイムアウトを60秒に設定することで、FSx for ONTAPストレージの接続性とフェイルオーバー時の安定性が確保されます。MPIO設定が適切に設定されていない場合は、ワークロードファクトリーがMPIOタイムアウト値を60秒に設定する修正を提供します。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["ワークロードファクトリーで適切に設計されたデータベース構成を実装する"]
+
+
+
+=== ホストインベントリのグラフィックの強化
+
+ホストインベントリ画面では、スループットやIOPSといった様々なリソース使用率グラフに7日間分のデータが表示されるようになりました。これにより、ワークロードファクトリーコンソールからSQLノードのパフォーマンスをより効率的に監視できます。SQLノードから収集されたパフォーマンスメトリクスはAmazon CloudWatchに保存され、Logs Insightsや環境内の他の分析サービスとの統合に使用できます。
+
+ホスト インベントリ内のインスタンスとデータベースのタブから、ホスト保護の説明と視覚化が強化されました。
+
+
+
+=== ワークロードファクトリーでの Windows 認証のサポート
+
+現在、ワークロード ファクトリは、Windows 認証ユーザーを使用した SQL Server 認証をサポートし、ホスト インスタンスを登録して、ホスト管理機能を活用できます。
+
+link:https://docs.netapp.com/us-en/workload-databases/register-instance.html["データベースのワークロードファクトリーにホストインスタンスを登録する"]

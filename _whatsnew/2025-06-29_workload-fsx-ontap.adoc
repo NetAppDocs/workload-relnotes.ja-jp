@@ -1,0 +1,83 @@
+= BlueXPワークロードファクトリー通知サービスのサポート
+:allow-uri-read: 
+
+
+
+
+=== BlueXPワークロードファクトリー通知サービスのサポート
+
+BlueXP ワークロードファクトリー通知サービスを使用すると、ワークロードファクトリーは BlueXP アラートサービスまたは Amazon SNS トピックに通知を送信できます。BlueXPアラートに送信された通知は、BlueXP アラートパネルに表示されます。ワークロードファクトリーが Amazon SNS トピックに通知を発行すると、トピックのサブスクライバー（ユーザーや他のアプリケーションなど）は、トピックに設定されたエンドポイント（E メールや SMS メッセージなど）で通知を受け取ります。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["BlueXPワークロードファクトリー通知を構成する"^]
+
+
+
+=== ストレージダッシュボードの機能強化
+
+ワークロードファクトリーコンソールのストレージダッシュボードに、コスト削減の機会を示す新しいカードが追加されました。ダッシュボード上部のカードには、Amazon Elastic Block Store (EBS)、Amazon FSx for Windows File Server、Amazon Elastic File Systems (EFS) で実行されているストレージ環境におけるコスト削減の機会の数が表示されます。ダッシュボード下部には、Amazon ストレージサービス (EBS、FSx for Windows File Server、EFS) ごとのコスト削減の機会を示す 3 つの新しいカードが追加されました。すべてのカードから、コスト削減の機会をより詳細に確認できます。
+
+FSx for ONTAP の保護範囲カードとレプリケーション関係の健全性カードから、FSx for ONTAP ファイルシステム内に部分的に保護されているボリュームがあるかどうか、またレプリケーション関係に関する問題を調査できます。どちらの場合も、問題を解決するためのアクションを実行できます。
+
+
+
+=== 音量タブの機能強化
+
+ワークロードファクトリーコンソールの「ボリューム」タブが強化され、FSx for ONTAPファイルシステムのより包括的なビューが提供されるようになりました。強化された機能には、SSD容量、容量プール、NetApp Autonomous Ransomware Protection with AI（ARP/AI）の新しいカードが含まれます。これらのカードには、ファイルシステム内のすべてのボリュームの容量使用率とARP/AI保護の概要が表示されます。
+
+
+
+=== 第2世代のAmazon FSx for NetApp ONTAPファイルシステムをサポート
+
+ワークロードファクトリーは、第2世代Amazon FSx for NetApp ONTAPファイルシステムのサポートを開始しました。ワークロードファクトリーコンソールで、第2世代ファイルシステムの作成、管理、モニタリングが可能です。すべての新しい商用リージョンがサポートされています。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["ワークロードファクトリーで第2世代のファイルシステムを作成する"]
+
+
+
+=== ボリューム容量の再バランス調整のためのFlexVolボリュームのサポート
+
+FlexVolは、ワークロードファクトリーコンソール内で検出できます。FlexVolのバランスを確認し、新規ファイルの追加やファイルの増加によって時間の経過とともに不均衡が生じた場合は、FlexVolをリバランスして容量を再配分できます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/rebalance-volume.html["FlexVolボリュームの容量を再調整する"]
+
+
+
+=== 用語の更新
+
+ワークロード ファクトリー コンソールで、「Autonomous Ransomware Protection」(ARP) という用語が「NetApp Autonomous Ransomware Protection with AI」(ARP/AI) に更新されました。
+
+
+
+=== 新しいボリュームでは ARP/AI がデフォルトで有効になっています
+
+ワークロードファクトリーコンソールで新しいボリュームを作成すると、ファイルシステムにARP/AIポリシーが設定されている場合、NetApp Autonomous Ransomware Protection with AI（ARP/AI）がデフォルトで有効化されます。つまり、ボリュームはAIを活用した検出・対応機能によってランサムウェア攻撃から自動的に保護されます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["ワークロードファクトリーでボリュームを作成する"]
+
+
+
+=== 不変ファイルのレプリケーションサポート
+
+ワークロードファクトリーは、FSx for ONTAP システム間で不変ボリュームを複製し、重要なデータを誤削除やランサムウェアなどの悪意のある攻撃から保護します。複製先のボリュームとそのホストファイルシステムは不変（ロック）状態となり、保持期間が終了するまで、複製先のファイルシステム内のデータは変更または削除できません。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["レプリケーション関係を作成する方法を学ぶ"]
+
+
+
+=== リンク作成の機能強化
+
+ワークロード ファクトリ コンソールのリンク作成プロセスに次の機能強化が加えられました。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["LambdaリンクでFSx for ONTAPファイルシステムに接続"]
+
+
+
+==== リンク作成中にIAM実行ロールと権限を管理する
+
+ワークロードファクトリーコンソールでリンクを作成する際に、IAM 実行ロールとそれに紐付けられた権限ポリシーを管理できるようになりました。リンクは、ワークロードファクトリーアカウントと 1 つ以上の FSx for ONTAP ファイルシステム間の接続を確立します。IAM実行ロールとリンク権限の割り当てには、自動割り当てとユーザー指定の 2 つのオプションがあります。ワークロードファクトリーで実行ロールとそれに紐付けられた権限ポリシーを管理することで、サードパーティ製のコードを使用する必要がなくなります。
+
+
+
+==== リンク作成のための Terraform サポート
+
+Codebox から Terraform を使用して、FSx for ONTAP ファイルシステムに関連付けるリンクを作成できるようになりました。この機能は、リンクを手動で作成するユーザー向けです。
