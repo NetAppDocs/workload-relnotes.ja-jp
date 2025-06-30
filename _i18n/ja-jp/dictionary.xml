@@ -233,4 +233,7 @@
   <block id="c0ae6f0ec7cb1322a1c6b72f77e783f2" category="paragraph">BlueXP ワークロードファクトリー通知サービスを使用すると、ワークロードファクトリーは BlueXP アラートサービスまたは Amazon SNS トピックに通知を送信できます。BlueXPアラートに送信された通知は、BlueXP アラートパネルに表示されます。ワークロードファクトリーが Amazon SNS トピックに通知を発行すると、トピックのサブスクライバー（ユーザーや他のアプリケーションなど）は、トピックに設定されたエンドポイント（E メールや SMS メッセージなど）で通知を受け取ります。</block>
   <block id="76490568879e4523bb6bd6d8263472a9" category="inline-link">BlueXPワークロードファクトリー通知を構成する</block>
   <block id="533a43c23a4d81612b2392465e022a51" category="paragraph"><block ref="533a43c23a4d81612b2392465e022a51" category="inline-link-rx"></block></block>
+  <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="doc">データベースの権限の更新</block>
+  <block id="cb30bdb55bb8a7a0530a31a5e6cdd0bb" category="paragraph">データベースの _読み取り専用_ モードで次の権限が利用できるようになりました。 <block ref="f63e0d20057299c9c16bd0c2c9e92a5c" prefix=" " category="inline-code"></block> 。</block>
+  <block id="e429c7230e4b94caf26e6020e5ea6f7a" category="paragraph"><block ref="e429c7230e4b94caf26e6020e5ea6f7a" category="inline-link-rx"></block></block>
 </blocks>
