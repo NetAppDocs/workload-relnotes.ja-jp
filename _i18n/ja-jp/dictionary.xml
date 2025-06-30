@@ -43,34 +43,14 @@
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
   <block id="dc88dce8ec264777b2f90ec0af744f43" category="list-text">ボリュームの作成</block>
   <block id="d3156376048c94102c97709d5ff05e75" category="paragraph"><block ref="d3156376048c94102c97709d5ff05e75" category="inline-link-macro-rx"></block></block>
-  <block id="ab4a8520fe8e2e09df8b9471a8d923bf" category="section-title">2025年3月02日</block>
-  <block id="312fbafda6b72e176a3eb6272e48d799" category="section-title">ファイル形式のサポートの強化</block>
-  <block id="939bf2b00dbe77d4a65f4d265a755136" category="inline-link-macro">サポートされるデータソースファイル形式</block>
   <block id="cec87a8931004e5402a3f18575682723" category="paragraph">このリリースのVMware向けBlueXP  ワークロードファクトリでは、Amazon EC2 Migration Advisorのエクスペリエンスが次のように改善されています。</block>
-  <block id="13ba1ae4c82947e19de7e94ee0eaab45" category="list-text">*推定インスタンスタイプ*：Migration Advisorで環境の要件を確認し、VMごとに推定Amazon EC2インスタンスタイプを提供できるようになりました。移行アドバイザの「スコープ」ステップで、各VMの推定インスタンスタイプを含めるように選択できます。</block>
-  <block id="3006f7737352e976899743eaf6e2b28e" category="list-text">* Amazon EBSボリュームの推奨機能*：移行アドバイザーは、特定のリージョンの容量やパフォーマンスのニーズに応じて、Amazon FSx for NetApp ONTAPではなくAmazon Elastic Block Store（EBS）にデータボリュームを移行することを推奨できるようになりました。</block>
-  <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">*ファイルシステムの自動割り当ての強化*：Amazon FSx for NetApp ONTAPファイルシステムの割り当てが改善され、コストの最適化とスループットの最小化が実現しました。</block>
   <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">CloudShellを使用している場合、ONTAP CLIコマンドを発行してエラーが発生するたびに、失敗の説明、失敗の原因、詳細な解決策を含むAI生成のエラー応答を取得できます。</block>
   <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">IAM：SimulatePermissionPolicy権限の更新</block>
   <block id="906699741ebd9905a07af900abcfd438" category="paragraph">AWSアカウントのクレデンシャルを追加したり、生成AIワークロードなどの新しいワークロード機能を追加したりするときに、ワークロードファクトリコンソールから権限を管理できるようになりまし<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>た。</block>
   <block id="186057b8c375bff9b600d22bf8686fc5" category="section-title">2025年3月30日</block>
-  <block id="f3a4976ab2464242211263cea7e247f9" category="paragraph">このリリースの 生成AIでは、データソースからファイルを取り込む際のJSONおよびJSONPファイル形式のサポートが導入されて<block ref="cc8f0c0e5a5cef9b33f236a0a9c19ca0" prefix=" " category="inline-code"></block>います。ネストされたオブジェクトを含むJSONファイルがサポートされますが、ネストされた配列はサポートされません。</block>
-  <block id="0a8f6f086d5f30a416a61fd3606f1025" category="section-title">外部チャットボットサンプルアプリケーションの国際化サポート</block>
-  <block id="a2f4023c744ab1521036ee54ec2e15ba" category="paragraph">生成AIサンプル外部チャットボットアプリケーションのユーザーインターフェイスを別の言語やロケールに簡単に変更できるようになりました。</block>
-  <block id="5b8a8facbec8623a03d7cae8b62bfeb7" category="inline-link-macro">生成AI外部サンプルチャットボットアプリケーション</block>
-  <block id="4d79fade08f1e8c2d92bbdf0e3237924" category="paragraph"><block ref="4d79fade08f1e8c2d92bbdf0e3237924" category="inline-link-macro-rx"></block></block>
-  <block id="26ea891fa4f63d071728537d886e0f6c" category="section-title">Anthropic Claude Sonnet 3.7チャットモデルのサポート</block>
-  <block id="4c58515c1bd9657f223b7731d306475c" category="paragraph">生成AIでは、Anthropic Claude 3.7 Sonnetチャットモデルがサポートされるようになりました。Claude 3.7 Sonnetのベータ機能は、要求ごとに最大128Kの出力トークンを可能にし、新しいコンピュータの使用アクションをサポートします。Claude 3.7 Sonnet拡張思考モードは、将来の 生成AIリリースでサポートされる予定です。</block>
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">生成AIナレッジベースの作成</block>
-  <block id="40bd8fe426c37e97f38be2c5a2728752" category="section-title">汎用NFS / SMB共有からのデータソースの追加のサポート</block>
-  <block id="1813c42a79840f7d495281cf050a30dc" category="paragraph">ワークロードファクトリAPIを使用して、一般的なNFSv3、NFSv4、またはSMB共有からデータソースを追加できるようになりました。NFS共有またはSMB共有からデータソースを追加しても、ナレッジベースボリュームはAmazon FSx for NetApp ONTAPボリュームに残ります。この機能は、ワークロードファクトリのWeb UIで今後のリリースでサポートされる予定です。</block>
-  <block id="fbc7eedf5c13a549330a0c3f52777db8" category="section-title">vPCピアリングのサポート</block>
-  <block id="52bc46202bc9013e258f32f66b8bf88a" category="inline-link-macro">ピア関係にある仮想プライベートクラウド（VPC）</block>
-  <block id="93dbde0ee04c36dce05b96f3551f8606" category="paragraph">同じリージョンにあるに 生成AIインフラを導入し、同じAWSアカウントを使用できるようになりまし<block ref="f008838004ac43a2c4a5b39672df7daf" category="inline-link-macro-rx"></block>た。AIエンジンをVPCに導入してから、ピアVPCにナレッジベースを作成し、ピアVPCにあるAmazon FSx for NetApp ONTAPファイルシステムを選択できます。</block>
   <block id="6e62567f7c9b240a118b25fc64f2991f" category="list-text">*ボリューム割り当てガイダンスの強化*：EC2 Migration Advisorの「Classify」および「Package」ステップのボリューム割り当て情報には、読みやすさと操作性が向上しています。各ボリュームについて、より有益な情報が表示されるため、ボリュームの特定や割り当て方法の決定に役立ちます。</block>
   <block id="5fc07f589f318bbf4f9475dbf3754c9f" category="list-text">*データコレクタスクリプトの効率化*: EC2移行アドバイザのデータコレクタスクリプトは、小規模なVM環境でデータを収集する際のCPU使用率を最適化します。</block>
-  <block id="0fcf305133bffed241e3ea17efbba5fc" category="inline-link-macro">ワークロードファクトリAPIを使用</block>
-  <block id="a6efc6ca3aa5af2c7a8cad1239df17c0" category="paragraph"><block ref="a6efc6ca3aa5af2c7a8cad1239df17c0" category="inline-link-macro-rx"></block></block>
   <block id="ef74d01649997b60252254da8a1573fd" category="doc">ONTAP CLIコマンドについて、AIによって生成されたエラー応答がCloudShellで報告される</block>
   <block id="8bb788607f31f673e25d0ba34b09a14d" category="doc">最適化の機能拡張</block>
   <block id="7e9a755c644cbdbaab2927671606cf89" category="paragraph">データベース環境を最適化する際に、新しい最適化評価、修正、複数のリソースの表示を利用できます。</block>
@@ -91,7 +71,6 @@
   <block id="c4f70f11159098cce8873623bffb07aa" category="inline-link-macro">BlueXP  ワークロードファクトリでPostgreSQLサーバを作成する</block>
   <block id="5963667f9fe01282fae9030cccbd24a3" category="paragraph"><block ref="5963667f9fe01282fae9030cccbd24a3" category="inline-link-macro-rx"></block></block>
   <block id="813bb11b4f90c862c2b7c2d35cc082ff" category="section-title">2025年4月04日</block>
-  <block id="c9cbd1d1d65e3b0d2ec2922daec8bddf" category="paragraph"><block ref="c9cbd1d1d65e3b0d2ec2922daec8bddf" category="inline-link-macro-rx"></block></block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
   <block id="25696569671071b8bd3db9a4c5f6613e" category="doc">ダッシュボードの機能拡張</block>
   <block id="04f9acced28b52e064ba8ccb957a615c" category="list-text">BlueXP  ワークロードファクトリコンソールのタブ間を移動すると、アカウント間ビューとリージョン間ビューを使用できます。新しいビューは、リソースの管理、監視、最適化を改善します。</block>
@@ -244,4 +223,15 @@
   <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">データベースの_read_modeで次の権限を使用できるようになりました<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>。</block>
   <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">2025年2月02日</block>
   <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">ビルダーのワークロード</block>
+  <block id="944ee388209d33a3bf1b309c6acdf693" category="doc">汎用 NFS/SMB ファイルシステムでホストされるデータソースのサポート</block>
+  <block id="9a7d241f00b55d0e00761313cced5dd8" category="paragraph">汎用SMBまたはNFS共有からデータソースを追加できるようになりました。これにより、Amazon FSx for NetApp ONTAP以外のファイルシステムでホストされているボリュームに保存されているファイルも含めることができます。</block>
+  <block id="5cba57d460e5683815517b44a7811760" category="inline-link">ナレッジベースにデータソースを追加する</block>
+  <block id="b37629096d44c6fda917848365c84ebe" category="paragraph"><block ref="b37629096d44c6fda917848365c84ebe" category="inline-link-rx"></block></block>
+  <block id="6320af7d92cd5d357460c5cbc5f642a9" category="inline-link">コネクタにデータソースを追加する</block>
+  <block id="5cd676bef1867c904c092c33ad4a8f2d" category="paragraph"><block ref="5cd676bef1867c904c092c33ad4a8f2d" category="inline-link-rx"></block></block>
+  <block id="1832a7f4d2abf297aa0cee87f4c043e3" category="doc">Amazon Elastic VMWare Service の移行アドバイザーサポートの導入</block>
+  <block id="0a2319b536912bd5824ac0880375783c" category="paragraph">BlueXPのVMware向けワークロードファクトリーが、Amazon Elastic VMware Serviceをサポートするようになりました。移行アドバイザーを使用することで、オンプレミスのVMwareワークロードをAmazon Elastic VMware Serviceに迅速に移行できます。これにより、アプリケーションのリファクタリングやプラットフォーム変更を行うことなく、コストを最適化し、VMware環境をより細かく制御できるようになります。</block>
+  <block id="e64998710319712d47612cc187a1dc35" category="inline-link">移行アドバイザーを使用して Amazon EVS のデプロイメント計画を作成する</block>
+  <block id="e38866fbf1fd8067b38b878041582246" category="paragraph"><block ref="e38866fbf1fd8067b38b878041582246" category="inline-link-rx"></block></block>
+  <block id="32d7d361955b5f8cb1cd26f6803b7d7d" category="section-title">2025年6月29日</block>
 </blocks>

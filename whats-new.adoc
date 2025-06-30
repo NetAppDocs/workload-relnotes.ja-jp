@@ -15,6 +15,36 @@ BlueXP  ワークロードファクトリに含まれているワークロー�
 
 
 
+== 2025年6月29日
+
+
+
+=== VMwareワークロード
+
+
+
+==== Amazon Elastic VMWare Service の移行アドバイザーサポートの導入
+
+BlueXPのVMware向けワークロードファクトリーが、Amazon Elastic VMware Serviceをサポートするようになりました。移行アドバイザーを使用することで、オンプレミスのVMwareワークロードをAmazon Elastic VMware Serviceに迅速に移行できます。これにより、アプリケーションのリファクタリングやプラットフォーム変更を行うことなく、コストを最適化し、VMware環境をより細かく制御できるようになります。
+
+https://docs.netapp.com/us-en/workload-vmware/launch-migration-advisor-evs-manual.html["移行アドバイザーを使用して Amazon EVS のデプロイメント計画を作成する"]
+
+
+
+=== 生成AIワークロード
+
+
+
+==== 汎用 NFS/SMB ファイルシステムでホストされるデータソースのサポート
+
+汎用SMBまたはNFS共有からデータソースを追加できるようになりました。これにより、Amazon FSx for NetApp ONTAP以外のファイルシステムでホストされているボリュームに保存されているファイルも含めることができます。
+
+https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["ナレッジベースにデータソースを追加する"]
+
+https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["コネクタにデータソースを追加する"]
+
+
+
 == 2025年6月16日
 
 
@@ -498,50 +528,6 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 
 
-=== 生成AIワークロード
-
-
-
-==== ファイル形式のサポートの強化
-
-このリリースの 生成AIでは、データソースからファイルを取り込む際のJSONおよびJSONPファイル形式のサポートが導入されて `.json`います。ネストされたオブジェクトを含むJSONファイルがサポートされますが、ネストされた配列はサポートされません。
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/identify-data-sources-knowledge-base.html#supported-data-source-file-formats["サポートされるデータソースファイル形式"]
-
-
-
-==== 外部チャットボットサンプルアプリケーションの国際化サポート
-
-生成AIサンプル外部チャットボットアプリケーションのユーザーインターフェイスを別の言語やロケールに簡単に変更できるようになりました。
-
-link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/AI/GenAI-ChatBot-application-sample#netapp-workload-factory-genai-sample-application["生成AI外部サンプルチャットボットアプリケーション"]
-
-
-
-==== Anthropic Claude Sonnet 3.7チャットモデルのサポート
-
-生成AIでは、Anthropic Claude 3.7 Sonnetチャットモデルがサポートされるようになりました。Claude 3.7 Sonnetのベータ機能は、要求ごとに最大128Kの出力トークンを可能にし、新しいコンピュータの使用アクションをサポートします。Claude 3.7 Sonnet拡張思考モードは、将来の 生成AIリリースでサポートされる予定です。
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["生成AIナレッジベースの作成"]
-
-
-
-==== 汎用NFS / SMB共有からのデータソースの追加のサポート
-
-ワークロードファクトリAPIを使用して、一般的なNFSv3、NFSv4、またはSMB共有からデータソースを追加できるようになりました。NFS共有またはSMB共有からデータソースを追加しても、ナレッジベースボリュームはAmazon FSx for NetApp ONTAPボリュームに残ります。この機能は、ワークロードファクトリのWeb UIで今後のリリースでサポートされる予定です。
-
-link:https://console.workloads.netapp.com/api-doc["ワークロードファクトリAPIを使用"^]
-
-
-
-==== vPCピアリングのサポート
-
-同じリージョンにあるに 生成AIインフラを導入し、同じAWSアカウントを使用できるようになりましlink:https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html["ピア関係にある仮想プライベートクラウド（VPC）"^]た。AIエンジンをVPCに導入してから、ピアVPCにナレッジベースを作成し、ピアVPCにあるAmazon FSx for NetApp ONTAPファイルシステムを選択できます。
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["生成AIナレッジベースの作成"]
-
-
-
 === セットアップと管理
 
 
@@ -559,27 +545,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Clo
 AWSアカウントのクレデンシャルを追加したり、生成AIワークロードなどの新しいワークロード機能を追加したりするときに、ワークロードファクトリコンソールから権限を管理できるようになりまし `iam:SimulatePrincipalPolicy`た。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["アクセス権参照変更ログ"]
-
-
-
-== 2025年3月02日
-
-
-
-=== VMwareワークロード
-
-
-
-==== Amazon EC2 Migration Advisorの機能強化
-
-このリリースのVMware向けBlueXP  ワークロードファクトリでは、Amazon EC2 Migration Advisorのエクスペリエンスが次のように改善されています。
-
-* *推定インスタンスタイプ*：Migration Advisorで環境の要件を確認し、VMごとに推定Amazon EC2インスタンスタイプを提供できるようになりました。移行アドバイザの「スコープ」ステップで、各VMの推定インスタンスタイプを含めるように選択できます。
-* * Amazon EBSボリュームの推奨機能*：移行アドバイザーは、特定のリージョンの容量やパフォーマンスのニーズに応じて、Amazon FSx for NetApp ONTAPではなくAmazon Elastic Block Store（EBS）にデータボリュームを移行することを推奨できるようになりました。
-* *ファイルシステムの自動割り当ての強化*：Amazon FSx for NetApp ONTAPファイルシステムの割り当てが改善され、コストの最適化とスループットの最小化が実現しました。
-
-
-https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["移行アドバイザを使用してAmazon EC2の導入計画を作成"]
 
 
 

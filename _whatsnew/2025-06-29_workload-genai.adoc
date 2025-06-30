@@ -1,0 +1,13 @@
+= 汎用 NFS/SMB ファイルシステムでホストされるデータソースのサポート
+:allow-uri-read: 
+
+
+
+
+=== 汎用 NFS/SMB ファイルシステムでホストされるデータソースのサポート
+
+汎用SMBまたはNFS共有からデータソースを追加できるようになりました。これにより、Amazon FSx for NetApp ONTAP以外のファイルシステムでホストされているボリュームに保存されているファイルも含めることができます。
+
+https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["ナレッジベースにデータソースを追加する"]
+
+https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["コネクタにデータソースを追加する"]
