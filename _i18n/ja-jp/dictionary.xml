@@ -187,30 +187,25 @@
   <block id="6250cd311debe5758acc69f81921ab78" category="paragraph">ワークロードファクトリーは、FSx for ONTAP システム間で不変ボリュームを複製し、重要なデータを誤削除やランサムウェアなどの悪意のある攻撃から保護します。複製先のボリュームとそのホストファイルシステムは不変（ロック）状態となり、保持期間が終了するまで、複製先のファイルシステム内のデータは変更または削除できません。</block>
   <block id="b6fc33d7434bb860ad528753113881b1" category="inline-link-macro">レプリケーション関係を作成する方法を学ぶ</block>
   <block id="d3dbddfb353eaaa957947efb04ca7013" category="paragraph"><block ref="d3dbddfb353eaaa957947efb04ca7013" category="inline-link-macro-rx"></block></block>
-  <block id="d836bf4f72557e9399ce062e72ef15f6" category="section-title">リンク作成の機能強化</block>
-  <block id="1f8ca754f0193efb8fdc1c63a4d96672" category="paragraph">ワークロード ファクトリ コンソールのリンク作成プロセスに次の機能強化が加えられました。</block>
   <block id="37b002845528ac0296b86d28bb71e5a5" category="inline-link-macro">LambdaリンクでFSx for ONTAPファイルシステムに接続</block>
   <block id="bdd7f454c54673987f53c40f8e5b8072" category="paragraph"><block ref="bdd7f454c54673987f53c40f8e5b8072" category="inline-link-macro-rx"></block></block>
   <block id="5c44c7d986372ccb1d679985b5416b64" category="section-title">リンク作成中にIAM実行ロールと権限を管理する</block>
   <block id="43f8bec3c8d83ff27c8f5d629cd49d4d" category="paragraph">ワークロードファクトリーコンソールでリンクを作成する際に、IAM 実行ロールとそれに紐付けられた権限ポリシーを管理できるようになりました。リンクは、ワークロードファクトリーアカウントと 1 つ以上の FSx for ONTAP ファイルシステム間の接続を確立します。IAM実行ロールとリンク権限の割り当てには、自動割り当てとユーザー指定の 2 つのオプションがあります。ワークロードファクトリーで実行ロールとそれに紐付けられた権限ポリシーを管理することで、サードパーティ製のコードを使用する必要がなくなります。</block>
-  <block id="f83708b425052a7f19c02dfd5c3d0688" category="section-title">リンク作成のための Terraform サポート</block>
-  <block id="d993aa63b5e96ec8db4090bd87d5c850" category="paragraph">Codebox から Terraform を使用して、FSx for ONTAP ファイルシステムに関連付けるリンクを作成できるようになりました。この機能は、リンクを手動で作成するユーザー向けです。</block>
   <block id="c836d737c77c0dbce2c99a2b01c719fd" category="paragraph">ワークロード ファクトリーは、データベースに対して次の通知を提供します。</block>
   <block id="33e3371223dba19c723617802e06af8d" category="list-text">よく設計されたレポート</block>
   <block id="d415d128365eca1587931ed756de7819" category="list-text">ホストの展開</block>
-  <block id="83f1d9ca1a0c4c2fc51a371c0d773f76" category="list-text">保護</block>
   <block id="8306ce5f84163ec6839ec7518f30183a" category="section-title">インスタンス登録のオンボーディング強化</block>
-  <block id="0a969bb4f7ed7e29d7225c0409a1750b" category="paragraph">Workload Factory for Databases は、Amazon FSx for NetApp ONTAP ストレージ上で稼働するインスタンスの登録プロセスを改善しました。これにより、登録するインスタンスを一括で選択できるようになりました。インスタンスの登録が完了すると、Workload Factory コンソール内でデータベースホストリソースの作成と管理が可能になります。</block>
   <block id="2e91c32877a8bf4a56c1853f92a414ba" category="section-title">Microsoft マルチパス I/O タイムアウト設定の分析と修正</block>
-  <block id="221618cb9e519d5c3dd0fcbb1e4f1205" category="paragraph">データベースホストインスタンスのwell-architectedステータスに、Microsoft Multipath I/O（MPIO）タイムアウト設定の分析と修正が含まれるようになりました。MPIOタイムアウトを60秒に設定することで、FSx for ONTAPストレージの接続性とフェイルオーバー時の安定性が確保されます。MPIO設定が適切に設定されていない場合は、ワークロードファクトリーがMPIOタイムアウト値を60秒に設定する修正を提供します。</block>
   <block id="c4363ade7c2d208d79dee9b60bc51922" category="inline-link-macro">ワークロードファクトリーで適切に設計されたデータベース構成を実装する</block>
   <block id="a05724b342c36062e480732f660ae9d4" category="paragraph"><block ref="a05724b342c36062e480732f660ae9d4" category="inline-link-macro-rx"></block></block>
-  <block id="2bf19cd7fefccda37a9e51c8d6ae9ef1" category="section-title">ホストインベントリのグラフィックの強化</block>
-  <block id="29a6225f1f6846093fcfd562090e8654" category="paragraph">ホストインベントリ画面では、スループットやIOPSといった様々なリソース使用率グラフに7日間分のデータが表示されるようになりました。これにより、ワークロードファクトリーコンソールからSQLノードのパフォーマンスをより効率的に監視できます。SQLノードから収集されたパフォーマンスメトリクスはAmazon CloudWatchに保存され、Logs Insightsや環境内の他の分析サービスとの統合に使用できます。</block>
-  <block id="02212e54266ecdf641215b97bf4ab24e" category="paragraph">ホスト インベントリ内のインスタンスとデータベースのタブから、ホスト保護の説明と視覚化が強化されました。</block>
   <block id="4698c78219bd6bc2a4fb47e8f4149213" category="section-title">ワークロードファクトリーでの Windows 認証のサポート</block>
-  <block id="b3a0e7d1a5170a15143af7a7f86f02b8" category="paragraph">現在、ワークロード ファクトリは、Windows 認証ユーザーを使用した SQL Server 認証をサポートし、ホスト インスタンスを登録して、ホスト管理機能を活用できます。</block>
-  <block id="47668721b89b4afabeb23e27f6ac9b38" category="inline-link-macro">データベースのワークロードファクトリーにホストインスタンスを登録する</block>
-  <block id="4f178ea0296d3da0481606b8e3df7542" category="paragraph"><block ref="4f178ea0296d3da0481606b8e3df7542" category="inline-link-macro-rx"></block></block>
   <block id="0a9f9a33b436eb81633ee8f4b2cb121d" category="section-title">2025年6月30日</block>
+  <block id="d2240cc857b28c2cc0c761811ebb0e4d" category="paragraph">Workload Factory for Databases は、Amazon FSx for NetApp ONTAP ストレージ上で稼働するインスタンスの登録プロセスを改善しました。これにより、登録するインスタンスを一括で選択できるようになりました。インスタンスが登録されると、ワークロード ファクトリー コンソール内でデータベース リソースを作成および管理できるようになります。</block>
+  <block id="55dedf6eed5a2ce8c260a3944723e099" category="paragraph">データベース インスタンスの well-architected ステータスに、Microsoft Multipath I/O (MPIO) タイムアウト設定の分析と修正が含まれるようになりました。タイムアウトを60秒に設定することで、FSx for ONTAPストレージの接続性とフェイルオーバー時の安定性が確保されます。MPIO設定が適切に設定されていない場合は、ワークロードファクトリーがMPIOタイムアウト値を60秒に設定する修正を提供します。</block>
+  <block id="0f6f8a7d2c62793903fd07b4a68f2192" category="section-title">インスタンスインベントリのグラフィックの強化</block>
+  <block id="6bb06f6a313d1245a77bdcc02f151dcd" category="paragraph">インスタンス インベントリ画面では、スループットや IOPS などのさまざまなリソース使用率グラフに 7 日間のデータが表示されるようになり、ワークロード ファクトリー コンソールから SQL ノードのパフォーマンスをより効率的に監視できるようになりました。ノードから収集されたパフォーマンスメトリクスはAmazon CloudWatchに保存され、Logs Insightsや環境内の他の分析サービスとの統合に使用できます。</block>
+  <block id="8984f42ceef01f063ea7a1078e620318" category="paragraph">インベントリ内のインスタンスとデータベースのタブでは、保護の説明と視覚化が強化されました。</block>
+  <block id="e6884d3b77d68ac903da5836a6c33345" category="paragraph">現在、ワークロード ファクトリーは、インスタンスを登録し、管理機能のメリットを享受するために、Windows 認証ユーザーを使用した SQL Server 認証をサポートしています。</block>
+  <block id="8373481dd509f9b495f59748db1aa76d" category="inline-link-macro">データベースのワークロードファクトリーにインスタンスを登録する</block>
+  <block id="b8419cf58039d1a67d2046abd157e28b" category="paragraph"><block ref="b8419cf58039d1a67d2046abd157e28b" category="inline-link-macro-rx"></block></block>
 </blocks>
