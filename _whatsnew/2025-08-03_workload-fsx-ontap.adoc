@@ -1,0 +1,80 @@
+= レプリケーション関係タブの機能強化
+:allow-uri-read: 
+
+
+
+
+=== レプリケーション関係タブの機能強化
+
+レプリケーション関係テーブルにいくつかの新しい列が追加され、*レプリケーション関係*タブでレプリケーション関係に関する詳細情報が表示されるようになりました。テーブルには次の列が含まれるようになりました。
+
+* SnapMirrorポリシー
+* ソースファイルシステム
+* ターゲットファイルシステム
+* 関係の状態
+* 最終転送時間
+
+
+
+
+=== NetApp のAI による自律型ランサムウェア保護 (ARP/AI) の機能強化
+
+このリリースでは、ランサムウェア保護機能への人工知能の統合をより適切に反映するために、「NetApp Autonomous Ransomware Protection with AI (ARP/AI)」という更新された用語が導入されています。
+
+さらに、ARP/AI には次の機能強化が加えられました。
+
+* ボリューム レベルの ARP/AI: ボリューム レベルで ARP/AI を有効にできるようになり、FSx for ONTAPファイル システム内の特定のボリュームを保護できるようになりました。
+* 自動スナップショット作成: ARP/AI ポリシーを設定して自動スナップショットを作成し、ARP/AI が有効になっているボリュームのスナップショットを作成する頻度を定義して、データ保護戦略を強化できます。
+* 不変スナップショット: ARP/AI は、削除または変更できない不変スナップショットをサポートするようになり、ランサムウェア攻撃に対するセキュリティがさらに強化されました。
+* 検出: ボリューム レベルでの高エントロピー データ レート、ファイル作成レート、ファイルの名前変更レート、ファイル削除レート、動作分析、およびこれまでに見たことのないファイル拡張子など、さまざまな検出方法が含まれており、異常や潜在的なランサムウェア攻撃の検出に役立ちます。
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["NetApp Autonomous Ransomware Protection with AI (ARP/AI) でデータを保護します"]
+
+
+
+=== Well-Architected 分析の更新
+
+ワークロード ファクトリーでは、次の構成について FSx for ONTAPファイル システムを分析するようになりました。
+
+* 長期保存データの信頼性: ソース ボリュームのスナップショット ポリシーに割り当てられたラベルが、長期保存ポリシーに割り当てられたラベルと同一であるかどうかを確認します。ラベルが同一である場合、ソース ボリュームとターゲット ボリューム間のデータ レプリケーションは信頼できます。
+* NetApp Autonomous Ransomware Protection with AI (ARP/AI): ファイル システムで ARP/AI が有効になっているかどうかを確認します。この機能は、ランサムウェア攻撃を検出して回復するのに役立ちます。
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["FSx for ONTAPファイルシステムの Well-Architected ステータスを表示します"]
+
+
+
+=== Well-Architected 分析から構成を除外する
+
+これで、well-archected 分析から 1 つ以上の構成を除外できるようになりました。これにより、現時点で対処したくない特定の構成を無視できます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Well-Architected 分析から構成を除外する"]
+
+
+
+=== リンク作成のための Terraform サポート
+
+Codebox から Terraform を使用して、FSx for ONTAPファイル システムとの関連付けのためのリンクを作成できるようになりました。この機能は、リンクを手動で作成するユーザー向けです。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["LambdaリンクでFSx for ONTAPファイルシステムに接続"]
+
+
+
+=== ストレージの節約を探索するための新しいリージョンのサポート
+
+Amazon Elastic Block Store (EBS)、FSx for Windows File Server、Elastic File Systems (EFS) の節約を検討するために、次の新しいリージョンがサポートされるようになりました。
+
+* メキシコ
+* タイ
+
+
+
+
+=== SMB/CIFS共有の作成と管理の機能強化
+
+ボリューム内のディレクトリを指す SMB/CIFS 共有を作成できるようになりました。ボリューム内で、どの共有が存在するか、共有がどこを指しているか、特定のユーザーとグループに付与されている権限を確認できます。
+
+データ保護ボリュームの場合、SMB/CIFS 共有を作成するフローに、マウント目的でボリュームへのジャンクション パスの作成が含まれるようになりました。
+
+link:https://review.docs.netapp.com/us-en/workload-fsx-ontap_grogu-5684-wa-dismiss/manage-cifs-share.html#create-a-cifs-share-for-a-volume["ボリュームのCIFS共有を作成する"]

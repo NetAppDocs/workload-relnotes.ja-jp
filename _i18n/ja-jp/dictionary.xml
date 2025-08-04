@@ -98,24 +98,7 @@
   <block id="a3a574ae48c14d14b1a16908815471f6" category="section-title">知識ベースの再ランク付けモデルを選択する</block>
   <block id="9e0cf47f3974a0b121f9381245ed8931" category="paragraph">ナレッジベースで使用する特定のリランカーモデルを選択することで、再ランク付けされたクエリ結果の関連性を高めることができます。GenAIは、Cohere RerankモデルとAmazon Rerankモデルをサポートしています。</block>
   <block id="8443221e1b90a24e56685750c704746a" category="section-title">2025年6月03日</block>
-  <block id="7583f12b4559f6687c67d8588da1e2f7" category="doc">ボリューム自動拡張の強化</block>
-  <block id="b57fe4f5ee65a0e01f61993297811ebf" category="paragraph">ビジネス ニーズやアプリケーション要件に応じて、ボリューム サイズがプロビジョニングされたサイズを超えて拡張できるように、ボリュームの自動拡張サイズを設定できるようになりました。</block>
-  <block id="9f1effd9ace68ca00fe9e9e3c024b362" category="inline-link-macro">ボリュームの自動拡張を有効にする</block>
-  <block id="0177289fb77b50bdfc34ab44aa432a21" category="paragraph"><block ref="0177289fb77b50bdfc34ab44aa432a21" category="inline-link-macro-rx"></block></block>
-  <block id="159687e1c95e32f1dcb6c9c1624ba327" category="section-title">Well-Architected 分析のアップデート</block>
-  <block id="8500b95246538dfef049532751c1e9f5" category="paragraph">Workload Factory は、FSx for ONTAP ファイルシステムを分析し、データコンパクション、圧縮、重複排除といったストレージ効率が活用されているかどうかを確認します。ストレージ効率は、ファイルシステムが利用可能なスペースをどれだけ効率的に使用しているかを測定します。</block>
-  <block id="26e5625f54c5c47a57293d23260101c7" category="inline-link-macro">ストレージ効率の適切なアーキテクチャの状態を表示する</block>
-  <block id="80378f8a6a0c86610258fa79cd78497b" category="paragraph"><block ref="80378f8a6a0c86610258fa79cd78497b" category="inline-link-macro-rx"></block></block>
   <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">ストレージダッシュボードの機能強化</block>
-  <block id="47586d678be72b51ea7ac193f83c19b2" category="paragraph">本日より、ワークロードファクトリーコンソールからストレージワークロードを開くと、*ダッシュボード*が表示されます。新しく設計されたダッシュボードでは、ファイルシステムの数、SSDの総容量、Well-Architectedステータスの概要、データ保護の概要、レプリケーション関係の健全性など、FSx for ONTAPシステムの包括的なビューを提供します。</block>
-  <block id="74d3ed8321cbdac2928290eee4795cef" category="section-title">ボリュームタブの機能強化</block>
-  <block id="0d25e8e0a888c31329b48ed4a33f98f6" category="paragraph">ストレージワークロードでは、ワークロードファクトリーコンソールのFSx for ONTAPファイルシステム内の「ボリューム」タブが強化されました。強化された内容は次のとおりです。</block>
-  <block id="90a8a55f34e9e967f8619ecc5b0ba92a" category="list-text">*新しいカード*: SSD 容量、容量プール、自律ランサムウェア保護 (ARP)</block>
-  <block id="f80c9595c105a10d312aac80217ebb84" category="list-text">*新しい列*: 容量分布、使用済み SSD 容量、使用済み容量プール、SSD 効率</block>
-  <block id="92eacda944854c6bfa8676c60aaa4c96" category="section-title">ボリューム作成時のストレージ効率のアップデート</block>
-  <block id="af1e7fa29b343a7d9bd55952a334e8c9" category="paragraph">新しいボリュームを作成すると、データの圧縮、圧縮、重複排除などのストレージ効率がデフォルトで有効になります。</block>
-  <block id="55321b0c9d5d13d71a60766806796f90" category="inline-link-macro">ワークロードファクトリーに新しいボリュームを作成する</block>
-  <block id="9257e0b60b0f1cd3867c62713d3370aa" category="paragraph"><block ref="9257e0b60b0f1cd3867c62713d3370aa" category="inline-link-macro-rx"></block></block>
   <block id="93f953f50f24ae6dbf0400fde1bcc67d" category="doc">Amazon Q Business 向け NetApp コネクタのサポート</block>
   <block id="f6f6ab51c21f03ba653ceea7301964e4" category="paragraph">GenAI のこのリリースでは、NetApp Connector for Amazon Q Business のサポートが導入され、Amazon Q Business 用のコネクタを作成できるようになりました。Amazon Bedrock用の 生成AIナレッジベースを構築するよりも、初期設定が少なくて済み、Amazon Q Business AIアシスタントをすばやく簡単に活用できます。</block>
   <block id="3381eec0e48920855b86597d56709196" category="inline-link-macro">Amazon Q Business 用の NetApp コネクタを作成する</block>
@@ -208,4 +191,41 @@
   <block id="e6884d3b77d68ac903da5836a6c33345" category="paragraph">現在、ワークロード ファクトリーは、インスタンスを登録し、管理機能のメリットを享受するために、Windows 認証ユーザーを使用した SQL Server 認証をサポートしています。</block>
   <block id="8373481dd509f9b495f59748db1aa76d" category="inline-link-macro">データベースのワークロードファクトリーにインスタンスを登録する</block>
   <block id="b8419cf58039d1a67d2046abd157e28b" category="paragraph"><block ref="b8419cf58039d1a67d2046abd157e28b" category="inline-link-macro-rx"></block></block>
+  <block id="6a6ae8005c209a1567f9003ea9e5cebe" category="doc">レプリケーション関係タブの機能強化</block>
+  <block id="c6a6fda1561189188099a8444886e4b7" category="paragraph">レプリケーション関係テーブルにいくつかの新しい列が追加され、*レプリケーション関係*タブでレプリケーション関係に関する詳細情報が表示されるようになりました。テーブルには次の列が含まれるようになりました。</block>
+  <block id="932acf34d9bec3ecdd131ec5df85300a" category="list-text">SnapMirrorポリシー</block>
+  <block id="7d93b9eb1786d863bc7d27df5febb919" category="list-text">ソースファイルシステム</block>
+  <block id="144b2facd92022aa813f8fba914dfa05" category="list-text">ターゲットファイルシステム</block>
+  <block id="e56f83171e12921713ed939e1572ddaf" category="list-text">関係の状態</block>
+  <block id="f1b110a50dd5467d821019e318f363a2" category="list-text">最終転送時間</block>
+  <block id="8fc34772d0100e115cdb03c17176f5bc" category="section-title">NetApp のAI による自律型ランサムウェア保護 (ARP/AI) の機能強化</block>
+  <block id="5cd47e76c4117ef90e78977edb2349c2" category="paragraph">このリリースでは、ランサムウェア保護機能への人工知能の統合をより適切に反映するために、「NetApp Autonomous Ransomware Protection with AI (ARP/AI)」という更新された用語が導入されています。</block>
+  <block id="d0ab441d90a6563b6caf3b18a96b121c" category="paragraph">さらに、ARP/AI には次の機能強化が加えられました。</block>
+  <block id="19f6fcd2887386ba088303687102d4fd" category="list-text">ボリューム レベルの ARP/AI: ボリューム レベルで ARP/AI を有効にできるようになり、FSx for ONTAPファイル システム内の特定のボリュームを保護できるようになりました。</block>
+  <block id="ef292cf56fa95b6bcb87c8b89a0273e1" category="list-text">自動スナップショット作成: ARP/AI ポリシーを設定して自動スナップショットを作成し、ARP/AI が有効になっているボリュームのスナップショットを作成する頻度を定義して、データ保護戦略を強化できます。</block>
+  <block id="7ebe1fb355350f028323680fa93854c0" category="list-text">不変スナップショット: ARP/AI は、削除または変更できない不変スナップショットをサポートするようになり、ランサムウェア攻撃に対するセキュリティがさらに強化されました。</block>
+  <block id="dc86b2499972aa0a3c70449e20618ca2" category="list-text">検出: ボリューム レベルでの高エントロピー データ レート、ファイル作成レート、ファイルの名前変更レート、ファイル削除レート、動作分析、およびこれまでに見たことのないファイル拡張子など、さまざまな検出方法が含まれており、異常や潜在的なランサムウェア攻撃の検出に役立ちます。</block>
+  <block id="0b3b06fcd7ae5de19a9937c92e9669fe" category="inline-link-macro">NetApp Autonomous Ransomware Protection with AI (ARP/AI) でデータを保護します</block>
+  <block id="b4b81f7655965069dc9b6d72c40d3191" category="paragraph"><block ref="b4b81f7655965069dc9b6d72c40d3191" category="inline-link-macro-rx"></block></block>
+  <block id="4a854a1349dc1900974f3bf6a9552245" category="section-title">Well-Architected 分析の更新</block>
+  <block id="3c7a76fc8745c5306663d7f95b167472" category="paragraph">ワークロード ファクトリーでは、次の構成について FSx for ONTAPファイル システムを分析するようになりました。</block>
+  <block id="e30059be004aa836033b5a45f85d0fe0" category="list-text">長期保存データの信頼性: ソース ボリュームのスナップショット ポリシーに割り当てられたラベルが、長期保存ポリシーに割り当てられたラベルと同一であるかどうかを確認します。ラベルが同一である場合、ソース ボリュームとターゲット ボリューム間のデータ レプリケーションは信頼できます。</block>
+  <block id="d991a7b8584b3d26f44a90d9e27f7f7d" category="list-text">NetApp Autonomous Ransomware Protection with AI (ARP/AI): ファイル システムで ARP/AI が有効になっているかどうかを確認します。この機能は、ランサムウェア攻撃を検出して回復するのに役立ちます。</block>
+  <block id="bfebf248126ee0c8c192d7442b03e1a1" category="inline-link-macro">FSx for ONTAPファイルシステムの Well-Architected ステータスを表示します</block>
+  <block id="2a708c78876e2ad54c0b8577c3b2bbd5" category="paragraph"><block ref="2a708c78876e2ad54c0b8577c3b2bbd5" category="inline-link-macro-rx"></block></block>
+  <block id="e3d4a0c1fd9bad5ddfe8b2fc326f6d42" category="section-title">Well-Architected 分析から構成を除外する</block>
+  <block id="0b27c1a80fbacb5253a337c3d45236f9" category="paragraph">これで、well-archected 分析から 1 つ以上の構成を除外できるようになりました。これにより、現時点で対処したくない特定の構成を無視できます。</block>
+  <block id="c4a9d2577a7099266e1214d55f11cf0b" category="paragraph"><block ref="c4a9d2577a7099266e1214d55f11cf0b" category="inline-link-macro-rx"></block></block>
+  <block id="f83708b425052a7f19c02dfd5c3d0688" category="section-title">リンク作成のための Terraform サポート</block>
+  <block id="19c03fb90a9425b9fecd16c7b0e03e4e" category="paragraph">Codebox から Terraform を使用して、FSx for ONTAPファイル システムとの関連付けのためのリンクを作成できるようになりました。この機能は、リンクを手動で作成するユーザー向けです。</block>
+  <block id="b1dfc57db13615cb83125300396102cb" category="section-title">ストレージの節約を探索するための新しいリージョンのサポート</block>
+  <block id="dc2d48a6756b8920e1a0b103864fa0c3" category="paragraph">Amazon Elastic Block Store (EBS)、FSx for Windows File Server、Elastic File Systems (EFS) の節約を検討するために、次の新しいリージョンがサポートされるようになりました。</block>
+  <block id="8dbb07a18d46f63d8b3c8994d5ccc351" category="list-text">メキシコ</block>
+  <block id="103357e3e40a9c0e4e9d36110f7bbc7a" category="list-text">タイ</block>
+  <block id="743828d5c9c11b38d3dbbf76d787f497" category="section-title">SMB/CIFS共有の作成と管理の機能強化</block>
+  <block id="421075462886e558113f14b52fe22487" category="paragraph">ボリューム内のディレクトリを指す SMB/CIFS 共有を作成できるようになりました。ボリューム内で、どの共有が存在するか、共有がどこを指しているか、特定のユーザーとグループに付与されている権限を確認できます。</block>
+  <block id="4662a232249c09ca958781da08211b0c" category="paragraph">データ保護ボリュームの場合、SMB/CIFS 共有を作成するフローに、マウント目的でボリュームへのジャンクション パスの作成が含まれるようになりました。</block>
+  <block id="0162ca60ba3c63c1058d5815f318b75b" category="inline-link-macro">ボリュームのCIFS共有を作成する</block>
+  <block id="5f08db4267e771ad7b348d338d92e0e6" category="paragraph"><block ref="5f08db4267e771ad7b348d338d92e0e6" category="inline-link-macro-rx"></block></block>
+  <block id="2aaab0bce595a1e20244bc8b6b14559c" category="section-title">2025/08/03</block>
 </blocks>
