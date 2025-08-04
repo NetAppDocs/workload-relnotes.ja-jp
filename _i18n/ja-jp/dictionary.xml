@@ -47,22 +47,6 @@
   <block id="ef74d01649997b60252254da8a1573fd" category="doc">ONTAP CLIコマンドについて、AIによって生成されたエラー応答がCloudShellで報告される</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
   <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">権限に関する用語を更新</block>
-  <block id="535baaac5969b3bd7fd10592a2cb8e22" category="section-title">強化されたチャットモデルサポート</block>
-  <block id="48ced6c80c0d41a7f68e3e9caece65d9" category="paragraph">生成AIでは、ナレッジベース用に次の追加チャットモデルがサポートされるようになりました。</block>
-  <block id="ba7ee7dc8867588bd50d38f7762f4e93" category="inline-link-macro">Mistral AIモデル</block>
-  <block id="fffe8738239ad19b2e24fda4b92d99f8" category="list-text"><block ref="fffe8738239ad19b2e24fda4b92d99f8" category="inline-link-macro-rx"></block></block>
-  <block id="ac4754b088e15ec23e2e33942607b0db" category="inline-link-macro">Amazon Titanテキストモデル</block>
-  <block id="91b642108b49f539aef5f1e7e8429b9a" category="list-text"><block ref="91b642108b49f539aef5f1e7e8429b9a" category="inline-link-macro-rx"></block></block>
-  <block id="3e431ea8f1bf6f1b755d11be49ab7215" category="inline-link-macro">Meta Llamaモデル</block>
-  <block id="957aa19111afb49cbdb72a75c11a7824" category="list-text"><block ref="957aa19111afb49cbdb72a75c11a7824" category="inline-link-macro-rx"></block></block>
-  <block id="025fda77b8ffb8c9e7812b66f625dcdb" category="inline-link-macro">Jamba 1.5モデル</block>
-  <block id="00be89811246b5f1554783fae811628a" category="list-text"><block ref="00be89811246b5f1554783fae811628a" category="inline-link-macro-rx"></block></block>
-  <block id="d5bedd5eb6b3c4a63a27527880abc5ae" category="inline-link-macro">Cohereコマンドモデル</block>
-  <block id="01f2d137c910887f5780defdf71aa720" category="list-text"><block ref="01f2d137c910887f5780defdf71aa720" category="inline-link-macro-rx"></block></block>
-  <block id="7af238b1ae959fcc9ca0417cb2d5f9a7" category="inline-link-macro">ディープシークモデル</block>
-  <block id="96734ae1eb62df22f906e39314369633" category="list-text"><block ref="96734ae1eb62df22f906e39314369633" category="inline-link-macro-rx"></block></block>
-  <block id="dbc68fe7976455ff2b6f2e5143dfd308" category="inline-link-macro">Amazon Bedrockでサポートされる基盤モデル</block>
-  <block id="b198f4cca9409499187762bec5420672" category="paragraph">生成AIは、Amazon Bedrockがサポートする各プロバイダのモデルをサポートしています。<block ref="9f10081366e85554159ed4dc640b95c7" category="inline-link-macro-rx"></block></block>
   <block id="74d516ef8dfa098bb4cd92313c403475" category="doc">CloudShellオートコンプリートのサポート</block>
   <block id="df96b6f4ceabb5c4dbc915475fd821fe" category="paragraph">BlueXP  ワークロードファクトリCloudShellを使用している場合は、コマンドの入力を開始してTabキーを押すと、使用可能なオプションが表示されます。複数の候補が存在する場合は、CLIに候補のリストが表示されます。この機能は、エラーを最小限に抑え、コマンド実行を高速化することで、生産性を向上させます。</block>
   <block id="795a0e870c9420e8289ae895de63c851" category="paragraph">このリリースのVMware向けBlueXP  ワークロードファクトリでは、Amazon EC2 Migration Advisorのエクスペリエンスが次のように改善されています。</block>
@@ -84,10 +68,6 @@
   <block id="9e0cf47f3974a0b121f9381245ed8931" category="paragraph">ナレッジベースで使用する特定のリランカーモデルを選択することで、再ランク付けされたクエリ結果の関連性を高めることができます。GenAIは、Cohere RerankモデルとAmazon Rerankモデルをサポートしています。</block>
   <block id="8443221e1b90a24e56685750c704746a" category="section-title">2025年6月03日</block>
   <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">ストレージダッシュボードの機能強化</block>
-  <block id="93f953f50f24ae6dbf0400fde1bcc67d" category="doc">Amazon Q Business 向け NetApp コネクタのサポート</block>
-  <block id="f6f6ab51c21f03ba653ceea7301964e4" category="paragraph">GenAI のこのリリースでは、NetApp Connector for Amazon Q Business のサポートが導入され、Amazon Q Business 用のコネクタを作成できるようになりました。Amazon Bedrock用の 生成AIナレッジベースを構築するよりも、初期設定が少なくて済み、Amazon Q Business AIアシスタントをすばやく簡単に活用できます。</block>
-  <block id="3381eec0e48920855b86597d56709196" category="inline-link-macro">Amazon Q Business 用の NetApp コネクタを作成する</block>
-  <block id="8320a18edf6c2a7804ecd7a111b33314" category="paragraph"><block ref="8320a18edf6c2a7804ecd7a111b33314" category="inline-link-macro-rx"></block></block>
   <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">ワークロード ファクトリのユーザー インターフェースとドキュメントでは、読み取り権限を示すために「読み取り専用」を使用し、自動化権限を示すために「読み取り/書き込み」を使用するようになりました。</block>
   <block id="2423cc9c7b9124d70e9fba7ab98b53df" category="doc">問題解決のための新しい優れた分析とサポート</block>
   <block id="b03b65ae167fa7999b9020739117ae19" category="paragraph">FSx for ONTAP ファイルシステムの自動容量管理が、Well-Architected ステータス ダッシュボードの構成分析として含まれるようになりました。</block>
@@ -230,4 +210,10 @@
   <block id="79717347a64fe25d0ea054d1670b04c6" category="inline-link-macro">Amazon FSx for NetApp ONTAPでデータベース環境の潜在的なコスト削減を模索</block>
   <block id="0c99e0e3525f8446afe1107c5294bead" category="paragraph"><block ref="0c99e0e3525f8446afe1107c5294bead" category="inline-link-macro-rx"></block></block>
   <block id="a76bbcc12fcf5f723f1560cd99c60ab3" category="section-title">2025/08/04</block>
+  <block id="1d92da78b598707dec3df4d7281f1ec3" category="doc">構造化データ結果の安全な保存</block>
+  <block id="c4b4739fe392b8cae69417a08008577b" category="paragraph">チャットボットのクエリ結果に構造化データが含まれている場合、GenAI はその結果を Amazon S3 バケットに保存できます。これらの結果が S3 バケットに保存されると、チャット セッション内のダウンロード リンクを使用してダウンロードできます。</block>
+  <block id="9a0737b14158e601f99b4265c5bd3e5a" category="section-title">MCP サーバーの可用性</block>
+  <block id="7577ac9e07061812bfe5cec74bafd782" category="paragraph">NetApp は現在、GenAI 用のBlueXP workload factoryを備えた Model Context Protocol (MCP) サーバーを提供しています。サーバーをローカルにインストールすると、外部の MCP クライアントが GenAI ナレッジ ベースからクエリ結果を検出して取得できるようになります。</block>
+  <block id="6ce9fdd00e9870d205a0b965e8d376fd" category="inline-link-macro">NetAppワークロード ファクトリー GenAI MCP サーバー</block>
+  <block id="499a63951a1faf063a1d481e63ba0fd9" category="paragraph"><block ref="499a63951a1faf063a1d481e63ba0fd9" category="inline-link-macro-rx"></block></block>
 </blocks>

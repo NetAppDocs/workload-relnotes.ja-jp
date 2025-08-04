@@ -152,6 +152,26 @@ https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["BlueXP
 
 
 
+=== 生成AIワークロード
+
+
+
+==== 構造化データ結果の安全な保存
+
+チャットボットのクエリ結果に構造化データが含まれている場合、GenAI はその結果を Amazon S3 バケットに保存できます。これらの結果が S3 バケットに保存されると、チャット セッション内のダウンロード リンクを使用してダウンロードできます。
+
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["生成AIナレッジベースの作成"]
+
+
+
+==== MCP サーバーの可用性
+
+NetApp は現在、GenAI 用のBlueXP workload factoryを備えた Model Context Protocol (MCP) サーバーを提供しています。サーバーをローカルにインストールすると、外部の MCP クライアントが GenAI ナレッジ ベースからクエリ結果を検出して取得できるようになります。
+
+link:https://github.com/NetApp/mcp/tree/main/NetApp-KnowledgeBase-MCP-server["NetAppワークロード ファクトリー GenAI MCP サーバー"^]
+
+
+
 == 2025年6月30日
 
 
@@ -436,42 +456,6 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 * NetAppデータインフラのインサイトをデータソースとして*：ワークロードファクトリは、EC2移行アドバイザのデータコレクタを使用すると、NetAppデータインフラのインサイトに直接接続して、VMwareの導入情報を収集できるようになりました。
 
 https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["移行アドバイザを使用してAmazon EC2の導入計画を作成"]
-
-
-
-==== 権限に関する用語を更新
-
-ワークロード ファクトリのユーザー インターフェースとドキュメントでは、読み取り権限を示すために「読み取り専用」を使用し、自動化権限を示すために「読み取り/書き込み」を使用するようになりました。
-
-
-
-=== 生成AIワークロード
-
-
-
-==== Amazon Q Business 向け NetApp コネクタのサポート
-
-GenAI のこのリリースでは、NetApp Connector for Amazon Q Business のサポートが導入され、Amazon Q Business 用のコネクタを作成できるようになりました。Amazon Bedrock用の 生成AIナレッジベースを構築するよりも、初期設定が少なくて済み、Amazon Q Business AIアシスタントをすばやく簡単に活用できます。
-
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Amazon Q Business 用の NetApp コネクタを作成する"]
-
-
-
-==== 強化されたチャットモデルサポート
-
-生成AIでは、ナレッジベース用に次の追加チャットモデルがサポートされるようになりました。
-
-* link:https://docs.mistral.ai/getting-started/models/models_overview/["Mistral AIモデル"^]
-* link:https://docs.aws.amazon.com/bedrock/latest/userguide/titan-text-models.html["Amazon Titanテキストモデル"^]
-* link:https://www.llama.com/docs/model-cards-and-prompt-formats/["Meta Llamaモデル"^]
-* link:https://docs.ai21.com/["Jamba 1.5モデル"^]
-* link:https://docs.cohere.com/docs/the-cohere-platform["Cohereコマンドモデル"^]
-* link:https://aws.amazon.com/bedrock/deepseek/["ディープシークモデル"^]
-
-
-生成AIは、Amazon Bedrockがサポートする各プロバイダのモデルをサポートしています。link:https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html["Amazon Bedrockでサポートされる基盤モデル"^]
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["生成AIナレッジベースの作成"]
 
 
 
