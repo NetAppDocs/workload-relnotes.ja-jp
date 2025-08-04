@@ -39,14 +39,11 @@
   <block id="2004b4ad1feb57e1e4505f5888cfbb60" category="paragraph"><block ref="2004b4ad1feb57e1e4505f5888cfbb60" category="inline-link-macro-rx"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">アクセス権参照変更ログ</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
-  <block id="cec87a8931004e5402a3f18575682723" category="paragraph">このリリースのVMware向けBlueXP  ワークロードファクトリでは、Amazon EC2 Migration Advisorのエクスペリエンスが次のように改善されています。</block>
   <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">CloudShellを使用している場合、ONTAP CLIコマンドを発行してエラーが発生するたびに、失敗の説明、失敗の原因、詳細な解決策を含むAI生成のエラー応答を取得できます。</block>
   <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">IAM：SimulatePermissionPolicy権限の更新</block>
   <block id="906699741ebd9905a07af900abcfd438" category="paragraph">AWSアカウントのクレデンシャルを追加したり、生成AIワークロードなどの新しいワークロード機能を追加したりするときに、ワークロードファクトリコンソールから権限を管理できるようになりまし<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>た。</block>
   <block id="186057b8c375bff9b600d22bf8686fc5" category="section-title">2025年3月30日</block>
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">生成AIナレッジベースの作成</block>
-  <block id="6e62567f7c9b240a118b25fc64f2991f" category="list-text">*ボリューム割り当てガイダンスの強化*：EC2 Migration Advisorの「Classify」および「Package」ステップのボリューム割り当て情報には、読みやすさと操作性が向上しています。各ボリュームについて、より有益な情報が表示されるため、ボリュームの特定や割り当て方法の決定に役立ちます。</block>
-  <block id="5fc07f589f318bbf4f9475dbf3754c9f" category="list-text">*データコレクタスクリプトの効率化*: EC2移行アドバイザのデータコレクタスクリプトは、小規模なVM環境でデータを収集する際のCPU使用率を最適化します。</block>
   <block id="ef74d01649997b60252254da8a1573fd" category="doc">ONTAP CLIコマンドについて、AIによって生成されたエラー応答がCloudShellで報告される</block>
   <block id="8bb788607f31f673e25d0ba34b09a14d" category="doc">最適化の機能拡張</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
@@ -228,4 +225,10 @@
   <block id="0162ca60ba3c63c1058d5815f318b75b" category="inline-link-macro">ボリュームのCIFS共有を作成する</block>
   <block id="5f08db4267e771ad7b348d338d92e0e6" category="paragraph"><block ref="5f08db4267e771ad7b348d338d92e0e6" category="inline-link-macro-rx"></block></block>
   <block id="2aaab0bce595a1e20244bc8b6b14559c" category="section-title">2025/08/03</block>
+  <block id="424013c53fd9187a66e051bb44ddaa34" category="doc">Amazon Elastic VMWare Service の移行アドバイザーのサポートが強化されました</block>
+  <block id="37ac2db5bb5bc7f50e3b58bbb706b64b" category="paragraph">Amazon Elastic VMware Service 移行アドバイザーは、Amazon FSx for NetApp ONTAPファイルシステムの自動デプロイとマウントをサポートするようになりました。これにより、Amazon EVS 環境への移行が完了したら、FSx for ONTAPファイルシステムに VM のデプロイを開始できるようになります。</block>
+  <block id="93c34ab13f70b21f6935de45dacb9ae3" category="section-title">Amazon Elastic VMware Service への移行によるコスト削減額を計算する</block>
+  <block id="b1da4fce8da5117e3a9e1041d1749074" category="paragraph">VMware ワークロードを Amazon Elastic VMware Service (EVS) に移行することで得られる潜在的なコスト削減を検討できるようになりました。節約計算ツールを使用すると、基盤ストレージとしてAmazon FSx for NetApp ONTAP を使用した場合と使用しない場合の Amazon EVS のコストを比較できます。計算機は、環境の特性を調整すると、潜在的な節約額をリアルタイムで表示します。</block>
+  <block id="b5ddf28fa6b1419129cc60c87384d5f3" category="inline-link">BlueXP workload factoryで Amazon Elastic VMware Service の割引を探る</block>
+  <block id="e5201134512b46a1979954f15ddb8c25" category="paragraph"><block ref="e5201134512b46a1979954f15ddb8c25" category="inline-link-rx"></block></block>
 </blocks>
