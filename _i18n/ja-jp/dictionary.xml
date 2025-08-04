@@ -45,19 +45,7 @@
   <block id="186057b8c375bff9b600d22bf8686fc5" category="section-title">2025年3月30日</block>
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">生成AIナレッジベースの作成</block>
   <block id="ef74d01649997b60252254da8a1573fd" category="doc">ONTAP CLIコマンドについて、AIによって生成されたエラー応答がCloudShellで報告される</block>
-  <block id="8bb788607f31f673e25d0ba34b09a14d" category="doc">最適化の機能拡張</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
-  <block id="25696569671071b8bd3db9a4c5f6613e" category="doc">ダッシュボードの機能拡張</block>
-  <block id="04f9acced28b52e064ba8ccb957a615c" category="list-text">BlueXP  ワークロードファクトリコンソールのタブ間を移動すると、アカウント間ビューとリージョン間ビューを使用できます。新しいビューは、リソースの管理、監視、最適化を改善します。</block>
-  <block id="6e21267988cadc818dd398393c695465" category="list-text">ダッシュボードの* Potential Savings *タイルから、Amazon Elastic Block StoreまたはAmazon FSx for WindowsファイルサーバからFSx for ONTAPに切り替えることで、削減可能なコストをすばやく確認できます。</block>
-  <block id="255a96bb0a74416846fbad7e40f8ddf4" category="section-title">データベース構成で使用可能なアドホックスキャン</block>
-  <block id="2b1a16b6cd72c9555872ec61d3334af5" category="paragraph">BlueXP  Workload Factory for Databasesは、管理対象のMicrosoft SQL ServerインスタンスをFSx for ONTAPストレージで自動的にスキャンし、潜在的な構成の問題がないかどうかを確認します。毎日のスキャンに加えて、いつでもスキャンできます。</block>
-  <block id="365d8fe4130e8c12f4a3defc920178dd" category="section-title">オンプレミス評価記録の削除</block>
-  <block id="c4fd25bd6650f0eaedfd01e29fbecddd" category="paragraph">オンプレミスのMicrosoft SQL Serverホストの削減効果を確認したら、オンプレミスのホストレコードをBlueXP  ワークロードファクトリから削除することもできます。</block>
-  <block id="ae548505379d0043460d8c15540cb546" category="section-title">クローンのクリーンアップ</block>
-  <block id="0d003b1e16a8cf8a4b6c0774ee3a0f41" category="paragraph">クローンクリーンアップの評価と修正では、コストのかかる古いクローンを特定して管理します。60日を経過したクローンは、BlueXP  ワークロードファクトリコンソールで更新または削除できます。</block>
-  <block id="6da89f0beda0fbec41b06125b0b7ad32" category="section-title">構成分析の延期と却下</block>
-  <block id="4a9a50cea48d9e2ded3becc284af4e41" category="paragraph">一部の設定はデータベース環境に適用されない場合があります。特定の構成分析を30日延期するか、分析を却下するかを選択できるようになりました。</block>
   <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">権限に関する用語を更新</block>
   <block id="535baaac5969b3bd7fd10592a2cb8e22" category="section-title">強化されたチャットモデルサポート</block>
   <block id="48ced6c80c0d41a7f68e3e9caece65d9" category="paragraph">生成AIでは、ナレッジベース用に次の追加チャットモデルがサポートされるようになりました。</block>
@@ -231,4 +219,15 @@
   <block id="b1da4fce8da5117e3a9e1041d1749074" category="paragraph">VMware ワークロードを Amazon Elastic VMware Service (EVS) に移行することで得られる潜在的なコスト削減を検討できるようになりました。節約計算ツールを使用すると、基盤ストレージとしてAmazon FSx for NetApp ONTAP を使用した場合と使用しない場合の Amazon EVS のコストを比較できます。計算機は、環境の特性を調整すると、潜在的な節約額をリアルタイムで表示します。</block>
   <block id="b5ddf28fa6b1419129cc60c87384d5f3" category="inline-link">BlueXP workload factoryで Amazon Elastic VMware Service の割引を探る</block>
   <block id="e5201134512b46a1979954f15ddb8c25" category="paragraph"><block ref="e5201134512b46a1979954f15ddb8c25" category="inline-link-rx"></block></block>
+  <block id="65bff5c812b0782e85c3554a907e01d2" category="doc">Well-Architected分析には高可用性クラスタの検証が含まれる</block>
+  <block id="bdd55244a112c438dfe30c6c85a4fcb1" category="paragraph">Well-Architected 分析に、高可用性クラスターの検証が含まれるようになりました。この検証では、両方のノードのディスクの可用性と構成、Windows クラスターの構成、フェールオーバーの準備状況など、サーバー側からのすべてのクラスター関連の構成がチェックされます。これにより、Windows クラスターが適切にセットアップされ、必要に応じて正常にフェールオーバーできるようになります。</block>
+  <block id="ad229ca0142680e057d4328835a9c1ef" category="section-title">インスタンスに利用可能なマルチレベルメニュー</block>
+  <block id="de0915fdab5af6d02111d53dcfd6ccb3" category="paragraph">ワークロード ファクトリー コンソールに、インスタンスのマルチレベル メニューが追加されました。この変更により、インスタンスを管理するための、より整理された直感的なナビゲーション構造が提供されます。インスタンス管理のメニュー オプションには、インスタンス ダッシュボードの表示、データベースの表示、データベースの作成、サンドボックス クローンの作成などがあります。</block>
+  <block id="8d79c3f1283ecc54b044e383580c41e0" category="inline-image-macro">複数レベルのメニュー構造を持つインスタンス テーブル メニューのスクリーンショット。インスタンス テーブル メニューを選択し、インスタンスを管理して、データベースを表示し、データベースを作成し、サンドボックス クローンを作成します。</block>
+  <block id="6f3cad43f8bb61ac11ebd8e87e6d6240" category="paragraph"><block ref="6f3cad43f8bb61ac11ebd8e87e6d6240" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5892d833ba074396906362cfc3ad6370" category="section-title">節約を模索するための新しい認証オプション</block>
+  <block id="3035f336d9539562dbf5355f26c10a4f" category="paragraph">いつ<block ref="7254170b56a28e207df989a3f40b911f" prefix=" " category="inline-code"></block>ユーザーがMicrosoft SQL Serverに対して十分な権限を持っていない場合は、SQL Serverの資格情報で認証するか、不足しているSQL Serverの権限を追加することができます。<block ref="7254170b56a28e207df989a3f40b911f" prefix=" " category="inline-code"></block> 。</block>
+  <block id="79717347a64fe25d0ea054d1670b04c6" category="inline-link-macro">Amazon FSx for NetApp ONTAPでデータベース環境の潜在的なコスト削減を模索</block>
+  <block id="0c99e0e3525f8446afe1107c5294bead" category="paragraph"><block ref="0c99e0e3525f8446afe1107c5294bead" category="inline-link-macro-rx"></block></block>
+  <block id="a76bbcc12fcf5f723f1560cd99c60ab3" category="section-title">2025/08/04</block>
 </blocks>
