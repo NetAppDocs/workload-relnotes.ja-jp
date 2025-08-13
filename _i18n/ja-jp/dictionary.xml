@@ -52,12 +52,6 @@
   <block id="795a0e870c9420e8289ae895de63c851" category="paragraph">このリリースのVMware向けBlueXP  ワークロードファクトリでは、Amazon EC2 Migration Advisorのエクスペリエンスが次のように改善されています。</block>
   <block id="81e3939f348a9727ff017a61306371bd" category="paragraph">* NetAppデータインフラのインサイトをデータソースとして*：ワークロードファクトリは、EC2移行アドバイザのデータコレクタを使用すると、NetAppデータインフラのインサイトに直接接続して、VMwareの導入情報を収集できるようになりました。</block>
   <block id="4a8ef01af1fafc8c714496654fc2facc" category="section-title">2025年5月04日</block>
-  <block id="938691193541892254da342a65418ef3" category="doc">PostgreSQLとOracleの検出</block>
-  <block id="a35833d039b2504ef8c787b30e723967" category="paragraph">ワークロードファクトリーコンソール内で、AWSアカウントでPostgreSQLサーバーデータベースとOracleデータベースデプロイメントを実行しているインスタンスを検出できるようになりました。検出されたインスタンスはデータベースインベントリに表示されます。</block>
-  <block id="fd1fe4efcf471a552598d4396db84a26" category="section-title">「最適化」の用語を更新しました</block>
-  <block id="a832a618559e9b6325bfe90eb3e86587" category="paragraph">以前は「最適化」と呼ばれていたワークロード ファクトリーでは、現在、「well-architected の問題」と「well-architected ステータス」を使用してデータベース構成の分析を説明し、「修正」を使用してベスト プラクティスの推奨事項を満たすようにデータベース構成を改善する機会の修復を説明します。</block>
-  <block id="c551233916d554410ddca9f767142b1a" category="inline-link-macro">ワークロードファクトリーにおけるデータベース環境の構成分析</block>
-  <block id="2cfa2ba77f1346dd5f1a96ad6f3af2b2" category="paragraph"><block ref="2cfa2ba77f1346dd5f1a96ad6f3af2b2" category="inline-link-macro-rx"></block></block>
   <block id="4f91bce4a20615964f35d2fd97ddb2e1" category="inline-link-macro">インスタンス管理</block>
   <block id="68d9261728b0a851ce7bc78b7cfd2a69" category="paragraph"><block ref="68d9261728b0a851ce7bc78b7cfd2a69" category="inline-link-macro-rx"></block></block>
   <block id="ea3d4df6f8aff21b2dfe549c5ecf9775" category="doc">運用の監視と追跡に使用可能なトラッカー</block>
@@ -110,8 +104,6 @@
   <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="doc">データベースの権限の更新</block>
   <block id="cb30bdb55bb8a7a0530a31a5e6cdd0bb" category="paragraph">データベースの _読み取り専用_ モードで次の権限が利用できるようになりました。 <block ref="f63e0d20057299c9c16bd0c2c9e92a5c" prefix=" " category="inline-code"></block> 。</block>
   <block id="e429c7230e4b94caf26e6020e5ea6f7a" category="paragraph"><block ref="e429c7230e4b94caf26e6020e5ea6f7a" category="inline-link-rx"></block></block>
-  <block id="a43e14359a13ff9144351ad74db7b351" category="section-title">インスタンスのオンボーディングの改善</block>
-  <block id="af2ef84a7c6d5792c23eddfef4cc4ed9" category="paragraph">インスタンス管理において「未検出」「管理対象外」「管理対象」といった用語が使用されるのに対し、ワークロードファクトリーではインスタンスのオンボーディングに「登録」という用語を使用するようになりました。新しい登録プロセスには、インスタンスの認証と準備が含まれており、ワークロードファクトリーコンソール内でデータベース構成のリソースを作成、監視、分析、修正できるようになります。登録プロセスの準備手順は、インスタンスが管理の準備ができているかどうかを示します。</block>
   <block id="a10c281531128badfefa7086b353ead0" category="paragraph"><block ref="a10c281531128badfefa7086b353ead0" category="inline-link-macro-rx"></block></block>
   <block id="16608889ffd4210e3527b28d2cabeee1" category="paragraph">ワークロードファクトリーコンソールのストレージダッシュボードに、コスト削減の機会を示す新しいカードが追加されました。ダッシュボード上部のカードには、Amazon Elastic Block Store (EBS)、Amazon FSx for Windows File Server、Amazon Elastic File Systems (EFS) で実行されているストレージ環境におけるコスト削減の機会の数が表示されます。ダッシュボード下部には、Amazon ストレージサービス (EBS、FSx for Windows File Server、EFS) ごとのコスト削減の機会を示す 3 つの新しいカードが追加されました。すべてのカードから、コスト削減の機会をより詳細に確認できます。</block>
   <block id="e2fc557edefb4b2854999f60dbd0d379" category="paragraph">FSx for ONTAP の保護範囲カードとレプリケーション関係の健全性カードから、FSx for ONTAP ファイルシステム内に部分的に保護されているボリュームがあるかどうか、またレプリケーション関係に関する問題を調査できます。どちらの場合も、問題を解決するためのアクションを実行できます。</block>
@@ -216,4 +208,11 @@
   <block id="7577ac9e07061812bfe5cec74bafd782" category="paragraph">NetApp は現在、GenAI 用のBlueXP workload factoryを備えた Model Context Protocol (MCP) サーバーを提供しています。サーバーをローカルにインストールすると、外部の MCP クライアントが GenAI ナレッジ ベースからクエリ結果を検出して取得できるようになります。</block>
   <block id="6ce9fdd00e9870d205a0b965e8d376fd" category="inline-link-macro">NetAppワークロード ファクトリー GenAI MCP サーバー</block>
   <block id="499a63951a1faf063a1d481e63ba0fd9" category="paragraph"><block ref="499a63951a1faf063a1d481e63ba0fd9" category="inline-link-macro-rx"></block></block>
+  <block id="22218c6d37412d25750364bd0d4047b5" category="doc">BlueXP backup and recoveryがMicrosoft SQL Serverのワークロードをサポートするようになりました</block>
+  <block id="412038dfc7c530b95fd4f54ca173992c" category="paragraph">BlueXP backup and recoveryを使用すると、Microsoft SQL Server データベースおよび可用性グループのバックアップ、復元、検証、および複製が可能になります。ワークロード ファクトリー コンソールから、 BlueXP backup and recoveryにアクセスして使用し、Microsoft SQL Server ワークロードを保護できます。</block>
+  <block id="0eabf86e93873fc39b5a49903ec1c780" category="inline-link-macro">ワークロードファクトリーコンソールを使用して Microsoft SQL Server ワークロードを保護する方法を学びます</block>
+  <block id="479793fb579bc2de418f794ebb8ef29a" category="paragraph"><block ref="9a9685babd9ed5904e91ddba265de923" category="inline-link-macro-rx"></block> 。</block>
+  <block id="7b26957c70db2d24aefeef252ab7b883" category="inline-link-macro">BlueXP backup and recoveryによる Microsoft SQL ワークロードの保護の概要</block>
+  <block id="6f452244df857c1e0fc35a2a40650322" category="paragraph">BlueXP backup and recoveryの詳細については、<block ref="b3db6ed8425306b30d05a9028a6a4afe" category="inline-link-macro-rx"></block> 。</block>
+  <block id="39454dfcfa6a1a0351437e0b1d0da294" category="section-title">2025/08/12</block>
 </blocks>
