@@ -15,6 +15,52 @@ BlueXP  ワークロードファクトリに含まれているワークロー�
 
 
 
+== 2025/09/01
+
+
+
+=== データベースワークロード
+
+
+
+==== Agentic AI搭載エラーログアナライザー
+
+Agentic AI 搭載エラー ログ アナライザーは、高度な機械学習アルゴリズムを活用して、ログ ファイル内のエラーを自動的に検出して分析する新しい機能です。このツールは、ログで識別されたパターンに基づいて開発者に実用的な洞察と推奨事項を提供することで、トラブルシューティング プロセスを合理化することを目的としています。
+
+link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["Agentic AI搭載エラーログアナライザーの詳細"]
+
+
+
+==== Oracleサポート
+
+ワークロード ファクトリーには、Oracle データベースのサポートが含まれています。ワークロード ファクトリー コンソールでは、インベントリから Oracle データベースを表示したり、ワークロード ファクトリーの高度な機能を使用するためにデータベースを登録したり、well-architected 機能を使用して Oracle データベースを分析し、ベスト プラクティスに準拠しているかどうかを判断したりできます。Well-Architected 分析により、Oracle データベースのストレージ構成が最適化されているかどうかが判断されます。この情報を使用することで、データベースの導入について十分な情報に基づいた意思決定を行い、効率的に実行されていることを確認できます。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["ワークロードファクトリーで適切に設計されたデータベース構成を実装する"]
+
+
+
+==== 第 2 世代 FSx for ONTAPファイルシステムでの Microsoft SQL Server デプロイメントのサポート
+
+ワークロード ファクトリーは、第 2 世代の FSx for ONTAPファイル システムでの Microsoft SQL Server のデプロイメントをサポートします。この機能強化により、SQL Server ワークロードを管理しながら、第 2 世代のファイル システムで利用可能な最新の機能とパフォーマンスの向上を活用できるようになります。
+
+
+
+==== SQL Server 保護のための Windows 認証
+
+Windows 資格情報を使用した Microsoft SQL Server インスタンスの認証は、BlueXP backup and recoveryによる保護のために Microsoft SQL Server ホストを準備するためのワークフローに組み込まれています。これは以前は手動で完了するための前提条件の手順でした。代わりに、Windows 資格情報を使用してワークロード ファクトリにホストを登録していない場合は、管理者アクセス権を持つ Windows 資格情報を共有するように求められます。
+
+link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["ワークロードファクトリーコンソールを使用して Microsoft SQL Server ワークロードを保護する方法を学びます"] 。
+
+
+
+==== Well-Architected 分析には SQL Server の MTU 調整が含まれます
+
+Well-Architected 分析では、FSx for ONTAPストレージ上の Microsoft SQL Server のエンドポイント間の最大転送単位 (MTU) の不整合を評価し、修正します。MTU 設定を調整すると、ネットワーク パフォーマンスが最適化され、SQL Server ワークロードの待機時間が短縮されます。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["ワークロードファクトリーで適切に設計されたデータベース構成を実装する"]
+
+
+
 == 2025/08/12
 
 
@@ -23,7 +69,7 @@ BlueXP  ワークロードファクトリに含まれているワークロー�
 
 
 
-==== BlueXP backup and recoveryがMicrosoft SQL Serverのワークロードをサポートするようになりました
+==== BlueXP backup and recoveryが Microsoft SQL Server のワークロードをサポートするようになりました
 
 BlueXP backup and recoveryを使用すると、Microsoft SQL Server データベースおよび可用性グループのバックアップ、復元、検証、および複製が可能になります。ワークロード ファクトリー コンソールから、 BlueXP backup and recoveryにアクセスして使用し、Microsoft SQL Server ワークロードを保護できます。
 
@@ -187,60 +233,6 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 NetApp は現在、GenAI 用のBlueXP workload factoryを備えた Model Context Protocol (MCP) サーバーを提供しています。サーバーをローカルにインストールすると、外部の MCP クライアントが GenAI ナレッジ ベースからクエリ結果を検出して取得できるようになります。
 
 link:https://github.com/NetApp/mcp/tree/main/NetApp-KnowledgeBase-MCP-server["NetAppワークロード ファクトリー GenAI MCP サーバー"^]
-
-
-
-== 2025年6月30日
-
-
-
-=== データベースワークロード
-
-
-
-==== BlueXPワークロードファクトリー通知サービスのサポート
-
-BlueXP ワークロードファクトリー通知サービスを使用すると、ワークロードファクトリーは BlueXP アラートサービスまたは Amazon SNS トピックに通知を送信できます。BlueXPアラートに送信された通知は、BlueXP アラートパネルに表示されます。ワークロードファクトリーが Amazon SNS トピックに通知を発行すると、トピックのサブスクライバー（ユーザーや他のアプリケーションなど）は、トピックに設定されたエンドポイント（E メールや SMS メッセージなど）で通知を受け取ります。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["BlueXPワークロードファクトリー通知を構成する"^]
-
-ワークロード ファクトリーは、データベースに対して次の通知を提供します。
-
-* よく設計されたレポート
-* ホストの展開
-
-
-
-
-==== インスタンス登録のオンボーディング強化
-
-Workload Factory for Databases は、Amazon FSx for NetApp ONTAP ストレージ上で稼働するインスタンスの登録プロセスを改善しました。これにより、登録するインスタンスを一括で選択できるようになりました。インスタンスが登録されると、ワークロード ファクトリー コンソール内でデータベース リソースを作成および管理できるようになります。
-
-link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["インスタンス管理"]
-
-
-
-==== Microsoft マルチパス I/O タイムアウト設定の分析と修正
-
-データベース インスタンスの well-architected ステータスに、Microsoft Multipath I/O (MPIO) タイムアウト設定の分析と修正が含まれるようになりました。タイムアウトを60秒に設定することで、FSx for ONTAPストレージの接続性とフェイルオーバー時の安定性が確保されます。MPIO設定が適切に設定されていない場合は、ワークロードファクトリーがMPIOタイムアウト値を60秒に設定する修正を提供します。
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["ワークロードファクトリーで適切に設計されたデータベース構成を実装する"]
-
-
-
-==== インスタンスインベントリのグラフィックの強化
-
-インスタンス インベントリ画面では、スループットや IOPS などのさまざまなリソース使用率グラフに 7 日間のデータが表示されるようになり、ワークロード ファクトリー コンソールから SQL ノードのパフォーマンスをより効率的に監視できるようになりました。ノードから収集されたパフォーマンスメトリクスはAmazon CloudWatchに保存され、Logs Insightsや環境内の他の分析サービスとの統合に使用できます。
-
-インベントリ内のインスタンスとデータベースのタブでは、保護の説明と視覚化が強化されました。
-
-
-
-==== ワークロードファクトリーでの Windows 認証のサポート
-
-現在、ワークロード ファクトリーは、インスタンスを登録し、管理機能のメリットを享受するために、Windows 認証ユーザーを使用した SQL Server 認証をサポートしています。
-
-link:https://docs.netapp.com/us-en/workload-databases/register-instance.html["データベースのワークロードファクトリーにインスタンスを登録する"]
 
 
 

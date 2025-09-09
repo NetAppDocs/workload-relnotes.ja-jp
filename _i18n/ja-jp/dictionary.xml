@@ -52,8 +52,6 @@
   <block id="795a0e870c9420e8289ae895de63c851" category="paragraph">このリリースのVMware向けBlueXP  ワークロードファクトリでは、Amazon EC2 Migration Advisorのエクスペリエンスが次のように改善されています。</block>
   <block id="81e3939f348a9727ff017a61306371bd" category="paragraph">* NetAppデータインフラのインサイトをデータソースとして*：ワークロードファクトリは、EC2移行アドバイザのデータコレクタを使用すると、NetAppデータインフラのインサイトに直接接続して、VMwareの導入情報を収集できるようになりました。</block>
   <block id="4a8ef01af1fafc8c714496654fc2facc" category="section-title">2025年5月04日</block>
-  <block id="4f91bce4a20615964f35d2fd97ddb2e1" category="inline-link-macro">インスタンス管理</block>
-  <block id="68d9261728b0a851ce7bc78b7cfd2a69" category="paragraph"><block ref="68d9261728b0a851ce7bc78b7cfd2a69" category="inline-link-macro-rx"></block></block>
   <block id="ea3d4df6f8aff21b2dfe549c5ecf9775" category="doc">運用の監視と追跡に使用可能なトラッカー</block>
   <block id="8daed4c7913162875cceb19ef5e0bf4c" category="paragraph">GenAIでTracker監視機能が利用可能になりました。Trackerを使用すると、保留中、進行中、完了済みの操作の進行状況とステータスを監視および追跡したり、操作タスクとサブタスクの詳細を確認したり、問題や失敗を診断したり、失敗した操作のパラメータを編集したり、失敗した操作を再試行したりできます。</block>
   <block id="27e9b8493c313885af8902ac1ae67e24" category="inline-link-macro">BlueXP ワークロード ファクトリーの Tracker を使用してワークロード操作を監視する</block>
@@ -131,23 +129,8 @@
   <block id="bdd7f454c54673987f53c40f8e5b8072" category="paragraph"><block ref="bdd7f454c54673987f53c40f8e5b8072" category="inline-link-macro-rx"></block></block>
   <block id="5c44c7d986372ccb1d679985b5416b64" category="section-title">リンク作成中にIAM実行ロールと権限を管理する</block>
   <block id="43f8bec3c8d83ff27c8f5d629cd49d4d" category="paragraph">ワークロードファクトリーコンソールでリンクを作成する際に、IAM 実行ロールとそれに紐付けられた権限ポリシーを管理できるようになりました。リンクは、ワークロードファクトリーアカウントと 1 つ以上の FSx for ONTAP ファイルシステム間の接続を確立します。IAM実行ロールとリンク権限の割り当てには、自動割り当てとユーザー指定の 2 つのオプションがあります。ワークロードファクトリーで実行ロールとそれに紐付けられた権限ポリシーを管理することで、サードパーティ製のコードを使用する必要がなくなります。</block>
-  <block id="c836d737c77c0dbce2c99a2b01c719fd" category="paragraph">ワークロード ファクトリーは、データベースに対して次の通知を提供します。</block>
-  <block id="33e3371223dba19c723617802e06af8d" category="list-text">よく設計されたレポート</block>
-  <block id="d415d128365eca1587931ed756de7819" category="list-text">ホストの展開</block>
-  <block id="8306ce5f84163ec6839ec7518f30183a" category="section-title">インスタンス登録のオンボーディング強化</block>
-  <block id="2e91c32877a8bf4a56c1853f92a414ba" category="section-title">Microsoft マルチパス I/O タイムアウト設定の分析と修正</block>
   <block id="c4363ade7c2d208d79dee9b60bc51922" category="inline-link-macro">ワークロードファクトリーで適切に設計されたデータベース構成を実装する</block>
   <block id="a05724b342c36062e480732f660ae9d4" category="paragraph"><block ref="a05724b342c36062e480732f660ae9d4" category="inline-link-macro-rx"></block></block>
-  <block id="4698c78219bd6bc2a4fb47e8f4149213" category="section-title">ワークロードファクトリーでの Windows 認証のサポート</block>
-  <block id="0a9f9a33b436eb81633ee8f4b2cb121d" category="section-title">2025年6月30日</block>
-  <block id="d2240cc857b28c2cc0c761811ebb0e4d" category="paragraph">Workload Factory for Databases は、Amazon FSx for NetApp ONTAP ストレージ上で稼働するインスタンスの登録プロセスを改善しました。これにより、登録するインスタンスを一括で選択できるようになりました。インスタンスが登録されると、ワークロード ファクトリー コンソール内でデータベース リソースを作成および管理できるようになります。</block>
-  <block id="55dedf6eed5a2ce8c260a3944723e099" category="paragraph">データベース インスタンスの well-architected ステータスに、Microsoft Multipath I/O (MPIO) タイムアウト設定の分析と修正が含まれるようになりました。タイムアウトを60秒に設定することで、FSx for ONTAPストレージの接続性とフェイルオーバー時の安定性が確保されます。MPIO設定が適切に設定されていない場合は、ワークロードファクトリーがMPIOタイムアウト値を60秒に設定する修正を提供します。</block>
-  <block id="0f6f8a7d2c62793903fd07b4a68f2192" category="section-title">インスタンスインベントリのグラフィックの強化</block>
-  <block id="6bb06f6a313d1245a77bdcc02f151dcd" category="paragraph">インスタンス インベントリ画面では、スループットや IOPS などのさまざまなリソース使用率グラフに 7 日間のデータが表示されるようになり、ワークロード ファクトリー コンソールから SQL ノードのパフォーマンスをより効率的に監視できるようになりました。ノードから収集されたパフォーマンスメトリクスはAmazon CloudWatchに保存され、Logs Insightsや環境内の他の分析サービスとの統合に使用できます。</block>
-  <block id="8984f42ceef01f063ea7a1078e620318" category="paragraph">インベントリ内のインスタンスとデータベースのタブでは、保護の説明と視覚化が強化されました。</block>
-  <block id="e6884d3b77d68ac903da5836a6c33345" category="paragraph">現在、ワークロード ファクトリーは、インスタンスを登録し、管理機能のメリットを享受するために、Windows 認証ユーザーを使用した SQL Server 認証をサポートしています。</block>
-  <block id="8373481dd509f9b495f59748db1aa76d" category="inline-link-macro">データベースのワークロードファクトリーにインスタンスを登録する</block>
-  <block id="b8419cf58039d1a67d2046abd157e28b" category="paragraph"><block ref="b8419cf58039d1a67d2046abd157e28b" category="inline-link-macro-rx"></block></block>
   <block id="6a6ae8005c209a1567f9003ea9e5cebe" category="doc">レプリケーション関係タブの機能強化</block>
   <block id="c6a6fda1561189188099a8444886e4b7" category="paragraph">レプリケーション関係テーブルにいくつかの新しい列が追加され、*レプリケーション関係*タブでレプリケーション関係に関する詳細情報が表示されるようになりました。テーブルには次の列が含まれるようになりました。</block>
   <block id="932acf34d9bec3ecdd131ec5df85300a" category="list-text">SnapMirrorポリシー</block>
@@ -208,11 +191,24 @@
   <block id="7577ac9e07061812bfe5cec74bafd782" category="paragraph">NetApp は現在、GenAI 用のBlueXP workload factoryを備えた Model Context Protocol (MCP) サーバーを提供しています。サーバーをローカルにインストールすると、外部の MCP クライアントが GenAI ナレッジ ベースからクエリ結果を検出して取得できるようになります。</block>
   <block id="6ce9fdd00e9870d205a0b965e8d376fd" category="inline-link-macro">NetAppワークロード ファクトリー GenAI MCP サーバー</block>
   <block id="499a63951a1faf063a1d481e63ba0fd9" category="paragraph"><block ref="499a63951a1faf063a1d481e63ba0fd9" category="inline-link-macro-rx"></block></block>
-  <block id="22218c6d37412d25750364bd0d4047b5" category="doc">BlueXP backup and recoveryがMicrosoft SQL Serverのワークロードをサポートするようになりました</block>
   <block id="412038dfc7c530b95fd4f54ca173992c" category="paragraph">BlueXP backup and recoveryを使用すると、Microsoft SQL Server データベースおよび可用性グループのバックアップ、復元、検証、および複製が可能になります。ワークロード ファクトリー コンソールから、 BlueXP backup and recoveryにアクセスして使用し、Microsoft SQL Server ワークロードを保護できます。</block>
   <block id="0eabf86e93873fc39b5a49903ec1c780" category="inline-link-macro">ワークロードファクトリーコンソールを使用して Microsoft SQL Server ワークロードを保護する方法を学びます</block>
   <block id="7b26957c70db2d24aefeef252ab7b883" category="inline-link-macro">BlueXP backup and recoveryによる Microsoft SQL ワークロードの保護の概要</block>
   <block id="6f452244df857c1e0fc35a2a40650322" category="paragraph">BlueXP backup and recoveryの詳細については、<block ref="b3db6ed8425306b30d05a9028a6a4afe" category="inline-link-macro-rx"></block> 。</block>
   <block id="39454dfcfa6a1a0351437e0b1d0da294" category="section-title">2025/08/12</block>
   <block id="82776afd94423c79dbb6478467a55ee1" category="paragraph"><block ref="01ada1ee9ae7e42f0ced5cd933931e08" category="inline-link-macro-rx"></block> 。</block>
+  <block id="1d7888e9a7739b1a3282310704484ae5" category="doc">BlueXP backup and recoveryが Microsoft SQL Server のワークロードをサポートするようになりました</block>
+  <block id="c66ae4617a5e7b903fa49494f6025fe3" category="doc">Agentic AI搭載エラーログアナライザー</block>
+  <block id="9d9b1a38d2c7c04daeaa22b4ab5a3d5d" category="paragraph">Agentic AI 搭載エラー ログ アナライザーは、高度な機械学習アルゴリズムを活用して、ログ ファイル内のエラーを自動的に検出して分析する新しい機能です。このツールは、ログで識別されたパターンに基づいて開発者に実用的な洞察と推奨事項を提供することで、トラブルシューティング プロセスを合理化することを目的としています。</block>
+  <block id="b8b677d9dba6a14dd05b3a0eb592a9c5" category="inline-link-macro">Agentic AI搭載エラーログアナライザーの詳細</block>
+  <block id="eea441a7c94cd96996c9c96d7827e71f" category="paragraph"><block ref="eea441a7c94cd96996c9c96d7827e71f" category="inline-link-macro-rx"></block></block>
+  <block id="87b85aff45217080ba500a992ada602c" category="section-title">Oracleサポート</block>
+  <block id="74ddb3b25ce5cc41642c58d46e3e527b" category="paragraph">ワークロード ファクトリーには、Oracle データベースのサポートが含まれています。ワークロード ファクトリー コンソールでは、インベントリから Oracle データベースを表示したり、ワークロード ファクトリーの高度な機能を使用するためにデータベースを登録したり、well-architected 機能を使用して Oracle データベースを分析し、ベスト プラクティスに準拠しているかどうかを判断したりできます。Well-Architected 分析により、Oracle データベースのストレージ構成が最適化されているかどうかが判断されます。この情報を使用することで、データベースの導入について十分な情報に基づいた意思決定を行い、効率的に実行されていることを確認できます。</block>
+  <block id="0c32ff88af8d87b6ac8198432d56bd75" category="section-title">第 2 世代 FSx for ONTAPファイルシステムでの Microsoft SQL Server デプロイメントのサポート</block>
+  <block id="6f4eab6394c8d6b2b9c2f5990b195f88" category="paragraph">ワークロード ファクトリーは、第 2 世代の FSx for ONTAPファイル システムでの Microsoft SQL Server のデプロイメントをサポートします。この機能強化により、SQL Server ワークロードを管理しながら、第 2 世代のファイル システムで利用可能な最新の機能とパフォーマンスの向上を活用できるようになります。</block>
+  <block id="4b0e4c53f590f96c7ae9dbd2af881643" category="section-title">SQL Server 保護のための Windows 認証</block>
+  <block id="66eac601a6b6ad939034aba1005b0d1f" category="paragraph">Windows 資格情報を使用した Microsoft SQL Server インスタンスの認証は、BlueXP backup and recoveryによる保護のために Microsoft SQL Server ホストを準備するためのワークフローに組み込まれています。これは以前は手動で完了するための前提条件の手順でした。代わりに、Windows 資格情報を使用してワークロード ファクトリにホストを登録していない場合は、管理者アクセス権を持つ Windows 資格情報を共有するように求められます。</block>
+  <block id="21e7945dde284bd0e0fc5e2026a591e0" category="section-title">Well-Architected 分析には SQL Server の MTU 調整が含まれます</block>
+  <block id="ecc57bed47e69e41f27979277ae13c78" category="paragraph">Well-Architected 分析では、FSx for ONTAPストレージ上の Microsoft SQL Server のエンドポイント間の最大転送単位 (MTU) の不整合を評価し、修正します。MTU 設定を調整すると、ネットワーク パフォーマンスが最適化され、SQL Server ワークロードの待機時間が短縮されます。</block>
+  <block id="38a5777d2aaca4d9102a019c09e0009c" category="section-title">2025/09/01</block>
 </blocks>
