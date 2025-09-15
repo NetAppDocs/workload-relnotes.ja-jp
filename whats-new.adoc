@@ -59,7 +59,7 @@ image:screenshot-manage-snapshots-screen.png["スナップショットの管理�
 
 ==== SSDストレージ容量の減少が可能
 
-ワークロード ファクトリーは、第 1 世代および第 2 世代のファイル システムのソリッド ステート ドライブ (SSD) 容量の削減をサポートしています。柔軟なファイル システム容量により、ワークロードのニーズに合わせてファイル システムの容量を動的に調整できます。
+ワークロード ファクトリーは、第 2 世代ファイル システムのソリッド ステート ドライブ (SSD) 容量の削減をサポートしています。柔軟なファイル システム容量により、ワークロードのニーズに合わせてファイル システムの容量を動的に調整できます。
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/increase-file-system-capacity.html["ファイルシステムの容量を調整する"]
 
@@ -459,19 +459,3 @@ https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#ch
 BlueXP ワークロードファクトリー通知サービスを使用すると、ワークロードファクトリーは BlueXP アラートサービスまたは Amazon SNS トピックに通知を送信できます。BlueXPアラートに送信された通知は、BlueXP アラートパネルに表示されます。ワークロードファクトリーが Amazon SNS トピックに通知を発行すると、トピックのサブスクライバー（ユーザーや他のアプリケーションなど）は、トピックに設定されたエンドポイント（E メールや SMS メッセージなど）で通知を受け取ります。
 
 https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["BlueXPワークロードファクトリー通知を構成する"]
-
-
-
-== 2025年6月16日
-
-
-
-=== ビルダーのワークロード
-
-
-
-==== クローンサポート
-
-BlueXP Workload Factory for Builders でプロジェクトのクローンを作成できるようになりました。プロジェクトのクローンを作成すると、Builders はスナップショットから、元のプロジェクトと同じ構成の新しいプロジェクトを作成します。クローン作成は、類似のプロジェクトを素早く作成したり、テスト目的で使用する場合に便利です。新しいプロジェクトのクローンは、Builders の指示に従ってマウントできます。
-
-https://docs.netapp.com/us-en/workload-builders/version-projects.html["ビルダープロジェクトの BlueXP ワークロード ファクトリーのバージョンを管理する"]
