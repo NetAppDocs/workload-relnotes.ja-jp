@@ -15,6 +15,26 @@ NetApp Workload Factory の一部であるワークロードの最新の変更�
 
 
 
+== 2025年10月6日
+
+
+
+=== セットアップと管理
+
+
+
+==== BlueXP workload factoryがNetAppワークロードファクトリーに
+
+BlueXP は、データ インフラストラクチャの管理における役割をより適切に反映するために、名前が変更され、再設計されました。その結果、 BlueXP workload factoryの名前がNetAppワークロード ファクトリーに変更されました。
+
+
+
+==== MCP との Ask Me 統合
+
+Workload Factory の AI アシスタントである Ask Me は、Model Context Protocol (MCP) と統合されています。MCP を使用することで、Ask Me は外部環境と安全にインターフェイスし、API ツールにクエリを実行して、特定のストレージ環境に合わせた応答を提供します。
+
+
+
 == 2025年10月5日
 
 
@@ -70,6 +90,18 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 選択した埋め込み、チャット、または再ランク付けモデルに推論設定がある場合は、推論タイプを選択できるようになりました。これにより、チャットボットのパフォーマンスとリソース要件をニーズに合わせてより適切に調整できるようになります。
 
 link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["生成AIナレッジベースの作成"]
+
+
+
+=== セットアップと管理
+
+
+
+==== ストレージの新しい通知
+
+NetApp Workload Factory 通知サービスには、ストレージの Well-Architected の問題に関する通知が含まれています。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["NetApp Workload Factory の通知"]
 
 
 
