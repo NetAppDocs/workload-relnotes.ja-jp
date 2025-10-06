@@ -26,55 +26,13 @@
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">生成AIワークロード</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">セットアップと管理</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMwareワークロード</block>
-  <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">アクセス権参照変更ログ</block>
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">生成AIナレッジベースの作成</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
-  <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">ストレージダッシュボードの機能強化</block>
   <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">ビルダーのワークロード</block>
-  <block id="944ee388209d33a3bf1b309c6acdf693" category="doc">汎用 NFS/SMB ファイルシステムでホストされるデータソースのサポート</block>
-  <block id="9a7d241f00b55d0e00761313cced5dd8" category="paragraph">汎用SMBまたはNFS共有からデータソースを追加できるようになりました。これにより、Amazon FSx for NetApp ONTAP以外のファイルシステムでホストされているボリュームに保存されているファイルも含めることができます。</block>
-  <block id="5cba57d460e5683815517b44a7811760" category="inline-link">ナレッジベースにデータソースを追加する</block>
-  <block id="b37629096d44c6fda917848365c84ebe" category="paragraph"><block ref="b37629096d44c6fda917848365c84ebe" category="inline-link-rx"></block></block>
-  <block id="6320af7d92cd5d357460c5cbc5f642a9" category="inline-link">コネクタにデータソースを追加する</block>
-  <block id="5cd676bef1867c904c092c33ad4a8f2d" category="paragraph"><block ref="5cd676bef1867c904c092c33ad4a8f2d" category="inline-link-rx"></block></block>
-  <block id="1832a7f4d2abf297aa0cee87f4c043e3" category="doc">Amazon Elastic VMWare Service の移行アドバイザーサポートの導入</block>
-  <block id="0a2319b536912bd5824ac0880375783c" category="paragraph">BlueXPのVMware向けワークロードファクトリーが、Amazon Elastic VMware Serviceをサポートするようになりました。移行アドバイザーを使用することで、オンプレミスのVMwareワークロードをAmazon Elastic VMware Serviceに迅速に移行できます。これにより、アプリケーションのリファクタリングやプラットフォーム変更を行うことなく、コストを最適化し、VMware環境をより細かく制御できるようになります。</block>
   <block id="e64998710319712d47612cc187a1dc35" category="inline-link">移行アドバイザーを使用して Amazon EVS のデプロイメント計画を作成する</block>
   <block id="e38866fbf1fd8067b38b878041582246" category="paragraph"><block ref="e38866fbf1fd8067b38b878041582246" category="inline-link-rx"></block></block>
-  <block id="64c17706e0528a5c44c7beee628cc101" category="doc">BlueXPワークロードファクトリー通知サービスのサポート</block>
-  <block id="c0ae6f0ec7cb1322a1c6b72f77e783f2" category="paragraph">BlueXP ワークロードファクトリー通知サービスを使用すると、ワークロードファクトリーは BlueXP アラートサービスまたは Amazon SNS トピックに通知を送信できます。BlueXPアラートに送信された通知は、BlueXP アラートパネルに表示されます。ワークロードファクトリーが Amazon SNS トピックに通知を発行すると、トピックのサブスクライバー（ユーザーや他のアプリケーションなど）は、トピックに設定されたエンドポイント（E メールや SMS メッセージなど）で通知を受け取ります。</block>
-  <block id="76490568879e4523bb6bd6d8263472a9" category="inline-link">BlueXPワークロードファクトリー通知を構成する</block>
-  <block id="533a43c23a4d81612b2392465e022a51" category="paragraph"><block ref="533a43c23a4d81612b2392465e022a51" category="inline-link-rx"></block></block>
-  <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="doc">データベースの権限の更新</block>
-  <block id="cb30bdb55bb8a7a0530a31a5e6cdd0bb" category="paragraph">データベースの _読み取り専用_ モードで次の権限が利用できるようになりました。 <block ref="f63e0d20057299c9c16bd0c2c9e92a5c" prefix=" " category="inline-code"></block> 。</block>
-  <block id="e429c7230e4b94caf26e6020e5ea6f7a" category="paragraph"><block ref="e429c7230e4b94caf26e6020e5ea6f7a" category="inline-link-rx"></block></block>
-  <block id="a10c281531128badfefa7086b353ead0" category="paragraph"><block ref="a10c281531128badfefa7086b353ead0" category="inline-link-macro-rx"></block></block>
-  <block id="16608889ffd4210e3527b28d2cabeee1" category="paragraph">ワークロードファクトリーコンソールのストレージダッシュボードに、コスト削減の機会を示す新しいカードが追加されました。ダッシュボード上部のカードには、Amazon Elastic Block Store (EBS)、Amazon FSx for Windows File Server、Amazon Elastic File Systems (EFS) で実行されているストレージ環境におけるコスト削減の機会の数が表示されます。ダッシュボード下部には、Amazon ストレージサービス (EBS、FSx for Windows File Server、EFS) ごとのコスト削減の機会を示す 3 つの新しいカードが追加されました。すべてのカードから、コスト削減の機会をより詳細に確認できます。</block>
-  <block id="e2fc557edefb4b2854999f60dbd0d379" category="paragraph">FSx for ONTAP の保護範囲カードとレプリケーション関係の健全性カードから、FSx for ONTAP ファイルシステム内に部分的に保護されているボリュームがあるかどうか、またレプリケーション関係に関する問題を調査できます。どちらの場合も、問題を解決するためのアクションを実行できます。</block>
-  <block id="34ccfe489231e34890602e4f0419b843" category="section-title">音量タブの機能強化</block>
-  <block id="f659fbcb502240d4138a6337d4da17d5" category="paragraph">ワークロードファクトリーコンソールの「ボリューム」タブが強化され、FSx for ONTAPファイルシステムのより包括的なビューが提供されるようになりました。強化された機能には、SSD容量、容量プール、NetApp Autonomous Ransomware Protection with AI（ARP/AI）の新しいカードが含まれます。これらのカードには、ファイルシステム内のすべてのボリュームの容量使用率とARP/AI保護の概要が表示されます。</block>
-  <block id="c1c23b72df9b53434f3c5ef6963cd2c1" category="section-title">第2世代のAmazon FSx for NetApp ONTAPファイルシステムをサポート</block>
-  <block id="7efd44dd06c377a68f3fc78abf7d91fb" category="paragraph">ワークロードファクトリーは、第2世代Amazon FSx for NetApp ONTAPファイルシステムのサポートを開始しました。ワークロードファクトリーコンソールで、第2世代ファイルシステムの作成、管理、モニタリングが可能です。すべての新しい商用リージョンがサポートされています。</block>
-  <block id="cd0ce691a9b616ae8983f22db2fb8a6d" category="inline-link-macro">ワークロードファクトリーで第2世代のファイルシステムを作成する</block>
-  <block id="f784f74601a71805db546f7b6842f0e5" category="paragraph"><block ref="f784f74601a71805db546f7b6842f0e5" category="inline-link-macro-rx"></block></block>
-  <block id="094caa4bbbbdba779d6ef8c57b995856" category="section-title">ボリューム容量の再バランス調整のためのFlexVolボリュームのサポート</block>
-  <block id="ab0d60978b39ce0cb886ec1fbf91bad8" category="paragraph">FlexVolは、ワークロードファクトリーコンソール内で検出できます。FlexVolのバランスを確認し、新規ファイルの追加やファイルの増加によって時間の経過とともに不均衡が生じた場合は、FlexVolをリバランスして容量を再配分できます。</block>
-  <block id="226bb141f0b474b8b8d4e55bfe659a94" category="inline-link-macro">FlexVolボリュームの容量を再調整する</block>
-  <block id="7f11a5de29d58c93cc212be8cf51b761" category="paragraph"><block ref="7f11a5de29d58c93cc212be8cf51b761" category="inline-link-macro-rx"></block></block>
-  <block id="d7581ee541e7cfa51fd2f75f93b7e64e" category="section-title">用語の更新</block>
-  <block id="6e0c2d8cb551de024f6700ca0407257e" category="paragraph">ワークロード ファクトリー コンソールで、「Autonomous Ransomware Protection」(ARP) という用語が「NetApp Autonomous Ransomware Protection with AI」(ARP/AI) に更新されました。</block>
-  <block id="d474538a7c98b462c08197d24f7c1c60" category="section-title">新しいボリュームでは ARP/AI がデフォルトで有効になっています</block>
-  <block id="6a3bf8c141dbbeed37af8236f412b19a" category="paragraph">ワークロードファクトリーコンソールで新しいボリュームを作成すると、ファイルシステムにARP/AIポリシーが設定されている場合、NetApp Autonomous Ransomware Protection with AI（ARP/AI）がデフォルトで有効化されます。つまり、ボリュームはAIを活用した検出・対応機能によってランサムウェア攻撃から自動的に保護されます。</block>
-  <block id="7e0b28b27ce3985a4a8d693330a04cb7" category="inline-link-macro">ワークロードファクトリーでボリュームを作成する</block>
-  <block id="3bf76f3556904b928c43201c04108364" category="paragraph"><block ref="3bf76f3556904b928c43201c04108364" category="inline-link-macro-rx"></block></block>
-  <block id="442d07125b5c2363eae9c33039172225" category="section-title">不変ファイルのレプリケーションサポート</block>
-  <block id="6250cd311debe5758acc69f81921ab78" category="paragraph">ワークロードファクトリーは、FSx for ONTAP システム間で不変ボリュームを複製し、重要なデータを誤削除やランサムウェアなどの悪意のある攻撃から保護します。複製先のボリュームとそのホストファイルシステムは不変（ロック）状態となり、保持期間が終了するまで、複製先のファイルシステム内のデータは変更または削除できません。</block>
-  <block id="b6fc33d7434bb860ad528753113881b1" category="inline-link-macro">レプリケーション関係を作成する方法を学ぶ</block>
-  <block id="d3dbddfb353eaaa957947efb04ca7013" category="paragraph"><block ref="d3dbddfb353eaaa957947efb04ca7013" category="inline-link-macro-rx"></block></block>
   <block id="37b002845528ac0296b86d28bb71e5a5" category="inline-link-macro">LambdaリンクでFSx for ONTAPファイルシステムに接続</block>
   <block id="bdd7f454c54673987f53c40f8e5b8072" category="paragraph"><block ref="bdd7f454c54673987f53c40f8e5b8072" category="inline-link-macro-rx"></block></block>
-  <block id="5c44c7d986372ccb1d679985b5416b64" category="section-title">リンク作成中にIAM実行ロールと権限を管理する</block>
-  <block id="43f8bec3c8d83ff27c8f5d629cd49d4d" category="paragraph">ワークロードファクトリーコンソールでリンクを作成する際に、IAM 実行ロールとそれに紐付けられた権限ポリシーを管理できるようになりました。リンクは、ワークロードファクトリーアカウントと 1 つ以上の FSx for ONTAP ファイルシステム間の接続を確立します。IAM実行ロールとリンク権限の割り当てには、自動割り当てとユーザー指定の 2 つのオプションがあります。ワークロードファクトリーで実行ロールとそれに紐付けられた権限ポリシーを管理することで、サードパーティ製のコードを使用する必要がなくなります。</block>
   <block id="c4363ade7c2d208d79dee9b60bc51922" category="inline-link-macro">ワークロードファクトリーで適切に設計されたデータベース構成を実装する</block>
   <block id="a05724b342c36062e480732f660ae9d4" category="paragraph"><block ref="a05724b342c36062e480732f660ae9d4" category="inline-link-macro-rx"></block></block>
   <block id="6a6ae8005c209a1567f9003ea9e5cebe" category="doc">レプリケーション関係タブの機能強化</block>
@@ -176,36 +134,19 @@
   <block id="52574bdc9ce79e7e568096fa39264d72" category="section-title">SSDストレージ容量の減少が可能</block>
   <block id="298ae1d1e13ebe1f0f22936b7ea9ce33" category="inline-link-macro">ファイルシステムの容量を調整する</block>
   <block id="6b4be3b501bf6ae8984293c02d4d610b" category="paragraph"><block ref="6b4be3b501bf6ae8984293c02d4d610b" category="inline-link-macro-rx"></block></block>
-  <block id="c836d737c77c0dbce2c99a2b01c719fd" category="paragraph">ワークロード ファクトリーは、データベースに対して次の通知を提供します。</block>
-  <block id="33e3371223dba19c723617802e06af8d" category="list-text">よく設計されたレポート</block>
-  <block id="d415d128365eca1587931ed756de7819" category="list-text">ホストの展開</block>
-  <block id="8306ce5f84163ec6839ec7518f30183a" category="section-title">インスタンス登録のオンボーディング強化</block>
-  <block id="d2240cc857b28c2cc0c761811ebb0e4d" category="paragraph">Workload Factory for DatabasesAmazon FSx for NetApp ONTAPストレージで実行されているインスタンスを登録するためのオンボーディング プロセスが改善されました。登録するインスタンスを一括で選択できるようになりました。インスタンスが登録されると、ワークロード ファクトリー コンソール内でデータベース リソースを作成および管理できるようになります。</block>
-  <block id="4f91bce4a20615964f35d2fd97ddb2e1" category="inline-link-macro">インスタンス管理</block>
-  <block id="68d9261728b0a851ce7bc78b7cfd2a69" category="paragraph"><block ref="68d9261728b0a851ce7bc78b7cfd2a69" category="inline-link-macro-rx"></block></block>
-  <block id="2e91c32877a8bf4a56c1853f92a414ba" category="section-title">Microsoft マルチパス I/O タイムアウト設定の分析と修正</block>
-  <block id="55dedf6eed5a2ce8c260a3944723e099" category="paragraph">データベース インスタンスの well-architected ステータスに、Microsoft Multipath I/O (MPIO) タイムアウト設定の分析と修正が含まれるようになりました。  MPIO タイムアウトを 60 秒に設定すると、フェイルオーバー中の FSx for ONTAPストレージの接続性と安定性が確保されます。  MPIO 設定が適切に設定されていない場合、ワークロード ファクトリーは MPIO タイムアウト値を 60 秒に設定する修正を提供します。</block>
-  <block id="0f6f8a7d2c62793903fd07b4a68f2192" category="section-title">インスタンスインベントリのグラフィックの強化</block>
-  <block id="6bb06f6a313d1245a77bdcc02f151dcd" category="paragraph">インスタンス インベントリ画面では、スループットや IOPS などのさまざまなリソース使用率グラフに 7 日間のデータが表示されるようになり、ワークロード ファクトリー コンソールから SQL ノードのパフォーマンスをより効率的に監視できるようになりました。  SQL ノードから収集されたパフォーマンスメトリクスは Amazon CloudWatch に保存され、Logs Insights や環境内の他の分析サービスとの統合に使用できます。</block>
-  <block id="8984f42ceef01f063ea7a1078e620318" category="paragraph">インベントリ内のインスタンスとデータベースのタブでは、保護の説明と視覚化が強化されました。</block>
-  <block id="4698c78219bd6bc2a4fb47e8f4149213" category="section-title">ワークロードファクトリーでの Windows 認証のサポート</block>
-  <block id="e6884d3b77d68ac903da5836a6c33345" category="paragraph">現在、ワークロード ファクトリーは、インスタンスを登録し、管理機能のメリットを享受するために、Windows 認証ユーザーを使用した SQL Server 認証をサポートしています。</block>
-  <block id="8373481dd509f9b495f59748db1aa76d" category="inline-link-macro">データベースのワークロードファクトリーにインスタンスを登録する</block>
-  <block id="b8419cf58039d1a67d2046abd157e28b" category="paragraph"><block ref="b8419cf58039d1a67d2046abd157e28b" category="inline-link-macro-rx"></block></block>
   <block id="b271a75b2d121a8cb5f59ae458394323" category="section-title">2025年9月9日</block>
   <block id="595dacca64a0bfa1f3ae49b78ce41d38" category="section-title">2025年9月1日</block>
   <block id="d341f0c47f4b7ad5cc1b4c9bb210cfda" category="section-title">2025年8月12日</block>
   <block id="3488d38349240c72f75d081c2a79fa3b" category="section-title">2025年8月4日</block>
   <block id="613abd0d9da6f7ee37d283174e11fcaf" category="section-title">2025年8月3日</block>
-  <block id="b77e8ec0a3425747f32b3dbc303adecb" category="section-title">2025年6月30日</block>
-  <block id="7454fc4c14df2a987637928e569efe3a" category="section-title">2025年6月29日</block>
   <block id="edfbca9622799a953a48987a288fe283" category="paragraph">ワークロード ファクトリーは、第 2 世代ファイル システムのソリッド ステート ドライブ (SSD) 容量の削減をサポートしています。柔軟なファイル システム容量により、ワークロードのニーズに合わせてファイル システムの容量を動的に調整できます。</block>
   <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">NetAppワークロード ファクトリー</block>
   <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
   <block id="da0e88c69cf2ddf39d5537c04ab2fc69" category="summary">NetApp Workload Factory の一部であるワークロードの最新の変更について説明します。</block>
   <block id="374d5bd32bb9ae08b0f703942e0fe21c" category="doc">NetApp Workload Factoryの最近の変更点</block>
-  <block id="f6db487abe903d447c5070f569416c3a" category="section-title">2025年6月16日</block>
-  <block id="7d8a5882e1c618b27e728777a89e9734" category="paragraph">&lt;stdin&gt; 内の未解決のディレクティブ - include::_whatsnew/2025-06-16_workload-builders.adoc[leveloffset=+1]</block>
   <block id="ed09318eed7d979b31cfb4afc3b11097" category="sidebar">これらのリリース ノートでは、 NetApp Workload Factory の一部であるクラウド サービスの最近の機能強化について説明します。</block>
   <block id="9ff48e1eaa80562d8bc97f2d59b40e41" category="sidebar">NetApp Workload Factory リリースノート</block>
+  <block id="2bbead322f2dd5c4a40fbd66537e304f" category="doc">BlueXP workload factoryがNetAppワークロードファクトリーに</block>
+  <block id="9c80606adc6065bc48c6d99fbb8c3f1d" category="paragraph">BlueXP は、データ インフラストラクチャの管理における役割をより適切に反映するために、名前が変更され、再設計されました。その結果、 BlueXP workload factoryの名前がNetAppワークロード ファクトリーに変更されました。</block>
+  <block id="7fe837fc0a93acdad81da1d440ee3fd2" category="section-title">2025年10月5日</block>
 </blocks>

@@ -15,6 +15,20 @@ NetApp Workload Factory の一部であるワークロードの最新の変更�
 
 
 
+== 2025年10月5日
+
+
+
+=== ビルダーのワークロード
+
+
+
+==== BlueXP workload factoryがNetAppワークロードファクトリーに
+
+BlueXP は、データ インフラストラクチャの管理における役割をより適切に反映するために、名前が変更され、再設計されました。その結果、 BlueXP workload factoryの名前がNetAppワークロード ファクトリーに変更されました。
+
+
+
 == 2025年9月9日
 
 
