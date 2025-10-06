@@ -1,0 +1,55 @@
+= Amazon Elastic Block Store (EBS) のストレージ計算ツールで節約を最適化
+:allow-uri-read: 
+
+
+
+
+=== Amazon Elastic Block Store (EBS) のストレージ計算ツールで節約を最適化
+
+Workload Factory は、EBS パフォーマンスの使用状況を分析し、最適かつ最もコスト効率の高い FSx for ONTAP構成を提案します。これにより、FSx for ONTAPに切り替えることで、より多くのコストを節約できます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html#explore-savings-for-detected-storage-environments["Workload Factory コンソールで検出されたストレージ環境の節約を調べる"]
+
+
+
+=== ファイルシステムインベントリからリソース画面に素早くアクセス
+
+FSx for ONTAPインベントリからハイパーリンクになったファイルシステム名を選択すると、FSx for ONTAPファイルシステムリソース画面にすばやく移動できます。
+
+
+
+=== Workload Factory コンソールでキャッシュ関係を検出する
+
+FSx for ONTAPファイル システムと別のタイプのONTAPストレージ (オンプレミス システム、 Cloud Volumes ONTAP、FSx for ONTAP) との間に _キャッシュ_ 関係がある場合は、Workload Factory コンソールからそれらを検出して表示できます。これにより、データ フローをより深く理解し、キャッシュの使用率を最適化し、分散環境全体の効率を向上させることができます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/discover-cache-volumes.html["Workload Factory コンソールでキャッシュ関係を検出して表示する"]
+
+
+
+=== Well-Architected 分析のアップデート
+
+ワークロード ファクトリーは、次の構成について FSx for ONTAPファイル システムを分析するようになりました。
+
+ボリューム ファイル容量使用率しきい値: ファイル容量しきい値が 80% 以下に設定されているかどうかを確認します。これにより、ファイル システムのスペース不足を回避できます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["FSx for ONTAPファイルシステムの Well-Architected ステータスを表示します"]
+
+
+
+==== 構成の問題に対するアクションの改善
+
+FSx for ONTAPファイル システムのダッシュボードの *Well-architected analysis* タブでは、ファイル システムの構成全体を無視する代わりに、ファイル システム内の 1 つ以上のボリュームを選択して修正、無視、または再アクティブ化することもできます。
+
+
+
+=== ストレージに関する追加通知
+
+NetApp Workload Factory 通知サービスには、Well-Architected 構成の問題に関する通知が毎週含まれています。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html#notification-types-and-messages["Workload Factory のセットアップと管理ドキュメントの通知タイプとメッセージ"]
+
+
+
+=== 不変ファイルは特権削除をサポートします
+
+この機能を使用すると、FSx for ONTAPファイルシステム内の不変ファイルに対する特権削除アクセスを設定できます。これにより、重要なデータを偶発的または悪意のある削除から保護しながら、許可されたユーザーがロックを無効にして必要に応じてこれらのファイルを削除できるようになります。特権削除の有効化は、ボリュームの作成時または既存のボリュームに対して行うことができます。
