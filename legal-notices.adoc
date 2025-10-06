@@ -47,4 +47,4 @@ link:https://www.netapp.com/company/legal/privacy-policy/["https://www.netapp.co
 
 通知ファイルには、ネットアップソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が記載されています。
 
-https://docs.netapp.com/us-en/workload-family/media/workload-factory-notice.pdf["BlueXP  ワークロードファクトリ"^]
+https://docs.netapp.com/us-en/workload-family/media/workload-factory-notice.pdf["NetAppワークロード ファクトリー"^]

@@ -2,16 +2,16 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, administration, amazon fsx for netapp ontap, databases, genai, vmware' 
-summary: BlueXP  ワークロードファクトリに含まれているワークロードに対する最新の変更について説明します。 
+summary: NetApp Workload Factory の一部であるワークロードの最新の変更について説明します。 
 ---
-= BlueXP  ワークロードファクトリにおける最近の変更
+= NetApp Workload Factoryの最近の変更点
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-BlueXP  ワークロードファクトリに含まれているワークロードに対する最新の変更について説明します。
+NetApp Workload Factory の一部であるワークロードの最新の変更について説明します。
 
 
 
@@ -459,3 +459,13 @@ https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#ch
 BlueXP ワークロードファクトリー通知サービスを使用すると、ワークロードファクトリーは BlueXP アラートサービスまたは Amazon SNS トピックに通知を送信できます。BlueXPアラートに送信された通知は、BlueXP アラートパネルに表示されます。ワークロードファクトリーが Amazon SNS トピックに通知を発行すると、トピックのサブスクライバー（ユーザーや他のアプリケーションなど）は、トピックに設定されたエンドポイント（E メールや SMS メッセージなど）で通知を受け取ります。
 
 https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["BlueXPワークロードファクトリー通知を構成する"]
+
+
+
+== 2025年6月16日
+
+
+
+=== ビルダーのワークロード
+
+<stdin> 内の未解決のディレクティブ - include::_whatsnew/2025-06-16_workload-builders.adoc[leveloffset=+1]

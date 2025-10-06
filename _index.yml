@@ -1,11 +1,11 @@
 ---
 indexpage:
-  title: BlueXP  ワークロード工場出荷時のリリースノート
-  summary: このリリースノートでは、BlueXP  ワークロードファクトリに含まれるクラウドサービスに対する最近の機能拡張について説明します。
-  keywords: BlueXP workload factory, release notes, what's new
-  lead: このリリースノートでは、BlueXP  ワークロードファクトリに含まれるクラウドサービスに対する最近の機能拡張について説明します。
+  title: NetApp Workload Factory リリースノート
+  summary: これらのリリース ノートでは、 NetApp Workload Factory の一部であるクラウド サービスの最近の機能強化について説明します。
+  keywords: NetApp Workload Factory, release notes, what's new
+  lead: これらのリリース ノートでは、 NetApp Workload Factory の一部であるクラウド サービスの最近の機能強化について説明します。
   tiles:
   - title: 新機能
     links:
-    - title: BlueXP  ワークロードファクトリにおける最近の変更
+    - title: NetApp Workload Factoryの最近の変更点
       url: whats-new.html
