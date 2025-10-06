@@ -29,6 +29,56 @@ BlueXP は、データ インフラストラクチャの管理における役割
 
 
 
+=== データベースワークロード
+
+
+
+==== BlueXP workload factoryがNetAppワークロードファクトリーに
+
+BlueXP は、データ インフラストラクチャの管理における役割をより適切に反映するために、名前が変更され、再設計されました。その結果、 BlueXP workload factoryの名前がNetAppワークロード ファクトリーに変更されました。
+
+
+
+==== Workload Factory コンソールの Oracle 向けの機能強化
+
+
+
+===== Oracleデータベースリソース画面
+
+各 Oracle データベースには、データベース インベントリから利用できる専用のリソース画面があります。リソース画面には、データベース名、ステータス (オンまたはオフライン)、テナンシー、およびデプロイメント タイプの概要が表示されます。また、3 か月間の CPU 使用率、レイテンシ、IOPS、スループットのデータを示すグラフも含まれています。容量使用率は、データベースの合計サイズ、書き込まれたデータ サイズ、使用されたソリッド ステート ドライブの容量、および使用された容量プール ストレージを提供します。
+
+リソース画面では、Oracle サーバー (デプロイメント モデル、OS、エディション、バージョンなど)、場所 (AWS アカウント、リージョン、アベイラビリティー ゾーン、サブネット)、ストレージとコンピューティング (FSx for ONTAPファイル システムの詳細、データベース インスタンス タイプ、関連する LUN とボリューム)、接続 (VPC とアクセス プロトコル) に関する情報を表示できます。また、データベース構成の well-architected ステータスを確認したり、データベースに関連付けられているプラ​​ガブル データベース (PDB) を表示したりすることもできます。
+
+
+
+===== Oracle プラガブル データベースのサポート
+
+Oracle プラガブル データベースは、データベース インベントリおよび親コンテナ データベースのリソース画面から表示できます。PDB に関する次の情報が利用可能です: CDB 名、ホスト名、保護ステータス、データベース サイズ、FSx for ONTAPファイル システム、AWS 認証情報、AWS アカウント、リージョン。
+
+
+
+===== Oracle 向けの Well-Architected 分析
+
+Well-Architected 分析には、Automatic Storage Management (ASM) の有無にかかわらず、NFS 経由または iSCSI 経由の Oracle データベースのストレージ レイアウトの構成問題の評価と、iSCSI LUN 経由の Oracle のオペレーティング システム上のストレージ構成問題の評価が含まれます。この情報を使用することで、データベースの導入について十分な情報に基づいた意思決定を行い、効率的に実行されていることを確認できます。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Workload Factory で Well-Architected データベース構成を実装する"]
+
+
+
+==== データベースインベントリの強化
+
+データベース インベントリのインスタンス画面では、Microsoft SQL Server の単一または複数のインスタンス、あるいは Oracle の単一または複数のデータベースに対して、構成の問題を修正、延期、および破棄するオプションが利用できます。
+
+
+
+==== Amazon Elastic Block Store (EBS) のストレージ計算ツールで節約を最適化
+
+Workload Factory は、EBS パフォーマンスの使用状況を分析し、最適かつ最もコスト効率の高い FSx for ONTAP構成を提案します。これにより、FSx for ONTAPに切り替えることで、より多くのコストを節約できます。
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["Workload Factory コンソールで検出されたストレージ環境の節約を調べる"]
+
+
+
 === セットアップと管理
 
 
@@ -120,6 +170,14 @@ BlueXP は、データ インフラストラクチャの管理における役割
 VMware ワークロード プランニング センターを使用すると、VM インベントリと移行プランを 1 か所で表示および管理できます。異なる環境から複数の VM インベントリをアップロードして保存し、それらのいずれかについて AWS EC2 または Amazon Elastic VMware サービスへの移行の計画を開始できます。AWS EC2 または EVS 移行プランを作成して保存することもできます。
 
 https://docs.netapp.com/us-en/workload-vmware/explore-planning-center.html["VMware ワークロード プランニング センターの詳細"]
+
+
+
+==== Amazon Elastic VMWare Service の移行アドバイザー サポートの導入
+
+BlueXP Workload Factory for VMware では、Amazon Elastic VMware Service 移行アドバイザーを使用して、オンプレミスの VMware ワークロードを Amazon Elastic VMware Service に迅速に移行できるようになりました。移行アドバイザーを使用して移行計画を作成すると、計画センターの移行計画のリストに自動的に保存されます。
+
+https://docs.netapp.com/us-en/workload-vmware/launch-migration-advisor-evs.html["移行アドバイザーを使用して Amazon EVS のデプロイメント計画を作成する"]
 
 
 
@@ -418,7 +476,7 @@ link:https://review.docs.netapp.com/us-en/workload-fsx-ontap_grogu-5684-wa-dismi
 
 ==== Amazon Elastic VMWare Service の移行アドバイザーのサポートが強化されました
 
-Amazon Elastic VMware Service 移行アドバイザーは、Amazon FSx for NetApp ONTAPファイルシステムの自動デプロイとマウントをサポートするようになりました。これにより、Amazon EVS 環境への移行が完了したら、FSx for ONTAPファイルシステムに VM のデプロイを開始できるようになります。
+NetApp Workload Factory は、Amazon FSx for NetApp ONTAPファイルシステムの自動デプロイメントとマウントをサポートするようになりました。これにより、Amazon EVS 環境への移行が完了したら、FSx for ONTAPファイルシステムに VM のデプロイを開始できるようになります。
 
 https://docs.netapp.com/us-en/workload-vmware/launch-migration-advisor-evs-manual.html["移行アドバイザーを使用して Amazon EVS のデプロイメント計画を作成する"]
 
