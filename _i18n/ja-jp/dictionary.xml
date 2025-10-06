@@ -75,8 +75,6 @@
   <block id="37ac2db5bb5bc7f50e3b58bbb706b64b" category="paragraph">Amazon Elastic VMware Service 移行アドバイザーは、Amazon FSx for NetApp ONTAPファイルシステムの自動デプロイとマウントをサポートするようになりました。これにより、Amazon EVS 環境への移行が完了したら、FSx for ONTAPファイルシステムに VM のデプロイを開始できるようになります。</block>
   <block id="93c34ab13f70b21f6935de45dacb9ae3" category="section-title">Amazon Elastic VMware Service への移行によるコスト削減額を計算する</block>
   <block id="b1da4fce8da5117e3a9e1041d1749074" category="paragraph">VMware ワークロードを Amazon Elastic VMware Service (EVS) に移行することで得られる潜在的なコスト削減を検討できるようになりました。節約計算ツールを使用すると、基盤ストレージとしてAmazon FSx for NetApp ONTAP を使用した場合と使用しない場合の Amazon EVS のコストを比較できます。計算機は、環境の特性を調整すると、潜在的な節約額をリアルタイムで表示します。</block>
-  <block id="b5ddf28fa6b1419129cc60c87384d5f3" category="inline-link">BlueXP workload factoryで Amazon Elastic VMware Service の割引を探る</block>
-  <block id="e5201134512b46a1979954f15ddb8c25" category="paragraph"><block ref="e5201134512b46a1979954f15ddb8c25" category="inline-link-rx"></block></block>
   <block id="65bff5c812b0782e85c3554a907e01d2" category="doc">Well-Architected分析には高可用性クラスタの検証が含まれる</block>
   <block id="bdd55244a112c438dfe30c6c85a4fcb1" category="paragraph">Well-Architected 分析に、高可用性クラスターの検証が含まれるようになりました。この検証では、両方のノードのディスクの可用性と構成、Windows クラスターの構成、フェールオーバーの準備状況など、サーバー側からのすべてのクラスター関連の構成がチェックされます。これにより、Windows クラスターが適切にセットアップされ、必要に応じて正常にフェールオーバーできるようになります。</block>
   <block id="ad229ca0142680e057d4328835a9c1ef" category="section-title">インスタンスに利用可能なマルチレベルメニュー</block>
@@ -158,4 +156,11 @@
   <block id="5335798f91a37df8ffc1be273ef666fa" category="paragraph">応答の長さ、温度、推論設定など、ナレッジ ベースのチャット モデルに適用可能な高度なチャット設定を構成できるようになりました。これらの設定の一部 (最新性や変更時間の設定、高度な取得設定、システム プロンプトなど) は、Workload Factory API を使用する場合にのみ利用できます。</block>
   <block id="7ff7a0c83b9f68a4add0d263a7292e9c" category="section-title">埋め込み、チャット、再ランキングモデルで推論タイプの選択がサポートされるようになりました</block>
   <block id="a4c5c24aeea4d68e48565188546da1a5" category="paragraph">選択した埋め込み、チャット、または再ランク付けモデルに推論設定がある場合は、推論タイプを選択できるようになりました。これにより、チャットボットのパフォーマンスとリソース要件をニーズに合わせてより適切に調整できるようになります。</block>
+  <block id="041a7335d4bfbe01ea8a2d2f780732b6" category="inline-link">BlueXP Workload Factory で Amazon Elastic VMware Service の割引価格をご確認ください</block>
+  <block id="1a1b8cfea3181a2937851fe76b4862d4" category="paragraph"><block ref="1a1b8cfea3181a2937851fe76b4862d4" category="inline-link-rx"></block></block>
+  <block id="6320af7d92cd5d357460c5cbc5f642a9" category="inline-link-macro">コネクタにデータソースを追加する</block>
+  <block id="b77ed2f5662201a26b98b92e98329049" category="section-title">VMware ワークロード プランニング センターのご紹介</block>
+  <block id="2dd03fc740a72e1c5fc0daf9be122249" category="paragraph">VMware ワークロード プランニング センターを使用すると、VM インベントリと移行プランを 1 か所で表示および管理できます。異なる環境から複数の VM インベントリをアップロードして保存し、それらのいずれかについて AWS EC2 または Amazon Elastic VMware サービスへの移行の計画を開始できます。AWS EC2 または EVS 移行プランを作成して保存することもできます。</block>
+  <block id="420ac911d98022d5289d3f00ff38ea84" category="inline-link">VMware ワークロード プランニング センターの詳細</block>
+  <block id="81ee9955f68100a5e460b3f794e65e9b" category="paragraph"><block ref="81ee9955f68100a5e460b3f794e65e9b" category="inline-link-rx"></block></block>
 </blocks>
