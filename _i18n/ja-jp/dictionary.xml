@@ -90,9 +90,6 @@
   <block id="1d92da78b598707dec3df4d7281f1ec3" category="doc">構造化データ結果の安全な保存</block>
   <block id="c4b4739fe392b8cae69417a08008577b" category="paragraph">チャットボットのクエリ結果に構造化データが含まれている場合、GenAI はその結果を Amazon S3 バケットに保存できます。これらの結果が S3 バケットに保存されると、チャット セッション内のダウンロード リンクを使用してダウンロードできます。</block>
   <block id="9a0737b14158e601f99b4265c5bd3e5a" category="section-title">MCP サーバーの可用性</block>
-  <block id="7577ac9e07061812bfe5cec74bafd782" category="paragraph">NetApp は現在、GenAI 用のBlueXP workload factoryを備えた Model Context Protocol (MCP) サーバーを提供しています。サーバーをローカルにインストールすると、外部の MCP クライアントが GenAI ナレッジ ベースからクエリ結果を検出して取得できるようになります。</block>
-  <block id="6ce9fdd00e9870d205a0b965e8d376fd" category="inline-link-macro">NetAppワークロード ファクトリー GenAI MCP サーバー</block>
-  <block id="499a63951a1faf063a1d481e63ba0fd9" category="paragraph"><block ref="499a63951a1faf063a1d481e63ba0fd9" category="inline-link-macro-rx"></block></block>
   <block id="412038dfc7c530b95fd4f54ca173992c" category="paragraph">BlueXP backup and recoveryを使用すると、Microsoft SQL Server データベースおよび可用性グループのバックアップ、復元、検証、および複製が可能になります。ワークロード ファクトリー コンソールから、 BlueXP backup and recoveryにアクセスして使用し、Microsoft SQL Server ワークロードを保護できます。</block>
   <block id="0eabf86e93873fc39b5a49903ec1c780" category="inline-link-macro">ワークロードファクトリーコンソールを使用して Microsoft SQL Server ワークロードを保護する方法を学びます</block>
   <block id="7b26957c70db2d24aefeef252ab7b883" category="inline-link-macro">BlueXP backup and recoveryによる Microsoft SQL ワークロードの保護の概要</block>
@@ -149,4 +146,16 @@
   <block id="2bbead322f2dd5c4a40fbd66537e304f" category="doc">BlueXP workload factoryがNetAppワークロードファクトリーに</block>
   <block id="9c80606adc6065bc48c6d99fbb8c3f1d" category="paragraph">BlueXP は、データ インフラストラクチャの管理における役割をより適切に反映するために、名前が変更され、再設計されました。その結果、 BlueXP workload factoryの名前がNetAppワークロード ファクトリーに変更されました。</block>
   <block id="7fe837fc0a93acdad81da1d440ee3fd2" category="section-title">2025年10月5日</block>
+  <block id="e834ab03ab8af25bc66f7565fe0c683b" category="paragraph">NetApp は現在、 NetApp Workload Factory for GenAI に Model Context Protocol (MCP) サーバーを提供しています。サーバーをローカルにインストールすると、外部の MCP クライアントが GenAI ナレッジ ベースからクエリ結果を検出して取得できるようになります。</block>
+  <block id="45b9616656c01be55aaa7cb75d3a7215" category="inline-link-macro">NetApp Workload Factory GenAI MCP サーバー</block>
+  <block id="272cce890c7aade4de2a42d9e414cf3e" category="paragraph"><block ref="272cce890c7aade4de2a42d9e414cf3e" category="inline-link-macro-rx"></block></block>
+  <block id="3ddc651759568c7b8f0de7c7f9a41828" category="section-title">Amazon Q Business のNetAppコネクタに汎用 NFS/SMB データソースを追加するためのサポート</block>
+  <block id="a0689e9e0b6114698a732a2dc7c3c921" category="paragraph">Workload Factory API を使用すると、汎用 NFSv3、NFSv4、または SMB 共有から Amazon Q Business のNetAppコネクタにデータ ソースを追加できるようになりました。これにより、Amazon FSx for NetApp ONTAP以外のファイルシステムでホストされているボリュームに保存されているファイルを含めることができます。</block>
+  <block id="3381eec0e48920855b86597d56709196" category="inline-link-macro">Amazon Q Business 用のNetAppコネクタを作成する</block>
+  <block id="8320a18edf6c2a7804ecd7a111b33314" category="paragraph"><block ref="8320a18edf6c2a7804ecd7a111b33314" category="inline-link-macro-rx"></block></block>
+  <block id="b6016044adc61a2efcd415d2be8b12bc" category="paragraph"><block ref="b6016044adc61a2efcd415d2be8b12bc" category="inline-link-macro-rx"></block></block>
+  <block id="b0462077e62a0ea67b3f53638651e833" category="section-title">ナレッジベースの高度なチャット設定</block>
+  <block id="5335798f91a37df8ffc1be273ef666fa" category="paragraph">応答の長さ、温度、推論設定など、ナレッジ ベースのチャット モデルに適用可能な高度なチャット設定を構成できるようになりました。これらの設定の一部 (最新性や変更時間の設定、高度な取得設定、システム プロンプトなど) は、Workload Factory API を使用する場合にのみ利用できます。</block>
+  <block id="7ff7a0c83b9f68a4add0d263a7292e9c" category="section-title">埋め込み、チャット、再ランキングモデルで推論タイプの選択がサポートされるようになりました</block>
+  <block id="a4c5c24aeea4d68e48565188546da1a5" category="paragraph">選択した埋め込み、チャット、または再ランク付けモデルに推論設定がある場合は、推論タイプを選択できるようになりました。これにより、チャットボットのパフォーマンスとリソース要件をニーズに合わせてより適切に調整できるようになります。</block>
 </blocks>
