@@ -43,3 +43,11 @@ image:screenshot-manage-snapshots-screen.png["スナップショットの管理�
 ワークロード ファクトリーは、第 2 世代ファイル システムのソリッド ステート ドライブ (SSD) 容量の削減をサポートしています。柔軟なファイル システム容量により、ワークロードのニーズに合わせてファイル システムの容量を動的に調整できます。
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/increase-file-system-capacity.html["ファイルシステムの容量を調整する"]
+
+
+
+=== ストレージの新しい通知
+
+ワークロード ファクトリ通知サービスには、ストレージの自動容量管理の成功通知と失敗通知が含まれています。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["BlueXP workload factoryの通知"^]

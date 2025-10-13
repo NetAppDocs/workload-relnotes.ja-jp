@@ -289,6 +289,14 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/increase-file-system-capac
 
 
 
+==== ストレージの新しい通知
+
+ワークロード ファクトリ通知サービスには、ストレージの自動容量管理の成功通知と失敗通知が含まれています。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["BlueXP workload factoryの通知"^]
+
+
+
 === セットアップと管理
 
 
