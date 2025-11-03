@@ -224,4 +224,16 @@
   <block id="84ecff705434b96ba77d72c40db81a43" category="paragraph">ストレージの自動容量および inode 管理は、Workload Factory 通知サービスからの通知をトリガーする警告しきい値を使用して設定できます。この機能を使用するには、まず Workload Factory 通知サービスを有効にする必要があります。</block>
   <block id="c9222d8b9aefb8ef9111967299e54ea0" category="inline-link-macro">NetApp Workload Factoryの通知を構成する</block>
   <block id="ab64aae70d26185cca8d6c5afc54d185" category="paragraph"><block ref="ab64aae70d26185cca8d6c5afc54d185" category="inline-link-macro-rx"></block></block>
+  <block id="24469e003440641648ff205b984a0ac7" category="doc">FSx for ONTAPファイルシステムのデプロイメントウィザードに Amazon Elastic VMware Service の設定を導入</block>
+  <block id="0e8989988334c8827a95bf9733f5311e" category="paragraph">Amazon Elastic VMware Service の外部 NFS データストアとして使用する FSx for ONTAPファイル システムをデプロイするときに、データストアが接続される EVS 環境を選択できるようになりました。これにより、デプロイメント ウィザードのいくつかのフィールドが自動的に入力され、デプロイメント プロセスが簡素化されます。</block>
+  <block id="6dab83facb5fd4298e37906481e1055b" category="inline-link">推奨される FSx for ONTAPファイルシステムを導入する</block>
+  <block id="876ee64bc6b6627784cd32512c519f60" category="paragraph"><block ref="876ee64bc6b6627784cd32512c519f60" category="inline-link-rx"></block></block>
+  <block id="8bf32647108c4a28e744e9ba5a1683bf" category="section-title">VMware ワークロードの権限の変更</block>
+  <block id="18a162715dca6df2cf24f0158d03bddd" category="paragraph">VMware ワークロードでは、特定のアクションに必要な権限がより明確に示され、必要な権限のみを詳細に選択できます。資格情報を追加すると、以前の権限モデルである _読み取り専用_ と _読み取り/書き込み_ の代わりに、2 つの権限オプションから選択できるようになります。新しい権限モデルでは、権限ポリシーが次のように分割されます。</block>
+  <block id="0a015f0bd274c5e6c7a774ac18592871" category="list-text">_表示、計画、および分析_: EVS 仮想化環境のインベントリを表示し、システムの Well-Architected 分析を取得して、コスト削減を検討します。</block>
+  <block id="56522cb8a8b15eeca3868896cb875225" category="list-text">_データストアのデプロイと接続_: 推奨される VM レイアウトを Amazon EVS、Amazon EC2、または VMware Cloud on AWS vSphere クラスターにデプロイし、カスタマイズされたAmazon FSx for NetApp ONTAPファイルシステムを外部データストアとして使用します。</block>
+  <block id="59371e7e2c46a6e1dae0e4d3224dd7ef" category="paragraph">資格情報を追加するときに、VMware ワークロードに提供するアクセス レベルに基づいて、これらの権限ポリシーを 1 つ以上選択できます。</block>
+  <block id="1d194f6c398ca78aaffd8c430203e1ec" category="section-title">Amazon EC2 移行アドバイザーの改善</block>
+  <block id="bd926a6dc82c9eb9135d58e6c5a33568" category="paragraph">NetApp Workload Factory for VMware のこのリリースでは、移行アドバイザーのエクスペリエンスがいくつか改善されています。</block>
+  <block id="62057df0ae6e346379f483246f31203b" category="list-text">*移行計画の保存またはダウンロード*: 移行計画を PDF または CSV ファイルとして保存またはダウンロードできるようになりました。移行計画を保存すると、その計画は Workload Factory アカウントに保存されます。</block>
 </blocks>
