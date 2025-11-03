@@ -16,7 +16,7 @@ Workload Factory コンソール内から、次のキャッシュ ボリュー�
 * キャッシュボリュームを削除する
 
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["キャッシュボリュームを管理する"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["キャッシュボリュームを管理する"]
 
 
 
@@ -24,7 +24,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html[
 
 自動容量管理を有効にする必要なく、自動 inode 管理を有効にすることができます。
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["自動inode管理を有効にする"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["自動inode管理を有効にする"]
 
 
 
@@ -38,7 +38,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-manag
 
 NetApp Workload Factoryで NFS および SMB/CIFS ボリュームのサイズを縮小できます。この機能により、現在の容量では不要になったボリュームのサイズを縮小できるため、ストレージ リソースをより適切に管理できるようになります。
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/adjust-volume-capacity.html["ボリュームの容量を減らす"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/adjust-volume-capacity.html["ボリュームの容量を減らす"]
 
 
 
@@ -69,7 +69,7 @@ Workload Factory では、特定のアクションに必要な権限がより明
 
 資格情報を追加するときに、Workload Factory に提供するアクセス レベルに基づいて、これらのアクセス許可ポリシーを 1 つ以上選択できます。
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["ワークロードファクトリーの権限リファレンス"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["ワークロードファクトリーの権限リファレンス"]
 
 
 
@@ -77,4 +77,4 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 
 サイバー ボールト アーキテクチャで、FSx for ONTAP をソースまたはターゲットとして使用してサイバー ボールトを作成できます。サイバー ボールトは、重要なデータを保存するための安全で隔離された環境を提供し、ランサムウェアやその他のサイバー脅威からデータを保護します。
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-cyber-vault.html["FSx for ONTAPでサイバー ボールトをセットアップする"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-cyber-vault.html["FSx for ONTAPでサイバー ボールトをセットアップする"]
