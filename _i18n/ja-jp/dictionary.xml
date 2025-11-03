@@ -191,4 +191,27 @@
   <block id="4bc6d1e741e4c817c4985300ec66b77f" category="inline-link-macro">FSx for ONTAPでサイバー ボールトをセットアップする</block>
   <block id="545bd81803e837dd73a7bceb1a798b8a" category="paragraph"><block ref="545bd81803e837dd73a7bceb1a798b8a" category="inline-link-macro-rx"></block></block>
   <block id="2afa479317acb4455a0a649aab2944d1" category="section-title">2025年11月2日</block>
+  <block id="58abe9f5fbda29b547f9ab2de50f2332" category="section-title">Amazon Elastic Block Store (EBS) の使用状況に基づいて節約を最適化</block>
+  <block id="3cab156afe8725e62725f4973a3c9949" category="doc">ダッシュボードの改善</block>
+  <block id="18657a21385444f338b37f8f0116ffc3" category="paragraph">新しいダッシュボードは合理化され、整理され、データベース リソースと Workload Factory の主要機能の概要を 1 つの画面でより明確に表示します。1 枚のカードではデータベース リソースが強調表示され、1 枚のカードでは Well-Architected スコアと分析に関する情報が提供され、1 枚のカードではエラー分析が表示され、2 枚のカードでは月間コストと潜在的な節約額が表示され、1 枚のカードではサンドボックスに関する情報が表示されます。</block>
+  <block id="52d93a06ea30bbc0d2d568569c6686f5" category="paragraph">Well-Architected 分析には、Oracle 構成に対する次の評価と修正が含まれます。</block>
+  <block id="4667bb7539009ed136b942febb5737ba" category="list-text">NFS プロトコルを使用したストレージ構成オペレーティング システム: 既存の Oracle データベース デプロイメントの NFS 構成に関する構成の問題を評価および修正します。</block>
+  <block id="679f71c6d98f7a5f25e9535eb16a19b5" category="list-text">iSCSI プロトコルを使用したストレージ構成オペレーティング システム: 既存の Oracle データベース デプロイメントの iSCSI 構成に関する構成問題を評価して修正します。</block>
+  <block id="7548e2cbb02ea769fa6f01e70f1d34ee" category="list-text">Automatic Storage Management (ASM) を使用したストレージ構成オペレーティング システム: 既存の Oracle データベース展開の ASM 構成に関する構成の問題を評価します。</block>
+  <block id="bff5f6ac72c7a46da345751a22e8e0a1" category="section-title">Workload Factory for Databases の権限の変更</block>
+  <block id="c3cf114e732250ac6b24d30e117ab24b" category="paragraph">Workload Factory for Databases では、権限ポリシーが更新され、特定のアクションに必要な内容がより明確になり、必要な権限のみを選択するための細分性が高まりました。資格情報を追加すると、以前の権限モデルである _読み取り専用_ と _読み取り/書き込み_ の代わりに、3 つの権限オプションから選択できるようになります。新しい権限モデルでは、権限ポリシーが次のように分割されます。</block>
+  <block id="d9fff61478503c71474a780705c79af6" category="list-text">_表示、計画、分析_: データベース リソースのインベントリを表示し、リソースの健全性を把握し、データベース構成の Well-Architected 分析を確認し、エラー ログ分析を取得し、節約を検討します。</block>
+  <block id="9ef8eb2bc51c8c6f6ba459302a542484" category="list-text">_運用と修復_: データベース リソースの運用タスクを実行し、データベース構成と基盤となる FSx for ONTAPファイル システム ストレージの問題を修正します。</block>
+  <block id="3f285f24375531d34b8b7d73726b69bc" category="list-text">_データベース ホストの作成_: ベスト プラクティスに従って、データベース ホストと、その基盤となる FSx for ONTAPファイル システム ストレージを展開します。</block>
+  <block id="6ca55df595e9339b20f869e49eb0d710" category="paragraph">資格情報を追加するときに、Workload Factory for Databases に提供するアクセス レベルに基づいて、これらのアクセス許可ポリシーを 1 つ以上選択できます。</block>
+  <block id="034b7227f8903ae8faac7359c9b3d064" category="section-title">よく設計されたダッシュボード画面が追加されました</block>
+  <block id="7a524d371f7a263dae481eea0bc3de88" category="paragraph">新しい _Well-architected_ ダッシュボード画面がデータベース メニューに追加されました。この画面から、データベース資産全体の構成ステータスの集約ビューを取得できます。</block>
+  <block id="54543cd5b64fb08ea26d865ed21c8691" category="section-title">NetApp Backup and Recoveryにおけるデータベース導入時の編集保護</block>
+  <block id="c7c9b75c76356b2b8aa328068cd75a1c" category="paragraph">Workload Factory コンソールから、保護されたリソースの保護を編集することを選択すると、 NetApp Consoleのバックアップとリカバリにリダイレクトされ、保護ポリシーまたはスケジュールを変更できます。</block>
+  <block id="f3a2b46dc542d840ca95ad3799ace39b" category="inline-link-macro">データベースデプロイメントの編集保護</block>
+  <block id="2a601eb3188e615c20b76da1a5734646" category="paragraph"><block ref="2a601eb3188e615c20b76da1a5734646" category="inline-link-macro-rx"></block></block>
+  <block id="cf6dca9fc5d1f30c46f70906ef3152ce" category="section-title">エラー分析機能で利用可能なタグによるエラーフィルタリング</block>
+  <block id="b79d711ddf4eb26397c99031692c7a26" category="paragraph">Workload Factory のエラー分析機能を使用すると、インフラストラクチャ指向のタグで Microsoft SQL Server エラー ログをフィルター処理して表示できます。この機能強化により、問題を迅速にトリアージ、トラブルシューティング、解決できるようになります。</block>
+  <block id="c9c975f5587642db7fde90312ee94825" category="inline-link-macro">タグフィルタリングでエラーログを分析する</block>
+  <block id="99d2df171fdf12824fa9334fd19cf105" category="paragraph"><block ref="99d2df171fdf12824fa9334fd19cf105" category="inline-link-macro-rx"></block></block>
 </blocks>

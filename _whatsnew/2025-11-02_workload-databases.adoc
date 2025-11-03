@@ -1,0 +1,59 @@
+= ダッシュボードの改善
+:allow-uri-read: 
+
+
+
+
+=== ダッシュボードの改善
+
+新しいダッシュボードは合理化され、整理され、データベース リソースと Workload Factory の主要機能の概要を 1 つの画面でより明確に表示します。1 枚のカードではデータベース リソースが強調表示され、1 枚のカードでは Well-Architected スコアと分析に関する情報が提供され、1 枚のカードではエラー分析が表示され、2 枚のカードでは月間コストと潜在的な節約額が表示され、1 枚のカードではサンドボックスに関する情報が表示されます。
+
+
+
+=== Oracle 向けの Well-Architected 分析
+
+Well-Architected 分析には、Oracle 構成に対する次の評価と修正が含まれます。
+
+* NFS プロトコルを使用したストレージ構成オペレーティング システム: 既存の Oracle データベース デプロイメントの NFS 構成に関する構成の問題を評価および修正します。
+* iSCSI プロトコルを使用したストレージ構成オペレーティング システム: 既存の Oracle データベース デプロイメントの iSCSI 構成に関する構成問題を評価して修正します。
+* Automatic Storage Management (ASM) を使用したストレージ構成オペレーティング システム: 既存の Oracle データベース展開の ASM 構成に関する構成の問題を評価します。
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Workload Factory で Well-Architected データベース構成を実装する"]
+
+
+
+=== Workload Factory for Databases の権限の変更
+
+Workload Factory for Databases では、権限ポリシーが更新され、特定のアクションに必要な内容がより明確になり、必要な権限のみを選択するための細分性が高まりました。資格情報を追加すると、以前の権限モデルである _読み取り専用_ と _読み取り/書き込み_ の代わりに、3 つの権限オプションから選択できるようになります。新しい権限モデルでは、権限ポリシーが次のように分割されます。
+
+* _表示、計画、分析_: データベース リソースのインベントリを表示し、リソースの健全性を把握し、データベース構成の Well-Architected 分析を確認し、エラー ログ分析を取得し、節約を検討します。
+* _運用と修復_: データベース リソースの運用タスクを実行し、データベース構成と基盤となる FSx for ONTAPファイル システム ストレージの問題を修正します。
+* _データベース ホストの作成_: ベスト プラクティスに従って、データベース ホストと、その基盤となる FSx for ONTAPファイル システム ストレージを展開します。
+
+
+資格情報を追加するときに、Workload Factory for Databases に提供するアクセス レベルに基づいて、これらのアクセス許可ポリシーを 1 つ以上選択できます。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["ワークロードファクトリーの権限リファレンス"^]
+
+
+
+=== よく設計されたダッシュボード画面が追加されました
+
+新しい _Well-architected_ ダッシュボード画面がデータベース メニューに追加されました。この画面から、データベース資産全体の構成ステータスの集約ビューを取得できます。
+
+
+
+=== NetApp Backup and Recoveryにおけるデータベース導入時の編集保護
+
+Workload Factory コンソールから、保護されたリソースの保護を編集することを選択すると、 NetApp Consoleのバックアップとリカバリにリダイレクトされ、保護ポリシーまたはスケジュールを変更できます。
+
+link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["データベースデプロイメントの編集保護"]
+
+
+
+=== エラー分析機能で利用可能なタグによるエラーフィルタリング
+
+Workload Factory のエラー分析機能を使用すると、インフラストラクチャ指向のタグで Microsoft SQL Server エラー ログをフィルター処理して表示できます。この機能強化により、問題を迅速にトリアージ、トラブルシューティング、解決できるようになります。
+
+link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["タグフィルタリングでエラーログを分析する"^]
