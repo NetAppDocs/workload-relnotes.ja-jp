@@ -1,0 +1,80 @@
+= キャッシュボリューム管理
+:allow-uri-read: 
+
+
+
+
+=== キャッシュボリューム管理
+
+Workload Factory コンソール内から、次のキャッシュ ボリューム管理操作を実行できます。
+
+* キャッシュ名を編集する
+* キャッシュボリュームの容量を増やす
+* キャッシュボリュームのマウントパスまたはエクスポートポリシーを編集する
+* キャッシュボリュームのキャッシュ方法（モード）を変更する
+* キャッシュボリュームを事前設定する
+* キャッシュボリュームを削除する
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["キャッシュボリュームを管理する"^]
+
+
+
+=== 自動inode管理が利用可能
+
+自動容量管理を有効にする必要なく、自動 inode 管理を有効にすることができます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["自動inode管理を有効にする"^]
+
+
+
+=== 容量とinode使用量のしきい値警告設定
+
+しきい値警告は、容量と inode 使用量の両方に対して利用できます。自動容量または inode 管理を有効にするときに、これらのしきい値を設定できます。この設定を使用するには、link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["NetApp Workload Factory通知サービス"^] 。
+
+
+
+=== ボリュームサイズの縮小が可能
+
+NetApp Workload Factoryで NFS および SMB/CIFS ボリュームのサイズを縮小できます。この機能により、現在の容量では不要になったボリュームのサイズを縮小できるため、ストレージ リソースをより適切に管理できるようになります。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/adjust-volume-capacity.html["ボリュームの容量を減らす"^]
+
+
+
+=== 強化された FSx for ONTAPリソース状態
+
+Workload Factory では、「構成ミス」のリソース状態が拡張され、リソースの実際の問題の説明が含まれるようになりました。
+
+
+
+=== Well-Architected 分析の更新
+
+ワークロード ファクトリーは、次の構成について FSx for ONTAPファイル システムを分析します。
+
+* ボリューム使用率がほぼ満杯: ファイル容量の 80% 以上を使用しているボリュームがあるかどうかを確認します。これにより、追加の容量が必要なボリュームを特定できます。
+* ボリュームへの不正アクセス: NFS または SMB/CIFS マウント パスを使用して iSCSI ボリュームにアクセスできるかどうかを確認し、ボリュームへの不正アクセスを削除してセキュリティ リスクを回避できます。
+
+
+
+
+=== Workload Factory for Storage の権限の変更
+
+Workload Factory では、特定のアクションに必要な権限がより明確に示され、必要な権限のみを細かく選択できます。資格情報を追加すると、以前の権限モデルである _読み取り専用_ と _読み取り/書き込み_ の代わりに、3 つの権限オプションから選択できるようになります。新しい権限モデルでは、権限ポリシーが次のように分割されます。
+
+* _表示、計画、分析_: FSx for ONTAPファイル システムを表示し、システムの健全性を把握し、システムの Well-Architected 分析を取得して、コスト削減を検討します。
+* _操作と修復_: ファイル システム容量の調整やファイル システム構成の問題の修正などの運用タスクを実行します。
+* _ファイルシステムの作成と削除_: FSx for ONTAPファイルシステムとストレージ VM を作成および削除します。
+
+
+資格情報を追加するときに、Workload Factory に提供するアクセス レベルに基づいて、これらのアクセス許可ポリシーを 1 つ以上選択できます。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["ワークロードファクトリーの権限リファレンス"^]
+
+
+
+=== FSx for ONTAPサイバー ボールト サポート
+
+サイバー ボールト アーキテクチャで、FSx for ONTAP をソースまたはターゲットとして使用してサイバー ボールトを作成できます。サイバー ボールトは、重要なデータを保存するための安全で隔離された環境を提供し、ランサムウェアやその他のサイバー脅威からデータを保護します。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-cyber-vault.html["FSx for ONTAPでサイバー ボールトをセットアップする"^]
