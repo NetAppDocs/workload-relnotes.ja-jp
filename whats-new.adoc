@@ -560,21 +560,3 @@ link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["�
 Well-Architected 分析では、FSx for ONTAPストレージ上の Microsoft SQL Server のエンドポイント間の最大転送単位 (MTU) の不整合を評価し、修正します。MTU 設定を調整すると、ネットワーク パフォーマンスが最適化され、SQL Server ワークロードの待機時間が短縮されます。
 
 link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["ワークロードファクトリーで適切に設計されたデータベース構成を実装する"]
-
-
-
-== 2025年8月12日
-
-
-
-=== データベースワークロード
-
-
-
-==== BlueXP backup and recoveryが Microsoft SQL Server のワークロードをサポートするようになりました
-
-BlueXP backup and recoveryを使用すると、Microsoft SQL Server データベースおよび可用性グループのバックアップ、復元、検証、および複製が可能になります。ワークロード ファクトリー コンソールから、 BlueXP backup and recoveryにアクセスして使用し、Microsoft SQL Server ワークロードを保護できます。
-
-link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["ワークロードファクトリーコンソールを使用して Microsoft SQL Server ワークロードを保護する方法を学びます"] 。
-
-BlueXP backup and recoveryの詳細については、link:https://docs.netapp.com/us-en/bluexp-backup-recovery/br-use-mssql-protect-overview.html["BlueXP backup and recoveryによる Microsoft SQL ワークロードの保護の概要"^] 。
