@@ -1,0 +1,37 @@
+= Amazon Elastic Block Store (EBS) のデータベース計算ツールで節約を最適化
+:allow-uri-read: 
+
+
+
+
+=== Amazon Elastic Block Store (EBS) のデータベース計算ツールで節約を最適化
+
+2 つの新しい計算機能により、EBS ストレージを使用して複数のインスタンスを実行する際のコスト削減分析が改善され、FSx for ONTAPに切り替えることでさらにコストを削減できるようになります。
+
+* Workload Factory は、1 つの FSx for ONTAPファイル システム上の複数のデータベース ホストに統合されたストレージ ソリューションを提供します。この統合により、複数のデータベース ホストに必要なファイル システムの数が削減され、ストレージ コストが最適化され、コスト削減が向上します。
+* Workload Factory は、EBS パフォーマンスの使用状況を分析し、最適かつ最もコスト効率の高い FSx for ONTAP構成を提案します。
+
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["検出されたEBSホストの節約を調べる"]
+
+
+
+=== Well-Architected ダッシュボードで利用可能な Excel レポート
+
+適切に設計されたダッシュボードの Excel レポートをダウンロードできます。このレポートには、データベース リソースの well-architeccted ステータスと、オペレーティング システムおよびONTAPのサブ構成を含むすべてのリソース構成の推奨事項が示されます。
+
+
+
+=== Oracle データベースで利用可能なエラー ログ アナライザー
+
+Agentic AI 搭載のエラー ログ アナライザーは、Oracle データベースで使用できます。この機能は、高度な機械学習アルゴリズムを活用して、ログ ファイル内のエラーを自動的に検出して分析します。このツールは、ログで識別されたパターンに基づいて開発者に実用的な洞察と推奨事項を提供することで、トラブルシューティング プロセスを合理化することを目的としています。
+
+link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["Agentic AI搭載エラーログアナライザーの詳細"]
+
+
+
+=== Oracle 向けの Well-Architected 分析
+
+Well-Architected 分析には、2 つの新しいストレージ サイズ設定構成が含まれています。この分析では、既存の Oracle データベース デプロイメントのスワップ領域の割り当てとファイル システムのヘッドルームに関連する構成の問題を評価および修正します。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Workload Factory で Well-Architected データベース構成を実装する"]

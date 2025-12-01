@@ -220,4 +220,17 @@
   <block id="122a56eb4649431a7f2dbb8886f047cc" category="inline-link">NetApp Workload Factoryで Amazon Elastic VMware Service の割引価格をご確認ください</block>
   <block id="389870bd93c88ff4cb5e7f6216054ce2" category="paragraph"><block ref="389870bd93c88ff4cb5e7f6216054ce2" category="inline-link-rx"></block></block>
   <block id="815e75619b370a1b845eccec6979ed74" category="section-title">2025年11月27日</block>
+  <block id="4afeabae14ccab1ba1ff53887c3a9701" category="doc">Amazon Elastic Block Store (EBS) のデータベース計算ツールで節約を最適化</block>
+  <block id="d9f7bd12b1b11b300e5288560b5e9987" category="paragraph">2 つの新しい計算機能により、EBS ストレージを使用して複数のインスタンスを実行する際のコスト削減分析が改善され、FSx for ONTAPに切り替えることでさらにコストを削減できるようになります。</block>
+  <block id="32ccdc5dd4f059ebfa9dabaa8c301cf0" category="list-text">Workload Factory は、1 つの FSx for ONTAPファイル システム上の複数のデータベース ホストに統合されたストレージ ソリューションを提供します。この統合により、複数のデータベース ホストに必要なファイル システムの数が削減され、ストレージ コストが最適化され、コスト削減が向上します。</block>
+  <block id="e11501c7d779140aaf7bc3e06e0c5005" category="list-text">Workload Factory は、EBS パフォーマンスの使用状況を分析し、最適かつ最もコスト効率の高い FSx for ONTAP構成を提案します。</block>
+  <block id="754cab29df96851e5cc6bac19fb8e4de" category="inline-link-macro">検出されたEBSホストの節約を調べる</block>
+  <block id="9c9dd70e9f385deab27852576ec6db9a" category="paragraph"><block ref="9c9dd70e9f385deab27852576ec6db9a" category="inline-link-macro-rx"></block></block>
+  <block id="0694112a63d48c58b25bbffa268e0b70" category="section-title">Well-Architected ダッシュボードで利用可能な Excel レポート</block>
+  <block id="5f00eea0cea6c8b64f9e110f5d403194" category="paragraph">適切に設計されたダッシュボードの Excel レポートをダウンロードできます。このレポートには、データベース リソースの well-architeccted ステータスと、オペレーティング システムおよびONTAPのサブ構成を含むすべてのリソース構成の推奨事項が示されます。</block>
+  <block id="9dc9a356684c35282d9c1ed4aa30e7a3" category="section-title">Oracle データベースで利用可能なエラー ログ アナライザー</block>
+  <block id="269a351d2772f2eea3d4497bdc4e42cf" category="paragraph">Agentic AI 搭載のエラー ログ アナライザーは、Oracle データベースで使用できます。この機能は、高度な機械学習アルゴリズムを活用して、ログ ファイル内のエラーを自動的に検出して分析します。このツールは、ログで識別されたパターンに基づいて開発者に実用的な洞察と推奨事項を提供することで、トラブルシューティング プロセスを合理化することを目的としています。</block>
+  <block id="b8b677d9dba6a14dd05b3a0eb592a9c5" category="inline-link-macro">Agentic AI搭載エラーログアナライザーの詳細</block>
+  <block id="eea441a7c94cd96996c9c96d7827e71f" category="paragraph"><block ref="eea441a7c94cd96996c9c96d7827e71f" category="inline-link-macro-rx"></block></block>
+  <block id="08b4436fffbd9bb2227d03f1cf33889b" category="paragraph">Well-Architected 分析には、2 つの新しいストレージ サイズ設定構成が含まれています。この分析では、既存の Oracle データベース デプロイメントのスワップ領域の割り当てとファイル システムのヘッドルームに関連する構成の問題を評価および修正します。</block>
 </blocks>
