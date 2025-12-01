@@ -233,4 +233,26 @@
   <block id="b8b677d9dba6a14dd05b3a0eb592a9c5" category="inline-link-macro">Agentic AI搭載エラーログアナライザーの詳細</block>
   <block id="eea441a7c94cd96996c9c96d7827e71f" category="paragraph"><block ref="eea441a7c94cd96996c9c96d7827e71f" category="inline-link-macro-rx"></block></block>
   <block id="08b4436fffbd9bb2227d03f1cf33889b" category="paragraph">Well-Architected 分析には、2 つの新しいストレージ サイズ設定構成が含まれています。この分析では、既存の Oracle データベース デプロイメントのスワップ領域の割り当てとファイル システムのヘッドルームに関連する構成の問題を評価および修正します。</block>
+  <block id="081af9c5870a1e2b72453c8137d7fc73" category="doc">NetApp Workload Factoryにおけるブロックデバイスのサポート</block>
+  <block id="41c0f3170443e12c1081a0a411a2c7a4" category="paragraph">NetApp Workload Factoryで新しく導入されたブロック デバイス サポートを使用して、ブロック デバイスをより効率的に管理します。この機能を使用すると、iSCSI LUN の詳細を表示して容量を増やすことができるため、ストレージ ニーズに合わせて柔軟性が向上します。</block>
+  <block id="83fd7a4dba0970697d173ce4398c1b71" category="inline-link-macro">Workload Factoryでブロックデバイスを管理する</block>
+  <block id="e739cb7976f49d4295e9ffa8e259037b" category="paragraph"><block ref="e739cb7976f49d4295e9ffa8e259037b" category="inline-link-macro-rx"></block></block>
+  <block id="90b40f16cf91d89fc22fbcc0a38efa7c" category="list-text">不要なスナップショットの削除: ボリュームに、コストを削減するために削除できる古い不要なスナップショットがあるかどうかを確認します。</block>
+  <block id="2945c0b218624e42ee523aefde446d66" category="list-text">FlexGroupボリュームの再バランス: FlexGroupボリュームがメンバー ボリューム間で均等にバランス調整され、最適なパフォーマンスが確保されているかどうかを確認します。</block>
+  <block id="0f80b197268947adedcc0297fc4a4efd" category="section-title">NetApp Workload Factoryの EMS イベント用 AI アナライザー</block>
+  <block id="b0e5de397c4ec9c39df271c0f4cf05e1" category="paragraph">NetApp Workload Factory は、 ONTAPイベント管理システム (EMS) イベント用の AI 搭載アナライザーを導入しました。この機能は、EMS イベント データの分析に基づいて洞察と推奨事項を提供することで、問題を迅速に特定してトラブルシューティングするのに役立ちます。</block>
+  <block id="a661f5e2ef22dbf468d0f8427ad8323e" category="inline-link-macro">Workload Factory で EMS イベントを分析する</block>
+  <block id="8121ebebfc076bea222c1f4c838b09ec" category="paragraph"><block ref="8121ebebfc076bea222c1f4c838b09ec" category="inline-link-macro-rx"></block></block>
+  <block id="1df24a9e91a6f6d01b5ce32608b6f3f7" category="section-title">FSx for ONTAPファイルシステムのコストと使用状況の傾向を監視する</block>
+  <block id="56a2825e2abb3758584b94544cfdba40" category="paragraph">NetApp Workload Factoryコンソールから直接、FSx for ONTAPファイルシステムのコストと使用状況の傾向を監視できます。この機能は、ストレージの消費量とコストのメトリック、および明細化されたコストを提供し、リソースの割り当てと予算計画の最適化に役立ちます。</block>
+  <block id="bd89bba18a943a5ad32117396fcdea90" category="inline-link-macro">Workload Factory で FSx for ONTAPファイルシステムのコストを追跡する</block>
+  <block id="d5905c9d9cba2248871f04654e4f9b1d" category="paragraph"><block ref="d5905c9d9cba2248871f04654e4f9b1d" category="inline-link-macro-rx"></block></block>
+  <block id="5b58af6390ae44b5a39c726b4820fffb" category="section-title">NetApp Workload Factoryでファイルシステムの FSx タグを管理する</block>
+  <block id="543e684a4a914d6bef4f91873d32e315" category="paragraph">NetApp Workload Factoryコンソールからファイルシステムの FSx タグを直接簡単に管理できます。この機能を使用すると、タグを追加、編集、または削除できるため、FSx for ONTAPファイルシステムの整理と分類を効率化できます。</block>
+  <block id="8945587d036e5b09c39322767239857a" category="inline-link-macro">Workload Factory で FSx タグを管理する</block>
+  <block id="3c57420160e53dc4967d9ca75a5d5d06" category="paragraph"><block ref="3c57420160e53dc4967d9ca75a5d5d06" category="inline-link-macro-rx"></block></block>
+  <block id="1b931c0909a42d2dd6b1b28eeb36252c" category="section-title">FSx for ONTAPファイルシステムのキャッシュ容量を調整する</block>
+  <block id="aed1296ef373ba8df468af355d85d3ce" category="paragraph">Workload Factory コンソールからキャッシュ ボリュームの容量を増減できます。</block>
+  <block id="012110073acf8459d2a77ef54f547130" category="inline-link-macro">Workload Factory でキャッシュボリュームを管理する</block>
+  <block id="cfd839007fdba7ba7d7a5a35de4aa55a" category="paragraph"><block ref="cfd839007fdba7ba7d7a5a35de4aa55a" category="inline-link-macro-rx"></block></block>
 </blocks>
