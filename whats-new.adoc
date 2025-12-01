@@ -15,6 +15,24 @@ NetApp Workload Factory の一部であるワークロードの最新の変更�
 
 
 
+== 2025年11月27日
+
+
+
+=== VMwareワークロード
+
+
+
+==== 特定のリージョンにおける Amazon Elastic VMware Service への移行によるコスト削減を計算します
+
+クラウド移行のためのさまざまな展開オプションの価値を調査し、ソリューション評価に投入された労力を最適化し、クラウドで価値と節約をもたらす可能性のあるソリューションを詳細に調査できるようになりました。
+
+また、EVS 展開で FSx for ONTAPを使用することで実現できる vCPU コアの節約を確認することもできます。
+
+https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["NetApp Workload Factoryで Amazon Elastic VMware Service の割引価格をご確認ください"]
+
+
+
 == 2025年11月2日
 
 
@@ -514,49 +532,3 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.
 BlueXP workload factory通知サービスには、ストレージの自動容量管理に関する通知が含まれています。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["BlueXP workload factoryの通知"]
-
-
-
-== 2025年9月1日
-
-
-
-=== データベースワークロード
-
-
-
-==== Agentic AI搭載エラーログアナライザー
-
-Agentic AI 搭載エラー ログ アナライザーは、高度な機械学習アルゴリズムを活用して、ログ ファイル内のエラーを自動的に検出して分析する新しい機能です。このツールは、ログで識別されたパターンに基づいて開発者に実用的な洞察と推奨事項を提供することで、トラブルシューティング プロセスを合理化することを目的としています。
-
-link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["Agentic AI搭載エラーログアナライザーの詳細"]
-
-
-
-==== Oracleサポート
-
-ワークロード ファクトリーには、Oracle データベースのサポートが含まれています。ワークロード ファクトリー コンソールでは、インベントリから Oracle データベースを表示したり、ワークロード ファクトリーの高度な機能を使用するためにデータベースを登録したり、well-architected 機能を使用して Oracle データベースを分析し、ベスト プラクティスに準拠しているかどうかを判断したりできます。Well-Architected 分析により、Oracle データベースのストレージ構成が最適化されているかどうかが判断されます。この情報を使用することで、データベースの導入について十分な情報に基づいた意思決定を行い、効率的に実行されていることを確認できます。
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["ワークロードファクトリーで適切に設計されたデータベース構成を実装する"]
-
-
-
-==== 第 2 世代 FSx for ONTAPファイルシステムでの Microsoft SQL Server デプロイメントのサポート
-
-ワークロード ファクトリーは、第 2 世代の FSx for ONTAPファイル システムでの Microsoft SQL Server のデプロイメントをサポートします。この機能強化により、SQL Server ワークロードを管理しながら、第 2 世代のファイル システムで利用可能な最新の機能とパフォーマンスの向上を活用できるようになります。
-
-
-
-==== SQL Server 保護のための Windows 認証
-
-Windows 資格情報を使用した Microsoft SQL Server インスタンスの認証は、BlueXP backup and recoveryによる保護のために Microsoft SQL Server ホストを準備するためのワークフローに組み込まれています。これは以前は手動で完了するための前提条件の手順でした。代わりに、Windows 資格情報を使用してワークロード ファクトリにホストを登録していない場合は、管理者アクセス権を持つ Windows 資格情報を共有するように求められます。
-
-link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["ワークロードファクトリーコンソールを使用して Microsoft SQL Server ワークロードを保護する方法を学びます"] 。
-
-
-
-==== Well-Architected 分析には SQL Server の MTU 調整が含まれます
-
-Well-Architected 分析では、FSx for ONTAPストレージ上の Microsoft SQL Server のエンドポイント間の最大転送単位 (MTU) の不整合を評価し、修正します。MTU 設定を調整すると、ネットワーク パフォーマンスが最適化され、SQL Server ワークロードの待機時間が短縮されます。
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["ワークロードファクトリーで適切に設計されたデータベース構成を実装する"]

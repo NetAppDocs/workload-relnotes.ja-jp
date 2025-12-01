@@ -30,25 +30,9 @@
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
   <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">ビルダーのワークロード</block>
   <block id="e64998710319712d47612cc187a1dc35" category="inline-link">移行アドバイザーを使用して Amazon EVS のデプロイメント計画を作成する</block>
-  <block id="c4363ade7c2d208d79dee9b60bc51922" category="inline-link-macro">ワークロードファクトリーで適切に設計されたデータベース構成を実装する</block>
-  <block id="a05724b342c36062e480732f660ae9d4" category="paragraph"><block ref="a05724b342c36062e480732f660ae9d4" category="inline-link-macro-rx"></block></block>
   <block id="4a854a1349dc1900974f3bf6a9552245" category="section-title">Well-Architected 分析の更新</block>
   <block id="bfebf248126ee0c8c192d7442b03e1a1" category="inline-link-macro">FSx for ONTAPファイルシステムの Well-Architected ステータスを表示します</block>
   <block id="2a708c78876e2ad54c0b8577c3b2bbd5" category="paragraph"><block ref="2a708c78876e2ad54c0b8577c3b2bbd5" category="inline-link-macro-rx"></block></block>
-  <block id="0eabf86e93873fc39b5a49903ec1c780" category="inline-link-macro">ワークロードファクトリーコンソールを使用して Microsoft SQL Server ワークロードを保護する方法を学びます</block>
-  <block id="82776afd94423c79dbb6478467a55ee1" category="paragraph"><block ref="01ada1ee9ae7e42f0ced5cd933931e08" category="inline-link-macro-rx"></block> 。</block>
-  <block id="c66ae4617a5e7b903fa49494f6025fe3" category="doc">Agentic AI搭載エラーログアナライザー</block>
-  <block id="9d9b1a38d2c7c04daeaa22b4ab5a3d5d" category="paragraph">Agentic AI 搭載エラー ログ アナライザーは、高度な機械学習アルゴリズムを活用して、ログ ファイル内のエラーを自動的に検出して分析する新しい機能です。このツールは、ログで識別されたパターンに基づいて開発者に実用的な洞察と推奨事項を提供することで、トラブルシューティング プロセスを合理化することを目的としています。</block>
-  <block id="b8b677d9dba6a14dd05b3a0eb592a9c5" category="inline-link-macro">Agentic AI搭載エラーログアナライザーの詳細</block>
-  <block id="eea441a7c94cd96996c9c96d7827e71f" category="paragraph"><block ref="eea441a7c94cd96996c9c96d7827e71f" category="inline-link-macro-rx"></block></block>
-  <block id="87b85aff45217080ba500a992ada602c" category="section-title">Oracleサポート</block>
-  <block id="74ddb3b25ce5cc41642c58d46e3e527b" category="paragraph">ワークロード ファクトリーには、Oracle データベースのサポートが含まれています。ワークロード ファクトリー コンソールでは、インベントリから Oracle データベースを表示したり、ワークロード ファクトリーの高度な機能を使用するためにデータベースを登録したり、well-architected 機能を使用して Oracle データベースを分析し、ベスト プラクティスに準拠しているかどうかを判断したりできます。Well-Architected 分析により、Oracle データベースのストレージ構成が最適化されているかどうかが判断されます。この情報を使用することで、データベースの導入について十分な情報に基づいた意思決定を行い、効率的に実行されていることを確認できます。</block>
-  <block id="0c32ff88af8d87b6ac8198432d56bd75" category="section-title">第 2 世代 FSx for ONTAPファイルシステムでの Microsoft SQL Server デプロイメントのサポート</block>
-  <block id="6f4eab6394c8d6b2b9c2f5990b195f88" category="paragraph">ワークロード ファクトリーは、第 2 世代の FSx for ONTAPファイル システムでの Microsoft SQL Server のデプロイメントをサポートします。この機能強化により、SQL Server ワークロードを管理しながら、第 2 世代のファイル システムで利用可能な最新の機能とパフォーマンスの向上を活用できるようになります。</block>
-  <block id="4b0e4c53f590f96c7ae9dbd2af881643" category="section-title">SQL Server 保護のための Windows 認証</block>
-  <block id="66eac601a6b6ad939034aba1005b0d1f" category="paragraph">Windows 資格情報を使用した Microsoft SQL Server インスタンスの認証は、BlueXP backup and recoveryによる保護のために Microsoft SQL Server ホストを準備するためのワークフローに組み込まれています。これは以前は手動で完了するための前提条件の手順でした。代わりに、Windows 資格情報を使用してワークロード ファクトリにホストを登録していない場合は、管理者アクセス権を持つ Windows 資格情報を共有するように求められます。</block>
-  <block id="21e7945dde284bd0e0fc5e2026a591e0" category="section-title">Well-Architected 分析には SQL Server の MTU 調整が含まれます</block>
-  <block id="ecc57bed47e69e41f27979277ae13c78" category="paragraph">Well-Architected 分析では、FSx for ONTAPストレージ上の Microsoft SQL Server のエンドポイント間の最大転送単位 (MTU) の不整合を評価し、修正します。MTU 設定を調整すると、ネットワーク パフォーマンスが最適化され、SQL Server ワークロードの待機時間が短縮されます。</block>
   <block id="d1e5e17e5a4cb355117a41318746c4a4" category="doc">ストレージインベントリレポートの機能強化</block>
   <block id="b749705b43261f48fe8b1309cb366d90" category="paragraph">ワークロード ファクトリーでは、FSx for ONTAPファイル システムについて報告されるデータが強化されました。FSx for ONTAPインベントリ ページからダウンロード可能なレポートには、次の新しい列が含まれています。</block>
   <block id="c61468edc77ab93ea17568f678793bdd" category="list-text">使用済みSSD: 使用済みSSD容量の値を表示します</block>
@@ -73,7 +57,6 @@
   <block id="298ae1d1e13ebe1f0f22936b7ea9ce33" category="inline-link-macro">ファイルシステムの容量を調整する</block>
   <block id="6b4be3b501bf6ae8984293c02d4d610b" category="paragraph"><block ref="6b4be3b501bf6ae8984293c02d4d610b" category="inline-link-macro-rx"></block></block>
   <block id="b271a75b2d121a8cb5f59ae458394323" category="section-title">2025年9月9日</block>
-  <block id="595dacca64a0bfa1f3ae49b78ce41d38" category="section-title">2025年9月1日</block>
   <block id="edfbca9622799a953a48987a288fe283" category="paragraph">ワークロード ファクトリーは、第 2 世代ファイル システムのソリッド ステート ドライブ (SSD) 容量の削減をサポートしています。柔軟なファイル システム容量により、ワークロードのニーズに合わせてファイル システムの容量を動的に調整できます。</block>
   <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">NetAppワークロード ファクトリー</block>
   <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
@@ -231,4 +214,10 @@
   <block id="bd926a6dc82c9eb9135d58e6c5a33568" category="paragraph">NetApp Workload Factory for VMware のこのリリースでは、移行アドバイザーのエクスペリエンスがいくつか改善されています。</block>
   <block id="62057df0ae6e346379f483246f31203b" category="list-text">*移行計画の保存またはダウンロード*: 移行計画を PDF または CSV ファイルとして保存またはダウンロードできるようになりました。移行計画を保存すると、その計画は Workload Factory アカウントに保存されます。</block>
   <block id="d0892726ec1e74441a4a801494ed29bb" category="paragraph">資格情報を追加するときに、Workload Factory for Databases に提供するアクセス レベルに基づいて、これらのアクセス許可ポリシーを 1 つ以上選択できます。</block>
+  <block id="e738192b7a8dc90f6d5e566ceb909da3" category="doc">特定のリージョンにおける Amazon Elastic VMware Service への移行によるコスト削減を計算します</block>
+  <block id="d4a40d01192a627963ffd40503ef4713" category="paragraph">クラウド移行のためのさまざまな展開オプションの価値を調査し、ソリューション評価に投入された労力を最適化し、クラウドで価値と節約をもたらす可能性のあるソリューションを詳細に調査できるようになりました。</block>
+  <block id="de480346f69aff69cc4e4e1e5d52ea98" category="paragraph">また、EVS 展開で FSx for ONTAPを使用することで実現できる vCPU コアの節約を確認することもできます。</block>
+  <block id="122a56eb4649431a7f2dbb8886f047cc" category="inline-link">NetApp Workload Factoryで Amazon Elastic VMware Service の割引価格をご確認ください</block>
+  <block id="389870bd93c88ff4cb5e7f6216054ce2" category="paragraph"><block ref="389870bd93c88ff4cb5e7f6216054ce2" category="inline-link-rx"></block></block>
+  <block id="815e75619b370a1b845eccec6979ed74" category="section-title">2025年11月27日</block>
 </blocks>
