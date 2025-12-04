@@ -8,4 +8,6 @@
 
 NetApp Workload Factory は、 FSx for ONTAPファイルシステム用の AWS S3 アクセスポイントをサポートしています。S3 アクセス ポイントを使用してボリュームを作成し、既存のボリュームに S3 アクセス ポイントを割り当て、Workload Factory コンソールから S3 アクセス ポイントを管理できます。S3 アクセスポイントを使用すると、AWS S3 API を介して SMB/CIFS または NFS ボリューム上にあるファイルデータにアクセスできます。これにより、既存のデータを、S3 アクセスポイントをサポートする AWS サービスの GenAI、ML、分析と統合できます。
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["ボリュームの作成"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["S3 アクセスポイントを使用してボリュームを作成する"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["ボリュームのS3アクセスポイントを管理する"]
+
