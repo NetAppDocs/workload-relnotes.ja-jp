@@ -53,3 +53,11 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-fsx-tags.html["Work
 Workload Factory コンソールからキャッシュ ボリュームの容量を増減できます。
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["Workload Factory でキャッシュボリュームを管理する"]
+
+
+
+=== FSx for ONTAPの AWS S3 アクセス ポイントのサポート
+
+この機能を使用すると、Workload Factory コンソールから S3 アクセス ポイントを使用してボリュームを作成できます。S3 アクセスポイントを使用すると、AWS S3 API を介して SMB/CIFS または NFS ボリューム上にあるファイルデータにアクセスできます。これにより、既存のデータを、S3 アクセスポイントをサポートする AWS サービスの GenAI、ML、分析と統合できます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["ボリュームの作成"]
