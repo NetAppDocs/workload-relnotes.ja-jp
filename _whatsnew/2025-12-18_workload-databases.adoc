@@ -1,0 +1,18 @@
+= Active Directory統合の強化
+:allow-uri-read: 
+
+
+
+
+=== Active Directory統合の強化
+
+Workload Factory for Databases には、*詳細作成* オプションを使用して Microsoft SQL Server を展開するときに、3 つの新しい Active Directory (AD) フィールドが含まれます。これらの機能強化により、Active Directory 参加の設定を指定し、管理されたサービス アカウントを使用できるようになります。
+
+新しい AD フィールドは次のとおりです。
+
+* 優先ドメインコントローラ
+* 優先組織単位パス
+* 対象の Active Directory グループ
+
+
+link:https://docs.netapp.com/us-en/workload-databases/create-database.html["Microsoft SQL Server を導入する"]
