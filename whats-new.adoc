@@ -15,6 +15,20 @@ NetApp Workload Factory の一部であるワークロードの最新の変更�
 
 
 
+== 2026年1月4日
+
+
+
+=== VMwareワークロード
+
+
+
+==== Ask me AIアシスタントのホームページ統合
+
+Workload Factory コンソールのホームページには Ask me AI アシスタントが組み込まれており、独自のストレージ資産について質問したり、環境から直接パーソナライズされた分析情報を取得したり、以前の会話を参照したりすることができます。コンソールを離れることなく、「Ask me」と対話してワークロードを理解し、問題をトラブルシューティングし、Workload Factory について詳しく知ることができます。
+
+
+
 == 2025年12月18日
 
 
@@ -391,227 +405,3 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.
 ストレージの自動容量および inode 管理は、Workload Factory 通知サービスからの通知をトリガーする警告しきい値を使用して設定できます。この機能を使用するには、まず Workload Factory 通知サービスを有効にする必要があります。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["NetApp Workload Factoryの通知を構成する"]
-
-
-
-== 2025年10月6日
-
-
-
-=== NetApp ONTAP 対応の Amazon FSX
-
-
-
-==== BlueXP workload factoryがNetAppワークロードファクトリーに
-
-BlueXP は、データ インフラストラクチャの管理における役割をより適切に反映するために、名前が変更され、再設計されました。その結果、 BlueXP workload factoryの名前がNetAppワークロード ファクトリーに変更されました。
-
-
-
-=== データベースワークロード
-
-
-
-==== BlueXP workload factoryがNetAppワークロードファクトリーに
-
-BlueXP は、データ インフラストラクチャの管理における役割をより適切に反映するために、名前が変更され、再設計されました。その結果、 BlueXP workload factoryの名前がNetAppワークロード ファクトリーに変更されました。
-
-
-
-==== Workload Factory コンソールの Oracle 向けの機能強化
-
-
-
-===== Oracleデータベースリソース画面
-
-各 Oracle データベースには、データベース インベントリから利用できる専用のリソース画面があります。リソース画面には、データベース名、ステータス (オンまたはオフライン)、テナンシー、およびデプロイメント タイプの概要が表示されます。また、3 か月間の CPU 使用率、レイテンシ、IOPS、スループットのデータを示すグラフも含まれています。容量使用率は、データベースの合計サイズ、書き込まれたデータ サイズ、使用されたソリッド ステート ドライブの容量、および使用された容量プール ストレージを提供します。
-
-リソース画面では、Oracle サーバー (デプロイメント モデル、OS、エディション、バージョンなど)、場所 (AWS アカウント、リージョン、アベイラビリティー ゾーン、サブネット)、ストレージとコンピューティング (FSx for ONTAPファイル システムの詳細、データベース インスタンス タイプ、関連する LUN とボリューム)、接続 (VPC とアクセス プロトコル) に関する情報を表示できます。また、データベース構成の well-architected ステータスを確認したり、データベースに関連付けられているプラ​​ガブル データベース (PDB) を表示したりすることもできます。
-
-
-
-===== Oracle プラガブル データベースのサポート
-
-Oracle プラガブル データベースは、データベース インベントリおよび親コンテナ データベースのリソース画面から表示できます。PDB に関する次の情報が利用可能です: CDB 名、ホスト名、保護ステータス、データベース サイズ、FSx for ONTAPファイル システム、AWS 認証情報、AWS アカウント、リージョン。
-
-
-
-===== Oracle 向けの Well-Architected 分析
-
-Well-Architected 分析には、Automatic Storage Management (ASM) の有無にかかわらず、NFS 経由または iSCSI 経由の Oracle データベースのストレージ レイアウトの構成問題の評価と、iSCSI LUN 経由の Oracle のオペレーティング システム上のストレージ構成問題の評価が含まれます。この情報を使用することで、データベースの導入について十分な情報に基づいた意思決定を行い、効率的に実行されていることを確認できます。
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Workload Factory で Well-Architected データベース構成を実装する"]
-
-
-
-==== データベースインベントリの強化
-
-データベース インベントリのインスタンス画面では、Microsoft SQL Server の単一または複数のインスタンス、あるいは Oracle の単一または複数のデータベースに対して、構成の問題を修正、延期、および破棄するオプションが利用できます。
-
-
-
-==== Amazon Elastic Block Store (EBS) の使用状況に基づいて節約を最適化
-
-Workload Factory は、EBS パフォーマンスの使用状況を分析し、最適かつ最もコスト効率の高い FSx for ONTAP構成を提案します。これにより、FSx for ONTAPに切り替えることで、より多くのコストを節約できます。
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["Workload Factory コンソールで検出されたストレージ環境の節約を調べる"]
-
-
-
-=== セットアップと管理
-
-
-
-==== BlueXP workload factoryがNetAppワークロードファクトリーに
-
-BlueXP は、データ インフラストラクチャの管理における役割をより適切に反映するために、名前が変更され、再設計されました。その結果、 BlueXP workload factoryの名前がNetAppワークロード ファクトリーに変更されました。
-
-
-
-==== MCP との Ask Me 統合
-
-Workload Factory の AI アシスタントである Ask Me は、Model Context Protocol (MCP) と統合されています。MCP を使用することで、Ask Me は外部環境と安全にインターフェイスし、API ツールにクエリを実行して、特定のストレージ環境に合わせた応答を提供します。
-
-
-
-== 2025年10月5日
-
-
-
-=== NetApp ONTAP 対応の Amazon FSX
-
-
-
-==== Amazon Elastic Block Store (EBS) のストレージ計算ツールで節約を最適化
-
-Workload Factory は、EBS パフォーマンスの使用状況を分析し、最適かつ最もコスト効率の高い FSx for ONTAP構成を提案します。これにより、FSx for ONTAPに切り替えることで、より多くのコストを節約できます。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html#explore-savings-for-detected-storage-environments["Workload Factory コンソールで検出されたストレージ環境の節約を調べる"]
-
-
-
-==== ファイルシステムインベントリからリソース画面に素早くアクセス
-
-FSx for ONTAPインベントリからハイパーリンクになったファイルシステム名を選択すると、FSx for ONTAPファイルシステムリソース画面にすばやく移動できます。
-
-
-
-==== Workload Factory コンソールでキャッシュ関係を検出する
-
-FSx for ONTAPファイル システムと別のタイプのONTAPストレージ (オンプレミス システム、 Cloud Volumes ONTAP、FSx for ONTAP) との間に _キャッシュ_ 関係がある場合は、Workload Factory コンソールからそれらを検出して表示できます。これにより、データ フローをより深く理解し、キャッシュの使用率を最適化し、分散環境全体の効率を向上させることができます。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/discover-cache-volumes.html["Workload Factory コンソールでキャッシュ関係を検出して表示する"]
-
-
-
-==== Well-Architected 分析のアップデート
-
-ワークロード ファクトリーは、次の構成について FSx for ONTAPファイル システムを分析するようになりました。
-
-ボリューム ファイル容量使用率しきい値: ファイル容量しきい値が 80% 以下に設定されているかどうかを確認します。これにより、ファイル システムのスペース不足を回避できます。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["FSx for ONTAPファイルシステムの Well-Architected ステータスを表示します"]
-
-
-
-===== 構成の問題に対するアクションの改善
-
-FSx for ONTAPファイル システムのダッシュボードの *Well-architected analysis* タブでは、ファイル システムの構成全体を無視する代わりに、ファイル システム内の 1 つ以上のボリュームを選択して修正、無視、または再アクティブ化することもできます。
-
-
-
-==== ストレージに関する追加通知
-
-NetApp Workload Factory 通知サービスには、Well-Architected 構成の問題に関する通知が毎週含まれています。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html#notification-types-and-messages["Workload Factory のセットアップと管理ドキュメントの通知タイプとメッセージ"]
-
-
-
-==== 不変ファイルは特権削除をサポートします
-
-この機能を使用すると、FSx for ONTAPファイルシステム内の不変ファイルに対する特権削除アクセスを設定できます。これにより、重要なデータを偶発的または悪意のある削除から保護しながら、許可されたユーザーがロックを無効にして必要に応じてこれらのファイルを削除できるようになります。特権削除の有効化は、ボリュームの作成時または既存のボリュームに対して行うことができます。
-
-
-
-=== VMwareワークロード
-
-
-
-==== BlueXP workload factoryがNetAppワークロードファクトリーに
-
-BlueXP は、データ インフラストラクチャの管理における役割をより適切に反映するために、名前が変更され、再設計されました。その結果、 BlueXP workload factoryの名前がNetAppワークロード ファクトリーに変更されました。
-
-
-
-==== VMware ワークロード プランニング センターのご紹介
-
-VMware ワークロード プランニング センターを使用すると、VM インベントリと移行プランを 1 か所で表示および管理できます。異なる環境から複数の VM インベントリをアップロードして保存し、それらのいずれかについて AWS EC2 または Amazon Elastic VMware サービスへの移行の計画を開始できます。AWS EC2 または EVS 移行プランを作成して保存することもできます。
-
-https://docs.netapp.com/us-en/workload-vmware/explore-planning-center.html["VMware ワークロード プランニング センターの詳細"]
-
-
-
-==== Amazon Elastic VMWare Service の移行アドバイザー サポートの導入
-
-BlueXP Workload Factory for VMware では、Amazon Elastic VMware Service 移行アドバイザーを使用して、オンプレミスの VMware ワークロードを Amazon Elastic VMware Service に迅速に移行できるようになりました。移行アドバイザーを使用して移行計画を作成すると、計画センターの移行計画のリストに自動的に保存されます。
-
-https://docs.netapp.com/us-en/workload-vmware/launch-migration-advisor-evs.html["移行アドバイザーを使用して Amazon EVS のデプロイメント計画を作成する"]
-
-
-
-=== 生成AIワークロード
-
-
-
-==== BlueXP workload factoryがNetAppワークロードファクトリーに
-
-BlueXP は、データ インフラストラクチャの管理における役割をより適切に反映するために、名前が変更され、再設計されました。その結果、 BlueXP workload factoryの名前がNetAppワークロード ファクトリーに変更されました。
-
-
-
-==== Amazon Q Business のNetAppコネクタに汎用 NFS/SMB データソースを追加するためのサポート
-
-Workload Factory API を使用すると、汎用 NFSv3、NFSv4、または SMB 共有から Amazon Q Business のNetAppコネクタにデータ ソースを追加できるようになりました。これにより、Amazon FSx for NetApp ONTAP以外のファイルシステムでホストされているボリュームに保存されているファイルを含めることができます。
-
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Amazon Q Business 用のNetAppコネクタを作成する"]
-
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["コネクタにデータソースを追加する"]
-
-
-
-==== ナレッジベースの高度なチャット設定
-
-応答の長さ、温度、推論設定など、ナレッジ ベースのチャット モデルに適用可能な高度なチャット設定を構成できるようになりました。これらの設定の一部 (最新性や変更時間の設定、高度な取得設定、システム プロンプトなど) は、Workload Factory API を使用する場合にのみ利用できます。
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["生成AIナレッジベースの作成"]
-
-
-
-==== 埋め込み、チャット、再ランキングモデルで推論タイプの選択がサポートされるようになりました
-
-選択した埋め込み、チャット、または再ランク付けモデルに推論設定がある場合は、推論タイプを選択できるようになりました。これにより、チャットボットのパフォーマンスとリソース要件をニーズに合わせてより適切に調整できるようになります。
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["生成AIナレッジベースの作成"]
-
-
-
-=== セットアップと管理
-
-
-
-==== ストレージの新しい通知
-
-NetApp Workload Factory 通知サービスには、ストレージの Well-Architected の問題に関する通知が含まれています。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["NetApp Workload Factory の通知"]
-
-
-
-=== ビルダーのワークロード
-
-
-
-==== BlueXP workload factoryがNetAppワークロードファクトリーに
-
-BlueXP は、データ インフラストラクチャの管理における役割をより適切に反映するために、名前が変更され、再設計されました。その結果、 BlueXP workload factoryの名前がNetAppワークロード ファクトリーに変更されました。
