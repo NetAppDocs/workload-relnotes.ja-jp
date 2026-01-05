@@ -193,4 +193,25 @@
   <block id="5e3b7f958129022f75fe2931c55615b2" category="doc">Ask me AIアシスタントのホームページ統合</block>
   <block id="65bcc541760e8f25e0281edbfdfbf7f3" category="paragraph">Workload Factory コンソールのホームページには Ask me AI アシスタントが組み込まれており、独自のストレージ資産について質問したり、環境から直接パーソナライズされた分析情報を取得したり、以前の会話を参照したりすることができます。コンソールを離れることなく、「Ask me」と対話してワークロードを理解し、問題をトラブルシューティングし、Workload Factory について詳しく知ることができます。</block>
   <block id="334f5b13a66630c66877aaf36ce24673" category="section-title">2026年1月4日</block>
+  <block id="bc5d3bf99236801351dc3a2d7c20aed7" category="paragraph">Workload Factory は、次の構成について FSx for ONTAPファイル システムを分析します。</block>
+  <block id="afc7c7589e5f20d86c03b5e089bbad6b" category="list-text">NetApp Autonomous Ransomware Protection (ARP/AI) がブロックデバイスを含むように無効化: ブロックデバイスボリュームで ARP/AI が無効化されているかどうかを確認します。</block>
+  <block id="2270e6ac2c31be458c93c87db612a494" category="list-text">キャッシュ関係書き込みモード: 書き込みモードがキャッシュボリュームのワークロードに最適かどうかを確認します。</block>
+  <block id="2125a9a589f0bc57c38acf63f5ffb150" category="list-text">不要なバックアップの削除: コストを削減するために削除できる古いバックアップや不要なバックアップがないか確認します。</block>
+  <block id="270dd22752e2f3f31c99a49ff489774e" category="section-title">Lambda リンク リソースベースのアクセス許可ポリシーでの IAM ユーザー プリンシパルの使用</block>
+  <block id="75141a4e46e0a646f4c8379f8d5e7b52" category="paragraph">高度なONTAP操作を実行するために Workload Factory アカウントと 1 つ以上の FSx for ONTAPファイルシステム間を接続するために使用される Lambda リンクは、リソースベースのポリシーアクセス許可に IAM ユーザープリンシパルを使用するようになりました。この変更により、AWS リソースアクセスに関する業界のベストプラクティスとの整合性が向上します。</block>
+  <block id="b0dd04cf44137b432a8f89cb4f3c9919" category="section-title">EMSイベントのAIアナライザーに分析画面を追加しました</block>
+  <block id="5cd27690d7988b2c3f04768e500459bb" category="paragraph">ストレージ メニューに新しい [分析] 画面が追加されました。この画面から、FSx for ONTAP EMS イベント機能の AI アナライザーを使用できます。</block>
+  <block id="a9b4b239246fd03c03ac43e963075319" category="section-title">NetApp Workload Factoryのブロックデバイスの機能強化</block>
+  <block id="6ef37e3f05edf0fb9740ef851722a8f3" category="paragraph">ブロック デバイスに対して次の機能強化が行われました。</block>
+  <block id="0a32dfaa27bfe59db7152c5c5da72282" category="section-title">ブロックデバイスの作成</block>
+  <block id="8e8c152eb29cb88d5d80a375d44aee87" category="paragraph">NetApp Workload Factory は、 FSx for ONTAPファイル システムで iSCSI プロトコルを使用してブロック デバイスを作成することをサポートしているため、Workload Factory コンソールから基幹業務 (LOB) アプリケーションをより適切にサポートできます。</block>
+  <block id="0b5d1c04d20d94c2a21dacfa53d7354d" category="section-title">ブロックデバイス管理の機能強化</block>
+  <block id="e578bac1e9f39054ae2eb2b16d807f71" category="inline-link-macro">ブロックデバイスの管理</block>
+  <block id="e16cdf4dbd146007b4b40124e28ca1a2" category="paragraph">NetApp Workload Factoryには、以下の機能強化が含まれています。 <block ref="b08ca4e282a45fe2e49c9a019646bd36" category="inline-link-macro-rx"></block>。Workload Factory コンソールから次のタスクを実行できるようになりました。</block>
+  <block id="f8b3baca819978515d628c6a5881eb4e" category="list-text">クライアントアクセスの管理</block>
+  <block id="5338dad31c000cc89dea6cc573f1a242" category="list-text">ブロックデバイスデータをアーカイブする</block>
+  <block id="88073627bb09173d8e0b3fa15a27725b" category="list-text">ブロックデバイスを削除する</block>
+  <block id="3c4600754ec66ef615c303417126da12" category="section-title">ブロックデバイスを含むFlexVolボリューム上のARP/AIのサポート</block>
+  <block id="3043237188bfe3f198084dbfe55d05c0" category="inline-link-macro">NetApp のAI 搭載自律型ランサムウェア防御 (ARP/AI)</block>
+  <block id="34f4bbf8697d1205da43ee612001efe7" category="paragraph">有効にすることができます <block ref="028271ae216dacdd20feb47aea2c131d" category="inline-link-macro-rx"></block> ブロックデバイスを含むFlexVolボリューム上。ARP/AI を有効にすると、AI を使用してランサムウェア攻撃を検出し、データの復旧を支援します。</block>
 </blocks>

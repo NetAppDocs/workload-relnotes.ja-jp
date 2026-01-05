@@ -1,0 +1,63 @@
+= Well-Architected 分析の更新
+:allow-uri-read: 
+
+
+
+
+=== Well-Architected 分析の更新
+
+Workload Factory は、次の構成について FSx for ONTAPファイル システムを分析します。
+
+* NetApp Autonomous Ransomware Protection (ARP/AI) がブロックデバイスを含むように無効化: ブロックデバイスボリュームで ARP/AI が無効化されているかどうかを確認します。
+* キャッシュ関係書き込みモード: 書き込みモードがキャッシュボリュームのワークロードに最適かどうかを確認します。
+* 不要なバックアップの削除: コストを削減するために削除できる古いバックアップや不要なバックアップがないか確認します。
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["FSx for ONTAPファイルシステムの Well-Architected ステータスを表示します"]
+
+
+
+=== Ask me AIアシスタントのホームページ統合
+
+Workload Factory コンソールのホームページには Ask me AI アシスタントが組み込まれており、独自のストレージ資産について質問したり、環境から直接パーソナライズされた分析情報を取得したり、以前の会話を参照したりすることができます。コンソールを離れることなく、「Ask me」と対話してワークロードを理解し、問題をトラブルシューティングし、Workload Factory について詳しく知ることができます。
+
+
+
+=== Lambda リンク リソースベースのアクセス許可ポリシーでの IAM ユーザー プリンシパルの使用
+
+高度なONTAP操作を実行するために Workload Factory アカウントと 1 つ以上の FSx for ONTAPファイルシステム間を接続するために使用される Lambda リンクは、リソースベースのポリシーアクセス許可に IAM ユーザープリンシパルを使用するようになりました。この変更により、AWS リソースアクセスに関する業界のベストプラクティスとの整合性が向上します。
+
+
+
+=== EMSイベントのAIアナライザーに分析画面を追加しました
+
+ストレージ メニューに新しい [分析] 画面が追加されました。この画面から、FSx for ONTAP EMS イベント機能の AI アナライザーを使用できます。
+
+
+
+=== NetApp Workload Factoryのブロックデバイスの機能強化
+
+ブロック デバイスに対して次の機能強化が行われました。
+
+
+
+==== ブロックデバイスの作成
+
+NetApp Workload Factory は、 FSx for ONTAPファイル システムで iSCSI プロトコルを使用してブロック デバイスを作成することをサポートしているため、Workload Factory コンソールから基幹業務 (LOB) アプリケーションをより適切にサポートできます。
+
+
+
+==== ブロックデバイス管理の機能強化
+
+NetApp Workload Factoryには、以下の機能強化が含まれています。 link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html["ブロックデバイスの管理"]。Workload Factory コンソールから次のタスクを実行できるようになりました。
+
+* クライアントアクセスの管理
+* ブロックデバイスデータをアーカイブする
+* ブロックデバイスを削除する
+
+
+
+
+==== ブロックデバイスを含むFlexVolボリューム上のARP/AIのサポート
+
+有効にすることができます link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["NetApp のAI 搭載自律型ランサムウェア防御 (ARP/AI)"] ブロックデバイスを含むFlexVolボリューム上。ARP/AI を有効にすると、AI を使用してランサムウェア攻撃を検出し、データの復旧を支援します。
