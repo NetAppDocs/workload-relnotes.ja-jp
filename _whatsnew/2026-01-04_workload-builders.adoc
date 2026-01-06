@@ -1,0 +1,17 @@
+= NetApp Workload Factory for Builders がNetApp Workload Factory for EDA に
+:allow-uri-read: 
+
+
+
+
+=== NetApp Workload Factory for Builders がNetApp Workload Factory for EDA に
+
+Workload Factory for Builders は Workload Factory for EDA になりました。名前の変更は、電子設計自動化 (EDA) ワークロードに重点が置かれていることを反映しています。
+
+Workload Factory for EDA は、複数のファイルシステムにわたって FSx for ONTAPを最適化するのに役立ちます。ストレージ パラメータを自動化し、パフォーマンス制約を分析し、EDA プロジェクトに関する分析情報を取得することで、パフォーマンスを最適化し、運用コストを削減できます。Workload Factory for EDA は、Infrastructure as Code (IaC) フレームワークと統合するように設計されています。
+
+
+
+=== Ask me AIアシスタントのホームページ統合
+
+Workload Factory コンソールのホームページには Ask me AI アシスタントが組み込まれており、独自のストレージ資産について質問したり、環境から直接パーソナライズされた分析情報を取得したり、以前の会話を参照したりすることができます。コンソールを離れることなく、「Ask me」と対話してワークロードを理解し、問題をトラブルシューティングし、Workload Factory について詳しく知ることができます。
