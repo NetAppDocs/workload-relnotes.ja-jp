@@ -39,6 +39,89 @@ link:view-evs-well-architected.html["適切に設計された構成を実装す�
 
 
 
+=== セットアップと管理
+
+
+
+==== 適切に設計されたアップデート
+
+NetApp Workload Factory には、Elastic VMware Service（EVS）ワークロード向けの Well-Architected 評価が含まれており、ストレージおよびデータベース ワークロードの新しい構成が追加されています。
+
+* *VMware ワークロード* NetApp Workload Factory は、適切に設計された Amazon Elastic VMware Service （EVS） ワークロードを運用するためのベストプラクティスと推奨事項を提供します。
++
+link:https://docs.netapp.com/us-en/workload-vmware/view-evs-well-architected.html["適切に設計されたEVS構成を実装する"^]
+
+* *ストレージワークロード* ストレージワークロードのWell-Architected機能にいくつかの新しい構成が追加され、ストレージのパフォーマンスとコストをより深く理解できるようになりました。
++
+** Storage VM論理レポート
+** キャッシュボリュームのサイズを最適化する
+** 孤立したブロックデバイス
++
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Storage ワークロードに適したファイルシステム構成を実装する"^]
+
+
+
+* *データベース ワークロード* Workload Factory for Databases には、Direct NFS（dNFS）を有効にして設定し、I/O パフォーマンスを向上させ、ホストとストレージ システムの負荷を軽減するための、Oracle の新しいストレージ構成が含まれています。
++
+** dNFSの有効化
+** dNFS 一貫性のある IP 解決
+** dNFS設定ファイル
+** dNFS `nosharecache`
++
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["適切に設計されたデータベースワークロードを実装する"^]
+
+
+
+
+
+
+
+==== Storage の新しい権限
+
+S3 アクセスポイントの管理を強化するために、Storage ワークロードに新しい権限が追加されました。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["権限参照の変更ログ"]
+
+
+
+=== ビルダーのワークロード
+
+
+
+==== カスタマイズ可能なタグによる強化されたダッシュボードフィルタリング
+
+EDAダッシュボードで、AWSタグに基づいて最大5つのカスタムフィルターを設定できるようになりました。各カスタムフィルターには、ラベル名、AWSタグキー、選択タイプ（単一選択または複数選択）が含まれます。
+
+複数選択では複数の値を同時に選択できますが、単一選択では一度に1つの値しか選択できません。カスタムフィルターは設定した順序で表示されるため、頻繁に使用するフィルターを簡単に整理できます。
+
+カスタムフィルターを構成しない場合は、デフォルトのフィルター（ファイルシステム、ボリュームタイプ、時間範囲）が引き続き使用できるため、ダッシュボードの表示と操作を続行できます。
+
+https://docs.netapp.com/us-en/workload-eda/task-configure-dashboard.html["カスタムフィルターの設定について詳しく見る"^].
+
+
+
+==== 詳細なパフォーマンス分析のためのボリューム詳細ビュー
+
+ダッシュボードに、合計ビューとボリュームビューの2つの表示モードが追加されました。合計ビューでは全ボリュームの集計指標が表示され、ボリュームビューでは上位10件のボリュームの個別パフォーマンスが時系列で表示されます。
+
+ボリュームビューでは、インタラクティブなホバーツールチップにより、各ボリュームの詳細情報（ボリューム名、メトリック、時間ごとの値など）が表示されます。複数のコンポーネントに同じボリュームが表示される場合、一貫した色分けにより、異なるメトリック間で特定のボリュームを容易に追跡できます。
+
+https://docs.netapp.com/us-en/workload-eda/task-configure-dashboard.html#view-volume-details["ボリュームの詳細の表示の詳細"^].
+
+
+
+==== プロアクティブなパフォーマンス監視のためのレイテンシ分析
+
+レイテンシー分析により、FSx for ONTAP ファイルシステム全体のボリューム読み取りおよび書き込みレイテンシーを監視できます。カスタマイズ可能な警告イベントおよび重要イベントのしきい値を設定することで、EDA ワークロードに影響を与える前にパフォーマンスのボトルネックをプロアクティブに特定できます。
+
+レイテンシ イベント テーブルにはすべての警告イベントと重大なイベントが表示されるため、ボリュームのパフォーマンスを監視し、最適化が必要なボリュームを特定できます。
+
+この機能には AWS 認証情報が必要で、EDA ダッシュボードの Latency メニューからアクセスできます。
+
+https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html["レイテンシ分析の詳細"^].
+
+
+
 == 2026年1月4日
 
 

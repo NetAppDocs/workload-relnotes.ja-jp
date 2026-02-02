@@ -141,4 +141,41 @@
   <block id="3ac4be70f27829fbadc2c932a5b029e4" category="inline-link-macro">適切に設計された構成を実装する</block>
   <block id="0f39698d75936e2b93022b9c574c0eb3" category="paragraph"><block ref="0f39698d75936e2b93022b9c574c0eb3" category="inline-link-macro-rx"></block></block>
   <block id="d1fabbd85b7cc34641739e525d26f652" category="section-title">2026年2月1日</block>
+  <block id="efc6f47d5e8620dbd993bbf5427fa876" category="doc">カスタマイズ可能なタグによる強化されたダッシュボードフィルタリング</block>
+  <block id="1c074117512c813d0d3c5474c6839792" category="paragraph">EDAダッシュボードで、AWSタグに基づいて最大5つのカスタムフィルターを設定できるようになりました。各カスタムフィルターには、ラベル名、AWSタグキー、選択タイプ（単一選択または複数選択）が含まれます。</block>
+  <block id="a290a89777e8fd7db6061c83affdbda9" category="paragraph">複数選択では複数の値を同時に選択できますが、単一選択では一度に1つの値しか選択できません。カスタムフィルターは設定した順序で表示されるため、頻繁に使用するフィルターを簡単に整理できます。</block>
+  <block id="a9f4d955c73322ea2697149d48ca3230" category="paragraph">カスタムフィルターを構成しない場合は、デフォルトのフィルター（ファイルシステム、ボリュームタイプ、時間範囲）が引き続き使用できるため、ダッシュボードの表示と操作を続行できます。</block>
+  <block id="7f599cf351ac708ac51a573f45f1adfe" category="inline-link">カスタムフィルターの設定について詳しく見る</block>
+  <block id="b4d8b5d35eb5ad238c4bc40c7bfa5cc8" category="paragraph"><block ref="0fffea6d188f5a3a46b25be10dcf1dca" category="inline-link-rx"></block>.</block>
+  <block id="5908526b06383bf6b835d957813a0a5b" category="section-title">詳細なパフォーマンス分析のためのボリューム詳細ビュー</block>
+  <block id="be14699d8f808150c6e3ec8fd5f5fb6f" category="paragraph">ダッシュボードに、合計ビューとボリュームビューの2つの表示モードが追加されました。合計ビューでは全ボリュームの集計指標が表示され、ボリュームビューでは上位10件のボリュームの個別パフォーマンスが時系列で表示されます。</block>
+  <block id="6828b4aa70bf0499581d68bc0a737c8a" category="paragraph">ボリュームビューでは、インタラクティブなホバーツールチップにより、各ボリュームの詳細情報（ボリューム名、メトリック、時間ごとの値など）が表示されます。複数のコンポーネントに同じボリュームが表示される場合、一貫した色分けにより、異なるメトリック間で特定のボリュームを容易に追跡できます。</block>
+  <block id="b7259cf0b1b93b9f8f56fd85b8a2075f" category="inline-link">ボリュームの詳細の表示の詳細</block>
+  <block id="3d218b60cf53ed75572aecfde4c1d233" category="paragraph"><block ref="fdc27d3397a23552fa2bc2b42dee0c76" category="inline-link-rx"></block>.</block>
+  <block id="a63dd8c708227f66adf2e93b1b973bfe" category="section-title">プロアクティブなパフォーマンス監視のためのレイテンシ分析</block>
+  <block id="4eca5955b4d0f7b664a2f65c49306dcf" category="paragraph">レイテンシー分析により、FSx for ONTAP ファイルシステム全体のボリューム読み取りおよび書き込みレイテンシーを監視できます。カスタマイズ可能な警告イベントおよび重要イベントのしきい値を設定することで、EDA ワークロードに影響を与える前にパフォーマンスのボトルネックをプロアクティブに特定できます。</block>
+  <block id="40a74d0e93037927ed8b742952444782" category="paragraph">レイテンシ イベント テーブルにはすべての警告イベントと重大なイベントが表示されるため、ボリュームのパフォーマンスを監視し、最適化が必要なボリュームを特定できます。</block>
+  <block id="40599551b14b033049a0306f8d7e0da2" category="paragraph">この機能には AWS 認証情報が必要で、EDA ダッシュボードの Latency メニューからアクセスできます。</block>
+  <block id="195b656b2b34184ab7cb51ea0158eba0" category="inline-link">レイテンシ分析の詳細</block>
+  <block id="3589dd4e8f5f2cbdba29810271d0f1d9" category="paragraph"><block ref="6f22f53277ef02f84f5ed64bde49085d" category="inline-link-rx"></block>.</block>
+  <block id="61e49369a35b0f8a0d95ef11e249239f" category="doc">適切に設計されたアップデート</block>
+  <block id="2c8617d4094e3a2f6f2b8588039ad2ed" category="paragraph">NetApp Workload Factory には、Elastic VMware Service（EVS）ワークロード向けの Well-Architected 評価が含まれており、ストレージおよびデータベース ワークロードの新しい構成が追加されています。</block>
+  <block id="af89cdfb55120aeef29143bab52cb6de" category="list-text">*VMware ワークロード* NetApp Workload Factory は、適切に設計された Amazon Elastic VMware Service （EVS） ワークロードを運用するためのベストプラクティスと推奨事項を提供します。</block>
+  <block id="74163cd660daafe169a986c2d540a418" category="inline-link-macro">適切に設計されたEVS構成を実装する</block>
+  <block id="5d6110d1881f093c497cdaeeb5611ea0" category="paragraph"><block ref="5d6110d1881f093c497cdaeeb5611ea0" category="inline-link-macro-rx"></block></block>
+  <block id="764d59d30018a72d1f4f007b467fe5ea" category="list-text">*ストレージワークロード* ストレージワークロードのWell-Architected機能にいくつかの新しい構成が追加され、ストレージのパフォーマンスとコストをより深く理解できるようになりました。</block>
+  <block id="20c3b23e12b3cf115bfb4bd82bd3368f" category="list-text">Storage VM論理レポート</block>
+  <block id="a9ac5841a812cdf71b3574e2998bafd4" category="list-text">キャッシュボリュームのサイズを最適化する</block>
+  <block id="2dac5abecf96a197d16faee0444100fe" category="list-text">孤立したブロックデバイス</block>
+  <block id="a9866f264fab2ea83525e7cc57292cbe" category="inline-link-macro">Storage ワークロードに適したファイルシステム構成を実装する</block>
+  <block id="99187ba72b66267d55626eb367382424" category="paragraph"><block ref="99187ba72b66267d55626eb367382424" category="inline-link-macro-rx"></block></block>
+  <block id="622975b7c88c6bc06b872c6006068776" category="list-text">*データベース ワークロード* Workload Factory for Databases には、Direct NFS（dNFS）を有効にして設定し、I/O パフォーマンスを向上させ、ホストとストレージ システムの負荷を軽減するための、Oracle の新しいストレージ構成が含まれています。</block>
+  <block id="5017259dadba571295ba93287ef883f9" category="list-text">dNFSの有効化</block>
+  <block id="3968d7d3f8cb0f09289a934bc1584128" category="list-text">dNFS 一貫性のある IP 解決</block>
+  <block id="a727ea61b65e8aff8729b4fc3c629094" category="list-text">dNFS設定ファイル</block>
+  <block id="3e4e5c9aa6d22a70ee2aadf98db8552a" category="list-text">dNFS<block ref="4740c034d97ca90a96b8050082816605" prefix=" " category="inline-code"></block></block>
+  <block id="4da0b519f402cca2d38847e59fb3b885" category="inline-link-macro">適切に設計されたデータベースワークロードを実装する</block>
+  <block id="813bbef54984e0f92c8a1fe77f77d9a8" category="paragraph"><block ref="813bbef54984e0f92c8a1fe77f77d9a8" category="inline-link-macro-rx"></block></block>
+  <block id="ae1c2cb14154da0c884354777730e920" category="section-title">Storage の新しい権限</block>
+  <block id="41489d6d5bf1d06c4d37f0baff512bcd" category="paragraph">S3 アクセスポイントの管理を強化するために、Storage ワークロードに新しい権限が追加されました。</block>
 </blocks>
