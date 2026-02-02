@@ -36,95 +36,10 @@
   <block id="374d5bd32bb9ae08b0f703942e0fe21c" category="doc">NetApp Workload Factoryの最近の変更点</block>
   <block id="ed09318eed7d979b31cfb4afc3b11097" category="sidebar">これらのリリース ノートでは、 NetApp Workload Factory の一部であるクラウド サービスの最近の機能強化について説明します。</block>
   <block id="9ff48e1eaa80562d8bc97f2d59b40e41" category="sidebar">NetApp Workload Factory リリースノート</block>
-  <block id="ea7d4002457b002b29ca2cb9a498c0bc" category="doc">ストレージの新しい通知</block>
-  <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">NetApp Workload Factory の通知</block>
-  <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
   <block id="41d5af71402e1d82f05775556afa695b" category="section-title">Oracle 向けの Well-Architected 分析</block>
   <block id="dd0f28440676e89c09bd52c7f70e866b" category="inline-link-macro">Workload Factory で Well-Architected データベース構成を実装する</block>
   <block id="24373c35884bc6090ef23efe0b026c1e" category="paragraph"><block ref="24373c35884bc6090ef23efe0b026c1e" category="inline-link-macro-rx"></block></block>
-  <block id="e36df438b5b93dceba2c7403d4b29005" category="doc">キャッシュボリューム管理</block>
-  <block id="97da28c7fc13e427cbb28f833b8e7e6e" category="paragraph">Workload Factory コンソール内から、次のキャッシュ ボリューム管理操作を実行できます。</block>
-  <block id="705987d425caa32725844671dba5db96" category="list-text">キャッシュ名を編集する</block>
-  <block id="fb7f41847231da20e771064f5b566df4" category="list-text">キャッシュボリュームの容量を増やす</block>
-  <block id="64fe5cd33226afdb2a1244ea9e67be19" category="list-text">キャッシュボリュームのマウントパスまたはエクスポートポリシーを編集する</block>
-  <block id="322c847779d1746b4e7d66ee05dcefcd" category="list-text">キャッシュボリュームのキャッシュ方法（モード）を変更する</block>
-  <block id="13c47466230be92e5e3aa6588809aeac" category="list-text">キャッシュボリュームを事前設定する</block>
-  <block id="52fc772a9179443c2c2ba75c94518e8f" category="list-text">キャッシュボリュームを削除する</block>
-  <block id="7826298c658de05b150f4b10fc144ea2" category="inline-link-macro">キャッシュボリュームを管理する</block>
-  <block id="7c0216aac73557cb5845492aebaeab8a" category="section-title">自動inode管理が利用可能</block>
-  <block id="31dcfbe8cd69ef4085402c0f104858cd" category="paragraph">自動容量管理を有効にする必要なく、自動 inode 管理を有効にすることができます。</block>
-  <block id="71e9d4ada3104308778ade0ba22de28d" category="inline-link-macro">自動inode管理を有効にする</block>
-  <block id="22fcde27b4672d89a21e10e9be49cdee" category="section-title">容量とinode使用量のしきい値警告設定</block>
-  <block id="cc72208ba5327054f030d802d324477c" category="inline-link-macro">NetApp Workload Factory通知サービス</block>
-  <block id="f1ff66cdf2af497189be6ebd8f6e5fcd" category="paragraph">しきい値警告は、容量と inode 使用量の両方に対して利用できます。自動容量または inode 管理を有効にするときに、これらのしきい値を設定できます。この設定を使用するには、<block ref="52b0820c6dc6b8d67591785df8b1a634" category="inline-link-macro-rx"></block> 。</block>
-  <block id="76170a72d0c8b98ef012c3b57dc6dbe8" category="section-title">ボリュームサイズの縮小が可能</block>
-  <block id="26b07c7813c6a780d507b42d999b4792" category="paragraph">NetApp Workload Factoryで NFS および SMB/CIFS ボリュームのサイズを縮小できます。この機能により、現在の容量では不要になったボリュームのサイズを縮小できるため、ストレージ リソースをより適切に管理できるようになります。</block>
-  <block id="fcbcb93b74f64a75b2b710bb8328b4e0" category="inline-link-macro">ボリュームの容量を減らす</block>
-  <block id="f09c98d35d5b89f3f833636d36ca3283" category="section-title">強化された FSx for ONTAPリソース状態</block>
-  <block id="9d017083ba2041742b1b85bbb1a846c4" category="paragraph">Workload Factory では、「構成ミス」のリソース状態が拡張され、リソースの実際の問題の説明が含まれるようになりました。</block>
   <block id="48707dc4d2e44fe9cf85834f27b932e8" category="paragraph">ワークロード ファクトリーは、次の構成について FSx for ONTAPファイル システムを分析します。</block>
-  <block id="04cc0a87491bd184b66866438266882a" category="list-text">ボリューム使用率がほぼ満杯: ファイル容量の 80% 以上を使用しているボリュームがあるかどうかを確認します。これにより、追加の容量が必要なボリュームを特定できます。</block>
-  <block id="39e165c09308fcda245787c3a6d7bf78" category="list-text">ボリュームへの不正アクセス: NFS または SMB/CIFS マウント パスを使用して iSCSI ボリュームにアクセスできるかどうかを確認し、ボリュームへの不正アクセスを削除してセキュリティ リスクを回避できます。</block>
-  <block id="bfd11f24993c810a26cdef233ebbdfb6" category="section-title">Workload Factory for Storage の権限の変更</block>
-  <block id="bdc39f4be3514cc2cad7e4ca6cba0988" category="paragraph">Workload Factory では、特定のアクションに必要な権限がより明確に示され、必要な権限のみを細かく選択できます。資格情報を追加すると、以前の権限モデルである _読み取り専用_ と _読み取り/書き込み_ の代わりに、3 つの権限オプションから選択できるようになります。新しい権限モデルでは、権限ポリシーが次のように分割されます。</block>
-  <block id="f9113d285c58dd831a3240c5b41a6f84" category="list-text">_表示、計画、分析_: FSx for ONTAPファイル システムを表示し、システムの健全性を把握し、システムの Well-Architected 分析を取得して、コスト削減を検討します。</block>
-  <block id="a45538554e2c413a5e22df853abb4d27" category="list-text">_操作と修復_: ファイル システム容量の調整やファイル システム構成の問題の修正などの運用タスクを実行します。</block>
-  <block id="036d0224d85e6a18c7e85f034ace65c1" category="list-text">_ファイルシステムの作成と削除_: FSx for ONTAPファイルシステムとストレージ VM を作成および削除します。</block>
-  <block id="c1c8be0a907c363e6506c96d16870672" category="paragraph">資格情報を追加するときに、Workload Factory に提供するアクセス レベルに基づいて、これらのアクセス許可ポリシーを 1 つ以上選択できます。</block>
-  <block id="b20b01e02162a68002ca1747d1bd3c10" category="inline-link-macro">ワークロードファクトリーの権限リファレンス</block>
-  <block id="444b052e3d1349e221d4ceb42e6c1cf7" category="paragraph"><block ref="444b052e3d1349e221d4ceb42e6c1cf7" category="inline-link-macro-rx"></block></block>
-  <block id="c4a6983274098ca737ffda27862010ea" category="section-title">FSx for ONTAPサイバー ボールト サポート</block>
-  <block id="4a3b498d2b39740971d75ebbab434a8f" category="paragraph">サイバー ボールト アーキテクチャで、FSx for ONTAP をソースまたはターゲットとして使用してサイバー ボールトを作成できます。サイバー ボールトは、重要なデータを保存するための安全で隔離された環境を提供し、ランサムウェアやその他のサイバー脅威からデータを保護します。</block>
-  <block id="4bc6d1e741e4c817c4985300ec66b77f" category="inline-link-macro">FSx for ONTAPでサイバー ボールトをセットアップする</block>
-  <block id="2afa479317acb4455a0a649aab2944d1" category="section-title">2025年11月2日</block>
-  <block id="3cab156afe8725e62725f4973a3c9949" category="doc">ダッシュボードの改善</block>
-  <block id="18657a21385444f338b37f8f0116ffc3" category="paragraph">新しいダッシュボードは合理化され、整理され、データベース リソースと Workload Factory の主要機能の概要を 1 つの画面でより明確に表示します。1 枚のカードではデータベース リソースが強調表示され、1 枚のカードでは Well-Architected スコアと分析に関する情報が提供され、1 枚のカードではエラー分析が表示され、2 枚のカードでは月間コストと潜在的な節約額が表示され、1 枚のカードではサンドボックスに関する情報が表示されます。</block>
-  <block id="52d93a06ea30bbc0d2d568569c6686f5" category="paragraph">Well-Architected 分析には、Oracle 構成に対する次の評価と修正が含まれます。</block>
-  <block id="4667bb7539009ed136b942febb5737ba" category="list-text">NFS プロトコルを使用したストレージ構成オペレーティング システム: 既存の Oracle データベース デプロイメントの NFS 構成に関する構成の問題を評価および修正します。</block>
-  <block id="679f71c6d98f7a5f25e9535eb16a19b5" category="list-text">iSCSI プロトコルを使用したストレージ構成オペレーティング システム: 既存の Oracle データベース デプロイメントの iSCSI 構成に関する構成問題を評価して修正します。</block>
-  <block id="7548e2cbb02ea769fa6f01e70f1d34ee" category="list-text">Automatic Storage Management (ASM) を使用したストレージ構成オペレーティング システム: 既存の Oracle データベース展開の ASM 構成に関する構成の問題を評価します。</block>
-  <block id="bff5f6ac72c7a46da345751a22e8e0a1" category="section-title">Workload Factory for Databases の権限の変更</block>
-  <block id="c3cf114e732250ac6b24d30e117ab24b" category="paragraph">Workload Factory for Databases では、権限ポリシーが更新され、特定のアクションに必要な内容がより明確になり、必要な権限のみを選択するための細分性が高まりました。資格情報を追加すると、以前の権限モデルである _読み取り専用_ と _読み取り/書き込み_ の代わりに、3 つの権限オプションから選択できるようになります。新しい権限モデルでは、権限ポリシーが次のように分割されます。</block>
-  <block id="d9fff61478503c71474a780705c79af6" category="list-text">_表示、計画、分析_: データベース リソースのインベントリを表示し、リソースの健全性を把握し、データベース構成の Well-Architected 分析を確認し、エラー ログ分析を取得し、節約を検討します。</block>
-  <block id="9ef8eb2bc51c8c6f6ba459302a542484" category="list-text">_運用と修復_: データベース リソースの運用タスクを実行し、データベース構成と基盤となる FSx for ONTAPファイル システム ストレージの問題を修正します。</block>
-  <block id="3f285f24375531d34b8b7d73726b69bc" category="list-text">_データベース ホストの作成_: ベスト プラクティスに従って、データベース ホストと、その基盤となる FSx for ONTAPファイル システム ストレージを展開します。</block>
-  <block id="034b7227f8903ae8faac7359c9b3d064" category="section-title">よく設計されたダッシュボード画面が追加されました</block>
-  <block id="7a524d371f7a263dae481eea0bc3de88" category="paragraph">新しい _Well-architected_ ダッシュボード画面がデータベース メニューに追加されました。この画面から、データベース資産全体の構成ステータスの集約ビューを取得できます。</block>
-  <block id="54543cd5b64fb08ea26d865ed21c8691" category="section-title">NetApp Backup and Recoveryにおけるデータベース導入時の編集保護</block>
-  <block id="c7c9b75c76356b2b8aa328068cd75a1c" category="paragraph">Workload Factory コンソールから、保護されたリソースの保護を編集することを選択すると、 NetApp Consoleのバックアップとリカバリにリダイレクトされ、保護ポリシーまたはスケジュールを変更できます。</block>
-  <block id="f3a2b46dc542d840ca95ad3799ace39b" category="inline-link-macro">データベースデプロイメントの編集保護</block>
-  <block id="2a601eb3188e615c20b76da1a5734646" category="paragraph"><block ref="2a601eb3188e615c20b76da1a5734646" category="inline-link-macro-rx"></block></block>
-  <block id="cf6dca9fc5d1f30c46f70906ef3152ce" category="section-title">エラー分析機能で利用可能なタグによるエラーフィルタリング</block>
-  <block id="b79d711ddf4eb26397c99031692c7a26" category="paragraph">Workload Factory のエラー分析機能を使用すると、インフラストラクチャ指向のタグで Microsoft SQL Server エラー ログをフィルター処理して表示できます。この機能強化により、問題を迅速にトリアージ、トラブルシューティング、解決できるようになります。</block>
-  <block id="c9c975f5587642db7fde90312ee94825" category="inline-link-macro">タグフィルタリングでエラーログを分析する</block>
-  <block id="99d2df171fdf12824fa9334fd19cf105" category="paragraph"><block ref="99d2df171fdf12824fa9334fd19cf105" category="inline-link-macro-rx"></block></block>
-  <block id="8763b09bbcb06ec11c1d0d3331ba74f4" category="paragraph"><block ref="8763b09bbcb06ec11c1d0d3331ba74f4" category="inline-link-macro-rx"></block></block>
-  <block id="8cc5e5335040870d41183130dad2a0a6" category="paragraph"><block ref="8cc5e5335040870d41183130dad2a0a6" category="inline-link-macro-rx"></block></block>
-  <block id="6b49a1e6e88960820791afdda16a063c" category="paragraph"><block ref="6b49a1e6e88960820791afdda16a063c" category="inline-link-macro-rx"></block></block>
-  <block id="7999c939951d1cfce0556df15a76a345" category="paragraph"><block ref="7999c939951d1cfce0556df15a76a345" category="inline-link-macro-rx"></block></block>
-  <block id="1aa6907369c233df8f3cc388c26b9890" category="paragraph"><block ref="1aa6907369c233df8f3cc388c26b9890" category="inline-link-macro-rx"></block></block>
-  <block id="a8652a10fdfc1f87b6bf65a1067a7fd9" category="doc">権限の更新</block>
-  <block id="27d373ed8bf1b1a511ec6680dde4e448" category="paragraph">このリリースでは、セキュリティとユーザー制御を強化するために、ストレージ、データベース、VMware ワークロードの権限ポリシーに大幅な更新を加えました。権限設定をより細かくカスタマイズして、必要に応じて権限を追加または解除できます。</block>
-  <block id="6ab8e8b21fd457b68a33554bd8f64377" category="inline-link-macro">Workload Factory の権限リファレンス</block>
-  <block id="f5baf95dfead3e34e749c6d871873a72" category="paragraph"><block ref="f5baf95dfead3e34e749c6d871873a72" category="inline-link-macro-rx"></block></block>
-  <block id="7723c7d7d2f2eb53098d3c771a7b7854" category="paragraph">NetApp Workload Factory通知サービスには、ストレージの自動 inode 管理に関する通知が含まれています。</block>
-  <block id="ef97320a660fe1bab5cd9dea0fdf90c3" category="section-title">自動容量および inode 管理のしきい値警告</block>
-  <block id="84ecff705434b96ba77d72c40db81a43" category="paragraph">ストレージの自動容量および inode 管理は、Workload Factory 通知サービスからの通知をトリガーする警告しきい値を使用して設定できます。この機能を使用するには、まず Workload Factory 通知サービスを有効にする必要があります。</block>
-  <block id="c9222d8b9aefb8ef9111967299e54ea0" category="inline-link-macro">NetApp Workload Factoryの通知を構成する</block>
-  <block id="ab64aae70d26185cca8d6c5afc54d185" category="paragraph"><block ref="ab64aae70d26185cca8d6c5afc54d185" category="inline-link-macro-rx"></block></block>
-  <block id="24469e003440641648ff205b984a0ac7" category="doc">FSx for ONTAPファイルシステムのデプロイメントウィザードに Amazon Elastic VMware Service の設定を導入</block>
-  <block id="0e8989988334c8827a95bf9733f5311e" category="paragraph">Amazon Elastic VMware Service の外部 NFS データストアとして使用する FSx for ONTAPファイル システムをデプロイするときに、データストアが接続される EVS 環境を選択できるようになりました。これにより、デプロイメント ウィザードのいくつかのフィールドが自動的に入力され、デプロイメント プロセスが簡素化されます。</block>
-  <block id="6dab83facb5fd4298e37906481e1055b" category="inline-link">推奨される FSx for ONTAPファイルシステムを導入する</block>
-  <block id="876ee64bc6b6627784cd32512c519f60" category="paragraph"><block ref="876ee64bc6b6627784cd32512c519f60" category="inline-link-rx"></block></block>
-  <block id="8bf32647108c4a28e744e9ba5a1683bf" category="section-title">VMware ワークロードの権限の変更</block>
-  <block id="18a162715dca6df2cf24f0158d03bddd" category="paragraph">VMware ワークロードでは、特定のアクションに必要な権限がより明確に示され、必要な権限のみを詳細に選択できます。資格情報を追加すると、以前の権限モデルである _読み取り専用_ と _読み取り/書き込み_ の代わりに、2 つの権限オプションから選択できるようになります。新しい権限モデルでは、権限ポリシーが次のように分割されます。</block>
-  <block id="0a015f0bd274c5e6c7a774ac18592871" category="list-text">_表示、計画、および分析_: EVS 仮想化環境のインベントリを表示し、システムの Well-Architected 分析を取得して、コスト削減を検討します。</block>
-  <block id="56522cb8a8b15eeca3868896cb875225" category="list-text">_データストアのデプロイと接続_: 推奨される VM レイアウトを Amazon EVS、Amazon EC2、または VMware Cloud on AWS vSphere クラスターにデプロイし、カスタマイズされたAmazon FSx for NetApp ONTAPファイルシステムを外部データストアとして使用します。</block>
-  <block id="59371e7e2c46a6e1dae0e4d3224dd7ef" category="paragraph">資格情報を追加するときに、VMware ワークロードに提供するアクセス レベルに基づいて、これらの権限ポリシーを 1 つ以上選択できます。</block>
-  <block id="1d194f6c398ca78aaffd8c430203e1ec" category="section-title">Amazon EC2 移行アドバイザーの改善</block>
-  <block id="bd926a6dc82c9eb9135d58e6c5a33568" category="paragraph">NetApp Workload Factory for VMware のこのリリースでは、移行アドバイザーのエクスペリエンスがいくつか改善されています。</block>
-  <block id="62057df0ae6e346379f483246f31203b" category="list-text">*移行計画の保存またはダウンロード*: 移行計画を PDF または CSV ファイルとして保存またはダウンロードできるようになりました。移行計画を保存すると、その計画は Workload Factory アカウントに保存されます。</block>
-  <block id="d0892726ec1e74441a4a801494ed29bb" category="paragraph">資格情報を追加するときに、Workload Factory for Databases に提供するアクセス レベルに基づいて、これらのアクセス許可ポリシーを 1 つ以上選択できます。</block>
   <block id="e738192b7a8dc90f6d5e566ceb909da3" category="doc">特定のリージョンにおける Amazon Elastic VMware Service への移行によるコスト削減を計算します</block>
   <block id="d4a40d01192a627963ffd40503ef4713" category="paragraph">クラウド移行のためのさまざまな展開オプションの価値を調査し、ソリューション評価に投入された労力を最適化し、クラウドで価値と節約をもたらす可能性のあるソリューションを詳細に調査できるようになりました。</block>
   <block id="de480346f69aff69cc4e4e1e5d52ea98" category="paragraph">また、EVS 展開で FSx for ONTAPを使用することで実現できる vCPU コアの節約を確認することもできます。</block>
@@ -217,4 +132,13 @@
   <block id="ef702fb37688ffbfdf16f6b005df7436" category="doc">NetApp Workload Factory for Builders がNetApp Workload Factory for EDA に</block>
   <block id="f48bd4568e33f95e23f1ea90df81f8af" category="paragraph">Workload Factory for Builders は Workload Factory for EDA になりました。名前の変更は、電子設計自動化 (EDA) ワークロードに重点が置かれていることを反映しています。</block>
   <block id="8e2c84558eaf80d5e8e99422d320b395" category="paragraph">Workload Factory for EDA は、複数のファイルシステムにわたって FSx for ONTAPを最適化するのに役立ちます。ストレージ パラメータを自動化し、パフォーマンス制約を分析し、EDA プロジェクトに関する分析情報を取得することで、パフォーマンスを最適化し、運用コストを削減できます。Workload Factory for EDA は、Infrastructure as Code (IaC) フレームワークと統合するように設計されています。</block>
+  <block id="8f1b9e3fbbd44cf22e9f5ac28290aba0" category="doc">Amazon Elastic VMware Service の Well-Architected 分析</block>
+  <block id="f6c8ff445c3db04296fa83d4b2790691" category="paragraph">Workload Factory は、Amazon Elastic VMware Service (EVS) 環境向けに、自動化された well-architected 分析機能を提供するようになりました。毎日のスキャンで設定の不整合を特定し、詳細な修復推奨事項を提供することで、最適な運用、セキュリティ、コスト効率の維持を支援します。</block>
+  <block id="7e27d05efe618fad67c0e09d831368c6" category="paragraph">スキャンはAWS APIを使用して実行されます。vSphere認証情報やvCenter接続は必要ありません。結果は、EVS環境の詳細にある新しい*Well-architectedステータス*タブで確認できます。</block>
+  <block id="b49141c08a1be0c2df4a29b08af10e5e" category="paragraph">このリリースには、次の分析情報が含まれています：</block>
+  <block id="eb309475830119de69a172afb7c872e1" category="list-text">*インスタンスの停止/終了保護ステータス*：EC2 の停止または終了保護が適用されていない EVS ノードを識別します。EC2 コンソールから EVS ノードを停止または終了すると、仮想マシンのデータが利用できなくなったり、データが失われたりする可能性があります。</block>
+  <block id="5e10e9fc9dc23fca9bdc4e8b00ae9469" category="list-text">*クラスターノードのパーティション配置アライメント*：AWSアベイラビリティーゾーン内のパーティションに障害が発生した場合に、重大な処理能力の低下やダウンタイムにつながる可能性のある、パーティション配置の不整合を検出します。各インサイトには、重大度レベル、影響を受けるリソース情報を含む詳細な検出結果、AWSベストプラクティスに基づく段階的な修復手順が含まれます。</block>
+  <block id="3ac4be70f27829fbadc2c932a5b029e4" category="inline-link-macro">適切に設計された構成を実装する</block>
+  <block id="0f39698d75936e2b93022b9c574c0eb3" category="paragraph"><block ref="0f39698d75936e2b93022b9c574c0eb3" category="inline-link-macro-rx"></block></block>
+  <block id="d1fabbd85b7cc34641739e525d26f652" category="section-title">2026年2月1日</block>
 </blocks>
