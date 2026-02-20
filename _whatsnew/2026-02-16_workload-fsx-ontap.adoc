@@ -1,0 +1,11 @@
+= ストレージVM移行のサポート
+:allow-uri-read: 
+
+
+
+
+=== ストレージVM移行のサポート
+
+NetApp Workload Factory は、ストレージ VM の移行をサポートするようになりました。この機能により、オンプレミス ONTAP システムまたは第一世代の FSx for ONTAP ファイルシステムから第二世代の FSx for ONTAP ファイルシステムへ、ONTAP ストレージシステムのデータと構成を移行できます。ストレージ VM のデータと構成設定を複製して、ダウンタイムとユーザーおよびアプリケーションの中断を最小限に抑えながら新しいファイルシステムに移動できます。
+
+この機能を使用するには、link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["レプリケーション関係を作成する"]ユースケースとして*Migration*を選択します。移行プロセスを完了するには、link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html#cut-over-replication-for-migration-use-cases["ストレージVMとその複製ボリュームをカットオーバーする"]データとStorage VM構成設定をターゲットのFSx for ONTAPファイルシステムに永続的に移行する必要があります。

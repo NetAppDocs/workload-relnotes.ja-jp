@@ -15,6 +15,46 @@ NetApp Workload Factory の一部であるワークロードの最新の変更�
 
 
 
+== 2026年2月16日
+
+
+
+=== NetApp ONTAP 対応の Amazon FSX
+
+
+
+==== ストレージVM移行のサポート
+
+NetApp Workload Factory は、ストレージ VM の移行をサポートするようになりました。この機能により、オンプレミス ONTAP システムまたは第一世代の FSx for ONTAP ファイルシステムから第二世代の FSx for ONTAP ファイルシステムへ、ONTAP ストレージシステムのデータと構成を移行できます。ストレージ VM のデータと構成設定を複製して、ダウンタイムとユーザーおよびアプリケーションの中断を最小限に抑えながら新しいファイルシステムに移動できます。
+
+この機能を使用するには、link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["レプリケーション関係を作成する"]ユースケースとして*Migration*を選択します。移行プロセスを完了するには、link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html#cut-over-replication-for-migration-use-cases["ストレージVMとその複製ボリュームをカットオーバーする"]データとStorage VM構成設定をターゲットのFSx for ONTAPファイルシステムに永続的に移行する必要があります。
+
+
+
+== 2026年2月2日
+
+
+
+=== データベースワークロード
+
+
+
+==== オンプレミスのMicrosoft SQL Server上の複数のデータベースホストのコスト削減を改善
+
+Microsoft SQL Server オンプレミスストレージのコスト削減分析が強化され、1つのFSx for ONTAPファイルシステム上で複数のデータベースホストに統合されたストレージソリューションが提供されるようになりました。この統合により、複数のデータベースホストに必要なファイルシステムの数が削減され、ストレージコストが最適化され、コスト削減が向上します。
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["オンプレミスのMicrosoft SQL Server上で検出されたホストの節約を調べる"]
+
+
+
+==== Oracle 向けの Well-Architected 分析
+
+Well-Architected分析には、Oracleのストレージ構成分析のための4つの新しいサブ評価が含まれています：dNFSの有効化、dNFSの一貫性のあるIP解決、dNFS構成ファイル、およびdNFS `nosharecache`。これらの評価は、Oracle環境でDirect NFS（dNFS）を有効にして設定することに関するもので、ホストNFSクライアントをバイパスし、NFSサーバ上でNFSファイル操作を直接実行することで、I/Oパフォーマンスが向上し、I/Oがより効率的に実行されるため、ホストとストレージシステムの負荷が軽減されます。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Workload Factory で Well-Architected データベース構成を実装する"]
+
+
+
 == 2026年2月1日
 
 
@@ -47,7 +87,7 @@ NetApp Workload Factory のストレージワークロードにおける S3 ア�
 
 S3アクセスポイントのメタデータを有効にすると、NetApp Workload Factoryは、AWS S3バケットを自動的にスキャンし、S3テーブルにデータを入力して、すべてのオブジェクト、そのメタデータ、属性、タグの明確なスナップショットを提供します。これらの詳細にアクセスすることで、運用上のオーバーヘッドを削減しながら、責任のあるデータの制御、可視性、信頼性を維持することができます。
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["FSx for ONTAP ファイルシステムの S3 アクセスポイントの詳細を表示"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["FSx for ONTAP ファイルシステムの S3 アクセスポイントの詳細を表示"]
 
 
 
@@ -55,7 +95,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.ht
 
 NetApp Workload Factory は、S3 アクセス ポイントの追加の管理操作を提供します。NetApp Workload Factory インターフェースから、アクセス ポイントの詳細を表示したり、既存の S3 アクセス ポイントを変更したり、S3 アクセス ポイント タグを追加または削除したりできるため、オブジェクト ストレージ管理タスクを効率化できます。
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["NetApp Workload FactoryでS3アクセスポイントを管理する"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["NetApp Workload FactoryでS3アクセスポイントを管理する"]
 
 
 
@@ -64,7 +104,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.ht
 Workload Factory は、次の構成について FSx for ONTAPファイル システムを分析します。
 
 * キャッシュ ボリューム サイズの最適化：最適なサイズを維持し、ホット データにキャッシュを集中させて効率を最大限に高めるために、キャッシュ ボリュームでボリュームの自動サイズ調整とスクラビングが有効になっているかどうかを確認します。
-* 孤立したブロックデバイス：ブロック デバイス データのアーカイブ、または 7 日間連続して使用されていないブロック デバイスの削除を推奨します。
+* 非アクティブなブロックデバイス：7 日間連続して使用されていないブロックデバイスのデータのアーカイブまたはブロックデバイスの削除を推奨します。
 * Storage VM 論理レポート：Storage VM のデフォルトのレポート設定が論理に設定されているかどうかを確認します。これにより、ボリューム レベルでのストレージ使用状況の可視性が向上します。
 
 
@@ -76,7 +116,7 @@ Workload Factory は、次の構成について FSx for ONTAPファイル シス
 
 * ストレージ効率：使用済みおよび使用可能なストレージ容量を表示します。使用済み容量は、SSD および容量プールのストレージ階層別に分類されます。
 * 保護されたデバイス：スナップショット、リモートレプリケーション、NetApp Autonomous Ransomware Protection（ARP/AI）、およびバックアップを使用するブロックデバイスの割合を表示します。
-* 孤立デバイス：7 日間連続して使用されていないブロック デバイスがあるかどうかを表示し、未使用のリソースを効果的に識別して管理するのに役立ちます。ここから、link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html#view-block-device-details["未使用のブロックデバイスのスペースを再利用する"]。
+* 孤立デバイス：7 日間連続して使用されていないブロック デバイスがあるかどうかを表示し、未使用のリソースを効果的に識別して管理するのに役立ちます。ここから、link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html#archive-the-data-of-an-inactive-block-device["未使用のブロックデバイスのスペースを再利用する"]。
 
 
 
@@ -85,8 +125,8 @@ Workload Factory は、次の構成について FSx for ONTAPファイル シス
 
 NetApp Workload Factoryは、FSx for ONTAPファイルシステムのブロックストレージ用イニシエータグループ（igroup）の作成と管理をサポートします。イニシエータグループは、ブロックデバイス（LUN）をアクセスが許可されたコンピューティングリソースに接続し、SAN環境のブロックストレージにアクセス許可レイヤーを提供します。
 
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-igroup.html["NetApp Workload Factoryでイニシエータグループを作成する"^]
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-igroups.html["NetApp Workload Factory で既存のイニシエーターグループを管理する"^]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-igroup.html["NetApp Workload Factoryでイニシエータグループを作成する"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-igroups.html["NetApp Workload Factory で既存のイニシエーターグループを管理する"]
 
 
 
@@ -156,7 +196,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 
 
 
-=== ビルダーのワークロード
+=== EDAワークロード
 
 
 
@@ -292,7 +332,7 @@ Workload Factory コンソールのホームページには Ask me AI アシス�
 
 
 
-=== ビルダーのワークロード
+=== EDAワークロード
 
 
 

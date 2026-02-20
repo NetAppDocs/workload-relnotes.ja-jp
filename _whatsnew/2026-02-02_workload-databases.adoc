@@ -1,0 +1,19 @@
+= オンプレミスのMicrosoft SQL Server上の複数のデータベースホストのコスト削減を改善
+:allow-uri-read: 
+
+
+
+
+=== オンプレミスのMicrosoft SQL Server上の複数のデータベースホストのコスト削減を改善
+
+Microsoft SQL Server オンプレミスストレージのコスト削減分析が強化され、1つのFSx for ONTAPファイルシステム上で複数のデータベースホストに統合されたストレージソリューションが提供されるようになりました。この統合により、複数のデータベースホストに必要なファイルシステムの数が削減され、ストレージコストが最適化され、コスト削減が向上します。
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["オンプレミスのMicrosoft SQL Server上で検出されたホストの節約を調べる"]
+
+
+
+=== Oracle 向けの Well-Architected 分析
+
+Well-Architected分析には、Oracleのストレージ構成分析のための4つの新しいサブ評価が含まれています：dNFSの有効化、dNFSの一貫性のあるIP解決、dNFS構成ファイル、およびdNFS `nosharecache`。これらの評価は、Oracle環境でDirect NFS（dNFS）を有効にして設定することに関するもので、ホストNFSクライアントをバイパスし、NFSサーバ上でNFSファイル操作を直接実行することで、I/Oパフォーマンスが向上し、I/Oがより効率的に実行されるため、ホストとストレージシステムの負荷が軽減されます。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Workload Factory で Well-Architected データベース構成を実装する"]
