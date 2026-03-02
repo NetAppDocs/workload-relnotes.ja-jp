@@ -38,54 +38,6 @@
   <block id="41d5af71402e1d82f05775556afa695b" category="section-title">Oracle 向けの Well-Architected 分析</block>
   <block id="dd0f28440676e89c09bd52c7f70e866b" category="inline-link-macro">Workload Factory で Well-Architected データベース構成を実装する</block>
   <block id="24373c35884bc6090ef23efe0b026c1e" category="paragraph"><block ref="24373c35884bc6090ef23efe0b026c1e" category="inline-link-macro-rx"></block></block>
-  <block id="48707dc4d2e44fe9cf85834f27b932e8" category="paragraph">ワークロード ファクトリーは、次の構成について FSx for ONTAPファイル システムを分析します。</block>
-  <block id="e738192b7a8dc90f6d5e566ceb909da3" category="doc">特定のリージョンにおける Amazon Elastic VMware Service への移行によるコスト削減を計算します</block>
-  <block id="d4a40d01192a627963ffd40503ef4713" category="paragraph">クラウド移行のためのさまざまな展開オプションの価値を調査し、ソリューション評価に投入された労力を最適化し、クラウドで価値と節約をもたらす可能性のあるソリューションを詳細に調査できるようになりました。</block>
-  <block id="de480346f69aff69cc4e4e1e5d52ea98" category="paragraph">また、EVS 展開で FSx for ONTAPを使用することで実現できる vCPU コアの節約を確認することもできます。</block>
-  <block id="122a56eb4649431a7f2dbb8886f047cc" category="inline-link">NetApp Workload Factoryで Amazon Elastic VMware Service の割引価格をご確認ください</block>
-  <block id="389870bd93c88ff4cb5e7f6216054ce2" category="paragraph"><block ref="389870bd93c88ff4cb5e7f6216054ce2" category="inline-link-rx"></block></block>
-  <block id="815e75619b370a1b845eccec6979ed74" category="section-title">2025年11月27日</block>
-  <block id="4afeabae14ccab1ba1ff53887c3a9701" category="doc">Amazon Elastic Block Store (EBS) のデータベース計算ツールで節約を最適化</block>
-  <block id="d9f7bd12b1b11b300e5288560b5e9987" category="paragraph">2 つの新しい計算機能により、EBS ストレージを使用して複数のインスタンスを実行する際のコスト削減分析が改善され、FSx for ONTAPに切り替えることでさらにコストを削減できるようになります。</block>
-  <block id="32ccdc5dd4f059ebfa9dabaa8c301cf0" category="list-text">Workload Factory は、1 つの FSx for ONTAPファイル システム上の複数のデータベース ホストに統合されたストレージ ソリューションを提供します。この統合により、複数のデータベース ホストに必要なファイル システムの数が削減され、ストレージ コストが最適化され、コスト削減が向上します。</block>
-  <block id="e11501c7d779140aaf7bc3e06e0c5005" category="list-text">Workload Factory は、EBS パフォーマンスの使用状況を分析し、最適かつ最もコスト効率の高い FSx for ONTAP構成を提案します。</block>
-  <block id="754cab29df96851e5cc6bac19fb8e4de" category="inline-link-macro">検出されたEBSホストの節約を調べる</block>
-  <block id="9c9dd70e9f385deab27852576ec6db9a" category="paragraph"><block ref="9c9dd70e9f385deab27852576ec6db9a" category="inline-link-macro-rx"></block></block>
-  <block id="0694112a63d48c58b25bbffa268e0b70" category="section-title">Well-Architected ダッシュボードで利用可能な Excel レポート</block>
-  <block id="5f00eea0cea6c8b64f9e110f5d403194" category="paragraph">適切に設計されたダッシュボードの Excel レポートをダウンロードできます。このレポートには、データベース リソースの well-architeccted ステータスと、オペレーティング システムおよびONTAPのサブ構成を含むすべてのリソース構成の推奨事項が示されます。</block>
-  <block id="9dc9a356684c35282d9c1ed4aa30e7a3" category="section-title">Oracle データベースで利用可能なエラー ログ アナライザー</block>
-  <block id="269a351d2772f2eea3d4497bdc4e42cf" category="paragraph">Agentic AI 搭載のエラー ログ アナライザーは、Oracle データベースで使用できます。この機能は、高度な機械学習アルゴリズムを活用して、ログ ファイル内のエラーを自動的に検出して分析します。このツールは、ログで識別されたパターンに基づいて開発者に実用的な洞察と推奨事項を提供することで、トラブルシューティング プロセスを合理化することを目的としています。</block>
-  <block id="b8b677d9dba6a14dd05b3a0eb592a9c5" category="inline-link-macro">Agentic AI搭載エラーログアナライザーの詳細</block>
-  <block id="eea441a7c94cd96996c9c96d7827e71f" category="paragraph"><block ref="eea441a7c94cd96996c9c96d7827e71f" category="inline-link-macro-rx"></block></block>
-  <block id="08b4436fffbd9bb2227d03f1cf33889b" category="paragraph">Well-Architected 分析には、2 つの新しいストレージ サイズ設定構成が含まれています。この分析では、既存の Oracle データベース デプロイメントのスワップ領域の割り当てとファイル システムのヘッドルームに関連する構成の問題を評価および修正します。</block>
-  <block id="081af9c5870a1e2b72453c8137d7fc73" category="doc">NetApp Workload Factoryにおけるブロックデバイスのサポート</block>
-  <block id="41c0f3170443e12c1081a0a411a2c7a4" category="paragraph">NetApp Workload Factoryで新しく導入されたブロック デバイス サポートを使用して、ブロック デバイスをより効率的に管理します。この機能を使用すると、iSCSI LUN の詳細を表示して容量を増やすことができるため、ストレージ ニーズに合わせて柔軟性が向上します。</block>
-  <block id="83fd7a4dba0970697d173ce4398c1b71" category="inline-link-macro">Workload Factoryでブロックデバイスを管理する</block>
-  <block id="e739cb7976f49d4295e9ffa8e259037b" category="paragraph"><block ref="e739cb7976f49d4295e9ffa8e259037b" category="inline-link-macro-rx"></block></block>
-  <block id="90b40f16cf91d89fc22fbcc0a38efa7c" category="list-text">不要なスナップショットの削除: ボリュームに、コストを削減するために削除できる古い不要なスナップショットがあるかどうかを確認します。</block>
-  <block id="2945c0b218624e42ee523aefde446d66" category="list-text">FlexGroupボリュームの再バランス: FlexGroupボリュームがメンバー ボリューム間で均等にバランス調整され、最適なパフォーマンスが確保されているかどうかを確認します。</block>
-  <block id="0f80b197268947adedcc0297fc4a4efd" category="section-title">NetApp Workload Factoryの EMS イベント用 AI アナライザー</block>
-  <block id="b0e5de397c4ec9c39df271c0f4cf05e1" category="paragraph">NetApp Workload Factory は、 ONTAPイベント管理システム (EMS) イベント用の AI 搭載アナライザーを導入しました。この機能は、EMS イベント データの分析に基づいて洞察と推奨事項を提供することで、問題を迅速に特定してトラブルシューティングするのに役立ちます。</block>
-  <block id="a661f5e2ef22dbf468d0f8427ad8323e" category="inline-link-macro">Workload Factory で EMS イベントを分析する</block>
-  <block id="8121ebebfc076bea222c1f4c838b09ec" category="paragraph"><block ref="8121ebebfc076bea222c1f4c838b09ec" category="inline-link-macro-rx"></block></block>
-  <block id="1df24a9e91a6f6d01b5ce32608b6f3f7" category="section-title">FSx for ONTAPファイルシステムのコストと使用状況の傾向を監視する</block>
-  <block id="56a2825e2abb3758584b94544cfdba40" category="paragraph">NetApp Workload Factoryコンソールから直接、FSx for ONTAPファイルシステムのコストと使用状況の傾向を監視できます。この機能は、ストレージの消費量とコストのメトリック、および明細化されたコストを提供し、リソースの割り当てと予算計画の最適化に役立ちます。</block>
-  <block id="bd89bba18a943a5ad32117396fcdea90" category="inline-link-macro">Workload Factory で FSx for ONTAPファイルシステムのコストを追跡する</block>
-  <block id="d5905c9d9cba2248871f04654e4f9b1d" category="paragraph"><block ref="d5905c9d9cba2248871f04654e4f9b1d" category="inline-link-macro-rx"></block></block>
-  <block id="5b58af6390ae44b5a39c726b4820fffb" category="section-title">NetApp Workload Factoryでファイルシステムの FSx タグを管理する</block>
-  <block id="543e684a4a914d6bef4f91873d32e315" category="paragraph">NetApp Workload Factoryコンソールからファイルシステムの FSx タグを直接簡単に管理できます。この機能を使用すると、タグを追加、編集、または削除できるため、FSx for ONTAPファイルシステムの整理と分類を効率化できます。</block>
-  <block id="8945587d036e5b09c39322767239857a" category="inline-link-macro">Workload Factory で FSx タグを管理する</block>
-  <block id="3c57420160e53dc4967d9ca75a5d5d06" category="paragraph"><block ref="3c57420160e53dc4967d9ca75a5d5d06" category="inline-link-macro-rx"></block></block>
-  <block id="1b931c0909a42d2dd6b1b28eeb36252c" category="section-title">FSx for ONTAPファイルシステムのキャッシュ容量を調整する</block>
-  <block id="aed1296ef373ba8df468af355d85d3ce" category="paragraph">Workload Factory コンソールからキャッシュ ボリュームの容量を増減できます。</block>
-  <block id="012110073acf8459d2a77ef54f547130" category="inline-link-macro">Workload Factory でキャッシュボリュームを管理する</block>
-  <block id="cfd839007fdba7ba7d7a5a35de4aa55a" category="paragraph"><block ref="cfd839007fdba7ba7d7a5a35de4aa55a" category="inline-link-macro-rx"></block></block>
-  <block id="6fe4c05a9bf5207dceacd4fcc6fc1064" category="doc">ストレージの権限の更新</block>
-  <block id="7d3f4d33aca7af4519cb87a63113caf9" category="paragraph">FSx for ONTAP EMS イベント アナライザーは、_operations and remediation_ 権限ポリシーの次の Amazon Bedrock 権限を使用して、ストレージ ワークロードのイベント データを取得します。</block>
-  <block id="71d01806cd25e89067c25b4f03e9a607" category="list-text"><block ref="9aa5a97dfe3f7608d8ee28e7db3c4e2c" prefix="" category="inline-code"></block></block>
-  <block id="4e736cb1760a43a4bf2b5d861b6deb96" category="list-text"><block ref="fdd997ab8b4252f76acdda855bb7b890" prefix="" category="inline-code"></block></block>
-  <block id="1ed1b1bc988715ea858abe38c168d87a" category="list-text"><block ref="00fe52afa6e3b9a0d389f529a2b88242" prefix="" category="inline-code"></block></block>
-  <block id="f80c2c54334d4ddca4016b89152c6684" category="list-text"><block ref="93804e96d3f417a0088c564647dd28e9" prefix="" category="inline-code"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">権限参照の変更ログ</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
   <block id="01f76f754caa3b688233762c1b9391f6" category="section-title">FSx for ONTAPの AWS S3 アクセス ポイントのサポート</block>
@@ -221,4 +173,10 @@
   <block id="94a0fe38d823039ecf92cb309a897fe3" category="paragraph">この機能を使用するには、<block ref="0ec91e6ac67cf0fd5240ce60db83aa2f" category="inline-link-macro-rx"></block>ユースケースとして*Migration*を選択します。移行プロセスを完了するには、<block ref="6174d071c9787b2abffa64516d72a11a" category="inline-link-macro-rx"></block>データとStorage VM構成設定をターゲットのFSx for ONTAPファイルシステムに永続的に移行する必要があります。</block>
   <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">2026年2月16日</block>
   <block id="e6437d0fab94a9cc41e9fc0354b23716" category="section-title">2026年2月2日</block>
+  <block id="129560e32411be4dc94c9cfeada8ea67" category="doc">Workload Factory で新しい Ask Me ブックマークが利用可能になりました</block>
+  <block id="4ea89e975474ebd5bba8d32ced2e95cc" category="paragraph">Workload Factory コンソールのすべての画面に新しい Ask Me ブックマークを追加しました。この改善により、ヘルプが必要なときにいつでも Ask Me に簡単かつ迅速にアクセスできるようになります。Ask Me は AI アシスタントであり、独自のワークロード環境について質問したり、環境から直接パーソナライズされた分析情報を取得したり、以前の会話を参照したりすることができます。</block>
+  <block id="38dc719ee518af5f799c19331bfd5f19" category="paragraph">新しいブックマークをクリックすると、どのページからでも Ask Me を開くことができます。現在の作業を中断することなく、サイドパネルで Ask me を起動し、現在行っている作業に関連する簡単な説明と推奨事項を提供します。</block>
+  <block id="80dcbdee31e7f18a301f863f8b73dc64" category="inline-link-macro">Ask Meの詳細</block>
+  <block id="ca844fa02d938fb3d0329bf797d0a633" category="paragraph"><block ref="ca844fa02d938fb3d0329bf797d0a633" category="inline-link-macro-rx"></block></block>
+  <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">2026年3月1日</block>
 </blocks>
