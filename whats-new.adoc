@@ -75,6 +75,66 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overvie
 
 
 
+=== NetApp ONTAP 対応の Amazon FSX
+
+
+
+==== Well-Architected 分析の更新
+
+Workload Factory は、次の構成について FSx for ONTAPファイル システムを分析します。
+
+* 十分に活用されていない SSD 容量：SSD 容量層が十分に活用されていないかどうかを確認し、コストを最適化するために SSD 容量を減らすことを推奨します。
+* ボリュームバックアップのスケジュール：Workload Factoryは構成の推奨事項を改善し、FSx for ONTAPバックアップまたはAWS Backupをオンにするオプションを追加しました。FSx for ONTAPバックアップは、ファイルシステム内のすべてのボリュームにデフォルトのポリシーを適用し、最大90日間保存される毎日のバックアップを作成します。AWS Backupでは、バックアッププラン内のボリュームごとに異なる保持期間を選択できます。
+
+
+
+
+==== Workload Factory はレプリケーションの AI と ML のユースケースをサポートします
+
+Workload Factory は、オンプレミスの ONTAP データを FSx for ONTAP にレプリケートし、AWS 人工知能（AI）および機械学習（ML）サービス用の S3 アクセス ポイントを作成して、AI/ML ワークフローを加速することをサポートします。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["AI  ML のユースケース向けにオンプレミスデータをレプリケート"]
+
+
+
+==== 既存の S3 アクセス ポイントの編集
+
+ボリュームに接続されている既存の S3 アクセス ポイントのユーザーとユーザー タイプを変更できます。アクセス ポイントのメタデータを有効または無効にすることもできます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["NetApp Workload FactoryでS3アクセスポイントを編集する"]
+
+
+
+==== ブロックストレージ図を追加しました
+
+ブロック ストレージを使用している場合は、ブロック ストレージ ダイアグラムを表示して、ブロック デバイスがノードおよび igroup にどのように接続するかを視覚化できます。この図は、ブロック ストレージを理解して管理するのに役立ちます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html["NetApp Workload Factoryでブロックストレージを管理"]
+
+
+
+==== 自動容量管理機能の更新
+
+このアップデートにより、この機能は自動容量管理と容量通知という 2 つの異なる機能に分割されます。
+
+自動容量管理は、最適なパフォーマンスを維持するためにファイル システム容量を自動的に追加または削除します。新しいオプションには、増分モードと適応モードが含まれます。増分モードでは、システムはしきい値で一定量ずつ容量を増加させます。適応モードでは、履歴データを使用して容量を予測し調整します。
+
+容量通知は、容量調整が発生したときやファイル システムが設定された制限に達したときに警告を発するため、問題が発生する前にストレージを管理できます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["NetApp Workload Factoryの自動容量管理と容量通知について学ぶ"]
+
+
+
+==== Workload Factory で新しい Ask Me ブックマークが利用可能になりました
+
+Workload Factory コンソールのすべての画面に新しい Ask Me ブックマークを追加しました。この改善により、ヘルプが必要なときにいつでも Ask Me に簡単かつ迅速にアクセスできるようになります。Ask Me は私たちの AI アシスタントです。ワークロード環境について質問したり、パーソナライズされた分析情報を入手したり、以前の会話を確認したりできます。
+
+新しいブックマークをクリックすると、どのページからでも Ask Me を開くことができます。現在の作業を中断することなく、サイドパネルで Ask Me を起動し、現在行っている作業に関連する簡単な説明と推奨事項を提供します。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["Ask Meの詳細"^]
+
+
+
 === セットアップと管理
 
 
@@ -230,7 +290,7 @@ Workload Factory は、次の構成について FSx for ONTAPファイル シス
 
 * ストレージ効率：使用済みおよび使用可能なストレージ容量を表示します。使用済み容量は、SSD および容量プールのストレージ階層別に分類されます。
 * 保護されたデバイス：スナップショット、リモートレプリケーション、NetApp Autonomous Ransomware Protection（ARP/AI）、およびバックアップを使用するブロックデバイスの割合を表示します。
-* 孤立デバイス：7 日間連続して使用されていないブロック デバイスがあるかどうかを表示し、未使用のリソースを効果的に識別して管理するのに役立ちます。ここから、link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html#archive-the-data-of-an-inactive-block-device["未使用のブロックデバイスのスペースを再利用する"]。
+* 孤立デバイス：7 日間連続して使用されていないブロック デバイスがあるかどうかを表示し、未使用のリソースを効果的に識別して管理するのに役立ちます。ここから、link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html#archive-the-data-of-an-inactive-block-device["未使用のブロックデバイスのスペースを再利用する"]。
 
 
 

@@ -158,7 +158,6 @@
   <block id="fdb38c6259208c2509d21f6a3f0beb02" category="paragraph"><block ref="fdb38c6259208c2509d21f6a3f0beb02" category="inline-link-macro-rx"></block></block>
   <block id="cc97dddf7d9715fea79ba3e831f0fbca" category="paragraph"><block ref="cc97dddf7d9715fea79ba3e831f0fbca" category="inline-link-macro-rx"></block></block>
   <block id="3ecf18c09ae5a2bd1855ba6515de6cd7" category="list-text">非アクティブなブロックデバイス：7 日間連続して使用されていないブロックデバイスのデータのアーカイブまたはブロックデバイスの削除を推奨します。</block>
-  <block id="3310dcc189ef22670c22a32bdf58f0c9" category="list-text">孤立デバイス：7 日間連続して使用されていないブロック デバイスがあるかどうかを表示し、未使用のリソースを効果的に識別して管理するのに役立ちます。ここから、<block ref="5d1d66741e880017163f47d5a2557cb1" category="inline-link-macro-rx"></block>。</block>
   <block id="0352f037ca8dfca49383ddb908805d9a" category="list-text"><block ref="0352f037ca8dfca49383ddb908805d9a" category="inline-link-macro-rx"></block></block>
   <block id="0a17c703284dc61149bdaf13e30980de" category="list-text"><block ref="0a17c703284dc61149bdaf13e30980de" category="inline-link-macro-rx"></block></block>
   <block id="a7b7c2b9faa4f1ccdcf2564702c510b9" category="doc">オンプレミスのMicrosoft SQL Server上の複数のデータベースホストのコスト削減を改善</block>
@@ -213,4 +212,26 @@
   <block id="ae5954c9b41b0bfb09043a4117743d2d" category="inline-link-macro">オンプレミスデータベース環境の節約方法を見る</block>
   <block id="9621b726ce4b31f0b7bc139a85ef6f38" category="paragraph"><block ref="9621b726ce4b31f0b7bc139a85ef6f38" category="inline-link-macro-rx"></block></block>
   <block id="6ddfbfe3d38a813f004cc2f37d2a5866" category="section-title">2026年3月2日</block>
+  <block id="b810156a51d2ff011de686d088c6dcce" category="list-text">孤立デバイス：7 日間連続して使用されていないブロック デバイスがあるかどうかを表示し、未使用のリソースを効果的に識別して管理するのに役立ちます。ここから、<block ref="04044e5382e57a877bbf97c227fa9ee4" category="inline-link-macro-rx"></block>。</block>
+  <block id="b4faaa513060331f5bb7705e042e49cd" category="list-text">十分に活用されていない SSD 容量：SSD 容量層が十分に活用されていないかどうかを確認し、コストを最適化するために SSD 容量を減らすことを推奨します。</block>
+  <block id="01b065251159f3c3b86f7d49511f1bf7" category="list-text">ボリュームバックアップのスケジュール：Workload Factoryは構成の推奨事項を改善し、FSx for ONTAPバックアップまたはAWS Backupをオンにするオプションを追加しました。FSx for ONTAPバックアップは、ファイルシステム内のすべてのボリュームにデフォルトのポリシーを適用し、最大90日間保存される毎日のバックアップを作成します。AWS Backupでは、バックアッププラン内のボリュームごとに異なる保持期間を選択できます。</block>
+  <block id="9ad8abc81514723f5439d23cac33f67b" category="section-title">Workload Factory はレプリケーションの AI と ML のユースケースをサポートします</block>
+  <block id="4fabde129d63ed93da8d3a884a34d989" category="paragraph">Workload Factory は、オンプレミスの ONTAP データを FSx for ONTAP にレプリケートし、AWS 人工知能（AI）および機械学習（ML）サービス用の S3 アクセス ポイントを作成して、AI/ML ワークフローを加速することをサポートします。</block>
+  <block id="6f93097c4b22d10fa124cc3526343351" category="inline-link-macro">AI &amp; ML のユースケース向けにオンプレミスデータをレプリケート</block>
+  <block id="9204fcf38a3ec17161f43b022482f826" category="paragraph"><block ref="f326bef7ea7d0e36c5b06e0b9913123a" category="inline-link-macro-rx"></block></block>
+  <block id="42fe2ab7947c044bb47fb357526022c2" category="section-title">既存の S3 アクセス ポイントの編集</block>
+  <block id="33c5aa1872cfcc4e8c7c5850619e6f87" category="paragraph">ボリュームに接続されている既存の S3 アクセス ポイントのユーザーとユーザー タイプを変更できます。アクセス ポイントのメタデータを有効または無効にすることもできます。</block>
+  <block id="7525bd4fe22d4a212fea8807fb8d750b" category="inline-link-macro">NetApp Workload FactoryでS3アクセスポイントを編集する</block>
+  <block id="88d72467009c25b9669edfef18e21df3" category="paragraph"><block ref="88d72467009c25b9669edfef18e21df3" category="inline-link-macro-rx"></block></block>
+  <block id="692b5b6f757e38d7e4d1dd3f957a20f0" category="section-title">ブロックストレージ図を追加しました</block>
+  <block id="55d6cb6b45d9aaa08c53b22b5ac8a617" category="paragraph">ブロック ストレージを使用している場合は、ブロック ストレージ ダイアグラムを表示して、ブロック デバイスがノードおよび igroup にどのように接続するかを視覚化できます。この図は、ブロック ストレージを理解して管理するのに役立ちます。</block>
+  <block id="e852955e53f52fa18c0de4a24d22f4af" category="inline-link-macro">NetApp Workload Factoryでブロックストレージを管理</block>
+  <block id="e27c0520df6795eedf0c70ef38381a5b" category="paragraph"><block ref="e27c0520df6795eedf0c70ef38381a5b" category="inline-link-macro-rx"></block></block>
+  <block id="fe8de8255ddcf7ab25ab74f8ebd26038" category="section-title">自動容量管理機能の更新</block>
+  <block id="8e5031888ebd5b1abae0d4eb5bf05af3" category="paragraph">このアップデートにより、この機能は自動容量管理と容量通知という 2 つの異なる機能に分割されます。</block>
+  <block id="10a7856ed25b37558f2b515fcbe24567" category="paragraph">自動容量管理は、最適なパフォーマンスを維持するためにファイル システム容量を自動的に追加または削除します。新しいオプションには、増分モードと適応モードが含まれます。増分モードでは、システムはしきい値で一定量ずつ容量を増加させます。適応モードでは、履歴データを使用して容量を予測し調整します。</block>
+  <block id="afca613753b2d7f6ff8f1dad6c1dc86a" category="paragraph">容量通知は、容量調整が発生したときやファイル システムが設定された制限に達したときに警告を発するため、問題が発生する前にストレージを管理できます。</block>
+  <block id="19d4c34be6525aca788802a6167a4156" category="inline-link-macro">NetApp Workload Factoryの自動容量管理と容量通知について学ぶ</block>
+  <block id="ef319467f119e3bda1a975eb1f26e46d" category="paragraph"><block ref="ef319467f119e3bda1a975eb1f26e46d" category="inline-link-macro-rx"></block></block>
+  <block id="1c0128659c34cfdfa6e26b42e3133599" category="paragraph">Workload Factory コンソールのすべての画面に新しい Ask Me ブックマークを追加しました。この改善により、ヘルプが必要なときにいつでも Ask Me に簡単かつ迅速にアクセスできるようになります。Ask Me は私たちの AI アシスタントです。ワークロード環境について質問したり、パーソナライズされた分析情報を入手したり、以前の会話を確認したりできます。</block>
 </blocks>

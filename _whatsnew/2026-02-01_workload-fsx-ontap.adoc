@@ -57,7 +57,7 @@ Workload Factory は、次の構成について FSx for ONTAPファイル シス
 
 * ストレージ効率：使用済みおよび使用可能なストレージ容量を表示します。使用済み容量は、SSD および容量プールのストレージ階層別に分類されます。
 * 保護されたデバイス：スナップショット、リモートレプリケーション、NetApp Autonomous Ransomware Protection（ARP/AI）、およびバックアップを使用するブロックデバイスの割合を表示します。
-* 孤立デバイス：7 日間連続して使用されていないブロック デバイスがあるかどうかを表示し、未使用のリソースを効果的に識別して管理するのに役立ちます。ここから、link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html#archive-the-data-of-an-inactive-block-device["未使用のブロックデバイスのスペースを再利用する"]。
+* 孤立デバイス：7 日間連続して使用されていないブロック デバイスがあるかどうかを表示し、未使用のリソースを効果的に識別して管理するのに役立ちます。ここから、link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html#archive-the-data-of-an-inactive-block-device["未使用のブロックデバイスのスペースを再利用する"]。
 
 
 
