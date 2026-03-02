@@ -179,4 +179,38 @@
   <block id="80dcbdee31e7f18a301f863f8b73dc64" category="inline-link-macro">Ask Meの詳細</block>
   <block id="ca844fa02d938fb3d0329bf797d0a633" category="paragraph"><block ref="ca844fa02d938fb3d0329bf797d0a633" category="inline-link-macro-rx"></block></block>
   <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">2026年3月1日</block>
+  <block id="8d73c4037df134a624f4a3cc9d442a9e" category="doc">Ask Me AIアシスタントのホームページ統合</block>
+  <block id="a00917b130263595d00c3587c0e66a4f" category="paragraph">Workload Factory コンソールのホームページには Ask Me AI アシスタントが組み込まれており、独自のストレージ資産について質問したり、環境から直接パーソナライズされた分析情報を取得したり、以前の会話を参照したりすることができます。コンソールを離れることなく、Ask Me を操作してワークロードを理解し、問題をトラブルシューティングし、Workload Factory について詳しく知ることができます。</block>
+  <block id="d2afe782a3799f9f13f95374a1156d01" category="doc">EDA ストレージ管理の概要ダッシュボード</block>
+  <block id="4954af78de30fa7a68e150cce01a1ef1" category="paragraph">数十のFSx for ONTAPファイルシステムを管理するIT管理者は、概要ダッシュボードを使用して、クラスターの健全性、使用率、ボリュームの配置に関する一般的な運用上の質問に答えることができます。</block>
+  <block id="c9b7c8834662d595e73e6ec795a1438e" category="paragraph">概要ダッシュボードには次のものが含まれます：</block>
+  <block id="6295e7aeea412421b1717d5ccabe235b" category="list-text">*クラスタのヘルスステータス*：ダッシュボードの上部にまとめられた情報で、クラスタ全体のパフォーマンス、容量、可用性と保護、セキュリティイベントが強調表示されます。</block>
+  <block id="5ea38aab7fec2dffdc805f386d0132ab" category="list-text">*クラスタテーブル*：クラスタごとの SSD 容量、容量プール、スループット メトリックを表示する、検索可能、フィルタ可能、ページ分割可能なテーブル。列のカスタマイズと CSV エクスポートがサポートされています。</block>
+  <block id="b3e3b4895cbd35f5a2365afa09005d4f" category="paragraph">以前のメインダッシュボードは、*Project* タブからアクセスできるようになりました。EDA タブは、Overview、Latency、Project、CI/CD の順に並べられました。</block>
+  <block id="ad69b5e513be7d3ed6dfa533b8fa5d7b" category="inline-link">概要ダッシュボードの詳細</block>
+  <block id="a9268f7b1948a5e9223d90e6f5ee62ec" category="paragraph"><block ref="ed263773f1ab4c65130c8c21ca91276d" category="inline-link-rx"></block>。</block>
+  <block id="ceadd545963dc65de11a451079ea494e" category="section-title">自動レイテンシ分析</block>
+  <block id="bb185e5021bfe9db8739ffc98c9e991d" category="paragraph">レイテンシ分析に自動化された基本分析が含まれるようになりました。レイテンシイベントが検出されると、システムは自動的に ONTAP QoS 遅延センターメトリックを分析して、レイテンシ問題の原因を特定します。</block>
+  <block id="97d9985b0c67c7f1f1fab2857c6777c3" category="paragraph">基本分析では、QoS ポリシー、ディスクパフォーマンス、ネットワークの問題、クラスタ構成を評価し、レイテンシイベントテーブルの詳細列に即時の分析情報を表示します。</block>
+  <block id="213d18bdbc3550e144008c033bcbdd2c" category="inline-link">基本的なレイテンシ分析の詳細</block>
+  <block id="6469eb7981e75ae8c79c94f4a0fb1f29" category="paragraph"><block ref="ea3e0953bbba2ace45ca5d689b29167b" category="inline-link-rx"></block>。</block>
+  <block id="b365ed726bb3010ba5b4a6a1479128f9" category="paragraph">新しいブックマークをクリックすると、どのページからでも Ask Me を開くことができます。現在の作業を中断することなく、サイドパネルで Ask Me を起動し、現在行っている作業に関連する簡単な説明と推奨事項を提供します。</block>
+  <block id="df84e5c661ad9c55d4921f236021aac2" category="paragraph"><block ref="df84e5c661ad9c55d4921f236021aac2" category="inline-link-macro-rx"></block></block>
+  <block id="4b51d568a03393cf563624fcbba9143f" category="doc">1回限りの評価</block>
+  <block id="c87bb3ba3f920d90c329acddc2fe7385" category="paragraph">Workload Factory では、新しいデプロイメント、移行後、トラブルシューティングなど、必要なときにいつでもデータベース デプロイメントの構成を分析するための 1 回限りの評価が提供されるようになりました。デプロイメント構成を最適化し、ベスト プラクティスに準拠するのに役立つ推奨事項が得られます。これは、セットアップ プロセスを完全に実行せずに、適切に設計された機能を使用できる機会です。Workload Factory にクレデンシャルを保存したり、データベース リソースを登録したり、外部接続を設定したりすることなく、データベースを評価できます。</block>
+  <block id="e0b323aef6004097ab97ed7d77d06388" category="inline-link-macro">データベース導入の 1 回限りの評価を実行する</block>
+  <block id="fa29998d7ba5fe0bb430a106a7dd86bc" category="paragraph"><block ref="fa29998d7ba5fe0bb430a106a7dd86bc" category="inline-link-macro-rx"></block></block>
+  <block id="db82eade40cb0d84a1267b72a439d756" category="section-title">Microsoft SQL Server上のAlways On可用性グループおよびOracle上のData Guardの登録サポート</block>
+  <block id="9074af594544775f8103abf495f3e489" category="paragraph">Always On 可用性グループ（AOAG）展開モデルを使用した Microsoft SQL Server インスタンスと、Data Guard 展開モデルを使用した Oracle データベースを、NetApp Workload Factory のデータベース ワークロードで検出および登録できるようになりました。この機能強化により、Workload Factory コンソール内での SQL Server および Oracle リソースの管理が向上します。</block>
+  <block id="f7b5008af0a2a63908c672bf116eb9cd" category="paragraph">AOAG インスタンスと Data Guard データベースを登録すると、リソースの詳細の表示やエラー ログの分析など、Workload Factory for Databases のさまざまな機能を利用できるようになります。</block>
+  <block id="b670d12d9dbeacc2f76bcbbabb59b072" category="paragraph">Workload Factory for Databasesは、AOAGデプロイメントモデルを使用したMicrosoft SQL Serverインスタンスの優れたアーキテクチャの分析もサポートしています。可用性グループ内のSQL Serverインスタンスの構成を分析し、デプロイメント構成を最適化してベストプラクティスに準拠するための推奨事項を受け取ることができます。この機能を有効にするには、AOAGインスタンスを登録してください。</block>
+  <block id="fd16a8943ae80384234824f7a04cb2eb" category="inline-link-macro">Workload Factory for Databases にリソースを登録する</block>
+  <block id="e2da1373bb80f776ff6f57fbbe534851" category="paragraph"><block ref="e2da1373bb80f776ff6f57fbbe534851" category="inline-link-macro-rx"></block></block>
+  <block id="acc6acf63c7f7148c690b518cbbc53ca" category="paragraph">Well-Architected 分析には、Oracle の *オペレーティング システム パッチ* が含まれており、オペレーティング システムに最新のパッチが適用されているかどうかを確認し、そのインストール方法を案内します。</block>
+  <block id="10c0be29accc7dc47a6524aa470214cb" category="paragraph">さらに、Oracle の Well-Architected 分析では、ストレージ レイアウトなどの構成が他の構成に依存している場合に通知されます。通知には、リンクされた構成を最適化するためのアクションが示され、提供されるすべての推奨事項が最適になります。</block>
+  <block id="c02b138b3ded0ad5c64dc6ef4350f29e" category="section-title">Oracle オンプレミス データベース環境のコスト分析と移行計画</block>
+  <block id="c419699e9c7d19ed5944ddf6b8598cfe" category="paragraph">Workload Factory for Databasesは、OracleオンプレミスデータベースのAmazon FSx for NetApp ONTAPへの移行を分析し、計画を支援します。節約計算ツールを使用すると、Oracleオンプレミスデータベース環境をクラウドで実行する際のコストを見積もり、オンプレミスデータベース環境をクラウドに移行するための推奨事項を確認できます。</block>
+  <block id="ae5954c9b41b0bfb09043a4117743d2d" category="inline-link-macro">オンプレミスデータベース環境の節約方法を見る</block>
+  <block id="9621b726ce4b31f0b7bc139a85ef6f38" category="paragraph"><block ref="9621b726ce4b31f0b7bc139a85ef6f38" category="inline-link-macro-rx"></block></block>
+  <block id="6ddfbfe3d38a813f004cc2f37d2a5866" category="section-title">2026年3月2日</block>
 </blocks>
