@@ -40,13 +40,6 @@
   <block id="24373c35884bc6090ef23efe0b026c1e" category="paragraph"><block ref="24373c35884bc6090ef23efe0b026c1e" category="inline-link-macro-rx"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">権限参照の変更ログ</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
-  <block id="01f76f754caa3b688233762c1b9391f6" category="section-title">FSx for ONTAPの AWS S3 アクセス ポイントのサポート</block>
-  <block id="d30cb805d7270ac0b7cc06375888e47f" category="paragraph">NetApp Workload Factory は、 FSx for ONTAPファイルシステム用の AWS S3 アクセスポイントをサポートしています。S3 アクセス ポイントを使用してボリュームを作成し、既存のボリュームに S3 アクセス ポイントを割り当て、Workload Factory コンソールから S3 アクセス ポイントを管理できます。S3 アクセスポイントを使用すると、AWS S3 API を介して SMB/CIFS または NFS ボリューム上にあるファイルデータにアクセスできます。これにより、既存のデータを、S3 アクセスポイントをサポートする AWS サービスの GenAI、ML、分析と統合できます。</block>
-  <block id="ef6c8d59ba70b1efd5437dd31e63efcb" category="section-title">2025年12月4日</block>
-  <block id="bf9dc967c38bf5f6366aea1d464016b5" category="inline-link-macro">S3 アクセスポイントを使用してボリュームを作成する</block>
-  <block id="9650d80f3b4a8975eb2cc3145efe97fd" category="list-text"><block ref="9650d80f3b4a8975eb2cc3145efe97fd" category="inline-link-macro-rx"></block></block>
-  <block id="3e2c74c8c2d6921bd86b94a0e3ce7846" category="inline-link-macro">ボリュームのS3アクセスポイントを管理する</block>
-  <block id="bec075d59b91517943ea96b4d56e06de" category="list-text"><block ref="bec075d59b91517943ea96b4d56e06de" category="inline-link-macro-rx"></block></block>
   <block id="e75004bce0e2abb43e6673b8bd4bbd2f" category="doc">Active Directory統合の強化</block>
   <block id="4be7fbd19e77cc55e8637326f3cc569d" category="paragraph">Workload Factory for Databases には、*詳細作成* オプションを使用して Microsoft SQL Server を展開するときに、3 つの新しい Active Directory (AD) フィールドが含まれます。これらの機能強化により、Active Directory 参加の設定を指定し、管理されたサービス アカウントを使用できるようになります。</block>
   <block id="2d652258eef11b26b58d2ac1040af4fb" category="paragraph">新しい AD フィールドは次のとおりです。</block>
@@ -234,4 +227,13 @@
   <block id="19d4c34be6525aca788802a6167a4156" category="inline-link-macro">NetApp Workload Factoryの自動容量管理と容量通知について学ぶ</block>
   <block id="ef319467f119e3bda1a975eb1f26e46d" category="paragraph"><block ref="ef319467f119e3bda1a975eb1f26e46d" category="inline-link-macro-rx"></block></block>
   <block id="1c0128659c34cfdfa6e26b42e3133599" category="paragraph">Workload Factory コンソールのすべての画面に新しい Ask Me ブックマークを追加しました。この改善により、ヘルプが必要なときにいつでも Ask Me に簡単かつ迅速にアクセスできるようになります。Ask Me は私たちの AI アシスタントです。ワークロード環境について質問したり、パーソナライズされた分析情報を入手したり、以前の会話を確認したりできます。</block>
+  <block id="d9a614ba22162f87467dc9820cb657d0" category="doc">Google Cloud VMware Engine の移行アドバイザーサポートの紹介</block>
+  <block id="9ed9d229ad690b47d132eb6206cba909" category="paragraph">NetApp Workload Factory は Google Cloud VMware Engine をサポートするようになりました。Google Cloud NetApp Volumes を外部 NFS データストアとして使用することで、オンプレミスの VMware ワークロードを Google Cloud VMware Engine に移行でき、コストを最適化し、アプリケーションのリファクタリングや再プラットフォーム化を行わなくても VMware 環境をより細かく制御できるようになります。</block>
+  <block id="42fbc3a98a8196c1e84ea7586967c06f" category="paragraph">Google Cloud VMware Engine 移行アドバイザーは以下を提供します：</block>
+  <block id="6e784cfbe98c0f6a070e3304420a9971" category="list-text">VE1 および VE2 ノードタイプをサポートする、Google Cloud VMware Engine クラスタのサイジングと設計の自動化</block>
+  <block id="f6879c882f4384c5ca30017d48dafe42" category="list-text">vSAN 内部データストアと Google Cloud NetApp Volumes 外部 NFS データストア間の VM レイアウトの最適化。</block>
+  <block id="a29465f74d83dc4ead73643e19ed4387" category="list-text">vSANのみ構成とGoogle Cloud NetApp Volumes強化構成との詳細なコスト比較およびTCO分析。</block>
+  <block id="1711c42c1c1d16547f3fc604cd9af939" category="list-text">Standard、Premium、Extreme Google Cloud NetApp Volumes サービスレベルのサポート。</block>
+  <block id="d5adbe8ffd84800d108bc7ddf1451b8a" category="list-text">自動プロビジョニングのための Terraform を使用した Infrastructure-as-Code デプロイメント。</block>
+  <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">2026年3月9日</block>
 </blocks>
