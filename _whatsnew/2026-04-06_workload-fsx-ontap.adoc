@@ -1,0 +1,35 @@
+= Well-Architected 分析の更新
+:allow-uri-read: 
+
+
+
+
+=== Well-Architected 分析の更新
+
+Workload Factory は、FSx for ONTAP ファイルシステムの*非アクティブな NAS ボリューム*を分析します。構成分析では、アクティブに使用されていない NAS ボリュームを特定し、ストレージ利用率を最適化してコストを削減するための対策を推奨します。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["適切に設計された FSx for ONTAP ファイルシステムを実装する"]
+
+
+
+=== S3アクセスポイントのジャーナルテーブル機能
+
+ジャーナルテーブル機能は、FSx ONTAP S3オブジェクトストレージを大規模に管理する方法を提供し、バケット内のオブジェクトに対するユーザーアクセスイベントや操作を簡単に監査できます。Workload Factoryを使用すると、バケットとS3テーブルの自動スキャンを設定してイベントの記録を保持し、すべてのオブジェクト、その詳細、およびユーザー操作を表示できます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/setup-journal-table.html["NetApp Workload Factoryのジャーナルテーブルインフラを設定します"]
+
+
+
+=== 既存のigroupの管理のサポート
+
+Workload Factoryは、既存のigroupの管理をサポートします。ブロックデバイスやホストイニシエータを追加または削除することで、デプロイされたワークロードを時間通りに提供できます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html["NetApp Workload Factoryでブロックストレージを管理"]
+
+
+
+=== FlexVol ボリュームのアグリゲートを指定するためのサポート
+
+Workload Factoryは、選択したアグリゲートでのFlexVolボリュームの作成をサポートしています。これにより、容量とパフォーマンスの負荷をすべてのファイルシステムリソースに分散させることができます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["NetApp Workload Factory で FlexVol volume を作成する"]
