@@ -88,6 +88,18 @@ link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explo
 
 
 
+=== セットアップと管理
+
+
+
+==== ストレージに関する新しい通知
+
+NetApp Workload Factory通知サービスには、Storage向けNetApp Autonomous Ransomware Protection with AI（ARP/AI）の通知が含まれます。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["NetApp Workload Factoryの通知"]
+
+
+
 == 2026年3月9日
 
 
