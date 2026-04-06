@@ -1,0 +1,32 @@
+= Oracle 向けの Well-Architected 分析
+:allow-uri-read: 
+
+
+
+
+=== Oracle 向けの Well-Architected 分析
+
+適切に設計された分析には、Oracle 向けの以下の新しい構成が含まれています：
+
+* *Oracle Critical Patch Updates*：サポート対象のOracleセルフマネージドデータベースインストールに必要なセキュリティパッチの不足状況を評価します。
+* *リージョン間レプリケーション*：Oracle データベースを提供する FSx for ONTAP ファイルシステムでリージョン間レプリケーション（CRR）が有効になっているかどうかを確認します。
+* *アプリケーション整合性スナップショット*：NetApp SnapCenterを使用したアプリケーション整合性スナップショットによってOracleデータベースが保護されているかどうかを確認します。
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Workload Factory で Well-Architected データベース構成を実装する"]
+
+
+
+=== Oracleの1回限りの評価
+
+Workload Factoryは、新規導入、移行後、トラブルシューティングなど、必要に応じていつでもOracleデータベースの導入構成を分析する、1回限りの評価サービスを提供開始しました。デプロイメント構成を最適化し、ベストプラクティスに準拠するための推奨事項が得られます。これは、セットアッププロセスに完全にコミットすることなく、優れた設計の機能を利用できる機会です。Workload Factoryに認証情報を保存したり、データベースリソースを登録したり、外部接続を設定したりすることなく、データベースを評価できます。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Oracle データベース環境の 1 回限りの評価を実施"]
+
+
+
+=== 複数のOracleデータベースにおけるコスト削減効果の向上
+
+Oracleのコスト削減分析を強化し、1つのFSx for ONTAPファイルシステム上の複数のOracleオンプレミスデータベース向けに統合ストレージソリューションを提供しています。この統合により、複数のデータベースに必要なファイルシステムの数を削減することでストレージコストが最適化され、コスト削減効果が向上します。
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["Oracleオンプレミスで検出されたデータベースの節約効果を検証する"]
