@@ -130,18 +130,12 @@
   <block id="ca844fa02d938fb3d0329bf797d0a633" category="paragraph"><block ref="ca844fa02d938fb3d0329bf797d0a633" category="inline-link-macro-rx"></block></block>
   <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">2026年3月1日</block>
   <block id="d2afe782a3799f9f13f95374a1156d01" category="doc">EDA ストレージ管理の概要ダッシュボード</block>
-  <block id="4954af78de30fa7a68e150cce01a1ef1" category="paragraph">数十のFSx for ONTAPファイルシステムを管理するIT管理者は、概要ダッシュボードを使用して、クラスターの健全性、使用率、ボリュームの配置に関する一般的な運用上の質問に答えることができます。</block>
-  <block id="c9b7c8834662d595e73e6ec795a1438e" category="paragraph">概要ダッシュボードには次のものが含まれます：</block>
   <block id="6295e7aeea412421b1717d5ccabe235b" category="list-text">*クラスタのヘルスステータス*：ダッシュボードの上部にまとめられた情報で、クラスタ全体のパフォーマンス、容量、可用性と保護、セキュリティイベントが強調表示されます。</block>
   <block id="5ea38aab7fec2dffdc805f386d0132ab" category="list-text">*クラスタテーブル*：クラスタごとの SSD 容量、容量プール、スループット メトリックを表示する、検索可能、フィルタ可能、ページ分割可能なテーブル。列のカスタマイズと CSV エクスポートがサポートされています。</block>
   <block id="b3e3b4895cbd35f5a2365afa09005d4f" category="paragraph">以前のメインダッシュボードは、*Project* タブからアクセスできるようになりました。EDA タブは、Overview、Latency、Project、CI/CD の順に並べられました。</block>
-  <block id="ad69b5e513be7d3ed6dfa533b8fa5d7b" category="inline-link">概要ダッシュボードの詳細</block>
-  <block id="a9268f7b1948a5e9223d90e6f5ee62ec" category="paragraph"><block ref="ed263773f1ab4c65130c8c21ca91276d" category="inline-link-rx"></block>。</block>
   <block id="ceadd545963dc65de11a451079ea494e" category="section-title">自動レイテンシ分析</block>
   <block id="bb185e5021bfe9db8739ffc98c9e991d" category="paragraph">レイテンシ分析に自動化された基本分析が含まれるようになりました。レイテンシイベントが検出されると、システムは自動的に ONTAP QoS 遅延センターメトリックを分析して、レイテンシ問題の原因を特定します。</block>
   <block id="97d9985b0c67c7f1f1fab2857c6777c3" category="paragraph">基本分析では、QoS ポリシー、ディスクパフォーマンス、ネットワークの問題、クラスタ構成を評価し、レイテンシイベントテーブルの詳細列に即時の分析情報を表示します。</block>
-  <block id="213d18bdbc3550e144008c033bcbdd2c" category="inline-link">基本的なレイテンシ分析の詳細</block>
-  <block id="6469eb7981e75ae8c79c94f4a0fb1f29" category="paragraph"><block ref="ea3e0953bbba2ace45ca5d689b29167b" category="inline-link-rx"></block>。</block>
   <block id="b365ed726bb3010ba5b4a6a1479128f9" category="paragraph">新しいブックマークをクリックすると、どのページからでも Ask Me を開くことができます。現在の作業を中断することなく、サイドパネルで Ask Me を起動し、現在行っている作業に関連する簡単な説明と推奨事項を提供します。</block>
   <block id="df84e5c661ad9c55d4921f236021aac2" category="paragraph"><block ref="df84e5c661ad9c55d4921f236021aac2" category="inline-link-macro-rx"></block></block>
   <block id="e0b323aef6004097ab97ed7d77d06388" category="inline-link-macro">データベース導入の 1 回限りの評価を実行する</block>
@@ -225,4 +219,26 @@
   <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">NetApp Workload Factoryの通知</block>
   <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
   <block id="0af31167a43cbbff0833653449e77b49" category="paragraph"><block ref="0af31167a43cbbff0833653449e77b49" category="inline-link-macro-rx"></block></block>
+  <block id="baf7dcba0c4a80ef2ec1dd0465a27ee0" category="paragraph">数十台のFSx for ONTAPファイルシステムを管理するIT管理者は、概要ダッシュボードを使用して、クラスタの状態、使用率、ボリュームの配置に関する一般的な運用上の質問に答えることができます。</block>
+  <block id="a75658829d674de492a2dd7d0818e7ca" category="paragraph">概要ダッシュボードには以下が含まれます：</block>
+  <block id="bac99350c8b9abdf51c8cb6c7a0467fd" category="inline-link">概要ダッシュボードの詳細</block>
+  <block id="427726ce5319ddeb6b4d93d416808b01" category="paragraph"><block ref="eed2fd228fd1462e58b4537ebcb82ccc" category="inline-link-rx"></block>。</block>
+  <block id="7b0ddde1961cce4426c7f0cf5da65e0d" category="doc">EDA容量に関する推奨事項</block>
+  <block id="edb815136867c3359e368e3f925ae387" category="paragraph">Workload Factory は、EDA インベントリ内の各 FSx for ONTAP クラスタの SSD 容量を自動的に分析し、調整が必要な場合に容量に関する推奨事項を生成します。このアルゴリズムは、各クラスタに対して 24 時間ごとに 1 回実行されます。</block>
+  <block id="1f9c155d60450baccee27bca630b6497" category="paragraph">推奨事項が特定された場合：</block>
+  <block id="8d65ccbe024d7453ace82bd13b7980d8" category="list-text">即座にメールまたはWAD通知が届きます（週次サマリーには含まれません）。</block>
+  <block id="8e5fe5a1e14c6d69b9c457c33f0204a7" category="list-text">クラスタテーブル内の該当するクラスタには、電球のインジケータが表示されます。</block>
+  <block id="c38bddc25aeb4374d71816e0b71a53a0" category="list-text">概要ダッシュボードの概要には、アクティブな推奨事項があるクラスターの総数が表示されます。</block>
+  <block id="1471ae7120155f3a06fa9c0a62a7f3f5" category="paragraph">推奨事項が有効になっているクラスタを選択すると、推奨事項が表示されます。推奨事項には、提案された変更内容とその理由が説明されています。</block>
+  <block id="2ccd39a9418b95cbcdec20bb3ef09998" category="inline-link">容量に関する推奨事項の詳細</block>
+  <block id="f5365a647b291a1c3ee4f226944d9a2f" category="paragraph"><block ref="a2995fc8e6aae530361e1ff8a48d8ace" category="inline-link-rx"></block>。</block>
+  <block id="606ee09c41a90b59b9cbb13e38ec6e86" category="section-title">自動AI レイテンシ分析</block>
+  <block id="8ae631ba5aac2d33e811621152cdf4a4" category="paragraph">レイテンシ分析に、AIエージェント分析が新たに加わりました。</block>
+  <block id="c9e8409eb7f69f1a747dacb755833499" category="paragraph">データ遅延やクラスタ遅延を伴う複雑なシナリオでは、AIエージェント分析を呼び出して以下の情報を受け取ることができます：</block>
+  <block id="81f0dd1809c0f077448d50d48cf6ce43" category="list-text">詳細な根本原因の特定</block>
+  <block id="a9e75b44526a7c3342bd86bfb6079dcc" category="list-text">影響を受けるEC2クライアントのリスト</block>
+  <block id="f1571de1d5f3c90507985e81e6f34526" category="list-text">具体的な修復手順</block>
+  <block id="0e3bc65341eefea76b4aa913be37a4d6" category="paragraph">AIエージェント分析にはAmazon BedrockモデルのARN構成が必要で、基本的な分析でより詳細な調査が推奨されるシナリオに対してオンデマンドで利用できます。AIエージェントは、バリーボリューム、最適ではないマウントポイント構成、FlexGroupリバランシングの必要性、スケールアウト要件などの問題を特定できます。</block>
+  <block id="3a0eea1249d5ea83860d68d281f6c97b" category="inline-link">AIエージェント分析の詳細</block>
+  <block id="af2687c5a2b9873716f0987242df8169" category="paragraph"><block ref="2915288e95b80b72c9de65e94d4fc279" category="inline-link-rx"></block>。</block>
 </blocks>
