@@ -33,3 +33,9 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html[
 Workload Factoryは、選択したアグリゲートでのFlexVolボリュームの作成をサポートしています。これにより、容量とパフォーマンスの負荷をすべてのファイルシステムリソースに分散させることができます。
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["NetApp Workload Factory で FlexVol volume を作成する"]
+
+
+
+=== ブロックデバイスの最終アクセス時刻
+
+Workload Factoryは、ブロックデバイスの最終アクセス時刻を報告します。時刻は、Workload Factoryでigroupに最後にアクセスした時点に基づいています。各ブロックデバイスが最後に使用された日時を知ることで、リソースを最適化することができます。
