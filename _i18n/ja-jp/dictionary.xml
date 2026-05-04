@@ -36,93 +36,14 @@
   <block id="41d5af71402e1d82f05775556afa695b" category="section-title">Oracle 向けの Well-Architected 分析</block>
   <block id="dd0f28440676e89c09bd52c7f70e866b" category="inline-link-macro">Workload Factory で Well-Architected データベース構成を実装する</block>
   <block id="24373c35884bc6090ef23efe0b026c1e" category="paragraph"><block ref="24373c35884bc6090ef23efe0b026c1e" category="inline-link-macro-rx"></block></block>
-  <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">権限参照の変更ログ</block>
-  <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
   <block id="bc5d3bf99236801351dc3a2d7c20aed7" category="paragraph">Workload Factory は、次の構成について FSx for ONTAPファイル システムを分析します。</block>
-  <block id="8f1b9e3fbbd44cf22e9f5ac28290aba0" category="doc">Amazon Elastic VMware Service の Well-Architected 分析</block>
-  <block id="f6c8ff445c3db04296fa83d4b2790691" category="paragraph">Workload Factory は、Amazon Elastic VMware Service (EVS) 環境向けに、自動化された well-architected 分析機能を提供するようになりました。毎日のスキャンで設定の不整合を特定し、詳細な修復推奨事項を提供することで、最適な運用、セキュリティ、コスト効率の維持を支援します。</block>
-  <block id="7e27d05efe618fad67c0e09d831368c6" category="paragraph">スキャンはAWS APIを使用して実行されます。vSphere認証情報やvCenter接続は必要ありません。結果は、EVS環境の詳細にある新しい*Well-architectedステータス*タブで確認できます。</block>
-  <block id="b49141c08a1be0c2df4a29b08af10e5e" category="paragraph">このリリースには、次の分析情報が含まれています：</block>
-  <block id="eb309475830119de69a172afb7c872e1" category="list-text">*インスタンスの停止/終了保護ステータス*：EC2 の停止または終了保護が適用されていない EVS ノードを識別します。EC2 コンソールから EVS ノードを停止または終了すると、仮想マシンのデータが利用できなくなったり、データが失われたりする可能性があります。</block>
-  <block id="5e10e9fc9dc23fca9bdc4e8b00ae9469" category="list-text">*クラスターノードのパーティション配置アライメント*：AWSアベイラビリティーゾーン内のパーティションに障害が発生した場合に、重大な処理能力の低下やダウンタイムにつながる可能性のある、パーティション配置の不整合を検出します。各インサイトには、重大度レベル、影響を受けるリソース情報を含む詳細な検出結果、AWSベストプラクティスに基づく段階的な修復手順が含まれます。</block>
-  <block id="3ac4be70f27829fbadc2c932a5b029e4" category="inline-link-macro">適切に設計された構成を実装する</block>
-  <block id="0f39698d75936e2b93022b9c574c0eb3" category="paragraph"><block ref="0f39698d75936e2b93022b9c574c0eb3" category="inline-link-macro-rx"></block></block>
-  <block id="d1fabbd85b7cc34641739e525d26f652" category="section-title">2026年2月1日</block>
-  <block id="efc6f47d5e8620dbd993bbf5427fa876" category="doc">カスタマイズ可能なタグによる強化されたダッシュボードフィルタリング</block>
-  <block id="1c074117512c813d0d3c5474c6839792" category="paragraph">EDAダッシュボードで、AWSタグに基づいて最大5つのカスタムフィルターを設定できるようになりました。各カスタムフィルターには、ラベル名、AWSタグキー、選択タイプ（単一選択または複数選択）が含まれます。</block>
-  <block id="a290a89777e8fd7db6061c83affdbda9" category="paragraph">複数選択では複数の値を同時に選択できますが、単一選択では一度に1つの値しか選択できません。カスタムフィルターは設定した順序で表示されるため、頻繁に使用するフィルターを簡単に整理できます。</block>
-  <block id="a9f4d955c73322ea2697149d48ca3230" category="paragraph">カスタムフィルターを構成しない場合は、デフォルトのフィルター（ファイルシステム、ボリュームタイプ、時間範囲）が引き続き使用できるため、ダッシュボードの表示と操作を続行できます。</block>
-  <block id="7f599cf351ac708ac51a573f45f1adfe" category="inline-link">カスタムフィルターの設定について詳しく見る</block>
-  <block id="b4d8b5d35eb5ad238c4bc40c7bfa5cc8" category="paragraph"><block ref="0fffea6d188f5a3a46b25be10dcf1dca" category="inline-link-rx"></block>.</block>
-  <block id="5908526b06383bf6b835d957813a0a5b" category="section-title">詳細なパフォーマンス分析のためのボリューム詳細ビュー</block>
-  <block id="be14699d8f808150c6e3ec8fd5f5fb6f" category="paragraph">ダッシュボードに、合計ビューとボリュームビューの2つの表示モードが追加されました。合計ビューでは全ボリュームの集計指標が表示され、ボリュームビューでは上位10件のボリュームの個別パフォーマンスが時系列で表示されます。</block>
-  <block id="6828b4aa70bf0499581d68bc0a737c8a" category="paragraph">ボリュームビューでは、インタラクティブなホバーツールチップにより、各ボリュームの詳細情報（ボリューム名、メトリック、時間ごとの値など）が表示されます。複数のコンポーネントに同じボリュームが表示される場合、一貫した色分けにより、異なるメトリック間で特定のボリュームを容易に追跡できます。</block>
-  <block id="b7259cf0b1b93b9f8f56fd85b8a2075f" category="inline-link">ボリュームの詳細の表示の詳細</block>
-  <block id="3d218b60cf53ed75572aecfde4c1d233" category="paragraph"><block ref="fdc27d3397a23552fa2bc2b42dee0c76" category="inline-link-rx"></block>.</block>
-  <block id="a63dd8c708227f66adf2e93b1b973bfe" category="section-title">プロアクティブなパフォーマンス監視のためのレイテンシ分析</block>
-  <block id="4eca5955b4d0f7b664a2f65c49306dcf" category="paragraph">レイテンシー分析により、FSx for ONTAP ファイルシステム全体のボリューム読み取りおよび書き込みレイテンシーを監視できます。カスタマイズ可能な警告イベントおよび重要イベントのしきい値を設定することで、EDA ワークロードに影響を与える前にパフォーマンスのボトルネックをプロアクティブに特定できます。</block>
-  <block id="40a74d0e93037927ed8b742952444782" category="paragraph">レイテンシ イベント テーブルにはすべての警告イベントと重大なイベントが表示されるため、ボリュームのパフォーマンスを監視し、最適化が必要なボリュームを特定できます。</block>
-  <block id="40599551b14b033049a0306f8d7e0da2" category="paragraph">この機能には AWS 認証情報が必要で、EDA ダッシュボードの Latency メニューからアクセスできます。</block>
-  <block id="195b656b2b34184ab7cb51ea0158eba0" category="inline-link">レイテンシ分析の詳細</block>
-  <block id="3589dd4e8f5f2cbdba29810271d0f1d9" category="paragraph"><block ref="6f22f53277ef02f84f5ed64bde49085d" category="inline-link-rx"></block>.</block>
-  <block id="61e49369a35b0f8a0d95ef11e249239f" category="doc">適切に設計されたアップデート</block>
-  <block id="2c8617d4094e3a2f6f2b8588039ad2ed" category="paragraph">NetApp Workload Factory には、Elastic VMware Service（EVS）ワークロード向けの Well-Architected 評価が含まれており、ストレージおよびデータベース ワークロードの新しい構成が追加されています。</block>
-  <block id="af89cdfb55120aeef29143bab52cb6de" category="list-text">*VMware ワークロード* NetApp Workload Factory は、適切に設計された Amazon Elastic VMware Service （EVS） ワークロードを運用するためのベストプラクティスと推奨事項を提供します。</block>
-  <block id="74163cd660daafe169a986c2d540a418" category="inline-link-macro">適切に設計されたEVS構成を実装する</block>
-  <block id="5d6110d1881f093c497cdaeeb5611ea0" category="paragraph"><block ref="5d6110d1881f093c497cdaeeb5611ea0" category="inline-link-macro-rx"></block></block>
-  <block id="764d59d30018a72d1f4f007b467fe5ea" category="list-text">*ストレージワークロード* ストレージワークロードのWell-Architected機能にいくつかの新しい構成が追加され、ストレージのパフォーマンスとコストをより深く理解できるようになりました。</block>
-  <block id="20c3b23e12b3cf115bfb4bd82bd3368f" category="list-text">Storage VM論理レポート</block>
-  <block id="a9ac5841a812cdf71b3574e2998bafd4" category="list-text">キャッシュボリュームのサイズを最適化する</block>
-  <block id="2dac5abecf96a197d16faee0444100fe" category="list-text">孤立したブロックデバイス</block>
-  <block id="a9866f264fab2ea83525e7cc57292cbe" category="inline-link-macro">Storage ワークロードに適したファイルシステム構成を実装する</block>
-  <block id="99187ba72b66267d55626eb367382424" category="paragraph"><block ref="99187ba72b66267d55626eb367382424" category="inline-link-macro-rx"></block></block>
-  <block id="622975b7c88c6bc06b872c6006068776" category="list-text">*データベース ワークロード* Workload Factory for Databases には、Direct NFS（dNFS）を有効にして設定し、I/O パフォーマンスを向上させ、ホストとストレージ システムの負荷を軽減するための、Oracle の新しいストレージ構成が含まれています。</block>
-  <block id="5017259dadba571295ba93287ef883f9" category="list-text">dNFSの有効化</block>
-  <block id="3968d7d3f8cb0f09289a934bc1584128" category="list-text">dNFS 一貫性のある IP 解決</block>
-  <block id="a727ea61b65e8aff8729b4fc3c629094" category="list-text">dNFS設定ファイル</block>
-  <block id="3e4e5c9aa6d22a70ee2aadf98db8552a" category="list-text">dNFS<block ref="4740c034d97ca90a96b8050082816605" prefix=" " category="inline-code"></block></block>
-  <block id="4da0b519f402cca2d38847e59fb3b885" category="inline-link-macro">適切に設計されたデータベースワークロードを実装する</block>
-  <block id="813bbef54984e0f92c8a1fe77f77d9a8" category="paragraph"><block ref="813bbef54984e0f92c8a1fe77f77d9a8" category="inline-link-macro-rx"></block></block>
-  <block id="ae1c2cb14154da0c884354777730e920" category="section-title">Storage の新しい権限</block>
-  <block id="41489d6d5bf1d06c4d37f0baff512bcd" category="paragraph">S3 アクセスポイントの管理を強化するために、Storage ワークロードに新しい権限が追加されました。</block>
-  <block id="5e3fec4e574658f05a0b92757b364cd9" category="doc">ホームページには、ストレージに関する適切に設計された問題と EMS イベントが含まれています</block>
-  <block id="8743ea79d0b29525fd3c69e5e3566399" category="paragraph">NetApp Workload Factory のホームページには、ワークロードに関する適切に設計された問題と FSx for ONTAP Emergency Management System（EMS）イベントが表示される Focus タイルがあります。そこから、Storage ワークロードに移動して、ストレージ環境内のすべての FSx for ONTAP ファイル システムの適切に設計されたステータスまたはイベントを表示できます。</block>
-  <block id="ccef8795f7e03f715debeb1aa9f4f09a" category="section-title">S3 アクセスポイントを使用したオンプレミスデータレプリケーションのサポート</block>
-  <block id="376c2bd6a2c38a02c3dfb4efa6e96674" category="paragraph">Workload Factory は、AWS GenAI、ML、分析との統合のために、オンプレミス ONTAP データのクラウドへのレプリケーションをサポートしています。S3 アクセス ポイントを使用して、オンプレミス データを NFS または SMB/CIFS ボリュームにレプリケートできます。</block>
-  <block id="b5eeeba16e1b7119307069cbaf3ccdf4" category="inline-link-macro">S3 アクセス ポイントを使用してオンプレミス データを複製する</block>
-  <block id="4750d90c2cd72e253c7d874bef89beff" category="paragraph"><block ref="4750d90c2cd72e253c7d874bef89beff" category="inline-link-macro-rx"></block></block>
-  <block id="b04638337aac148655a104c2db6c4766" category="section-title">Storage の S3 アクセス ポイントの機能強化</block>
-  <block id="f76e736f45740f58cc12ec666b824eb2" category="paragraph">NetApp Workload Factory のストレージワークロードにおける S3 アクセスポイント管理機能にいくつかの機能強化が行われました。S3 アクセスポイントのネットワーク構成の詳細を入力し、S3 アクセスポイントタグを追加できます。追加の機能強化には、S3 バケットの詳細を表示する機能や、S3 アクセスポイントを管理するための追加のアクションを実行する機能が含まれます。</block>
-  <block id="76f77cbc01f0341dffcaaa5f6236eb73" category="section-title">S3 バケットの詳細は Storage で利用可能</block>
-  <block id="2249107cb1f4c202ef0253c53bcff598" category="section-title">S3 アクセス ポイントの追加管理操作</block>
-  <block id="bf44c4671ee3bfbc818d505bb9a0e59a" category="paragraph">NetApp Workload Factory は、S3 アクセス ポイントの追加の管理操作を提供します。NetApp Workload Factory インターフェースから、アクセス ポイントの詳細を表示したり、既存の S3 アクセス ポイントを変更したり、S3 アクセス ポイント タグを追加または削除したりできるため、オブジェクト ストレージ管理タスクを効率化できます。</block>
-  <block id="e593953aaf04eebecfe2e26326145784" category="list-text">キャッシュ ボリューム サイズの最適化：最適なサイズを維持し、ホット データにキャッシュを集中させて効率を最大限に高めるために、キャッシュ ボリュームでボリュームの自動サイズ調整とスクラビングが有効になっているかどうかを確認します。</block>
-  <block id="a872ae5d7fdb75042465788519d63c35" category="list-text">Storage VM 論理レポート：Storage VM のデフォルトのレポート設定が論理に設定されているかどうかを確認します。これにより、ボリューム レベルでのストレージ使用状況の可視性が向上します。</block>
-  <block id="40fbd58cc84d2567a5be7db0e1e48224" category="section-title">ブロックデバイス用の追加カード</block>
-  <block id="e1d58576240df6c3acc0d5f3067d6468" category="paragraph">ブロック デバイスの使用状況と保護ステータスを迅速に把握できるように、Storage ワークロードの Block devices タブに 3 つの新しいカードが追加されました。</block>
-  <block id="2f09b86fd82a1603b2104c3d565e4187" category="list-text">ストレージ効率：使用済みおよび使用可能なストレージ容量を表示します。使用済み容量は、SSD および容量プールのストレージ階層別に分類されます。</block>
-  <block id="075b9a975b25dba22b299c4edaf12834" category="list-text">保護されたデバイス：スナップショット、リモートレプリケーション、NetApp Autonomous Ransomware Protection（ARP/AI）、およびバックアップを使用するブロックデバイスの割合を表示します。</block>
-  <block id="46dd61e303a77cea00fc631287dfeab6" category="inline-link-macro">未使用のブロックデバイスのスペースを再利用する</block>
-  <block id="9ebda12d23b72f4bdda3cbbcd05e0817" category="section-title">イニシエータグループの作成と管理のサポート</block>
-  <block id="de002c21193de456c56ce9ccecfc09ab" category="paragraph">NetApp Workload Factoryは、FSx for ONTAPファイルシステムのブロックストレージ用イニシエータグループ（igroup）の作成と管理をサポートします。イニシエータグループは、ブロックデバイス（LUN）をアクセスが許可されたコンピューティングリソースに接続し、SAN環境のブロックストレージにアクセス許可レイヤーを提供します。</block>
-  <block id="e477df666bb45ae0a1fda1f7058551a2" category="inline-link-macro">NetApp Workload Factoryでイニシエータグループを作成する</block>
-  <block id="8933129f9a07c1370a31a0b9f2e53018" category="inline-link-macro">NetApp Workload Factory で既存のイニシエーターグループを管理する</block>
   <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">EDAワークロード</block>
-  <block id="3ecf18c09ae5a2bd1855ba6515de6cd7" category="list-text">非アクティブなブロックデバイス：7 日間連続して使用されていないブロックデバイスのデータのアーカイブまたはブロックデバイスの削除を推奨します。</block>
-  <block id="0352f037ca8dfca49383ddb908805d9a" category="list-text"><block ref="0352f037ca8dfca49383ddb908805d9a" category="inline-link-macro-rx"></block></block>
-  <block id="0a17c703284dc61149bdaf13e30980de" category="list-text"><block ref="0a17c703284dc61149bdaf13e30980de" category="inline-link-macro-rx"></block></block>
-  <block id="a7b7c2b9faa4f1ccdcf2564702c510b9" category="doc">オンプレミスのMicrosoft SQL Server上の複数のデータベースホストのコスト削減を改善</block>
-  <block id="5f7eddfa3501167c2b174aa465bbc5f4" category="paragraph">Microsoft SQL Server オンプレミスストレージのコスト削減分析が強化され、1つのFSx for ONTAPファイルシステム上で複数のデータベースホストに統合されたストレージソリューションが提供されるようになりました。この統合により、複数のデータベースホストに必要なファイルシステムの数が削減され、ストレージコストが最適化され、コスト削減が向上します。</block>
-  <block id="46e4c2ea99ae4765f0b8b2d45f74a583" category="inline-link-macro">オンプレミスのMicrosoft SQL Server上で検出されたホストの節約を調べる</block>
-  <block id="23e03c6864871bf7fd6a119e3054dc60" category="paragraph"><block ref="23e03c6864871bf7fd6a119e3054dc60" category="inline-link-macro-rx"></block></block>
-  <block id="6b3755f8c80d4cb74f3c1056641d6741" category="paragraph">Well-Architected分析には、Oracleのストレージ構成分析のための4つの新しいサブ評価が含まれています：dNFSの有効化、dNFSの一貫性のあるIP解決、dNFS構成ファイル、およびdNFS<block ref="4740c034d97ca90a96b8050082816605" prefix=" " category="inline-code"></block>。これらの評価は、Oracle環境でDirect NFS（dNFS）を有効にして設定することに関するもので、ホストNFSクライアントをバイパスし、NFSサーバ上でNFSファイル操作を直接実行することで、I/Oパフォーマンスが向上し、I/Oがより効率的に実行されるため、ホストとストレージシステムの負荷が軽減されます。</block>
   <block id="5d8caeaede63e2cdba6715a163d09892" category="doc">ストレージVM移行のサポート</block>
   <block id="353d7ff4a3d58ad1fe8ef0ad6acab574" category="paragraph">NetApp Workload Factory は、ストレージ VM の移行をサポートするようになりました。この機能により、オンプレミス ONTAP システムまたは第一世代の FSx for ONTAP ファイルシステムから第二世代の FSx for ONTAP ファイルシステムへ、ONTAP ストレージシステムのデータと構成を移行できます。ストレージ VM のデータと構成設定を複製して、ダウンタイムとユーザーおよびアプリケーションの中断を最小限に抑えながら新しいファイルシステムに移動できます。</block>
   <block id="fb2a77c6756f10fcc139a51a83349d7f" category="inline-link-macro">レプリケーション関係を作成する</block>
   <block id="33039f37667143e740ae3514cd2b2eea" category="inline-link-macro">ストレージVMとその複製ボリュームをカットオーバーする</block>
   <block id="94a0fe38d823039ecf92cb309a897fe3" category="paragraph">この機能を使用するには、<block ref="0ec91e6ac67cf0fd5240ce60db83aa2f" category="inline-link-macro-rx"></block>ユースケースとして*Migration*を選択します。移行プロセスを完了するには、<block ref="6174d071c9787b2abffa64516d72a11a" category="inline-link-macro-rx"></block>データとStorage VM構成設定をターゲットのFSx for ONTAPファイルシステムに永続的に移行する必要があります。</block>
   <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">2026年2月16日</block>
-  <block id="e6437d0fab94a9cc41e9fc0354b23716" category="section-title">2026年2月2日</block>
   <block id="129560e32411be4dc94c9cfeada8ea67" category="doc">Workload Factory で新しい Ask Me ブックマークが利用可能になりました</block>
   <block id="4ea89e975474ebd5bba8d32ced2e95cc" category="paragraph">Workload Factory コンソールのすべての画面に新しい Ask Me ブックマークを追加しました。この改善により、ヘルプが必要なときにいつでも Ask Me に簡単かつ迅速にアクセスできるようになります。Ask Me は AI アシスタントであり、独自のワークロード環境について質問したり、環境から直接パーソナライズされた分析情報を取得したり、以前の会話を参照したりすることができます。</block>
   <block id="38dc719ee518af5f799c19331bfd5f19" category="paragraph">新しいブックマークをクリックすると、どのページからでも Ask Me を開くことができます。現在の作業を中断することなく、サイドパネルで Ask me を起動し、現在行っている作業に関連する簡単な説明と推奨事項を提供します。</block>
@@ -197,9 +118,6 @@
   <block id="141e832aa43713671a149000ddcd45e7" category="inline-link-macro">Oracleオンプレミスで検出されたデータベースの節約効果を検証する</block>
   <block id="dd6bcf35b4739e139fa3041add91e4f2" category="paragraph"><block ref="dd6bcf35b4739e139fa3041add91e4f2" category="inline-link-macro-rx"></block></block>
   <block id="7f65119c79afd09b7f99936d13e97909" category="section-title">2026年4月6日</block>
-  <block id="373a2f1d901c2d939efc602830f01830" category="paragraph">新しいInventoryテーブルは、AWS S3バケットを自動的にスキャンし、S3テーブルにデータを格納することで、すべてのオブジェクト、そのメタデータ、属性、タグの明確なスナップショットを提供します。これらの詳細情報にアクセスすることで、管理責任を負うデータに対する制御、可視性、信頼性を維持しつつ、運用オーバーヘッドを削減できます。この機能は、S3アクセスポイントの作成および接続時、または既存のアクセスポイントの編集時に有効にできます。</block>
-  <block id="89431b722804b6b5729917d710d8bca9" category="inline-link-macro">NetApp Workload Factory でボリューム用の S3 アクセスポイントを作成して接続します</block>
-  <block id="0695b468968701e6133374525567ebb8" category="list-text">非アクティブなブロックデバイス：7日間連続して使用されていないブロックデバイスがある場合、それを表示することで、未使用のリソースを効果的に特定し、管理するのに役立ちます。ここから、<block ref="04044e5382e57a877bbf97c227fa9ee4" category="inline-link-macro-rx"></block>。</block>
   <block id="0ba338e49aa7425a86cae293804b2d70" category="paragraph"><block ref="0ba338e49aa7425a86cae293804b2d70" category="inline-link-macro-rx"></block></block>
   <block id="97c89cdac712f1b76105f91dee0572f0" category="paragraph">Workload Factory は、FSx for ONTAP ファイルシステムの*非アクティブな NAS ボリューム*を分析します。構成分析では、アクティブに使用されていない NAS ボリュームを特定し、ストレージ利用率を最適化してコストを削減するための対策を推奨します。</block>
   <block id="8fed534b92837766d0beda280a6179f0" category="inline-link-macro">適切に設計された FSx for ONTAP ファイルシステムを実装する</block>
@@ -218,7 +136,6 @@
   <block id="77633bb85f2dda716363da565416542c" category="paragraph">NetApp Workload Factory通知サービスには、Storage向けNetApp Autonomous Ransomware Protection with AI（ARP/AI）の通知が含まれます。</block>
   <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">NetApp Workload Factoryの通知</block>
   <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
-  <block id="0af31167a43cbbff0833653449e77b49" category="paragraph"><block ref="0af31167a43cbbff0833653449e77b49" category="inline-link-macro-rx"></block></block>
   <block id="baf7dcba0c4a80ef2ec1dd0465a27ee0" category="paragraph">数十台のFSx for ONTAPファイルシステムを管理するIT管理者は、概要ダッシュボードを使用して、クラスタの状態、使用率、ボリュームの配置に関する一般的な運用上の質問に答えることができます。</block>
   <block id="a75658829d674de492a2dd7d0818e7ca" category="paragraph">概要ダッシュボードには以下が含まれます：</block>
   <block id="bac99350c8b9abdf51c8cb6c7a0467fd" category="inline-link">概要ダッシュボードの詳細</block>
@@ -243,4 +160,16 @@
   <block id="af2687c5a2b9873716f0987242df8169" category="paragraph"><block ref="2915288e95b80b72c9de65e94d4fc279" category="inline-link-rx"></block>。</block>
   <block id="d08fabf4c0fdff2290096692a4ffa28a" category="section-title">ブロックデバイスの最終アクセス時刻</block>
   <block id="fa4bdc942217a8579f785220b2742233" category="paragraph">Workload Factoryは、ブロックデバイスの最終アクセス時刻を報告します。時刻は、Workload Factoryでigroupに最後にアクセスした時点に基づいています。各ブロックデバイスが最後に使用された日時を知ることで、リソースを最適化することができます。</block>
+  <block id="5a022ce9df2c118b15eecf6d431faf14" category="doc">ブロックデバイスのクローン</block>
+  <block id="c74340453798a5d4d4e10a5aaef38904" category="paragraph">Workload Factoryは、ブロックデバイスのクローン機能を提供することで、容量、アクセス、ライフサイクルを制御しながら、書き込み可能で効率的なデータコピーを迅速にプロビジョニングできるようにします。</block>
+  <block id="91cb86206fad91f1ee03be3263ce2b5e" category="section-title">ブロックデバイス上のEC2タグ</block>
+  <block id="4cdbcf74dda458c541b8fb774532f64e" category="paragraph">ブロックデバイステーブルに、各ブロックデバイスを使用しているEC2ホストのタグを表示する列が追加されました。これは、トラブルシューティングや監査の際に、どのホストが各ブロックデバイスを使用しているかを特定するのに役立ちます。</block>
+  <block id="1182d4b8399f34126ea205e47a6a77aa" category="paragraph">各ブロックデバイスにタグを作成するには、提供されているユーザースクリプトを使用してEC2インスタンスをデプロイします。</block>
+  <block id="949772caeac38120e37726672f87e673" category="inline-link-macro">ブロックデバイスにタグを割り当てるEC2ユーザーデータスクリプト</block>
+  <block id="f253e6c2e63632a5f1a7ef4fe6522c2f" category="paragraph"><block ref="f253e6c2e63632a5f1a7ef4fe6522c2f" category="inline-link-macro-rx"></block></block>
+  <block id="607326d3637e008b134e64f39d8da723" category="section-title">FSx for ONTAP ファイルシステムの容量トレンド</block>
+  <block id="f9fdfcc52193908a516c0b9d7964af8e" category="paragraph">FSx for ONTAP ファイルシステムの概要から、SSD 容量のトレンドを直接確認できます。容量管理用の新しいカードでは、前月の使用状況のトレンドを包括的に表示します。この分析には、実際に使用された容量と割り当てられた容量の比較が含まれており、リソース使用率を明確に評価できます。</block>
+  <block id="9fe282a2158bc82a938a6290a314ca79" category="inline-link-macro">NetApp Workload Factoryで容量を自動的に管理</block>
+  <block id="9ab7147fcc802f47be068771ba492092" category="paragraph"><block ref="9ab7147fcc802f47be068771ba492092" category="inline-link-macro-rx"></block></block>
+  <block id="3be044b694628f6e958377c22febfacd" category="section-title">2026年5月3日</block>
 </blocks>

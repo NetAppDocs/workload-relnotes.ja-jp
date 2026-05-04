@@ -1,0 +1,29 @@
+= ブロックデバイスのクローン
+:allow-uri-read: 
+
+
+
+
+=== ブロックデバイスのクローン
+
+Workload Factoryは、ブロックデバイスのクローン機能を提供することで、容量、アクセス、ライフサイクルを制御しながら、書き込み可能で効率的なデータコピーを迅速にプロビジョニングできるようにします。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html["NetApp Workload Factoryでブロックストレージを管理"]
+
+
+
+=== ブロックデバイス上のEC2タグ
+
+ブロックデバイステーブルに、各ブロックデバイスを使用しているEC2ホストのタグを表示する列が追加されました。これは、トラブルシューティングや監査の際に、どのホストが各ブロックデバイスを使用しているかを特定するのに役立ちます。
+
+各ブロックデバイスにタグを作成するには、提供されているユーザースクリプトを使用してEC2インスタンスをデプロイします。
+
+link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/Management-Utilities/ec2-user-data-iscsi-create-and-mount["ブロックデバイスにタグを割り当てるEC2ユーザーデータスクリプト"]
+
+
+
+=== FSx for ONTAP ファイルシステムの容量トレンド
+
+FSx for ONTAP ファイルシステムの概要から、SSD 容量のトレンドを直接確認できます。容量管理用の新しいカードでは、前月の使用状況のトレンドを包括的に表示します。この分析には、実際に使用された容量と割り当てられた容量の比較が含まれており、リソース使用率を明確に評価できます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-capacity-automatically.html["NetApp Workload Factoryで容量を自動的に管理"]
