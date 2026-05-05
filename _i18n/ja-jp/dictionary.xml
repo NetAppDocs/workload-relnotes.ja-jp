@@ -185,4 +185,12 @@
   <block id="7eec84a410cc084b608a43e90acfccd1" category="paragraph">この包括的な視覚化ツールは、パターンを特定し、レイテンシーの問題が繰り返し発生しているのか、それとも単発的なものなのかを理解し、より的確な対策決定を下すのに役立ちます。</block>
   <block id="7d36db06649fc95af5dde34418ae17ae" category="inline-link">レイテンシの傾向を分析する方法を学ぶ</block>
   <block id="89bed93f6bbf811d8bd82c2b7fbc1dea" category="paragraph"><block ref="ed7c0b83df2858b326a608c49012d510" category="inline-link-rx"></block>。</block>
+  <block id="15407be309823d0bd0fd1f09d53ccd89" category="doc">Workload Factory のメール通知</block>
+  <block id="a1ed0466beff73a72b5d95ef2b956e83" category="paragraph">Amazon SNSトピックを設定しなくても、Workload Factoryの通知をメールで受信できるようになりました。アカウントに関連付けられているすべてのメールアドレスに通知を送信するには、メール通知を有効にしてください。</block>
+  <block id="1c6cc010b2ec0805e327534ebbfb3973" category="paragraph">Workload Factory コンソールまたはNetApp Console のいずれかから E メール通知を設定できます。NetApp Console では、ベルアイコンの下に表示されるNetApp Console 通知を設定するオプションも提供されています。</block>
+  <block id="f76fbee6bb24fc9289f051c59b4058b2" category="paragraph">NetApp Console で通知を設定すると、NetApp Console が通知配信の所有権を取得します。重複通知を防ぐため、Workload Factory コンソールの通知設定は読み取り専用になります。</block>
+  <block id="b2dfd446bf724d5a49ad6d34fffa8cd5" category="section-title">EDAレイテンシに関する新しい通知</block>
+  <block id="72139a3373d3afc6254af7e39dc3cd2a" category="paragraph">NetApp Workload Factoryの通知サービスには、EDA操作のレイテンシが一定のしきい値を超えた場合に通知するEDAレイテンシに関する通知が含まれています。</block>
+  <block id="7c1a1feb7968ed15d338ae3e7284dd4e" category="inline-link-macro">Workload Factory の通知を設定する</block>
+  <block id="06c8d6de7277fbcb62791ed118b9bc96" category="paragraph"><block ref="06c8d6de7277fbcb62791ed118b9bc96" category="inline-link-macro-rx"></block></block>
 </blocks>
