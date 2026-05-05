@@ -71,6 +71,14 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.
 
 
 
+==== FSx for ONTAP ファイルシステムの新しい通知
+
+NetApp Workload Factory 通知サービスには、アカウントの月次コスト概要を含む通知が含まれており、支出傾向、異常な変更、FSx for ONTAP ファイルシステムの最適な節約機会が表示されます。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Workload Factory の通知を設定する"]
+
+
+
 === EDAワークロード
 
 
