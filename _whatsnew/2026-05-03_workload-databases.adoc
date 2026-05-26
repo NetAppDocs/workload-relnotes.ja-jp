@@ -1,0 +1,37 @@
+= Oracle 向けの Well-Architected 分析
+:allow-uri-read: 
+
+
+
+
+=== Oracle 向けの Well-Architected 分析
+
+適切に設計された分析には、Oracle 向けの以下の新しい構成が含まれています：
+
+* *バックアップ構成*：OracleデータベースがAWS BackupまたはFSx for ONTAPバックアップによって保護されているかどうかを確認します。
+* *クローンのクリーンアップ*：ストレージコストを削減するために、古くなったクローンや使用されていないクローンを削除することをお勧めします。
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Workload Factory で Well-Architected データベース構成を実装する"]
+
+
+
+=== Amazon Elastic Block Store（EBS）上のOracleデータベースの自動節約計算
+
+Workload Factory は、Oracle データベースに使用される EBS ストレージのコストを自動的に分析し、最適でコスト効率の高い FSx for ONTAP 構成を提案します。複数の EBS ホストを選択して分析し、それらのホストを EBS で実行する場合と FSx for ONTAP で実行する場合のコストを比較できます。
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["検出されたEBSホストの削減効果を確認する"]
+
+
+
+=== CRR設定の前提条件チェック
+
+データベース資産に対してクロスリージョンレプリケーション（CRR）を有効にすると、データベースワークロードは、FSx for ONTAPファイルシステムに関連付けられたリンクとレプリケーションのセットアップがあるかどうかを確認します。必要に応じて、データベースワークロードは、ストレージと同じ方法でリンクの前提条件を処理するために、FSx for ONTAPストレージワークロードレプリケーションウィザードにリダイレクトします。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Workload Factory で Well-Architected データベース構成を実装する"]
+
+
+
+=== Microsoft SQL Serverデータベースに関連付けられたLUN
+
+Workload Factoryのインベントリ画面から、Microsoft SQL ServerデータベースにマッピングされたLUNを表示できるようになりました。これにより、どのLUNがどのデータベースに関連付けられているかを簡単に識別できるため、ストレージリソースの管理と最適化が容易になります。

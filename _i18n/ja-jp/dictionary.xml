@@ -38,12 +38,6 @@
   <block id="24373c35884bc6090ef23efe0b026c1e" category="paragraph"><block ref="24373c35884bc6090ef23efe0b026c1e" category="inline-link-macro-rx"></block></block>
   <block id="bc5d3bf99236801351dc3a2d7c20aed7" category="paragraph">Workload Factory は、次の構成について FSx for ONTAPファイル システムを分析します。</block>
   <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">EDAワークロード</block>
-  <block id="5d8caeaede63e2cdba6715a163d09892" category="doc">ストレージVM移行のサポート</block>
-  <block id="353d7ff4a3d58ad1fe8ef0ad6acab574" category="paragraph">NetApp Workload Factory は、ストレージ VM の移行をサポートするようになりました。この機能により、オンプレミス ONTAP システムまたは第一世代の FSx for ONTAP ファイルシステムから第二世代の FSx for ONTAP ファイルシステムへ、ONTAP ストレージシステムのデータと構成を移行できます。ストレージ VM のデータと構成設定を複製して、ダウンタイムとユーザーおよびアプリケーションの中断を最小限に抑えながら新しいファイルシステムに移動できます。</block>
-  <block id="fb2a77c6756f10fcc139a51a83349d7f" category="inline-link-macro">レプリケーション関係を作成する</block>
-  <block id="33039f37667143e740ae3514cd2b2eea" category="inline-link-macro">ストレージVMとその複製ボリュームをカットオーバーする</block>
-  <block id="94a0fe38d823039ecf92cb309a897fe3" category="paragraph">この機能を使用するには、<block ref="0ec91e6ac67cf0fd5240ce60db83aa2f" category="inline-link-macro-rx"></block>ユースケースとして*Migration*を選択します。移行プロセスを完了するには、<block ref="6174d071c9787b2abffa64516d72a11a" category="inline-link-macro-rx"></block>データとStorage VM構成設定をターゲットのFSx for ONTAPファイルシステムに永続的に移行する必要があります。</block>
-  <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">2026年2月16日</block>
   <block id="129560e32411be4dc94c9cfeada8ea67" category="doc">Workload Factory で新しい Ask Me ブックマークが利用可能になりました</block>
   <block id="4ea89e975474ebd5bba8d32ced2e95cc" category="paragraph">Workload Factory コンソールのすべての画面に新しい Ask Me ブックマークを追加しました。この改善により、ヘルプが必要なときにいつでも Ask Me に簡単かつ迅速にアクセスできるようになります。Ask Me は AI アシスタントであり、独自のワークロード環境について質問したり、環境から直接パーソナライズされた分析情報を取得したり、以前の会話を参照したりすることができます。</block>
   <block id="38dc719ee518af5f799c19331bfd5f19" category="paragraph">新しいブックマークをクリックすると、どのページからでも Ask Me を開くことができます。現在の作業を中断することなく、サイドパネルで Ask me を起動し、現在行っている作業に関連する簡単な説明と推奨事項を提供します。</block>
@@ -198,4 +192,14 @@
   <block id="deede3cf7f18c08613ec53890188368e" category="section-title">FSx for ONTAPファイルシステムの適切に設計された状態に関するPDFレポート</block>
   <block id="09731bdb23a8e229cca44808afd3eb18" category="inline-link-macro">NetApp Workload FactoryでFSx for ONTAPファイルシステムの適切なアーキテクチャのステータスを表示します。</block>
   <block id="bf36e3bb684711138abb04e7f7f95c1a" category="paragraph">分析後、記録用またはチームと共有するために、FSx for ONTAP ファイルシステムの適切なアーキテクチャステータスに関する PDF レポートをダウンロードできます。<block ref="8f1fbab727bbab0e7967c959283750c4" category="inline-link-macro-rx"></block></block>
+  <block id="f6fc5d0b34e0c83d4e75f7be25a32b82" category="list-text">*バックアップ構成*：OracleデータベースがAWS BackupまたはFSx for ONTAPバックアップによって保護されているかどうかを確認します。</block>
+  <block id="e77f1d098a7b16b8bd4d2f20f9aba65f" category="list-text">*クローンのクリーンアップ*：ストレージコストを削減するために、古くなったクローンや使用されていないクローンを削除することをお勧めします。</block>
+  <block id="89840aef48298f433a57c56ab247ae08" category="section-title">Amazon Elastic Block Store（EBS）上のOracleデータベースの自動節約計算</block>
+  <block id="820714d6c08a1a257cd36fe74e1fed2b" category="paragraph">Workload Factory は、Oracle データベースに使用される EBS ストレージのコストを自動的に分析し、最適でコスト効率の高い FSx for ONTAP 構成を提案します。複数の EBS ホストを選択して分析し、それらのホストを EBS で実行する場合と FSx for ONTAP で実行する場合のコストを比較できます。</block>
+  <block id="754cab29df96851e5cc6bac19fb8e4de" category="inline-link-macro">検出されたEBSホストの削減効果を確認する</block>
+  <block id="9c9dd70e9f385deab27852576ec6db9a" category="paragraph"><block ref="9c9dd70e9f385deab27852576ec6db9a" category="inline-link-macro-rx"></block></block>
+  <block id="19b3c31ea822597c2e4628964f178a69" category="section-title">CRR設定の前提条件チェック</block>
+  <block id="9806495507d3f9631835ef96ec7c6a20" category="paragraph">データベース資産に対してクロスリージョンレプリケーション（CRR）を有効にすると、データベースワークロードは、FSx for ONTAPファイルシステムに関連付けられたリンクとレプリケーションのセットアップがあるかどうかを確認します。必要に応じて、データベースワークロードは、ストレージと同じ方法でリンクの前提条件を処理するために、FSx for ONTAPストレージワークロードレプリケーションウィザードにリダイレクトします。</block>
+  <block id="2570f829ce5d9920c913ea709da38970" category="section-title">Microsoft SQL Serverデータベースに関連付けられたLUN</block>
+  <block id="7bcbdd4b76f415ad3e96438de020e5cf" category="paragraph">Workload Factoryのインベントリ画面から、Microsoft SQL ServerデータベースにマッピングされたLUNを表示できるようになりました。これにより、どのLUNがどのデータベースに関連付けられているかを簡単に識別できるため、ストレージリソースの管理と最適化が容易になります。</block>
 </blocks>
