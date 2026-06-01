@@ -1,0 +1,27 @@
+= Amazon Elastic Block Store の Oracle ホスト向けカスタム割引
+:allow-uri-read: 
+
+
+
+
+=== Amazon Elastic Block Store の Oracle ホスト向けカスタム割引
+
+NetApp Workload Factory for Databases を使用すると、Amazon Elastic Block Store（EBS）上の Oracle ホストの節約をカスタマイズできます。スナップショットの頻度、クローンコピーの数、ボリュームの詳細など、いくつかの項目を調整することで、それらが節約効果にどのような影響を与えるかを確認できます。
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["EBS上のOracleホストの節約効果を調べる"]
+
+
+
+=== Microsoft SQL ServerおよびPostgreSQLホストの導入における複数のセキュリティグループの選択
+
+Microsoft SQL ServerおよびPostgreSQLホストを導入する際に、NetApp Workload Factory for Databasesで複数のセキュリティグループを選択できるようになりました。これにより、データベースワークロードのネットワークセキュリティを構成する際の柔軟性が向上します。
+
+* link:https://docs.netapp.com/us-en/workload-databases/create-database-server.html["Microsoft SQL Serverホストを導入する"]
+* link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["PostgreSQLホストをデプロイする"]
+
+
+
+
+=== NetApp Workload FactoryでのAWS GovCloud（US）のサポート
+
+NetApp Workload FactoryはAWS GovCloud（US）アカウントをサポートしています。GovCloudアカウントを使用すると、AWS GovCloud（US）リージョンでデータベースワークロードをデプロイおよび管理できます。
