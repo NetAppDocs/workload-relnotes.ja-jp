@@ -191,4 +191,9 @@
   <block id="46d1548637c7b145aedaf16fc4982ded" category="paragraph"><block ref="46d1548637c7b145aedaf16fc4982ded" category="inline-link-macro-rx"></block></block>
   <block id="6935aa37908b8d3e8e6495adec301374" category="section-title">ボリュームレイテンシしきい値を設定する</block>
   <block id="8d36c5c4d1b5b3180db932fcf4bd5e3b" category="paragraph">ボリュームごとにレイテンシのしきい値を設定できるようになり、パフォーマンスを監視したり、読み取りまたは書き込みのレイテンシが定義した制限を超えた場合にアラートを受け取ったりすることが可能になりました。レイテンシ監視は、ワークロードに影響が出る前にパフォーマンスの問題を事前に特定するのに役立ちます。</block>
+  <block id="3bb5ae684d139ecc39b584ffe9e6033b" category="paragraph">NetApp Workload Factoryの通知サービスには、レプリケーション遅延に関する通知が含まれています。</block>
+  <block id="bdd14b3b036670ed34f9ec4d3b52c70c" category="section-title">AWS GovCloud（US）アカウントのサポート</block>
+  <block id="bc2438830b45cc61abad63e0b037a228" category="paragraph">Workload FactoryでAWS GovCloud（US）アカウントを作成できるようになりました。このアカウントタイプは、セットアップと操作にAWS US GovCloudエンドポイントとリージョンのみを使用します。クレデンシャルとシークレットはGovCloud内に保持されます。GovCloud（US）リージョンがサポートされています。</block>
+  <block id="b6d9ef2d00d295b73db4c150b66667c7" category="inline-link-macro">Workload Factory で AWS GovCloud (US) アカウントを作成する</block>
+  <block id="02235c7f58acbfe62b6b373b8f8ef557" category="paragraph"><block ref="02235c7f58acbfe62b6b373b8f8ef557" category="inline-link-macro-rx"></block></block>
 </blocks>
