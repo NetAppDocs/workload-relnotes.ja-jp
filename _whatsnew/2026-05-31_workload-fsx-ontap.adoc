@@ -1,0 +1,79 @@
+= NetApp Workload FactoryでのAWS GovCloud（US）のサポート
+:allow-uri-read: 
+
+
+
+
+=== NetApp Workload FactoryでのAWS GovCloud（US）のサポート
+
+NetApp Workload FactoryはAWS GovCloud（US）アカウントをサポートしています。GovCloudアカウントを使用すると、AWS GovCloud（US）リージョンでストレージワークロードをデプロイおよび管理できます。
+
+
+
+=== NetApp Workload Factoryでボリューム遅延しきい値を設定する
+
+ボリュームごとにレイテンシのしきい値を設定することで、パフォーマンスを監視し、レイテンシの値が定義した制限を超えた場合にアラートを受け取ることができます。Workload Factoryは、読み取りレイテンシと書き込みレイテンシの両方を監視し、いずれかのしきい値を超えた場合にアラートを生成します。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/set-volume-latency-thresholds.html["NetApp Workload Factoryでボリューム遅延しきい値を設定する"]
+
+
+
+=== NetApp Workload Factoryでレプリケーションの遅延を追跡する
+
+NetApp Workload Factory では、リモートレプリケーションが設定されている FSx for ONTAP ファイルシステムのレプリケーション遅延を追跡できます。レプリケーション遅延とは、データがソースファイルシステムに書き込まれてから、デスティネーションファイルシステムにレプリケートされるまでの時間遅延を指します。レプリケーション遅延を追跡することで、レプリケーション設定の健全性を監視し、データの整合性やリカバリポイント目標（RPO）に影響を与える可能性のある潜在的な問題を特定できます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-replication-delays.html["NetApp Workload Factoryでレプリケーションの遅延を追跡する"]
+
+
+
+=== NetApp Workload Factoryにおけるホスト識別とワークロード定義
+
+Workload Factory は、ストレージを消費するホストと、ホストのアクティビティに関連付けられているワークロードの種類を識別します。ワークロード定義は、AWS タグとメタデータに基づいて AI によって生成されます。Workload Factory のファイルシステム、ボリューム、ブロックデバイスのリソース画面から、ホストの詳細とワークロード定義を表示できます。
+
+
+
+=== NetApp Workload Factoryで利用可能なLIFの詳細
+
+ファイルシステムの概要タブには、すべてのファイルシステムおよびストレージVMエンドポイントが直接表示されます。Workload Factoryコンソール内でエンドポイントを直接可視化することで、CLIやCloudShellを使用せずに、ネットワーク アクセス、エンドポイント、フェイルオーバーステータスを簡単に監視できます。役割、エンドポイント、ノード、IPアドレス、ステータスなどのLIFの詳細を表示するには、ファイルシステムにリンクを関連付ける必要があります。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["NetApp Workload Factoryでファイルシステムにリンクを関連付ける方法を学びましょう"]。
+
+
+
+=== コストの強化
+
+すべてのAWSアカウントにわたるリソースのコスト分析結果を向上させるための、新しいオプションのページレベルフィルターが利用可能になりました。複数のリージョンを選択し、ファイルシステム割り当てタグキーとキー値を使用してコスト分析結果をフィルタリングし、FSx for ONTAPファイルシステムとボリュームのリソース固有のコストの詳細を取得できます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-costs.html["NetApp Workload Factoryでコスト分析にフィルタを使用する"]
+
+
+
+=== NetApp Workload Factoryでレプリケーション初期化スケジューリングが利用可能
+
+データレプリケーションのセットアップ中に、FSx for ONTAPファイルシステムのレプリケーション初期化をスケジュールできるようになりました。レプリケーション関係を即座に初期化するか、指定した時間に初期化するかのオプションがあります。レプリケーションの初期化とは、ソースファイルシステムから宛先ファイルシステムにデータをコピーすることによって、レプリケーションのベースラインを作成するプロセスです。レプリケーションの初期化をスケジュール設定することで、このプロセスを自動化し、手動による介入なしにレプリケーションセットアップを最新の状態に保つことができます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["NetApp Workload Factoryでデータを複製する"]
+
+
+
+=== FSx for ONTAPファイルシステムのWell-ArchitectedステータスのExcelレポート
+
+分析後、記録用またはチームと共有するために、FSx for ONTAPファイルシステムの適切なアーキテクチャの状態を示すExcelレポートをダウンロードできます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["NetApp Workload FactoryでFSx for ONTAPファイルシステムの適切なアーキテクチャのステータスを表示します"]
+
+
+
+=== 遅延イベントの表示と分析
+
+Workload Factory は、FSx for ONTAP ボリュームのレイテンシ イベントの表示と分析をサポートするようになりました。リンク接続がなくてもレイテンシ イベントを表示できるため、パフォーマンスの問題を監視しやすくなります。レイテンシ イベントを分析し、AI による洞察と推奨事項を受け取るには、リンクを使用してファイル システムに接続する必要があります。分析では、現在のレイテンシ値、しきい値、QoS 応答分析、および改善策に関するガイダンスが提供されます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/analyze-events.html["NetApp Workload FactoryでFSx for ONTAPイベントを分析する"]
+
+
+
+=== ボリュームレイテンシしきい値を設定する
+
+ボリュームごとにレイテンシのしきい値を設定できるようになり、パフォーマンスを監視したり、読み取りまたは書き込みのレイテンシが定義した制限を超えた場合にアラートを受け取ったりすることが可能になりました。レイテンシ監視は、ワークロードに影響が出る前にパフォーマンスの問題を事前に特定するのに役立ちます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/set-volume-latency-thresholds.html["NetApp Workload Factoryでボリューム遅延しきい値を設定する"]

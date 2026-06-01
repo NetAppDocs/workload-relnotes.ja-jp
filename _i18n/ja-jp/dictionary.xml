@@ -134,8 +134,6 @@
   <block id="6d358c966898e9dabc6d051e85958cd8" category="paragraph">NetApp Workload Factory 通知サービスには、アカウントの月次コスト概要を含む通知が含まれており、支出傾向、異常な変更、FSx for ONTAP ファイルシステムの最適な節約機会が表示されます。</block>
   <block id="596e30b7050101709ce0d710420e77a7" category="paragraph">FSx for ONTAP ファイルシステムの概要から SSD 容量のトレンドを直接確認できます。容量管理用の新しいカードには、前月の使用傾向が表示されます。この分析では、実際の容量と割り当てられた容量を比較することで、リソースの使用状況を容易に評価できます。</block>
   <block id="deede3cf7f18c08613ec53890188368e" category="section-title">FSx for ONTAPファイルシステムの適切に設計された状態に関するPDFレポート</block>
-  <block id="09731bdb23a8e229cca44808afd3eb18" category="inline-link-macro">NetApp Workload FactoryでFSx for ONTAPファイルシステムの適切なアーキテクチャのステータスを表示します。</block>
-  <block id="bf36e3bb684711138abb04e7f7f95c1a" category="paragraph">分析後、記録用またはチームと共有するために、FSx for ONTAP ファイルシステムの適切なアーキテクチャステータスに関する PDF レポートをダウンロードできます。<block ref="8f1fbab727bbab0e7967c959283750c4" category="inline-link-macro-rx"></block></block>
   <block id="f6fc5d0b34e0c83d4e75f7be25a32b82" category="list-text">*バックアップ構成*：OracleデータベースがAWS BackupまたはFSx for ONTAPバックアップによって保護されているかどうかを確認します。</block>
   <block id="e77f1d098a7b16b8bd4d2f20f9aba65f" category="list-text">*クローンのクリーンアップ*：ストレージコストを削減するために、古くなったクローンや使用されていないクローンを削除することをお勧めします。</block>
   <block id="89840aef48298f433a57c56ab247ae08" category="section-title">Amazon Elastic Block Store（EBS）上のOracleデータベースの自動節約計算</block>
@@ -161,4 +159,36 @@
   <block id="d9d75ceb2e92d25dfa5fd1bd2ea01dfc" category="list-text"><block ref="d9d75ceb2e92d25dfa5fd1bd2ea01dfc" category="inline-link-macro-rx"></block></block>
   <block id="092e50fff7799a091642caa817b6e9ee" category="paragraph">NetApp Workload FactoryはAWS GovCloud（US）アカウントをサポートしています。GovCloudアカウントを使用すると、AWS GovCloud（US）リージョンでデータベースワークロードをデプロイおよび管理できます。</block>
   <block id="431b3c73dcd090440f753c5d3af80bb0" category="section-title">2026年6月1日</block>
+  <block id="d78944313be822653acf15ab5398cc09" category="paragraph">分析後、記録用またはチームと共有するために、FSx for ONTAP ファイルシステムの適切なアーキテクチャステータスに関するPDFレポートをダウンロードできます。</block>
+  <block id="1e2f4a38d5efedb5cf0944fea2e5cddf" category="inline-link-macro">NetApp Workload FactoryでFSx for ONTAPファイルシステムの適切なアーキテクチャのステータスを表示します</block>
+  <block id="74d7776910c4ca73289bbbb6c6bfddf9" category="paragraph"><block ref="74d7776910c4ca73289bbbb6c6bfddf9" category="inline-link-macro-rx"></block></block>
+  <block id="8b15ccb7fd3de568f0d6670c4c2d0d62" category="paragraph">NetApp Workload FactoryはAWS GovCloud（US）アカウントをサポートしています。GovCloudアカウントを使用すると、AWS GovCloud（US）リージョンでストレージワークロードをデプロイおよび管理できます。</block>
+  <block id="8e45f2905d109c7f7ad7492d2341d234" category="section-title">NetApp Workload Factoryでボリューム遅延しきい値を設定する</block>
+  <block id="aef3e325f515541566b19394d335ef43" category="paragraph">ボリュームごとにレイテンシのしきい値を設定することで、パフォーマンスを監視し、レイテンシの値が定義した制限を超えた場合にアラートを受け取ることができます。Workload Factoryは、読み取りレイテンシと書き込みレイテンシの両方を監視し、いずれかのしきい値を超えた場合にアラートを生成します。</block>
+  <block id="e38f666491d8e4d592d5df89c8419266" category="paragraph"><block ref="e38f666491d8e4d592d5df89c8419266" category="inline-link-macro-rx"></block></block>
+  <block id="b9ceeddf626c03ee2118a4917ae8c38b" category="section-title">NetApp Workload Factoryでレプリケーションの遅延を追跡する</block>
+  <block id="a36f1662cdb9e2ceab93d3f25e0eca77" category="paragraph">NetApp Workload Factory では、リモートレプリケーションが設定されている FSx for ONTAP ファイルシステムのレプリケーション遅延を追跡できます。レプリケーション遅延とは、データがソースファイルシステムに書き込まれてから、デスティネーションファイルシステムにレプリケートされるまでの時間遅延を指します。レプリケーション遅延を追跡することで、レプリケーション設定の健全性を監視し、データの整合性やリカバリポイント目標（RPO）に影響を与える可能性のある潜在的な問題を特定できます。</block>
+  <block id="fde2f1eddf6c2d5994d4c9cacc07ff31" category="paragraph"><block ref="fde2f1eddf6c2d5994d4c9cacc07ff31" category="inline-link-macro-rx"></block></block>
+  <block id="15f374eb532ab28d06443136d99e63b5" category="section-title">NetApp Workload Factoryにおけるホスト識別とワークロード定義</block>
+  <block id="e4d934df8f9ddefcebbc02695e3cfbdc" category="paragraph">Workload Factory は、ストレージを消費するホストと、ホストのアクティビティに関連付けられているワークロードの種類を識別します。ワークロード定義は、AWS タグとメタデータに基づいて AI によって生成されます。Workload Factory のファイルシステム、ボリューム、ブロックデバイスのリソース画面から、ホストの詳細とワークロード定義を表示できます。</block>
+  <block id="9ef57b630c87ffd61b917510a7a26030" category="section-title">NetApp Workload Factoryで利用可能なLIFの詳細</block>
+  <block id="055f68ac1562a94352bd56b1842791fb" category="paragraph">ファイルシステムの概要タブには、すべてのファイルシステムおよびストレージVMエンドポイントが直接表示されます。Workload Factoryコンソール内でエンドポイントを直接可視化することで、CLIやCloudShellを使用せずに、ネットワーク アクセス、エンドポイント、フェイルオーバーステータスを簡単に監視できます。役割、エンドポイント、ノード、IPアドレス、ステータスなどのLIFの詳細を表示するには、ファイルシステムにリンクを関連付ける必要があります。</block>
+  <block id="c1bff806faafabc5316c2270f113bd85" category="inline-link-macro">NetApp Workload Factoryでファイルシステムにリンクを関連付ける方法を学びましょう</block>
+  <block id="0cfa9f29837495af6181228a2286658a" category="paragraph"><block ref="966e2ff22df42c69be9cce59aca228ff" category="inline-link-macro-rx"></block>。</block>
+  <block id="3cb407325a893b82dafad46209626b50" category="section-title">コストの強化</block>
+  <block id="4ca110e0d9ae04c6ba757ec8fd3182f2" category="paragraph">すべてのAWSアカウントにわたるリソースのコスト分析結果を向上させるための、新しいオプションのページレベルフィルターが利用可能になりました。複数のリージョンを選択し、ファイルシステム割り当てタグキーとキー値を使用してコスト分析結果をフィルタリングし、FSx for ONTAPファイルシステムとボリュームのリソース固有のコストの詳細を取得できます。</block>
+  <block id="083b82dbc7669e65217c0c4cdd6a08f3" category="inline-link-macro">NetApp Workload Factoryでコスト分析にフィルタを使用する</block>
+  <block id="cd3891050de2d442936c795f42b5be55" category="paragraph"><block ref="cd3891050de2d442936c795f42b5be55" category="inline-link-macro-rx"></block></block>
+  <block id="830f303cdae9912a4ea32f1f9cbf416e" category="section-title">NetApp Workload Factoryでレプリケーション初期化スケジューリングが利用可能</block>
+  <block id="15bc72c00374b1de7051b2d672060b33" category="paragraph">データレプリケーションのセットアップ中に、FSx for ONTAPファイルシステムのレプリケーション初期化をスケジュールできるようになりました。レプリケーション関係を即座に初期化するか、指定した時間に初期化するかのオプションがあります。レプリケーションの初期化とは、ソースファイルシステムから宛先ファイルシステムにデータをコピーすることによって、レプリケーションのベースラインを作成するプロセスです。レプリケーションの初期化をスケジュール設定することで、このプロセスを自動化し、手動による介入なしにレプリケーションセットアップを最新の状態に保つことができます。</block>
+  <block id="214d407853490bc740a9484be85b4f3e" category="inline-link-macro">NetApp Workload Factoryでデータを複製する</block>
+  <block id="f9e073199d07787a028f9eaa386764c2" category="paragraph"><block ref="f9e073199d07787a028f9eaa386764c2" category="inline-link-macro-rx"></block></block>
+  <block id="365c1d3c417c4ceff114f4189c08aded" category="section-title">FSx for ONTAPファイルシステムのWell-ArchitectedステータスのExcelレポート</block>
+  <block id="cef65a1b6b28821282b97ae2bfcccb7b" category="paragraph">分析後、記録用またはチームと共有するために、FSx for ONTAPファイルシステムの適切なアーキテクチャの状態を示すExcelレポートをダウンロードできます。</block>
+  <block id="d280f690a98c812adf5c9aff661addf4" category="section-title">遅延イベントの表示と分析</block>
+  <block id="9863682c1ac348823880a0e92aae9424" category="paragraph">Workload Factory は、FSx for ONTAP ボリュームのレイテンシ イベントの表示と分析をサポートするようになりました。リンク接続がなくてもレイテンシ イベントを表示できるため、パフォーマンスの問題を監視しやすくなります。レイテンシ イベントを分析し、AI による洞察と推奨事項を受け取るには、リンクを使用してファイル システムに接続する必要があります。分析では、現在のレイテンシ値、しきい値、QoS 応答分析、および改善策に関するガイダンスが提供されます。</block>
+  <block id="48b5c4d3746aea9e001799935441305e" category="inline-link-macro">NetApp Workload FactoryでFSx for ONTAPイベントを分析する</block>
+  <block id="46d1548637c7b145aedaf16fc4982ded" category="paragraph"><block ref="46d1548637c7b145aedaf16fc4982ded" category="inline-link-macro-rx"></block></block>
+  <block id="6935aa37908b8d3e8e6495adec301374" category="section-title">ボリュームレイテンシしきい値を設定する</block>
+  <block id="8d36c5c4d1b5b3180db932fcf4bd5e3b" category="paragraph">ボリュームごとにレイテンシのしきい値を設定できるようになり、パフォーマンスを監視したり、読み取りまたは書き込みのレイテンシが定義した制限を超えた場合にアラートを受け取ったりすることが可能になりました。レイテンシ監視は、ワークロードに影響が出る前にパフォーマンスの問題を事前に特定するのに役立ちます。</block>
 </blocks>

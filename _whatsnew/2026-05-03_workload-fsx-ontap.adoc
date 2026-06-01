@@ -32,4 +32,6 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-capacity-automatica
 
 === FSx for ONTAPファイルシステムの適切に設計された状態に関するPDFレポート
 
-分析後、記録用またはチームと共有するために、FSx for ONTAP ファイルシステムの適切なアーキテクチャステータスに関する PDF レポートをダウンロードできます。link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["NetApp Workload FactoryでFSx for ONTAPファイルシステムの適切なアーキテクチャのステータスを表示します。"]
+分析後、記録用またはチームと共有するために、FSx for ONTAP ファイルシステムの適切なアーキテクチャステータスに関するPDFレポートをダウンロードできます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["NetApp Workload FactoryでFSx for ONTAPファイルシステムの適切なアーキテクチャのステータスを表示します"]
