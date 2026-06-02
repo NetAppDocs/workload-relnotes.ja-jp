@@ -196,4 +196,28 @@
   <block id="bc2438830b45cc61abad63e0b037a228" category="paragraph">Workload FactoryでAWS GovCloud（US）アカウントを作成できるようになりました。このアカウントタイプは、セットアップと操作にAWS US GovCloudエンドポイントとリージョンのみを使用します。クレデンシャルとシークレットはGovCloud内に保持されます。GovCloud（US）リージョンがサポートされています。</block>
   <block id="b6d9ef2d00d295b73db4c150b66667c7" category="inline-link-macro">Workload Factory で AWS GovCloud (US) アカウントを作成する</block>
   <block id="02235c7f58acbfe62b6b373b8f8ef557" category="paragraph"><block ref="02235c7f58acbfe62b6b373b8f8ef557" category="inline-link-macro-rx"></block></block>
+  <block id="4f08df9e7760628c8a0fcefa27f063f4" category="doc">SSD 容量増加管理モードと自動化</block>
+  <block id="6048180efecc25affb37f0bcfc4af51f" category="paragraph">Workload Factoryでは、運用上の好みに合わせて、SSD容量増加管理モードを提供するようになりました。</block>
+  <block id="9464fbc6a7b71da353f2d54109960226" category="list-text">*自動化*</block>
+  <block id="66237dc10c2943c0563d26d3f0b6b230" category="list-text">*推奨*</block>
+  <block id="d015a34de96d3f92372df94da0f629a7" category="list-text">*なし*</block>
+  <block id="7d2c5b1dd66ac2d00e2f116602f0da91" category="paragraph">現在のモードとそのパラメータは、ファイルシステム詳細ページのSSD使用状況グラフの上部に表示されます。運用上のニーズに応じて、いつでもモードを切り替えることができます。</block>
+  <block id="df638dda507575b6f88b684af7608553" category="inline-link-macro">SSD 管理モードについて</block>
+  <block id="8726b2b1ff09bca86dd85ada696c955e" category="paragraph"><block ref="8a69182f844b7822adef7a1894417217" category="inline-link-macro-rx"></block>。</block>
+  <block id="70a1c8861535253968956554ebf8e231" category="section-title">SSD容量増加管理パラメータの一括編集</block>
+  <block id="771b4b22f5518da40bcc1511e8f12898" category="paragraph">概要ダッシュボードから、複数のファイルシステムにわたるSSD容量増加管理パラメータを調整できるようになりました。「クラスター」テーブルで1つ以上のクラスターを選択し、「しきい値（10～90%）」、「ルックバック期間（1～200時間）」、「アヘッド期間（1～200時間）」の値を一括編集します。</block>
+  <block id="012cccd7c99fecdbdf717ccb8b16b7de" category="paragraph">編集ダイアログは、選択内容に基づいて自動的に入力されます。選択したすべてのファイルシステムが同じパラメータ値を共有している場合は、それらの値が表示されます。それ以外の場合は、デフォルト値が使用されます。これにより、環境全体で一貫した容量設定を適用できます。</block>
+  <block id="68c574408eaf57fb5b79796bef1895be" category="inline-link-macro">パラメータを一括編集する方法を学ぶ</block>
+  <block id="ba63cd1a056bc80046c503ba2fa33773" category="paragraph"><block ref="fb2c15e1efaea436655e6825086014e4" category="inline-link-macro-rx"></block>。</block>
+  <block id="b02017def04604d515c33a15c45d2e8e" category="section-title">容量決定ポイントの可視化</block>
+  <block id="7dcdf7b0c669e34d376781ffb261c8f6" category="paragraph">SSD使用状況グラフに、容量推奨値が生成された時点、または自動アクションが実行された時点を示す決定ポイントが表示されるようになりました。</block>
+  <block id="473ad9d52a93a6904458becbb59cdb8f" category="list-text">*推奨事項の決定ポイント*：カーソルを合わせると、タイムスタンプ、推奨される増加サイズ、および現在の容量が表示されます。</block>
+  <block id="e13a73a214d35af7df23610e438e2773" category="list-text">*自動化の決定ポイント*：タイムスタンプ、成功または失敗ステータス、サイズの増加、および新しいアグリゲート サイズを表示するには、ホバーします。失敗した試行には、失敗理由が含まれます。</block>
+  <block id="c1d04258174a29f2132edb30e198b9ea" category="paragraph">意思決定ポイントは30分ごとに発生し、選択された時間範囲に応じて個別に表示されるか、まとめて表示されます。</block>
+  <block id="77911424f819f845cb8185bc75dd9c89" category="inline-link-macro">容量に関する決定ポイントについて</block>
+  <block id="2470c0ea25645427c285ac2c1db0ea6d" category="paragraph"><block ref="7d345c706cc4ef56c93e61e8fef7447b" category="inline-link-macro-rx"></block>。</block>
+  <block id="6730925799427eefafa41ca821775fd8" category="section-title">クラスタテーブル内のリンク設定ステータス</block>
+  <block id="00617692d401e7bead58c1c61c197639" category="paragraph">概要ダッシュボードのクラスターテーブルに、各ファイルシステムに対してFSx for ONTAPリンクが設定されているかどうかを示す関連リンク列が追加されました。接続ステータスは毎日検証され、リンク設定が必要なファイルシステムや接続に問題がある可能性のあるファイルシステムを特定するのに役立ちます。</block>
+  <block id="14447da801a1982ce517d6e1ffb0c116" category="inline-link-macro">概要ダッシュボードを表示する</block>
+  <block id="ad5ea2e791a779cc733cf94252010c1e" category="paragraph"><block ref="a3c9e85960ac01cd3d2a615266299aa4" category="inline-link-macro-rx"></block>。</block>
 </blocks>

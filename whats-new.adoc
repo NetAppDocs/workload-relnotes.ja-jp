@@ -161,6 +161,63 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["Workl
 
 
 
+=== EDAワークロード
+
+
+
+==== SSD 容量増加管理モードと自動化
+
+Workload Factoryでは、運用上の好みに合わせて、SSD容量増加管理モードを提供するようになりました。
+
+* *自動化*
+* *推奨*
+* *なし*
+
+
+現在のモードとそのパラメータは、ファイルシステム詳細ページのSSD使用状況グラフの上部に表示されます。運用上のニーズに応じて、いつでもモードを切り替えることができます。
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#change-ssd-management-mode["SSD 管理モードについて"^]。
+
+
+
+==== SSD容量増加管理パラメータの一括編集
+
+概要ダッシュボードから、複数のファイルシステムにわたるSSD容量増加管理パラメータを調整できるようになりました。「クラスター」テーブルで1つ以上のクラスターを選択し、「しきい値（10～90%）」、「ルックバック期間（1～200時間）」、「アヘッド期間（1～200時間）」の値を一括編集します。
+
+編集ダイアログは、選択内容に基づいて自動的に入力されます。選択したすべてのファイルシステムが同じパラメータ値を共有している場合は、それらの値が表示されます。それ以外の場合は、デフォルト値が使用されます。これにより、環境全体で一貫した容量設定を適用できます。
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#bulk-edit-ssd-management-parameters["パラメータを一括編集する方法を学ぶ"^]。
+
+
+
+==== 容量決定ポイントの可視化
+
+SSD使用状況グラフに、容量推奨値が生成された時点、または自動アクションが実行された時点を示す決定ポイントが表示されるようになりました。
+
+* *推奨事項の決定ポイント*：カーソルを合わせると、タイムスタンプ、推奨される増加サイズ、および現在の容量が表示されます。
+* *自動化の決定ポイント*：タイムスタンプ、成功または失敗ステータス、サイズの増加、および新しいアグリゲート サイズを表示するには、ホバーします。失敗した試行には、失敗理由が含まれます。
+
+
+意思決定ポイントは30分ごとに発生し、選択された時間範囲に応じて個別に表示されるか、まとめて表示されます。
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#analyze-capacity-trends-and-decision-points["容量に関する決定ポイントについて"^]。
+
+
+
+==== クラスタテーブル内のリンク設定ステータス
+
+概要ダッシュボードのクラスターテーブルに、各ファイルシステムに対してFSx for ONTAPリンクが設定されているかどうかを示す関連リンク列が追加されました。接続ステータスは毎日検証され、リンク設定が必要なファイルシステムや接続に問題がある可能性のあるファイルシステムを特定するのに役立ちます。
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["概要ダッシュボードを表示する"^]。
+
+
+
+==== NetApp Workload FactoryでのAWS GovCloud（US）のサポート
+
+NetApp Workload FactoryはAWS GovCloud（US）アカウントをサポートしています。GovCloudアカウントを使用すると、AWS GovCloud（US）リージョンでストレージワークロードをデプロイおよび管理できます。
+
+
+
 == 2026年5月3日
 
 
