@@ -185,4 +185,13 @@
   <block id="f2c8c03b6d33f0a06783ce6241b381a6" category="paragraph">カスタムダッシュボードは読み取り専用なので、ストレージやワークロードの設定を変更することはできません。Workload Factoryアカウントのユーザーであれば誰でもこれらのダッシュボードを表示および管理できるため、チーム間で情報を共有し、連携を維持することが容易になります。</block>
   <block id="7f7fdf6329959f984b3ff303ae5ac37f" category="inline-link-macro">カスタムダッシュボードの詳細</block>
   <block id="b95d6b8ad9f73321f9cc2385811deedb" category="paragraph"><block ref="b95d6b8ad9f73321f9cc2385811deedb" category="inline-link-macro-rx"></block></block>
+  <block id="7e2652d4b25a337c594774fc14c2ab17" category="section-title">遅延通知の頻度を設定する</block>
+  <block id="39b4011c4c170e1b29e7d8710812c644" category="paragraph">レイテンシ違反に関するメール通知の受信頻度を選択できるようになりました。</block>
+  <block id="9b4c72b587622d268ed8a5a315219fb5" category="list-text">*毎日通知する（推奨）*：FSx for ONTAP ファイルシステムで新しい問題が発生した場合に通知を受け取ります。</block>
+  <block id="b1960d91c54aac51310626fca3cc3b48" category="paragraph">同じファイルシステムで1日に複数回のレイテンシ問題が発生した場合でも、送信されるメールは1通のみです。</block>
+  <block id="a6f20e83b8038d1aeb40bd01b25f763e" category="paragraph">Workload Factoryは、ファイルシステムの遅延アラートを送信した後、そのファイルシステムに対して次のアラートを送信するまで24時間待機します。</block>
+  <block id="e2a4178b795c9afb4497b6549895fe0f" category="list-text">*レイテンシ違反が発生した場合の通知（20分ごと）*：違反が検出された場合、最大20分ごとに通知を受け取ります。</block>
+  <block id="943fb48a5bde64c680308a09af0a0832" category="paragraph">遅延の問題を通知しつつメールの量を減らすため、デフォルトでは毎日の通知が有効になっています。遅延監視の設定時やしきい値設定の編集時に、通知設定を変更できます。</block>
+  <block id="7a13522750dff612c4af95a525a5075b" category="inline-link">レイテンシ監視の設定方法を確認する</block>
+  <block id="496e68c00adfe40e8730acfccde74f6b" category="paragraph"><block ref="9cf52e304b2518ca53073fc069c5a89c" category="inline-link-rx"></block>。</block>
 </blocks>
