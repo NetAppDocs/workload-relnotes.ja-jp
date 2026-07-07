@@ -26,7 +26,6 @@
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">生成AIワークロード</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">セットアップと管理</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMwareワークロード</block>
-  <block id="4a854a1349dc1900974f3bf6a9552245" category="section-title">Well-Architected 分析の更新</block>
   <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">NetAppワークロード ファクトリー</block>
   <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
   <block id="da0e88c69cf2ddf39d5537c04ab2fc69" category="summary">NetApp Workload Factory の一部であるワークロードの最新の変更について説明します。</block>
@@ -39,65 +38,7 @@
   <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">EDAワークロード</block>
   <block id="e852955e53f52fa18c0de4a24d22f4af" category="inline-link-macro">NetApp Workload Factoryでブロックストレージを管理</block>
   <block id="e27c0520df6795eedf0c70ef38381a5b" category="paragraph"><block ref="e27c0520df6795eedf0c70ef38381a5b" category="inline-link-macro-rx"></block></block>
-  <block id="d9a614ba22162f87467dc9820cb657d0" category="doc">Google Cloud VMware Engine の移行アドバイザーサポートの紹介</block>
-  <block id="9ed9d229ad690b47d132eb6206cba909" category="paragraph">NetApp Workload Factory は Google Cloud VMware Engine をサポートするようになりました。Google Cloud NetApp Volumes を外部 NFS データストアとして使用することで、オンプレミスの VMware ワークロードを Google Cloud VMware Engine に移行でき、コストを最適化し、アプリケーションのリファクタリングや再プラットフォーム化を行わなくても VMware 環境をより細かく制御できるようになります。</block>
-  <block id="42fbc3a98a8196c1e84ea7586967c06f" category="paragraph">Google Cloud VMware Engine 移行アドバイザーは以下を提供します：</block>
-  <block id="6e784cfbe98c0f6a070e3304420a9971" category="list-text">VE1 および VE2 ノードタイプをサポートする、Google Cloud VMware Engine クラスタのサイジングと設計の自動化</block>
-  <block id="f6879c882f4384c5ca30017d48dafe42" category="list-text">vSAN 内部データストアと Google Cloud NetApp Volumes 外部 NFS データストア間の VM レイアウトの最適化。</block>
-  <block id="a29465f74d83dc4ead73643e19ed4387" category="list-text">vSANのみ構成とGoogle Cloud NetApp Volumes強化構成との詳細なコスト比較およびTCO分析。</block>
-  <block id="1711c42c1c1d16547f3fc604cd9af939" category="list-text">Standard、Premium、Extreme Google Cloud NetApp Volumes サービスレベルのサポート。</block>
-  <block id="d5adbe8ffd84800d108bc7ddf1451b8a" category="list-text">自動プロビジョニングのための Terraform を使用した Infrastructure-as-Code デプロイメント。</block>
-  <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">2026年3月9日</block>
   <block id="d34510ab77e099f24fa05ceac3ff150c" category="paragraph">適切に設計された分析には、Oracle 向けの以下の新しい構成が含まれています：</block>
-  <block id="9712df87120461c7551eea660e7f56a6" category="list-text">*Oracle Critical Patch Updates*：サポート対象のOracleセルフマネージドデータベースインストールに必要なセキュリティパッチの不足状況を評価します。</block>
-  <block id="b435abcc161e9c500b1c5e15baf0cbb5" category="list-text">*リージョン間レプリケーション*：Oracle データベースを提供する FSx for ONTAP ファイルシステムでリージョン間レプリケーション（CRR）が有効になっているかどうかを確認します。</block>
-  <block id="1d06ae97515a4da719bc482a7995a7ae" category="list-text">*アプリケーション整合性スナップショット*：NetApp SnapCenterを使用したアプリケーション整合性スナップショットによってOracleデータベースが保護されているかどうかを確認します。</block>
-  <block id="6a4580dc4131680131fa2d1447aa1deb" category="section-title">Oracleの1回限りの評価</block>
-  <block id="d268ce986e7de78be251b51e6126893b" category="paragraph">Workload Factoryは、新規導入、移行後、トラブルシューティングなど、必要に応じていつでもOracleデータベースの導入構成を分析する、1回限りの評価サービスを提供開始しました。デプロイメント構成を最適化し、ベストプラクティスに準拠するための推奨事項が得られます。これは、セットアッププロセスに完全にコミットすることなく、優れた設計の機能を利用できる機会です。Workload Factoryに認証情報を保存したり、データベースリソースを登録したり、外部接続を設定したりすることなく、データベースを評価できます。</block>
-  <block id="9c1752a9ed07d091eb717e163d985505" category="inline-link-macro">Oracle データベース環境の 1 回限りの評価を実施</block>
-  <block id="24d6ca96f32f995e477bbc13ce8c644a" category="paragraph"><block ref="24d6ca96f32f995e477bbc13ce8c644a" category="inline-link-macro-rx"></block></block>
-  <block id="48b0592736b0870e6ff074c10fa5d5dc" category="section-title">複数のOracleデータベースにおけるコスト削減効果の向上</block>
-  <block id="dc6ae15573380001d0b7dbda2215fba9" category="paragraph">Oracleのコスト削減分析を強化し、1つのFSx for ONTAPファイルシステム上の複数のOracleオンプレミスデータベース向けに統合ストレージソリューションを提供しています。この統合により、複数のデータベースに必要なファイルシステムの数を削減することでストレージコストが最適化され、コスト削減効果が向上します。</block>
-  <block id="141e832aa43713671a149000ddcd45e7" category="inline-link-macro">Oracleオンプレミスで検出されたデータベースの節約効果を検証する</block>
-  <block id="dd6bcf35b4739e139fa3041add91e4f2" category="paragraph"><block ref="dd6bcf35b4739e139fa3041add91e4f2" category="inline-link-macro-rx"></block></block>
-  <block id="7f65119c79afd09b7f99936d13e97909" category="section-title">2026年4月6日</block>
-  <block id="97c89cdac712f1b76105f91dee0572f0" category="paragraph">Workload Factory は、FSx for ONTAP ファイルシステムの*非アクティブな NAS ボリューム*を分析します。構成分析では、アクティブに使用されていない NAS ボリュームを特定し、ストレージ利用率を最適化してコストを削減するための対策を推奨します。</block>
-  <block id="8fed534b92837766d0beda280a6179f0" category="inline-link-macro">適切に設計された FSx for ONTAP ファイルシステムを実装する</block>
-  <block id="aa9fc3ddfcff516e1422d829fd2d4138" category="paragraph"><block ref="aa9fc3ddfcff516e1422d829fd2d4138" category="inline-link-macro-rx"></block></block>
-  <block id="51d8364219eb8c2bcde5564c48004466" category="section-title">S3アクセスポイントのジャーナルテーブル機能</block>
-  <block id="5693755c177f4efee6db3867cf164616" category="paragraph">ジャーナルテーブル機能は、FSx ONTAP S3オブジェクトストレージを大規模に管理する方法を提供し、バケット内のオブジェクトに対するユーザーアクセスイベントや操作を簡単に監査できます。Workload Factoryを使用すると、バケットとS3テーブルの自動スキャンを設定してイベントの記録を保持し、すべてのオブジェクト、その詳細、およびユーザー操作を表示できます。</block>
-  <block id="f5605effc9ff1f2b6b56333b91b9188b" category="inline-link-macro">NetApp Workload Factoryのジャーナルテーブルインフラを設定します</block>
-  <block id="15ee03197182e575bb603c90e93b0f1d" category="paragraph"><block ref="15ee03197182e575bb603c90e93b0f1d" category="inline-link-macro-rx"></block></block>
-  <block id="7a492c4bebdd8855719e33759860ec85" category="section-title">既存のigroupの管理のサポート</block>
-  <block id="8770963e84c3458575dd2cb30097ea59" category="paragraph">Workload Factoryは、既存のigroupの管理をサポートします。ブロックデバイスやホストイニシエータを追加または削除することで、デプロイされたワークロードを時間通りに提供できます。</block>
-  <block id="fb848967e18d6d577c43fdac12d36dae" category="section-title">FlexVol ボリュームのアグリゲートを指定するためのサポート</block>
-  <block id="d5df323db0a76ed62a683b9faace70ee" category="paragraph">Workload Factoryは、選択したアグリゲートでのFlexVolボリュームの作成をサポートしています。これにより、容量とパフォーマンスの負荷をすべてのファイルシステムリソースに分散させることができます。</block>
-  <block id="dfe0bf59b17a7c242e3e57ed9983cadf" category="inline-link-macro">NetApp Workload Factory で FlexVol volume を作成する</block>
-  <block id="438b9ce1f05f60505d31940eb7d80713" category="paragraph"><block ref="438b9ce1f05f60505d31940eb7d80713" category="inline-link-macro-rx"></block></block>
-  <block id="ea7d4002457b002b29ca2cb9a498c0bc" category="doc">ストレージに関する新しい通知</block>
-  <block id="77633bb85f2dda716363da565416542c" category="paragraph">NetApp Workload Factory通知サービスには、Storage向けNetApp Autonomous Ransomware Protection with AI（ARP/AI）の通知が含まれます。</block>
-  <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">NetApp Workload Factoryの通知</block>
-  <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
-  <block id="7b0ddde1961cce4426c7f0cf5da65e0d" category="doc">EDA容量に関する推奨事項</block>
-  <block id="edb815136867c3359e368e3f925ae387" category="paragraph">Workload Factory は、EDA インベントリ内の各 FSx for ONTAP クラスタの SSD 容量を自動的に分析し、調整が必要な場合に容量に関する推奨事項を生成します。このアルゴリズムは、各クラスタに対して 24 時間ごとに 1 回実行されます。</block>
-  <block id="1f9c155d60450baccee27bca630b6497" category="paragraph">推奨事項が特定された場合：</block>
-  <block id="8d65ccbe024d7453ace82bd13b7980d8" category="list-text">即座にメールまたはWAD通知が届きます（週次サマリーには含まれません）。</block>
-  <block id="8e5fe5a1e14c6d69b9c457c33f0204a7" category="list-text">クラスタテーブル内の該当するクラスタには、電球のインジケータが表示されます。</block>
-  <block id="c38bddc25aeb4374d71816e0b71a53a0" category="list-text">概要ダッシュボードの概要には、アクティブな推奨事項があるクラスターの総数が表示されます。</block>
-  <block id="1471ae7120155f3a06fa9c0a62a7f3f5" category="paragraph">推奨事項が有効になっているクラスタを選択すると、推奨事項が表示されます。推奨事項には、提案された変更内容とその理由が説明されています。</block>
-  <block id="2ccd39a9418b95cbcdec20bb3ef09998" category="inline-link">容量に関する推奨事項の詳細</block>
-  <block id="f5365a647b291a1c3ee4f226944d9a2f" category="paragraph"><block ref="a2995fc8e6aae530361e1ff8a48d8ace" category="inline-link-rx"></block>。</block>
-  <block id="606ee09c41a90b59b9cbb13e38ec6e86" category="section-title">自動AI レイテンシ分析</block>
-  <block id="8ae631ba5aac2d33e811621152cdf4a4" category="paragraph">レイテンシ分析に、AIエージェント分析が新たに加わりました。</block>
-  <block id="c9e8409eb7f69f1a747dacb755833499" category="paragraph">データ遅延やクラスタ遅延を伴う複雑なシナリオでは、AIエージェント分析を呼び出して以下の情報を受け取ることができます：</block>
-  <block id="81f0dd1809c0f077448d50d48cf6ce43" category="list-text">詳細な根本原因の特定</block>
-  <block id="a9e75b44526a7c3342bd86bfb6079dcc" category="list-text">影響を受けるEC2クライアントのリスト</block>
-  <block id="f1571de1d5f3c90507985e81e6f34526" category="list-text">具体的な修復手順</block>
-  <block id="0e3bc65341eefea76b4aa913be37a4d6" category="paragraph">AIエージェント分析にはAmazon BedrockモデルのARN構成が必要で、基本的な分析でより詳細な調査が推奨されるシナリオに対してオンデマンドで利用できます。AIエージェントは、バリーボリューム、最適ではないマウントポイント構成、FlexGroupリバランシングの必要性、スケールアウト要件などの問題を特定できます。</block>
-  <block id="3a0eea1249d5ea83860d68d281f6c97b" category="inline-link">AIエージェント分析の詳細</block>
-  <block id="af2687c5a2b9873716f0987242df8169" category="paragraph"><block ref="2915288e95b80b72c9de65e94d4fc279" category="inline-link-rx"></block>。</block>
-  <block id="d08fabf4c0fdff2290096692a4ffa28a" category="section-title">ブロックデバイスの最終アクセス時刻</block>
-  <block id="fa4bdc942217a8579f785220b2742233" category="paragraph">Workload Factoryは、ブロックデバイスの最終アクセス時刻を報告します。時刻は、Workload Factoryでigroupに最後にアクセスした時点に基づいています。各ブロックデバイスが最後に使用された日時を知ることで、リソースを最適化することができます。</block>
   <block id="5a022ce9df2c118b15eecf6d431faf14" category="doc">ブロックデバイスのクローン</block>
   <block id="c74340453798a5d4d4e10a5aaef38904" category="paragraph">Workload Factoryは、ブロックデバイスのクローン機能を提供することで、容量、アクセス、ライフサイクルを制御しながら、書き込み可能で効率的なデータコピーを迅速にプロビジョニングできるようにします。</block>
   <block id="91cb86206fad91f1ee03be3263ce2b5e" category="section-title">ブロックデバイス上のEC2タグ</block>
@@ -220,4 +161,10 @@
   <block id="00617692d401e7bead58c1c61c197639" category="paragraph">概要ダッシュボードのクラスターテーブルに、各ファイルシステムに対してFSx for ONTAPリンクが設定されているかどうかを示す関連リンク列が追加されました。接続ステータスは毎日検証され、リンク設定が必要なファイルシステムや接続に問題がある可能性のあるファイルシステムを特定するのに役立ちます。</block>
   <block id="14447da801a1982ce517d6e1ffb0c116" category="inline-link-macro">概要ダッシュボードを表示する</block>
   <block id="ad5ea2e791a779cc733cf94252010c1e" category="paragraph"><block ref="a3c9e85960ac01cd3d2a615266299aa4" category="inline-link-macro-rx"></block>。</block>
+  <block id="caa606c0b1085a846c384cef14c3a17f" category="doc">EVS TCO 計算ツールにおける i7i.metal-24xl インスタンスのサポート</block>
+  <block id="b055674b094a39e8822f5941fd1ddf8d" category="paragraph">EVSのTCO計算ツールが、クラスターホストとしてAWS i7i.metal-24xl EC2インスタンスをサポートするようになりました。i4i.metal構成と比較すると、これらのインスタンスはEVSの初期コストをコンピューティングで約33%、vSANストレージで約25%削減します。</block>
+  <block id="bbc7cb1849fc26e314ad21ecd99ca5fe" category="paragraph">この計算ツールは、両方のインスタンスタイプを自動的に比較し、最も費用対効果の高いオプションを選択します。新しい比較セクションでは、EVSホストの構成を並べて表示することで、ニーズに最適な設定を簡単に見つけることができます。</block>
+  <block id="0665cdd8950328e06e0db9b1e16938d3" category="inline-link-macro">EVSの推定節約額を計算する</block>
+  <block id="86271c8c1063215a7f1ff0f45240c576" category="paragraph"><block ref="86271c8c1063215a7f1ff0f45240c576" category="inline-link-macro-rx"></block></block>
+  <block id="b2384f97ee5bce1c28f5573e6878c9c1" category="section-title">2026年7月6日</block>
 </blocks>
