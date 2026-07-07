@@ -179,4 +179,10 @@
   <block id="8dd5201c5cc5a3396ebbb0eed3c4385d" category="inline-link">複数のグラフを使用してレイテンシーの傾向を分析する方法を説明します。</block>
   <block id="96f2a9474e94ea84ba4915ee29411c85" category="paragraph"><block ref="6741c3b9db1b1d3c4d7831b9652aaaca" category="inline-link-rx"></block>。</block>
   <block id="1cdbc8bcb26cc8d5e894a97b9e7f269f" category="section-title">2026年7月5日</block>
+  <block id="992672ecff7fe59cf2782ddb79f58e1d" category="doc">カスタムダッシュボード</block>
+  <block id="2865e3ecb86dc9391d13f92e53f2a2ac" category="paragraph">ワークロードと優先順位に合わせたAI搭載ダッシュボードを作成することで、業務のパフォーマンスを簡単に把握できます。固定ビューに頼るのではなく、カスタムダッシュボードを使用することで、最も重要な情報に集中できます。</block>
+  <block id="4ebed31793305164cd5e1b71336c2244" category="paragraph">追跡したい内容を平易な言葉で説明すれば、AIがあなたの要望に基づいてダッシュボードを作成します。例えば、災害復旧の状況、地域ごとの容量とコスト、ストレージ保護のコンプライアンス、その他の運用指標を追跡できます。</block>
+  <block id="f2c8c03b6d33f0a06783ce6241b381a6" category="paragraph">カスタムダッシュボードは読み取り専用なので、ストレージやワークロードの設定を変更することはできません。Workload Factoryアカウントのユーザーであれば誰でもこれらのダッシュボードを表示および管理できるため、チーム間で情報を共有し、連携を維持することが容易になります。</block>
+  <block id="7f7fdf6329959f984b3ff303ae5ac37f" category="inline-link-macro">カスタムダッシュボードの詳細</block>
+  <block id="b95d6b8ad9f73321f9cc2385811deedb" category="paragraph"><block ref="b95d6b8ad9f73321f9cc2385811deedb" category="inline-link-macro-rx"></block></block>
 </blocks>
