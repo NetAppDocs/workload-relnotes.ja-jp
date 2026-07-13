@@ -4,6 +4,7 @@
 
 
 
+[[i7i-metal-24xl-instance-support-in-evs-tco-calculator]]
 === EVS TCO 計算ツールにおける i7i.metal-24xl インスタンスのサポート
 
 EVSのTCO計算ツールが、クラスターホストとしてAWS i7i.metal-24xl EC2インスタンスをサポートするようになりました。i4i.metal構成と比較すると、これらのインスタンスはEVSの初期コストをコンピューティングで約33%、vSANストレージで約25%削減します。

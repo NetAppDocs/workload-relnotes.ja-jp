@@ -4,6 +4,7 @@
 
 
 
+[[email-and-sns-notifications-for-latency-events]]
 === レイテンシイベントに関するEメールおよびSNS通知
 
 FSx for ONTAP ボリュームでレイテンシイベントが検出されたときに、自動通知を受信できるようになりました。Workload Factory 設定で E メールまたは Amazon SNS 通知を設定すると、ボリュームが設定したレイテンシしきい値を超えたときにリアルタイムアラートを受信できます。
@@ -14,6 +15,7 @@ https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#configure-l
 
 
 
+[[latency-trend-visualization-with-interactive-graphs]]
 === インタラクティブなグラフによるレイテンシ傾向の可視化
 
 レイテンシー分析パネルに、包括的なレイテンシー分析のためのタブ付きインターフェースが追加されました：

@@ -4,6 +4,7 @@
 
 
 
+[[enhanced-latency-analysis-with-iops-and-throughput-graphs]]
 === IOPSとスループットグラフによるレイテンシ分析の強化
 
 レイテンシー分析パネルの *Over time* タブに、同期されたパフォーマンスグラフが表示されるようになりました：
@@ -25,6 +26,7 @@ https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["複
 
 
 
+[[set-latency-notification-frequency]]
 === 遅延通知の頻度を設定する
 
 レイテンシ違反に関するメール通知の受信頻度を選択できるようになりました。

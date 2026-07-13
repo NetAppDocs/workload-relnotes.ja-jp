@@ -4,4 +4,5 @@
 
 
 
+[[genai-workloads]]
 === 生成AIワークロード
