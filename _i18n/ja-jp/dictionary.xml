@@ -194,26 +194,16 @@
   <block id="943fb48a5bde64c680308a09af0a0832" category="paragraph">遅延の問題を通知しつつメールの量を減らすため、デフォルトでは毎日の通知が有効になっています。遅延監視の設定時やしきい値設定の編集時に、通知設定を変更できます。</block>
   <block id="7a13522750dff612c4af95a525a5075b" category="inline-link">レイテンシ監視の設定方法を確認する</block>
   <block id="496e68c00adfe40e8730acfccde74f6b" category="paragraph"><block ref="9cf52e304b2518ca53073fc069c5a89c" category="inline-link-rx"></block>。</block>
-  <block id="da6f5bf8aee08ef83468ad38ab52796b" category="doc">すべての FSx for ONTAP システムで新しいwell-architectedダッシュボードが利用可能になりました</block>
-  <block id="7fca025a8bf1b5d72a149731d5c88125" category="paragraph">ウェルアーキテクテッド分析が、NetApp Workload Factory の新しいウェルアーキテクテッドダッシュボードから、FSx for ONTAP ファイルシステムで利用できるようになりました。新しいダッシュボードでは、アカウントやリージョンをまたがるすべてのファイルシステムとその構成を一元的に確認できます。ファイルシステムから「Well-architected」タブにアクセスすると、ポップアップ通知が表示されます。Workload Factory の左側のナビゲーションメニューから「Well-architected」を選択すると、新しいダッシュボードにアクセスできます。</block>
-  <block id="b09ad8a2ad81c470093e9c74313ea0c2" category="paragraph">特定のファイルシステムのWell-architected分析には、引き続きアクセスできます。また、ストレージの「Well-architected」メニューオプションからもアクセスできます。</block>
-  <block id="9864fa88fc3747e67b6fc38c9b938677" category="section-title">優れたアーキテクチャ分析における新たな推奨事項</block>
-  <block id="a38b9a0af0de5e85c5e64a158079deb5" category="paragraph">Workload Factory は、FSx for ONTAP ファイルシステムの適切なアーキテクチャ分析に以下の構成を含めるようになりました：</block>
-  <block id="fd2d46026cdd19577962231303a46abd" category="list-text">ホストをフェイルオーバーノードに接続：アクティブ / パッシブ FSx for ONTAP ファイルシステムでホストがフェイルオーバーノードに接続されているかどうかを確認し、信頼性向上のためにホストをフェイルオーバーノードに接続することを推奨します。</block>
-  <block id="0e7d4cc90eb78377a1315bafe07799dd" category="list-text">ホストを優先ノードに接続する：ホストが優先ノードを使用してブロックデバイスに接続されているかどうかを確認し、パフォーマンス効率のためにホストを優先ノードに接続することを提案します。</block>
   <block id="efbeddc0347a679a438120189b77f860" category="section-title">ボリュームエクスプローラー</block>
   <block id="3e1cc7f8632eafd5f69d910c06db3aa4" category="paragraph">Volumes Explorer は、NetApp Workload Factory のすべてのボリュームをシンプルに検索可能なビューで表示します。どのボリュームがブロックワークロードまたはファイルワークロードに使用されているかをすばやく確認できます。各ボリュームの論理サイズ、物理的な使用容量、およびストレージ効率化機能（圧縮、重複排除、コンパクション）を使用しているかどうかを確認できます。名前、ステータス（利用可能／失敗）、レイテンシ、サイズ、使用容量、および保護機能でフィルタリングおよび並べ替えを行います。</block>
-  <block id="2731bbeb58ccf58c8e631528a8e3fc94" category="section-title">レプリケーション遅延の改善</block>
   <block id="3a410df7dfc102007ea8a7569fdb1810" category="section-title">レプリケーション遅延に関するメール通知機能の強化</block>
   <block id="bd78ae8d1a9aed4500716acc31d179d8" category="paragraph">レプリケーション遅延に関するメール通知に、影響を受けるリレーションシップに関する詳細情報が含まれるようになりました。この通知により、影響を受けるリレーションシップを迅速に特定し、Workload Factory コンソールで詳細を確認できます。</block>
   <block id="4dc5c4a9c4b845746295cce1108ec278" category="inline-link-macro">レプリケーション遅延に関する通知を有効にする</block>
   <block id="7f27417270cfb269527e679a64b5a19a" category="paragraph"><block ref="7f27417270cfb269527e679a64b5a19a" category="inline-link-macro-rx"></block></block>
-  <block id="347a810d994926c5e31d1bd690b34fcf" category="section-title">レプリケーション遅延データをCSVファイルにエクスポートする</block>
-  <block id="45cbeaeb98d1d075d560a8e62269fbbb" category="paragraph">レプリケーション遅延データをCSVファイルにエクスポートして、スプレッドシートでデータを分析したり、他のユーザーと共有したりできるようになりました。</block>
-  <block id="2b3d29c88190bdb57da25e1848b65b7d" category="inline-link-macro">レプリケーションの遅延を追跡する</block>
-  <block id="7aab1e1b0e0fcc4720b15dcc5848034e" category="paragraph"><block ref="7aab1e1b0e0fcc4720b15dcc5848034e" category="inline-link-macro-rx"></block></block>
   <block id="5312d8ea7e9ef079aeac882dbcd64d0a" category="section-title">ブロックデバイス作成機能の強化</block>
   <block id="85fb39d6f3bb52679cb9ce3bd27ffd1c" category="paragraph">Workload Factoryは、ボリュームスナップショットからのブロックデバイスの作成をサポートしています。</block>
   <block id="a439412a0228682fa1054f4bc1a96815" category="inline-link-macro">Workload Factory でボリュームスナップショットからブロックデバイスを作成する</block>
   <block id="40a9299c5fdf8c1e8242dcb670c6b1cd" category="paragraph"><block ref="40a9299c5fdf8c1e8242dcb670c6b1cd" category="inline-link-macro-rx"></block></block>
+  <block id="cc661418365d138458bf55f936b73a47" category="section-title">ワークロードファクトリーからのGenAIワークロードの削除</block>
+  <block id="ef18329e66f7a0f5b022b9a400dd74ed" category="paragraph">GenAIワークロードはWorkload Factoryコンソールから削除されました。</block>
 </blocks>

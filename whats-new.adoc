@@ -84,6 +84,12 @@ link:learn-custom-dashboards.html["カスタムダッシュボードの詳細"]
 
 
 
+==== ワークロードファクトリーからのGenAIワークロードの削除
+
+GenAIワークロードはWorkload Factoryコンソールから削除されました。
+
+
+
 [[eda-workloads]]
 === EDAワークロード
 
