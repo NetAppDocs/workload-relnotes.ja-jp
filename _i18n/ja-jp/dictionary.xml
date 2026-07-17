@@ -204,4 +204,6 @@
   <block id="a868b37aeda2e8d7f0a8e48f498112fc" category="paragraph">レイテンシー分析パネルに、同期されたパフォーマンスグラフを含む *Detailed latency analysis* ページが追加されました。</block>
   <block id="a4abbd682ae58689df4450b4a65c90a2" category="list-text">*スループットグラフ*：データ転送速度を表示します（DataReadBytesまたはDataWriteBytes）。フィルターでメタデータを選択した場合、スループットグラフにはデータが表示されません。</block>
   <block id="7e9591a005bdef4cdf16dfd575186f3b" category="paragraph">表示を調整することで、レイテンシの急増とIOPSおよびスループットの変化との相関関係を把握できます。違反マーカーとホバー時の詳細情報により、しきい値を超えたタイミングを確認したり、検出された違反に関する主要な指標をレビューしたりできます。</block>
+  <block id="842065a36dace972d6dab0c170421bd1" category="section-title">ボリュームとブロックデバイスのワークロードタグ付け</block>
+  <block id="47c38c6a3d7e96ce1b3b2519a980f283" category="paragraph">Workload Factoryは、ボリュームとブロックデバイスを、その主要なワークロードまたはアプリケーションに基づいて識別し、タグ付けするようになりました。Microsoft SQL ServerやOracle Databaseなどの定義済みワークロードタグを割り当てるか、アプリケーション用にカスタムタグを作成することができます。タグは個々のリソースに適用することも、接続されているストレージリソースに継承させることもできます。これにより、ストレージ構成をワークロードの要件に合わせ、インシデントの影響を把握し、より効果的にトラブルシューティングを行うことができます。</block>
 </blocks>

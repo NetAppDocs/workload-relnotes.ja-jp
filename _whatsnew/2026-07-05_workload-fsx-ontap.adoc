@@ -26,3 +26,10 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-replication-delays.h
 Workload Factoryは、ボリュームスナップショットからのブロックデバイスの作成をサポートしています。
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-block-device.html["Workload Factory でボリュームスナップショットからブロックデバイスを作成する"]
+
+
+
+[[workload-tagging-for-volumes-and-block-devices]]
+=== ボリュームとブロックデバイスのワークロードタグ付け
+
+Workload Factoryは、ボリュームとブロックデバイスを、その主要なワークロードまたはアプリケーションに基づいて識別し、タグ付けするようになりました。Microsoft SQL ServerやOracle Databaseなどの定義済みワークロードタグを割り当てるか、アプリケーション用にカスタムタグを作成することができます。タグは個々のリソースに適用することも、接続されているストレージリソースに継承させることもできます。これにより、ストレージ構成をワークロードの要件に合わせ、インシデントの影響を把握し、より効果的にトラブルシューティングを行うことができます。
