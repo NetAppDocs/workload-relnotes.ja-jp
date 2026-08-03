@@ -1,0 +1,31 @@
+= ウェルアーキテクテッド分析における Oracle および Microsoft SQL Server の構成変更
+:allow-uri-read: 
+
+
+
+
+[[configuration-changes-for-oracle-and-microsoft-sql-server-in-the-well-architected-analysis]]
+=== ウェルアーキテクテッド分析における Oracle および Microsoft SQL Server の構成変更
+
+複数のデータベース構成が統合され、適切なアーキテクチャ分析において以下の構成に名称変更されました。
+
+* *ブロックデバイス領域管理*：スペース リザベーション、スペース割り当て、およびフラクショナルリザーブが含まれます
+* *ストレージ効率*：圧縮、重複排除、およびコンパクションが含まれます
+* *階層化/TCO最適化*：階層化ポリシーと階層化最低冷却日数が含まれます
+* *ローカルスナップショットのスケジュール*：スナップショットポリシーが含まれます
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-overview.html["ワークロードファクトリーにおける構成分析"]
+
+
+
+[[updated-iam-permission-policies-for-databases]]
+=== データベースのIAMアクセス許可ポリシーを更新しました
+
+データベースのアクセス権限が更新され、機能へのアクセス性が向上し、不要なSSMへのアクセスが制限されました。
+
+表示、計画、および分析の権限は、AWS SSM ドキュメントに限定されます。これらの権限があれば、ホスト、インスタンス、データベースを表示できます。また、リソースの基本的なオンデマンドの Well-Architected 分析を実行することもできます。
+
+操作および修復権限を使用すると、リソースの変更、エラーログの分析、リソースの包括的なウェルアーキテクテッド分析の取得、および構成上の問題の修正を行うことができます。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["権限リファレンス"^]
