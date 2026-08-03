@@ -217,7 +217,6 @@
   <block id="b26629c4d0db7a100913103c2501115d" category="section-title">ワークロードタグ付けとAI機能</block>
   <block id="c6e3575ea0e96a40eeea1698ed97e99f" category="paragraph">管理者がAI機能を無効にした場合、ワークロードにはタグ付けされません。Workload Factoryアカウントの設定でAI機能が無効になっている場合、タグ付けサービスはストレージリソース上のワークロードを識別または分類しません。</block>
   <block id="9801425a2145ab6ed5aa12b9446c905c" category="inline-link-macro">AI管理について学ぶ</block>
-  <block id="cbbc45b1bedc18c950d2da6ef1fe1f43" category="paragraph"><block ref="40737cbe54dcebc9ef5c68ebf72b8d96" category="inline-link-macro-rx"></block>。</block>
   <block id="39cf1aaf3e84c5c49c930c5bfe27e098" category="section-title">節約額のスナップショット計算の改善点を確認する</block>
   <block id="a4f25c93cc96e84a15a9a235f569bbe2" category="paragraph">「Explore savings now」では一貫したスナップショット容量計算が使用されるようになったため、FSx for ONTAP の節約額の見積もりに追加のスナップショット容量プール要件が正しく考慮されます。</block>
   <block id="e14c4b029cabd340fe3b6c67835e9927" category="inline-link-macro">Amazon Elastic Block Store、FSx for Windows File Server、Elastic File System のストレージ環境におけるコスト削減効果をご確認ください。</block>
@@ -229,4 +228,5 @@
   <block id="c634bf7b5214ed8f0d82613de1e29eff" category="inline-link-macro">S3アクセスポイントを編集する</block>
   <block id="84118bd808a8989867b6fc874b0b1b45" category="paragraph">S3 イベントの通知を設定するには、<block ref="5014cadb2b53045b84df58ebddada57a" category="inline-link-macro-rx"></block> *Journal table* セクションで *Send S3 events by SNS* を選択します。</block>
   <block id="adf6bc23c10d536eed25c42f34ba48e8" category="section-title">2026年8月2日</block>
+  <block id="bb971caaebe9e5940267caf457500810" category="paragraph"><block ref="247b746a5e5f871115d636673a8fd3a7" category="inline-link-macro-rx"></block>。</block>
 </blocks>

@@ -44,7 +44,7 @@
 
 管理者がAI機能を無効にした場合、ワークロードにはタグ付けされません。Workload Factoryアカウントの設定でAI機能が無効になっている場合、タグ付けサービスはストレージリソース上のワークロードを識別または分類しません。
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-genai-features.html["AI管理について学ぶ"^]。
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["AI管理について学ぶ"^]。
 
 
 
