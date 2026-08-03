@@ -15,6 +15,74 @@ NetApp Workload Factory の一部であるワークロードの最新の変更�
 
 
 
+[[03-august-2026]]
+== 2026年8月3日
+
+
+
+[[setup-and-administration]]
+=== セットアップと管理
+
+
+
+==== データベースのIAMアクセス許可ポリシーを更新しました
+
+データベースのアクセス権限が更新され、機能へのアクセス性が向上し、不要なSSMへのアクセスが制限されました。
+
+表示、計画、および分析の権限は、AWS SSM ドキュメントに限定されます。これらの権限があれば、ホスト、インスタンス、データベースを表示できます。また、リソースの基本的なオンデマンドの Well-Architected 分析を実行することもできます。
+
+操作および修復権限を使用すると、リソースの変更、エラーログの分析、リソースの包括的なウェルアーキテクテッド分析の取得、および構成上の問題の修正を行うことができます。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["権限リファレンス"] === カスタムダッシュボード
+
+
+
+===== カスタムダッシュボードの通知
+
+Workload Factoryは、カスタムダッシュボードの準備が完了したとき、または作成が失敗したときに通知するようになりました。
+
+カスタムダッシュボードを作成すると、それを直接表示するためのリンクが記載された通知が届きます。作成に失敗した場合は、カスタムダッシュボードのインベントリへのリンクを含む通知が表示され、再度お試しいただけます。
+
+これにより、ダッシュボードの準備が整ったタイミングが分かりやすくなり、確認や再作成も容易になります。
+
+link:create-custom-dashboard.html["カスタムダッシュボードの作成方法を説明します"]
+
+link:configure-notifications.html["通知の設定について"]
+
+
+
+===== プライベートおよびパブリックのカスタムダッシュボード
+
+カスタムダッシュボードに共有設定が追加されました。ダッシュボードは非公開にすることも、チームと共有することもできます。
+
+新しいダッシュボードはデフォルトでは非公開設定になっており、あなた以外には表示されません。ダッシュボードはいつでも公開設定にして、Workload Factoryアカウント内のすべてのユーザーと共有できます。
+
+各ダッシュボードカードには「プライベート」または「パブリック」のラベルが表示されるため、どのダッシュボードが共有されているかをすぐに確認できます。
+
+link:learn-custom-dashboards.html#dashboard-visibility-and-sharing["ダッシュボードの表示設定と共有について"]
+
+link:manage-custom-dashboards.html#change-dashboard-visibility["ダッシュボードの共有方法について説明します"]
+
+
+
+==== AI機能管理
+
+Workload Factoryの管理画面で以下の設定を行うことで、組織全体におけるAI機能へのアクセスを制御できます。
+
+* NetAppが管理するBedrockを使用します（推奨、デフォルトで有効、月単位のクレジット制限あり）
+* すべてのAI機能をオフにする
+
+
+新しい管理ページでは、これらの設定を1か所で管理できます。
+
+AI機能には、Ask Me、カスタムダッシュボード、ルールビルダー、およびEMS、データベースログ、ボリュームレイテンシ用のアナライザーが含まれます。
+
+AI機能がオフになっている場合、ユーザーにはAIが利用できないというメッセージが表示されます。
+
+link:manage-genai-features.html["AI機能の管理について"]
+
+
+
 [[06-july-2026]]
 == 2026年7月6日
 
@@ -356,148 +424,3 @@ link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html
 ==== NetApp Workload FactoryでのAWS GovCloud（US）のサポート
 
 NetApp Workload FactoryはAWS GovCloud（US）アカウントをサポートしています。GovCloudアカウントを使用すると、AWS GovCloud（US）リージョンでストレージワークロードをデプロイおよび管理できます。
-
-
-
-[[03-may-2026]]
-== 2026年5月3日
-
-
-
-[[amazon-fsx-for-netapp-ontap]]
-=== NetApp ONTAP 対応の Amazon FSX
-
-
-
-==== ブロックデバイスのクローン
-
-Workload Factoryは、ブロックデバイスのクローン機能を提供することで、容量、アクセス、ライフサイクルを制御しながら、書き込み可能で効率的なデータコピーを迅速にプロビジョニングできるようにします。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html["NetApp Workload Factoryでブロックストレージを管理"]
-
-
-
-==== ブロックデバイス上のEC2タグ
-
-ブロックデバイステーブルに、各ブロックデバイスを使用しているEC2ホストのタグを表示する列が追加されました。これは、トラブルシューティングや監査の際に、どのホストが各ブロックデバイスを使用しているかを特定するのに役立ちます。
-
-各ブロックデバイスにタグを作成するには、提供されているユーザースクリプトを使用してEC2インスタンスをデプロイします。
-
-link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/Management-Utilities/ec2-user-data-iscsi-create-and-mount["ブロックデバイスにタグを割り当てるEC2ユーザーデータスクリプト"]
-
-
-
-==== FSx for ONTAP ファイルシステムの容量トレンド
-
-FSx for ONTAP ファイルシステムの概要から SSD 容量のトレンドを直接確認できます。容量管理用の新しいカードには、前月の使用傾向が表示されます。この分析では、実際の容量と割り当てられた容量を比較することで、リソースの使用状況を容易に評価できます。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-capacity-automatically.html["NetApp Workload Factoryで容量を自動的に管理"]
-
-
-
-==== FSx for ONTAPファイルシステムの適切に設計された状態に関するPDFレポート
-
-分析後、記録用またはチームと共有するために、FSx for ONTAP ファイルシステムの適切なアーキテクチャステータスに関するPDFレポートをダウンロードできます。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["NetApp Workload FactoryでFSx for ONTAPファイルシステムの適切なアーキテクチャのステータスを表示します"]
-
-
-
-[[database-workloads]]
-=== データベースワークロード
-
-
-
-==== Oracle 向けの Well-Architected 分析
-
-適切に設計された分析には、Oracle 向けの以下の新しい構成が含まれています：
-
-* *バックアップ構成*：OracleデータベースがAWS BackupまたはFSx for ONTAPバックアップによって保護されているかどうかを確認します。
-* *クローンのクリーンアップ*：ストレージコストを削減するために、古くなったクローンや使用されていないクローンを削除することをお勧めします。
-
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Workload Factory で Well-Architected データベース構成を実装する"]
-
-
-
-==== Amazon Elastic Block Store（EBS）上のOracleデータベースの自動節約計算
-
-Workload Factory は、Oracle データベースに使用される EBS ストレージのコストを自動的に分析し、最適でコスト効率の高い FSx for ONTAP 構成を提案します。複数の EBS ホストを選択して分析し、それらのホストを EBS で実行する場合と FSx for ONTAP で実行する場合のコストを比較できます。
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["検出されたEBSホストの削減効果を確認する"]
-
-
-
-==== CRR設定の前提条件チェック
-
-データベース資産に対してクロスリージョンレプリケーション（CRR）を有効にすると、データベースワークロードは、FSx for ONTAPファイルシステムに関連付けられたリンクとレプリケーションのセットアップがあるかどうかを確認します。必要に応じて、データベースワークロードは、ストレージと同じ方法でリンクの前提条件を処理するために、FSx for ONTAPストレージワークロードレプリケーションウィザードにリダイレクトします。
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Workload Factory で Well-Architected データベース構成を実装する"]
-
-
-
-==== Microsoft SQL Serverデータベースに関連付けられたLUN
-
-Workload Factoryのインベントリ画面から、Microsoft SQL ServerデータベースにマッピングされたLUNを表示できるようになりました。これにより、どのLUNがどのデータベースに関連付けられているかを簡単に識別できるため、ストレージリソースの管理と最適化が容易になります。
-
-
-
-[[setup-and-administration]]
-=== セットアップと管理
-
-
-
-==== Workload Factory のメール通知
-
-Amazon SNSトピックを設定しなくても、Workload Factoryの通知をメールで受信できるようになりました。アカウントに関連付けられているすべてのメールアドレスに通知を送信するには、メール通知を有効にしてください。
-
-Workload Factory コンソールまたはNetApp Console のいずれかから E メール通知を設定できます。NetApp Console では、ベルアイコンの下に表示されるNetApp Console 通知を設定するオプションも提供されています。
-
-NetApp Console で通知を設定すると、NetApp Console が通知配信の所有権を取得します。重複通知を防ぐため、Workload Factory コンソールの通知設定は読み取り専用になります。
-
-
-
-==== EDAレイテンシに関する新しい通知
-
-NetApp Workload Factoryの通知サービスには、EDA操作のレイテンシが一定のしきい値を超えた場合に通知するEDAレイテンシに関する通知が含まれています。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Workload Factory の通知を設定する"]
-
-
-
-==== FSx for ONTAP ファイルシステムの新しい通知
-
-NetApp Workload Factory 通知サービスには、アカウントの月次コスト概要を含む通知が含まれており、支出傾向、異常な変更、FSx for ONTAP ファイルシステムの最適な節約機会が表示されます。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Workload Factory の通知を設定する"]
-
-
-
-[[eda-workloads]]
-=== EDAワークロード
-
-
-
-==== レイテンシイベントに関するEメールおよびSNS通知
-
-FSx for ONTAP ボリュームでレイテンシイベントが検出されたときに、自動通知を受信できるようになりました。Workload Factory 設定で E メールまたは Amazon SNS 通知を設定すると、ボリュームが設定したレイテンシしきい値を超えたときにリアルタイムアラートを受信できます。
-
-通知はファイルシステム単位で送信され、影響を受けるすべてのボリュームの詳細、重大度レベル、しきい値の比較、および調査用のレイテンシページへの直接リンクが含まれます。
-
-https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#configure-latency-notifications["レイテンシ通知の設定方法を確認する"^]。
-
-
-
-==== インタラクティブなグラフによるレイテンシ傾向の可視化
-
-レイテンシー分析パネルに、包括的なレイテンシー分析のためのタブ付きインターフェースが追加されました：
-
-* *概要*：レイテンシの原因となっているコンポーネントを示す、自動化された基本分析結果を表示します。
-* *時間経過*：複数の時間枠（1時間、3時間、12時間、24時間、または72時間）にわたるボリュームレイテンシーの挙動を、インタラクティブなグラフで視覚化します。
-
-
-*Over time* タブには、生の CloudWatch レイテンシデータ（トリガーされたアラームに応じて読み取りまたは書き込み）が、警告および重大なしきい値ライン、違反インジケーター、および各違反に関する詳細なメトリックとともに表示されます。
-
-この包括的な視覚化ツールは、パターンを特定し、レイテンシーの問題が繰り返し発生しているのか、それとも単発的なものなのかを理解し、より的確な対策決定を下すのに役立ちます。
-
-https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["レイテンシの傾向を分析する方法を学ぶ"^]。
