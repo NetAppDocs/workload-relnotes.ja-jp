@@ -202,4 +202,31 @@
   <block id="b353daec82916c89eec0f9b0557132c1" category="list-text">*トップカード構成*：上部のカードは、SSD管理と同様に、スループット増加モード構成をサポートするようになりました。</block>
   <block id="e6ae1bdcdd4c1d6a5bc23c326f27ff3f" category="inline-link-macro">概要ダッシュボードの使用方法を説明します</block>
   <block id="070faad8fac25fb3d4c659a4b7497b19" category="paragraph"><block ref="0a3eee7cb6c31ec86c09cd7ae18ee1d3" category="inline-link-macro-rx"></block>。</block>
+  <block id="da6f5bf8aee08ef83468ad38ab52796b" category="doc">すべての FSx for ONTAP システムで新しいwell-architectedダッシュボードが利用可能になりました</block>
+  <block id="7fca025a8bf1b5d72a149731d5c88125" category="paragraph">ウェルアーキテクテッド分析が、NetApp Workload Factory の新しいウェルアーキテクテッドダッシュボードから、FSx for ONTAP ファイルシステムで利用できるようになりました。新しいダッシュボードでは、アカウントやリージョンをまたがるすべてのファイルシステムとその構成を一元的に確認できます。ファイルシステムから「Well-architected」タブにアクセスすると、ポップアップ通知が表示されます。Workload Factory の左側のナビゲーションメニューから「Well-architected」を選択すると、新しいダッシュボードにアクセスできます。</block>
+  <block id="b09ad8a2ad81c470093e9c74313ea0c2" category="paragraph">特定のファイルシステムのWell-architected分析には、引き続きアクセスできます。また、ストレージの「Well-architected」メニューオプションからもアクセスできます。</block>
+  <block id="63960000d4e139f329b74b4b91c43feb" category="section-title">ストレージダッシュボードに新しいウィジェットが追加されました</block>
+  <block id="1b701a8eaad0525cd9d21842a87a1800" category="paragraph">ストレージダッシュボードに、ストレージの使用状況を把握し、最適化する方法を見つけるのに役立つ2つの新しいウィジェットが追加されました。</block>
+  <block id="0e2bbff5eb55e16098106686c6657f4e" category="list-text">*検出された上位ワークロード* タグ付けサービスによって環境全体で検出されたワークロードデータを表示します。ボリュームやブロックデバイスなどの関連する FSx リソースを含む、信頼度スコアが 80% を超えるワークロードを表示します。各ワークロードには、その名前、リソース数、プロビジョニングされた容量、および使用済み容量が表示されます。リソース数（デフォルト）、プロビジョニング済み容量、または使用済み容量で並べ替えることで、最大のワークロードをすばやく特定し、ストレージの使用パターンを把握できます。</block>
+  <block id="dea1b9553440d525973da9d88c579dd0" category="list-text">*AIを活用した洞察と観察* 管理対象資産に関するAI生成の洞察を表示します。このウィジェットは、選択した範囲内の資産データを分析し、容量、パフォーマンス、データ保護、レプリケーション、コスト削減、ストレージの傾向など、主要な分野における上位3つの発見事項を強調表示します。</block>
+  <block id="e3b3cc77c3245b045d666342b4d976b2" category="paragraph">各インサイトには、概要、詳細な調査結果、および推奨アクションが含まれています。インサイトを展開すると、詳細を確認し、深刻度、パフォーマンスの改善、コスト削減の機会に基づいて問題の優先順位を付けることができます。</block>
+  <block id="cd4ef961255320407f22a2c9683cfd1d" category="section-title">ワークロードタグ付け</block>
+  <block id="6e7c3ced7d1755c7c375f47ca6b2c3f0" category="section-title">ワークロードタグ付けのためのAWS Systems Managerとの統合</block>
+  <block id="8cc8dc3c329756b30481400836ca180c" category="paragraph">ワークロードタグ付けサービスは、AWS Systems Managerと連携して、ホストインベントリデータに詳細情報を追加できるようになりました。Workload Factoryは、SSMインベントリ情報を収集および処理することで、ワークロードの識別と分類をより適切に行えるようになりました。AWS SSM属性もタグ付けプロセスに含まれており、ワークロード検出の精度向上に役立てられています。</block>
+  <block id="7f1ecac494abdd70b1fef3cc1209be0c" category="paragraph">適切に設計されたダッシュボード内のボリューム関連の設定すべてにおいて、リソーステーブルに「ワークロード」列が追加されました。この列は、Workload Factory が各ボリュームに関連付けているワークロードを示しています。</block>
+  <block id="b26629c4d0db7a100913103c2501115d" category="section-title">ワークロードタグ付けとAI機能</block>
+  <block id="c6e3575ea0e96a40eeea1698ed97e99f" category="paragraph">管理者がAI機能を無効にした場合、ワークロードにはタグ付けされません。Workload Factoryアカウントの設定でAI機能が無効になっている場合、タグ付けサービスはストレージリソース上のワークロードを識別または分類しません。</block>
+  <block id="9801425a2145ab6ed5aa12b9446c905c" category="inline-link-macro">AI管理について学ぶ</block>
+  <block id="cbbc45b1bedc18c950d2da6ef1fe1f43" category="paragraph"><block ref="40737cbe54dcebc9ef5c68ebf72b8d96" category="inline-link-macro-rx"></block>。</block>
+  <block id="39cf1aaf3e84c5c49c930c5bfe27e098" category="section-title">節約額のスナップショット計算の改善点を確認する</block>
+  <block id="a4f25c93cc96e84a15a9a235f569bbe2" category="paragraph">「Explore savings now」では一貫したスナップショット容量計算が使用されるようになったため、FSx for ONTAP の節約額の見積もりに追加のスナップショット容量プール要件が正しく考慮されます。</block>
+  <block id="e14c4b029cabd340fe3b6c67835e9927" category="inline-link-macro">Amazon Elastic Block Store、FSx for Windows File Server、Elastic File System のストレージ環境におけるコスト削減効果をご確認ください。</block>
+  <block id="01ee25f562cbb2e8ca2ff8f41e96f80d" category="paragraph"><block ref="01ee25f562cbb2e8ca2ff8f41e96f80d" category="inline-link-macro-rx"></block></block>
+  <block id="347a810d994926c5e31d1bd690b34fcf" category="section-title">レプリケーション遅延データをCSVファイルにエクスポートする</block>
+  <block id="45cbeaeb98d1d075d560a8e62269fbbb" category="paragraph">レプリケーション遅延データをCSVファイルにエクスポートして、スプレッドシートでデータを分析したり、他のユーザーと共有したりできるようになりました。</block>
+  <block id="abda6db4ef1e45cf251dcf456064a874" category="section-title">S3アクセスポイントイベント</block>
+  <block id="084779dffb2a62383b80e6fbe69e0dc4" category="paragraph">S3アクセスポイントのイベントを、設定したスケジュールに従ってSNSトピックに送信できるようになりました。各アップデートには、前回のアップデート以降に発生したすべてのイベントが含まれます。</block>
+  <block id="c634bf7b5214ed8f0d82613de1e29eff" category="inline-link-macro">S3アクセスポイントを編集する</block>
+  <block id="84118bd808a8989867b6fc874b0b1b45" category="paragraph">S3 イベントの通知を設定するには、<block ref="5014cadb2b53045b84df58ebddada57a" category="inline-link-macro-rx"></block> *Journal table* セクションで *Send S3 events by SNS* を選択します。</block>
+  <block id="adf6bc23c10d536eed25c42f34ba48e8" category="section-title">2026年8月2日</block>
 </blocks>
