@@ -221,6 +221,12 @@ S3 イベントの通知を設定するには、link:https://docs.netapp.com/us-
 
 
 
+==== Volumes ExplorerにONTAPの機能が表示される
+
+ボリュームエクスプローラーのボリュームテーブルに ONTAP 機能が追加されました。これらの機能により、保護範囲、自律型ランサムウェア保護（ARP/AI）ステータス、ストレージ効率、階層化ポリシー、ボリュームの自動拡張など、ボリュームの構成とステータスに関するより詳細な情報が得られます。
+
+
+
 [[06-july-2026]]
 == 2026年7月6日
 
@@ -472,17 +478,6 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/set-volume-latency-thresho
 ==== NetApp Workload FactoryでのAWS GovCloud（US）のサポート
 
 NetApp Workload FactoryはAWS GovCloud（US）アカウントをサポートしています。GovCloudアカウントを使用すると、AWS GovCloud（US）リージョンでストレージワークロードをデプロイおよび管理できます。
-
-
-
-[[genai-workloads]]
-=== 生成AIワークロード
-
-
-
-==== NetApp Workload FactoryでのAWS GovCloud（US）のサポート
-
-NetApp Workload FactoryはAWS GovCloud（US）アカウントをサポートしています。GovCloudアカウントを使用すると、AWS GovCloud（US）リージョンでGenAIワークロードをデプロイおよび管理できます。
 
 
 

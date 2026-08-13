@@ -69,3 +69,10 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html["Amaz
 S3アクセスポイントのイベントを、設定したスケジュールに従ってSNSトピックに送信できるようになりました。各アップデートには、前回のアップデート以降に発生したすべてのイベントが含まれます。
 
 S3 イベントの通知を設定するには、link:https://docs.netapp.com/us-en/workload-fsx-ontap/edit-s3-access-points.html["S3アクセスポイントを編集する"] *Journal table* セクションで *Send S3 events by SNS* を選択します。
+
+
+
+[[ontap-features-displayed-in-volumes-explorer]]
+=== Volumes ExplorerにONTAPの機能が表示される
+
+ボリュームエクスプローラーのボリュームテーブルに ONTAP 機能が追加されました。これらの機能により、保護範囲、自律型ランサムウェア保護（ARP/AI）ステータス、ストレージ効率、階層化ポリシー、ボリュームの自動拡張など、ボリュームの構成とステータスに関するより詳細な情報が得られます。
