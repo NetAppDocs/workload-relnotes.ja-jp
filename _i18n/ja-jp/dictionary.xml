@@ -138,7 +138,6 @@
   <block id="7a13522750dff612c4af95a525a5075b" category="inline-link">レイテンシ監視の設定方法を確認する</block>
   <block id="496e68c00adfe40e8730acfccde74f6b" category="paragraph"><block ref="9cf52e304b2518ca53073fc069c5a89c" category="inline-link-rx"></block>。</block>
   <block id="efbeddc0347a679a438120189b77f860" category="section-title">ボリュームエクスプローラー</block>
-  <block id="3e1cc7f8632eafd5f69d910c06db3aa4" category="paragraph">Volumes Explorer は、NetApp Workload Factory のすべてのボリュームをシンプルに検索可能なビューで表示します。どのボリュームがブロックワークロードまたはファイルワークロードに使用されているかをすばやく確認できます。各ボリュームの論理サイズ、物理的な使用容量、およびストレージ効率化機能（圧縮、重複排除、コンパクション）を使用しているかどうかを確認できます。名前、ステータス（利用可能／失敗）、レイテンシ、サイズ、使用容量、および保護機能でフィルタリングおよび並べ替えを行います。</block>
   <block id="3a410df7dfc102007ea8a7569fdb1810" category="section-title">レプリケーション遅延に関するメール通知機能の強化</block>
   <block id="bd78ae8d1a9aed4500716acc31d179d8" category="paragraph">レプリケーション遅延に関するメール通知に、影響を受けるリレーションシップに関する詳細情報が含まれるようになりました。この通知により、影響を受けるリレーションシップを迅速に特定し、Workload Factory コンソールで詳細を確認できます。</block>
   <block id="4dc5c4a9c4b845746295cce1108ec278" category="inline-link-macro">レプリケーション遅延に関する通知を有効にする</block>
@@ -242,4 +241,5 @@
   <block id="9b988decb4830a521f8e1487584f0385" category="doc">ボリュームエクスプローラーで利用可能なボリューム操作</block>
   <block id="a0c01b4b61e4e5c8542aca4694a620d6" category="paragraph">ボリュームに関するすべての操作は、1つまたは複数のボリュームに対して、ボリュームエクスプローラーから直接利用できます。これにより、ボリュームレベルの操作をより迅速に実行できるようになります。ボリューム操作には、ボリューム設定の変更、スナップショットの管理、およびボリュームエクスプローラーを離れることなく実行できるその他のボリュームタスクが含まれます。これらの操作は、FSx for ONTAP ファイルシステムの概要にある「ボリューム」タブからもアクセスできます。</block>
   <block id="7ade7e78371066efd6d4e823d8da1fd8" category="section-title">2026年8月11日</block>
+  <block id="2b2db21e376d227839b25c1e6fcb7638" category="paragraph">ボリュームエクスプローラーは、NetApp Workload Factory のすべてのボリュームをシンプルに検索可能な形で表示します。どのボリュームがブロックワークロードまたはファイルワークロードに使用されているかをすばやく確認できます。各ボリュームの論理サイズ、物理的な使用容量、およびストレージ効率化機能（圧縮、重複排除、コンパクション）を使用しているかどうかを確認できます。名前、ステータス（利用可能／失敗）、レイテンシ、サイズ、使用容量、および保護機能でフィルタリングおよび並べ替えができます。</block>
 </blocks>
