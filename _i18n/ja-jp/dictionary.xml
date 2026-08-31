@@ -168,4 +168,8 @@
   <block id="8d8c52a0c2cdf249c1bf6acdbd825469" category="doc">認証情報とリンクに関する新しいオンボーディング体験</block>
   <block id="4f9abf683fceb68d04e55eccea1aef30" category="paragraph">Workload Factoryは、認証情報とリンクのオンボーディング体験を改善し、より簡単に利用を開始できるようにします。アカウントを作成してログインしたら、任意のワークロードタイル（例：*Storage*）で「*Get started*」を選択すると、次のページでセットアップ手順がステップごとに案内されます。</block>
   <block id="1641126472d40ab162e3acf05ac611ba" category="section-title">2026年8月30日</block>
+  <block id="c329a6ebc8c0891e88889203e3e31c39" category="doc">リンク作成はリンクページから利用できます</block>
+  <block id="ef8e743556b96fe2947729361cb5835f" category="paragraph">管理メニューの「リンク」ページから直接リンクを作成できるようになりました。これは、FSx for ONTAP インベントリページおよびファイルシステム概要ページに加えて利用できます。</block>
+  <block id="b65fab1584e1a15fb6cd01b1fb573a1f" category="inline-link-macro">リンクの作成について詳しくはこちらをご覧ください</block>
+  <block id="2fb8fbf9eac6cb7cdbca3e8cae581dd0" category="paragraph"><block ref="ac8902bc899b18c41d3bea9bfd9e1e86" category="inline-link-macro-rx"></block>。</block>
 </blocks>

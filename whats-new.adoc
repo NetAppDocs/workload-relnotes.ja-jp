@@ -20,6 +20,19 @@ NetApp Workload Factory の一部であるワークロードの最新の変更�
 
 
 
+[[amazon-fsx-for-netapp-ontap]]
+=== NetApp ONTAP 対応の Amazon FSX
+
+
+
+==== リンク作成はリンクページから利用できます
+
+管理メニューの「リンク」ページから直接リンクを作成できるようになりました。これは、FSx for ONTAP インベントリページおよびファイルシステム概要ページに加えて利用できます。
+
+link:create-link.html["リンクの作成について詳しくはこちらをご覧ください"]。
+
+
+
 [[setup-and-administration]]
 === セットアップと管理
 
