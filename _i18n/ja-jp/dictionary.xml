@@ -172,4 +172,10 @@
   <block id="ef8e743556b96fe2947729361cb5835f" category="paragraph">管理メニューの「リンク」ページから直接リンクを作成できるようになりました。これは、FSx for ONTAP インベントリページおよびファイルシステム概要ページに加えて利用できます。</block>
   <block id="b65fab1584e1a15fb6cd01b1fb573a1f" category="inline-link-macro">リンクの作成について詳しくはこちらをご覧ください</block>
   <block id="2fb8fbf9eac6cb7cdbca3e8cae581dd0" category="paragraph"><block ref="ac8902bc899b18c41d3bea9bfd9e1e86" category="inline-link-macro-rx"></block>。</block>
+  <block id="619b54ce9e8c031c19256b4d8d750363" category="doc">貯蓄計算ツールのアップデート</block>
+  <block id="e5dcb68e9a92c735dc0967956647bc80" category="paragraph">FSx for ONTAP ファイルシステム上のデータベースワークロードにおける Microsoft SQL Server ワークロードの実行コストのさまざまな要素（ストレージ、コンピューティング、SQL ライセンス、スナップショット、クローンなど）を、Elastic Block Store （EBS）、FSx for Windows File Server、およびオンプレミスストレージと比較できます。この比較には、表示、計画、分析の権限のみを使用します。</block>
+  <block id="fa97573f07318758714d48498eeb8beb" category="inline-link-macro">データベースワークロードのコスト削減策を探る</block>
+  <block id="99e479d341973e05fca0c15ab9ffdad2" category="list-text"><block ref="99e479d341973e05fca0c15ab9ffdad2" category="inline-link-macro-rx"></block></block>
+  <block id="a5ca0e96d815aa95d08fcc15e4dee05c" category="inline-link-macro">データベースワークロードの権限</block>
+  <block id="6c371a91504dc6f98ab6ece596f7ab2f" category="list-text"><block ref="6c371a91504dc6f98ab6ece596f7ab2f" category="inline-link-macro-rx"></block></block>
 </blocks>

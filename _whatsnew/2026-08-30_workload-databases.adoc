@@ -1,0 +1,14 @@
+= 貯蓄計算ツールのアップデート
+:allow-uri-read: 
+
+
+
+
+[[savings-calculator-update]]
+=== 貯蓄計算ツールのアップデート
+
+FSx for ONTAP ファイルシステム上のデータベースワークロードにおける Microsoft SQL Server ワークロードの実行コストのさまざまな要素（ストレージ、コンピューティング、SQL ライセンス、スナップショット、クローンなど）を、Elastic Block Store （EBS）、FSx for Windows File Server、およびオンプレミスストレージと比較できます。この比較には、表示、計画、分析の権限のみを使用します。
+
+* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["データベースワークロードのコスト削減策を探る"]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#permissions-for-database-workloads["データベースワークロードの権限"^]
+
