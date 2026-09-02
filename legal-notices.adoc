@@ -7,7 +7,7 @@ summary:
 = 法的通知
 :allow-uri-read: 
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 
 [role="lead"]
