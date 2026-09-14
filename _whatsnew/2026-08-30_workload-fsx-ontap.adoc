@@ -9,7 +9,7 @@
 
 管理メニューの「リンク」ページから直接リンクを作成できるようになりました。これは、FSx for ONTAP インベントリページおよびファイルシステム概要ページに加えて利用できます。
 
-link:create-link.html["リンクの作成について詳しくはこちらをご覧ください"]。
+link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["リンクの作成について詳しくはこちらをご覧ください"^]。
 
 
 

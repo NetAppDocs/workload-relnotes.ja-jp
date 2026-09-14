@@ -171,7 +171,6 @@
   <block id="c329a6ebc8c0891e88889203e3e31c39" category="doc">リンク作成はリンクページから利用できます</block>
   <block id="ef8e743556b96fe2947729361cb5835f" category="paragraph">管理メニューの「リンク」ページから直接リンクを作成できるようになりました。これは、FSx for ONTAP インベントリページおよびファイルシステム概要ページに加えて利用できます。</block>
   <block id="b65fab1584e1a15fb6cd01b1fb573a1f" category="inline-link-macro">リンクの作成について詳しくはこちらをご覧ください</block>
-  <block id="2fb8fbf9eac6cb7cdbca3e8cae581dd0" category="paragraph"><block ref="ac8902bc899b18c41d3bea9bfd9e1e86" category="inline-link-macro-rx"></block>。</block>
   <block id="619b54ce9e8c031c19256b4d8d750363" category="doc">貯蓄計算ツールのアップデート</block>
   <block id="e5dcb68e9a92c735dc0967956647bc80" category="paragraph">FSx for ONTAP ファイルシステム上のデータベースワークロードにおける Microsoft SQL Server ワークロードの実行コストのさまざまな要素（ストレージ、コンピューティング、SQL ライセンス、スナップショット、クローンなど）を、Elastic Block Store （EBS）、FSx for Windows File Server、およびオンプレミスストレージと比較できます。この比較には、表示、計画、分析の権限のみを使用します。</block>
   <block id="fa97573f07318758714d48498eeb8beb" category="inline-link-macro">データベースワークロードのコスト削減策を探る</block>
@@ -181,8 +180,5 @@
   <block id="c82db17d9640cb358a39977100613e95" category="section-title">ワークロードの特定</block>
   <block id="9c2440b961ba52df8467b29a146f98ba" category="list-text">Workload Factory は、別のリージョンにデプロイされた FSx for ONTAP ストレージに接続されたホストのワークロードを識別できるようになりました。</block>
   <block id="c48db719590b6821db48e6238f4be1c4" category="list-text">ワークロード検出ロジックの改善により、より多くのワークロードタイプを検出できるようになり、検出結果の精度が向上しました。</block>
-  <block id="431b3c73dcd090440f753c5d3af80bb0" category="section-title">2026年6月1日</block>
-  <block id="04c0507bac5db3815eb05149e687293a" category="paragraph">&lt;stdin&gt;の未解決のディレクティブ - include::_whatsnew/2026-06-01_workload-databases.adoc[leveloffset=+1]</block>
-  <block id="92ee6e4d72d15689a675017ce0db2fa1" category="section-title">2026年5月31日</block>
-  <block id="a5f1df54f2f444fcc2dd868e0f219417" category="paragraph">未解決のディレクティブ（&lt;stdin&gt;- include::_whatsnew/2026-05-31_workload-fsx-ontap.adoc[leveloffset=+1]） === VMware ワークロード 未解決のディレクティブ（&lt;stdin&gt;- include::_whatsnew/2026-05-31_workload-vmware.adoc[leveloffset=+1]） === セットアップと管理 未解決のディレクティブ（&lt;stdin&gt;- include::_whatsnew/2026-05-31_workload-setup-admin.adoc[leveloffset=+1]） === EDA ワークロード 未解決のディレクティブ（&lt;stdin&gt;- include::_whatsnew/2026-05-31_workload-eda.adoc[leveloffset=+1]）</block>
+  <block id="5755a9e38430cc58eec03f6a091d949b" category="paragraph"><block ref="3b334f327ff595e44f743e1d47e519c8" category="inline-link-macro-rx"></block>。</block>
 </blocks>

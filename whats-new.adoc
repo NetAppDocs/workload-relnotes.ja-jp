@@ -29,7 +29,7 @@ NetApp Workload Factory の一部であるワークロードの最新の変更�
 
 管理メニューの「リンク」ページから直接リンクを作成できるようになりました。これは、FSx for ONTAP インベントリページおよびファイルシステム概要ページに加えて利用できます。
 
-link:create-link.html["リンクの作成について詳しくはこちらをご覧ください"]。
+link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["リンクの作成について詳しくはこちらをご覧ください"^]。
 
 
 
@@ -415,27 +415,3 @@ Workload Factoryは、ファイルシステムの遅延アラートを送信し�
 遅延の問題を通知しつつメールの量を減らすため、デフォルトでは毎日の通知が有効になっています。遅延監視の設定時やしきい値設定の編集時に、通知設定を変更できます。
 
 https://docs.netapp.com/us-en/workload-eda/task-configure-latency-monitoring.html["レイテンシ監視の設定方法を確認する"^]。
-
-
-
-[[01-june-2026]]
-== 2026年6月1日
-
-
-
-[[database-workloads]]
-=== データベースワークロード
-
-<stdin>の未解決のディレクティブ - include::_whatsnew/2026-06-01_workload-databases.adoc[leveloffset=+1]
-
-
-
-[[31-may-2026]]
-== 2026年5月31日
-
-
-
-[[amazon-fsx-for-netapp-ontap]]
-=== NetApp ONTAP 対応の Amazon FSX
-
-未解決のディレクティブ（<stdin>- include::_whatsnew/2026-05-31_workload-fsx-ontap.adoc[leveloffset=+1]） === VMware ワークロード 未解決のディレクティブ（<stdin>- include::_whatsnew/2026-05-31_workload-vmware.adoc[leveloffset=+1]） === セットアップと管理 未解決のディレクティブ（<stdin>- include::_whatsnew/2026-05-31_workload-setup-admin.adoc[leveloffset=+1]） === EDA ワークロード 未解決のディレクティブ（<stdin>- include::_whatsnew/2026-05-31_workload-eda.adoc[leveloffset=+1]）
