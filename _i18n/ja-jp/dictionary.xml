@@ -181,4 +181,14 @@
   <block id="9c2440b961ba52df8467b29a146f98ba" category="list-text">Workload Factory は、別のリージョンにデプロイされた FSx for ONTAP ストレージに接続されたホストのワークロードを識別できるようになりました。</block>
   <block id="c48db719590b6821db48e6238f4be1c4" category="list-text">ワークロード検出ロジックの改善により、より多くのワークロードタイプを検出できるようになり、検出結果の精度が向上しました。</block>
   <block id="5755a9e38430cc58eec03f6a091d949b" category="paragraph"><block ref="3b334f327ff595e44f743e1d47e519c8" category="inline-link-macro-rx"></block>。</block>
+  <block id="b3ae445fa637203f0dc17550b5c4a56c" category="doc">適切に設計されたダッシュボードに含まれるデータベース構成</block>
+  <block id="a04fc413f106e041524732d895e4258e" category="paragraph">適切に設計されたダッシュボードには、データベース構成に関する推奨事項が含まれるようになり、ベストプラクティスに基づいて設定を評価および最適化できるようになりました。最初の構成には以下が含まれます：</block>
+  <block id="0ab265b548fdc40b21483e61ffde3aba" category="list-text">コールドデータ階層化</block>
+  <block id="af20abc7154e9ee224c54b48b6ec7d63" category="list-text">ストレージ効率</block>
+  <block id="4c0abf2d4c54820b8d33061abaf30759" category="list-text">Snapshot ポリシー</block>
+  <block id="6f5cf50fa90f8d99bf50f65e676c6cba" category="list-text">SSDの容量余裕</block>
+  <block id="4dcac8e07a1246e665077c1572955236" category="paragraph">Workload Factory コンソールのメインメニューを選択し、*Well-architected* を選択すると、Well-architected ダッシュボードが表示されます。</block>
+  <block id="2d647234501319107057acb4d3f8dfaf" category="inline-image-macro">Workload Factory コンソールの Well-architected メニューオプション</block>
+  <block id="353cc99df6b21e74c805e74bdab4b8aa" category="paragraph"><block ref="353cc99df6b21e74c805e74bdab4b8aa" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026年9月27日</block>
 </blocks>
