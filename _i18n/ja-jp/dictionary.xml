@@ -50,7 +50,6 @@
   <block id="4ebed31793305164cd5e1b71336c2244" category="paragraph">追跡したい内容を平易な言葉で説明すれば、AIがあなたの要望に基づいてダッシュボードを作成します。例えば、災害復旧の状況、地域ごとの容量とコスト、ストレージ保護のコンプライアンス、その他の運用指標を追跡できます。</block>
   <block id="f2c8c03b6d33f0a06783ce6241b381a6" category="paragraph">カスタムダッシュボードは読み取り専用なので、ストレージやワークロードの設定を変更することはできません。Workload Factoryアカウントのユーザーであれば誰でもこれらのダッシュボードを表示および管理できるため、チーム間で情報を共有し、連携を維持することが容易になります。</block>
   <block id="7f7fdf6329959f984b3ff303ae5ac37f" category="inline-link-macro">カスタムダッシュボードの詳細</block>
-  <block id="b95d6b8ad9f73321f9cc2385811deedb" category="paragraph"><block ref="b95d6b8ad9f73321f9cc2385811deedb" category="inline-link-macro-rx"></block></block>
   <block id="7e2652d4b25a337c594774fc14c2ab17" category="section-title">遅延通知の頻度を設定する</block>
   <block id="39b4011c4c170e1b29e7d8710812c644" category="paragraph">レイテンシ違反に関するメール通知の受信頻度を選択できるようになりました。</block>
   <block id="9b4c72b587622d268ed8a5a315219fb5" category="list-text">*毎日通知する（推奨）*：FSx for ONTAP ファイルシステムで新しい問題が発生した場合に通知を受け取ります。</block>
@@ -191,4 +190,5 @@
   <block id="2d647234501319107057acb4d3f8dfaf" category="inline-image-macro">Workload Factory コンソールの Well-architected メニューオプション</block>
   <block id="353cc99df6b21e74c805e74bdab4b8aa" category="paragraph"><block ref="353cc99df6b21e74c805e74bdab4b8aa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026年9月27日</block>
+  <block id="dd6c12ecaee3143ccc7a7d85e16032ff" category="paragraph"><block ref="dd6c12ecaee3143ccc7a7d85e16032ff" category="inline-link-macro-rx"></block></block>
 </blocks>
