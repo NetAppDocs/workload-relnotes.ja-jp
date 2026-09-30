@@ -25,19 +25,9 @@ NetApp Workload Factory の一部であるワークロードの最新の変更�
 
 
 
-==== 適切に設計されたダッシュボードに含まれるデータベース構成
+==== 単一インスタンスで複数のファイルシステムをサポート
 
-適切に設計されたダッシュボードには、データベース構成に関する推奨事項が含まれるようになり、ベストプラクティスに基づいて設定を評価および最適化できるようになりました。最初の構成には以下が含まれます：
-
-* コールドデータ階層化
-* ストレージ効率
-* Snapshot ポリシー
-* SSDの容量余裕
-
-
-Workload Factory コンソールのメインメニューを選択し、*Well-architected* を選択すると、Well-architected ダッシュボードが表示されます。
-
-image:well-architected-menu-option.png["Workload Factory コンソールの Well-architected メニューオプション"]
+Workload Factory for Databases は、単一の Microsoft SQL Server インスタンスに対して複数のファイルシステムをサポートします。SQL Server インスタンスに複数のファイルシステムを登録し、SQL Server インスタンス内の複数のファイルシステムに関する構成上の問題を同時に修正できます。
 
 
 
