@@ -209,8 +209,6 @@
   <block id="9c51276de03bc7f0cc89565810a9583c" category="list-text">すべての FSx for NetApp ONTAP ファイルシステムの健全性とライフサイクルステータスを 1 時間ごとに確認し、問題を早期に検出します。</block>
   <block id="7c232a692347d9efae9eafb444b454ef" category="list-text">最新のインベントリを維持するために、アクセス可能なすべてのAWS FSxファイルシステムを1時間ごとに一覧表示します。</block>
   <block id="80dcbdee31e7f18a301f863f8b73dc64" category="inline-link-macro">Ask Meの詳細</block>
-  <block id="fcc3c37c09c2649e94509997e3e32ace" category="section-title">Ask Me での ONTAP サポート</block>
-  <block id="5887518ab4bafe0e2cd30ee6d85ca830" category="paragraph">Ask Me は FSx for ONTAP およびオンプレミス ONTAP システムをサポートするようになりました。同じチャットエクスペリエンスを使用して、ONTAP インフラストラクチャ全体にわたる回答とインサイトを取得できます。</block>
   <block id="61ac51994f4e558eb3be753f892d08aa" category="section-title">通知の更新</block>
   <block id="02796e8ea898eccf4fc1ec43b8c9a990" category="paragraph">NetApp Console の通知がデフォルトで有効になりました。NetApp Console のユーザーは、追加設定なしに Workload Factory の通知を自動的に受信します。</block>
   <block id="21342e11f90d32dc68b1110fcbb8adc2" category="inline-link-macro">Workload Factory の通知</block>
@@ -268,7 +266,6 @@
   <block id="988626e00644e40216e6917f272294d3" category="paragraph">Workload Factory は、ボリュームに推奨される FlexCache の書き込みモードを認識し、パフォーマンスを最適化するために必要に応じて変更を推奨します。</block>
   <block id="7add6c128bfc87116bba8dfec617987f" category="section-title">リンクドキュメントのサポート</block>
   <block id="19ecacf22bc9ac252b9476a0a17ca657" category="inline-link-macro">NetApp Workload Factory のリンクについて</block>
-  <block id="41d8c250ba5deffd33a0d05e7f94eaf4" category="paragraph">リンクに関するすべてのドキュメントは、Workload Factory のセットアップおよび管理に関するドキュメントに記載されています。Workload Factory FSx for ONTAP ドキュメントの <block ref="25b81a757714a127c9c382013e960ce5" category="inline-link-macro-rx"></block> を参照して、セットアップおよび管理に関するドキュメント内の関連ページへのリンクを確認することもできます。</block>
   <block id="ab868acd52ff4eb0e8c4b7bedf975941" category="inline-link-macro">Workload Factory コンソールでのリンクの設定方法については、こちらをご覧ください。</block>
   <block id="3d5d598217b93a807560cdae92940fdc" category="paragraph"><block ref="3d5d598217b93a807560cdae92940fdc" category="inline-link-macro-rx"></block></block>
   <block id="433dd4f7423c50024b8b40531d2cdae6" category="section-title">リージョン間におけるホストとストレージの関係性の検出</block>
@@ -280,4 +277,7 @@
   <block id="92ef509d26c2f4b8f1eafc483dafc514" category="paragraph"><block ref="92ef509d26c2f4b8f1eafc483dafc514" category="inline-link-macro-rx"></block></block>
   <block id="ff60e6cb69fa35fc765fb6716dc86a1d" category="paragraph"><block ref="ff60e6cb69fa35fc765fb6716dc86a1d" category="inline-link-macro-rx"></block></block>
   <block id="ca844fa02d938fb3d0329bf797d0a633" category="paragraph"><block ref="ca844fa02d938fb3d0329bf797d0a633" category="inline-link-macro-rx"></block></block>
+  <block id="56643767ee547abedda1d643567a4c85" category="paragraph">リンクに関するすべてのドキュメントは、Workload Factory のセットアップおよび管理に関するドキュメントに記載されています。Workload Factory FSx for ONTAP ドキュメントの <block ref="08c564abbdedd12846cfb2f0de43f628" category="inline-link-macro-rx"></block> を参照して、セットアップおよび管理に関するドキュメント内の関連ページへのリンクを確認することもできます。</block>
+  <block id="d757afa220ac7f97f408903182fddee2" category="section-title">Ask Meにおけるストレージサポート</block>
+  <block id="541644294bd888a59c4f26e19102bfb2" category="paragraph">Ask Me は FSx for ONTAP および Google Cloud NetApp Volumes をサポートするようになりました。サポートされているストレージ環境全体で、同じチャット機能を使用して回答や情報を得ることができます。</block>
 </blocks>

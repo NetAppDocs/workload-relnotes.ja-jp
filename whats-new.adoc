@@ -124,7 +124,7 @@ Workload Factory は、ボリュームに推奨される FlexCache の書き込�
 
 ==== リンクドキュメントのサポート
 
-リンクに関するすべてのドキュメントは、Workload Factory のセットアップおよび管理に関するドキュメントに記載されています。Workload Factory FSx for ONTAP ドキュメントの link:links-overview.html["NetApp Workload Factory のリンクについて"] を参照して、セットアップおよび管理に関するドキュメント内の関連ページへのリンクを確認することもできます。
+リンクに関するすべてのドキュメントは、Workload Factory のセットアップおよび管理に関するドキュメントに記載されています。Workload Factory FSx for ONTAP ドキュメントの link:https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["NetApp Workload Factory のリンクについて"] を参照して、セットアップおよび管理に関するドキュメント内の関連ページへのリンクを確認することもできます。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["Workload Factory コンソールでのリンクの設定方法については、こちらをご覧ください。"^]
 
@@ -202,9 +202,9 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overvie
 
 
 
-==== Ask Me での ONTAP サポート
+==== Ask Meにおけるストレージサポート
 
-Ask Me は FSx for ONTAP およびオンプレミス ONTAP システムをサポートするようになりました。同じチャットエクスペリエンスを使用して、ONTAP インフラストラクチャ全体にわたる回答とインサイトを取得できます。
+Ask Me は FSx for ONTAP および Google Cloud NetApp Volumes をサポートするようになりました。サポートされているストレージ環境全体で、同じチャット機能を使用して回答や情報を得ることができます。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["Ask Meの詳細"]
 

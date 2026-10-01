@@ -113,7 +113,7 @@ Workload Factory は、ボリュームに推奨される FlexCache の書き込�
 [[link-documentation-support]]
 === リンクドキュメントのサポート
 
-リンクに関するすべてのドキュメントは、Workload Factory のセットアップおよび管理に関するドキュメントに記載されています。Workload Factory FSx for ONTAP ドキュメントの link:links-overview.html["NetApp Workload Factory のリンクについて"] を参照して、セットアップおよび管理に関するドキュメント内の関連ページへのリンクを確認することもできます。
+リンクに関するすべてのドキュメントは、Workload Factory のセットアップおよび管理に関するドキュメントに記載されています。Workload Factory FSx for ONTAP ドキュメントの link:https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["NetApp Workload Factory のリンクについて"] を参照して、セットアップおよび管理に関するドキュメント内の関連ページへのリンクを確認することもできます。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["Workload Factory コンソールでのリンクの設定方法については、こちらをご覧ください。"^]
 
