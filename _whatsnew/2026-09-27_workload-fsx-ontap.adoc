@@ -1,0 +1,139 @@
+= AWSサービス向けワークロードタグ付け検出機能の拡張
+:allow-uri-read: 
+
+
+
+
+[[expanded-workload-tagging-discovery-for-aws-services]]
+=== AWSサービス向けワークロードタグ付け検出機能の拡張
+
+Workload Factory は、ワークロードのタグ付け対象となる AWS サービスをさらに多く検出できるようになり、タグ付け可能なリソースのサポートが拡大しました。Amazon EKS および Amazon WorkSpaces リソースを検出し、タグ付けシステムに追加することで、タグ付けに利用できるようになりました。
+
+
+
+[[cost-dashboard-enhancements]]
+=== コストダッシュボードの機能強化
+
+コストダッシュボードに、組織の支出概要を示すコストエグゼクティブサマリーセクションが追加されました。これにより、コストを迅速に把握し、管理できるようになります。Workload Factory の AI アシスタントである Ask Me は、お客様のコストデータに基づいて、より詳細な分析結果や推奨事項を提供できます。Ask Me を利用すれば、コスト最適化のための詳細な説明や提案を受けることができます。
+
+さらに、コストデータを1つ以上のファイルシステム、およびファイルシステム内の1つ以上のボリュームでフィルタリングすることもできます。フィルターを適用すると、Workload Factoryには以下が表示されます：
+
+* 月額の推定総費用
+* GiB/月あたりの推定コスト
+* サービスごとの詳細な費用内訳
+
+
+ファイルシステムおよびボリュームレベルのコスト配分を除き、すべてのコスト情報はAWS Cost Explorer APIから直接取得されます。ファイルシステムおよびボリュームレベルのコスト配分はWorkload Factoryが推定します。
+
+
+
+[[well-architected-dashboard-access]]
+=== 適切に設計されたダッシュボードへのアクセス
+
+Workload Factory コンソールのメインメニューから、またはファイルシステム内から、Well-architected ダッシュボードにアクセスできます。メインメニューから Well-architected ダッシュボードを見つけるには、メインメニューを選択し、次に「Well-architected」を選択します。
+
+image:well-architected-menu-option.png["Workload Factory コンソールの Well-architected メニューオプション"]
+
+
+
+[[new-recommendations-in-the-well-architected-analysis]]
+=== 優れたアーキテクチャ分析における新たな推奨事項
+
+Workload Factory は、FSx for ONTAP ファイルシステムの適切なアーキテクチャ分析に以下の構成を含めるようになりました：
+
+* *ボリューム領域管理の設定*：FSx for ONTAP ボリュームの協調ボリューム領域管理を有効にすることを推奨します。
+* *FSx と AWS MGN の統合*：選択した FSx for ONTAP ファイルシステムに必要な AWS MGN 準備構成を適用することを推奨します。
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/configuration-analysis.html["FSx for ONTAP ファイルシステムのベストプラクティス推奨事項の詳細をご確認ください。"]
+
+
+
+[[volumes-explorer-enhancements]]
+=== ボリュームエクスプローラーの機能強化
+
+Volumes explorer は、Workload Factory コンソールの中心的な場所であり、さまざまなファイルシステムにわたるすべてのボリュームを表示および管理できます。各ボリュームのパフォーマンス、使用状況、保護状態など、各ボリュームに関する詳細情報を提供します。今回のリリースにおける機能強化には、ワークロードの選択、ボリュームのレイテンシ表示、およびボリュームの ARP/AI ステータスが含まれます。
+
+
+
+==== ボリュームエクスプローラーはワークロードの選択をサポートします
+
+Workload Factoryは、ボリュームの特性と使用パターンに基づいて、デフォルトでワークロードを選択します。ボリュームエクスプローラーから、1つまたは複数のボリュームのワークロードを変更できるようになりました。
+
+
+
+==== ボリュームエクスプローラーはボリュームのレイテンシを表示します
+
+ボリュームエクスプローラーは、ボリュームのレイテンシの状態を「未設定」、「しきい値内」、「しきい値超過」の3つのステータスで表示します。これらのステータスは、ボリュームレベルでのパフォーマンスのボトルネックを特定し、修正するのに役立ちます。
+
+
+
+==== ボリュームエクスプローラーは、すべてのファイルシステムにわたるボリュームのARP/AIステータスを表示します。
+
+ボリュームエクスプローラー画面に、すべてのファイルシステムにわたるボリュームのNetApp Autonomous Ransomware Protection with AI（ARP/AI）ステータスを表示するカードが追加されました。このカードには保護されているボリュームの数が表示され、リスクにさらされているボリュームがあるかどうかが示されます。このカードから「攻撃を分析」して、潜在的なランサムウェアの脅威を調査し、データを保護するための適切な対策を講じることができます。
+
+image:volumes-explorer-arp-ai-card.png["スクリーンショットは、ボリュームエクスプローラー画面に新しいカードが表示され、すべてのファイルシステムにわたるボリュームの ARP/AI ステータスが表示されている様子を示しています。このカードには、保護されているボリュームの数とリスクにさらされているボリュームの数が示されています。ユーザーは「Analyze attacks」というテキストを選択することで、疑わしい攻撃を調査し、データを保護するための適切な措置を講じることができます。"]
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["ランサムウェア対策について詳しくはこちらをご覧ください。"]
+
+
+
+[[email-notification-for-unhealthy-replication-relationships]]
+=== 正常でないレプリケーション関係に関するメール通知
+
+レプリケーション関係のステータスが*異常*の場合、Workload Factoryは、その状態が続く限り24時間ごとにメール通知を送信します。関係が正常な状態に戻ると、リマインダー通知は停止します。
+
+
+
+[[support-for-restricted-ontap-credentials-for-aiops]]
+=== AIOps 向け制限付き ONTAP 認証情報のサポート
+
+Workload Factory は、FSx for ONTAP ファイルシステムに対して、プライマリと制限付きの 2 種類の ONTAP 認証情報をサポートしています。デフォルトでは、ファイルシステムはプライマリ ONTAP 認証情報を使用します。制限付き認証情報は、Rule builder、カスタムダッシュボード、および AI アシスタントである Ask Me などの AI 運用（AIOps）にのみ使用します。ユーザー名とパスワード、またはシークレット ARN を使用して独自の認証情報を追加し、AIOps 機能へのアクセスを制限できるようになりました。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-file-system-settings.html["FSx for ONTAP ファイルシステムの ONTAP 認証情報を管理する"]
+
+
+
+[[workload-selection-during-volume-creation]]
+=== ボリューム作成時のワークロード選択
+
+Workload Factory では、ボリューム作成時に*ワークロード*フィールドが追加され、ボリュームに関連付けるワークロードを選択できるようになりました。これにより、ボリュームが作成された時点から、意図したワークロードに最適化されます。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Workload Factory コンソールでボリュームを作成する"]
+
+
+
+[[flexcache-write-mode-improvement]]
+=== FlexCache 書き込みモードの改善
+
+Workload Factory は、ボリュームに推奨される FlexCache の書き込みモードを認識し、パフォーマンスを最適化するために必要に応じて変更を推奨します。
+
+
+
+[[link-documentation-support]]
+=== リンクドキュメントのサポート
+
+リンクに関するすべてのドキュメントは、Workload Factory のセットアップおよび管理に関するドキュメントに記載されています。Workload Factory FSx for ONTAP ドキュメントの link:links-overview.html["NetApp Workload Factory のリンクについて"] を参照して、セットアップおよび管理に関するドキュメント内の関連ページへのリンクを確認することもできます。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["Workload Factory コンソールでのリンクの設定方法については、こちらをご覧ください。"^]
+
+
+
+[[cross-region-host-to-storage-relationship-discovery]]
+=== リージョン間におけるホストとストレージの関係性の検出
+
+NetApp Workload Factoryは、ワークロードタグ付けサービスの一環として、複数のAWSリージョンにまたがるホストとストレージ間の接続を検出する機能をサポートするようになりました。この機能により、リージョン間のIPアドレスのマッピングを含め、リージョンをまたいでホストとストレージリソースを識別してリンクすることができるため、ホストとストレージの関係が正しくタグ付けされ、分類されます。
+
+
+
+[[improved-workload-and-host-identification-accuracy]]
+=== ワークロードとホスト識別精度の向上
+
+Workload Factoryは、ワークロードタグ付けサービスにおいて、ワークロードとホストをより正確に識別および分類できるようになりました。最新の検出方法により、誤分類が減り、より正確なタグ付けと分類結果が得られます。
+
+
+
+[[improved-file-system-visibility-in-the-interface]]
+=== インターフェースにおけるファイルシステムの視認性の向上
+
+Workload Factoryのインターフェースで、ファイルシステムの状態がより分かりやすく表示されるようになりました。ファイルシステムの概要画面から、SSDの容量とスループットの使用傾向、ワークロードの概要、詳細な構成情報を直接確認できます。Workload Factoryは、ワークロードタグ付けサービスにおいて、ワークロードとホストをより正確に識別および分類できるようになりました。最新の検出方法により、誤分類が減り、より正確なタグ付けと分類結果が得られます。
