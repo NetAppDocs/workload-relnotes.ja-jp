@@ -211,4 +211,69 @@
   <block id="6716a97e4d0f5c2b2ba84a9c8a65b74d" category="list-text">クラスタークォーラム</block>
   <block id="34d46ee23892b96b30e5db7bf4eb7871" category="list-text">コンピューティングリソースの最適化</block>
   <block id="33bf723377efe51bc70f70bbb5efa8a4" category="paragraph">Workload Factoryコンソールでメインメニューを選択し、次に*Well-architected*を選択してWell-architectedダッシュボードを見つけます。</block>
+  <block id="230227ce1631475a082d9f0865ea84b2" category="doc">イニシエータグループ図の改良</block>
+  <block id="9312a185b7f4389cd2dc1b61172e5f20" category="paragraph">「クライアントアクセス管理」ページに表示される、ブロックデバイスのイニシエータグループを示す図に、ホストに関する詳細情報が追加されました。図中のホストにカーソルを合わせると、ホスト名、インスタンスID、ワークロードタイプ、リージョン、iSCSI修飾名（IQN）などのホストの詳細が表示されます。</block>
+  <block id="6ea6cb3b2f3b5abc021a1f0e4229c7fc" category="inline-link-macro">Workload Factoryコンソールで通知を設定する</block>
+  <block id="a518b4e2bba0d0ce3d0ecdc772d503ed" category="paragraph"><block ref="a518b4e2bba0d0ce3d0ecdc772d503ed" category="inline-link-macro-rx"></block></block>
+  <block id="41d8c250ba5deffd33a0d05e7f94eaf4" category="paragraph">リンクに関するすべてのドキュメントは、Workload Factory のセットアップおよび管理に関するドキュメントに記載されています。Workload Factory FSx for ONTAP ドキュメントの <block ref="25b81a757714a127c9c382013e960ce5" category="inline-link-macro-rx"></block> を参照して、セットアップおよび管理に関するドキュメント内の関連ページへのリンクを確認することもできます。</block>
+  <block id="40a8a1ceba59de4101cf77a14d6fb2d5" category="section-title">Well-Architectedの問題に対するメール機能の強化</block>
+  <block id="954ae82c2d96e9bd8c7d4e143bf3c187" category="paragraph">新しいメールデザインでは、Workload Factoryが検出した構成上の問題について、より詳細な情報とコンテキストを提供します。メールには、分析されたリソースの数、警告または重大な問題があるリソースの数、およびそれらの問題の内容が記載されています。また、このメールにはFSx for ONTAPのWell-Architectedダッシュボードへのリンクも記載されているため、問題をすぐに解決できます。</block>
+  <block id="1854fdec65dd4a2dd839c666aba07186" category="section-title">優れた設計のダッシュボード機能強化</block>
+  <block id="4640bfbf90e44f31ffe06c764207a151" category="section-title">選択された構成チェックのサポート</block>
+  <block id="4baa1879436d89821519b031a9b29e1d" category="paragraph">選択した構成に対して手動で分析を実行することで、関心のある構成のみを分析し、待ち時間を短縮できます。</block>
+  <block id="696836fc5f2a32266d0ffc0fb5047e3b" category="paragraph">ストレージワークロードの場合：</block>
+  <block id="c244576dbf541429d6bef056ce769d1b" category="list-text">*ホストをフェイルオーバーノードに接続*：信頼性を確保するため、アクティブ / パッシブのFSx for ONTAPファイルシステムでホストがフェイルオーバーノードに接続されているかどうかを確認します。</block>
+  <block id="6ebacaf65862325841aba88bf388a132" category="list-text">*ホストを優先ノードに接続*：ホストがパフォーマンス効率のために優先ノードを使用してブロックデバイスに接続されているかどうかを確認します。</block>
+  <block id="b25392745f1a47aaf9f1983cd8b1eff5" category="list-text">*ARP/AIの複数デバイス検出のギャップ*：ボリュームにブロックデバイスが1つだけ接続されている場合に、ARP/AIは完全な保護範囲を提供します。ボリュームに複数のブロックデバイスが接続されている場合、Workload Factoryはブロックデバイスを新しいボリュームに移動し、各ボリュームにブロックデバイスが1つだけ存在するようにします。</block>
+  <block id="034f9073833298cb75f90f7455203432" category="list-text">*クローンクリーンアップ*：ストレージ使用量を最適化し、コストを削減するために削除できる、30日以上前のボリュームクローンがあるかどうかを確認します。</block>
+  <block id="8e5f97675e6b58e2c142d4e3623f4e20" category="list-text">*igroup OSとホストの一致*：イニシエータグループ（igroup）のオペレーティングシステムがホストのオペレーティングシステムと一致しているかどうかを確認し、I/Oやパフォーマンスの問題を防止します。</block>
+  <block id="68545ea02d5d413d5558618d4f250fed" category="paragraph">Kubernetesワークロードの場合：</block>
+  <block id="92ea527417ca1a6f10e672dd5dc590fb" category="list-text">*QoS設定*：パフォーマンス効率を高めるために、Kubernetesの永続ボリュームがONTAP QoSポリシーで保護されているかどうかを確認します。</block>
+  <block id="a48d1b9cc2b4fca01a8c056a0f21ca0b" category="list-text">*専用KubernetesストレージVM*：ファイルシステムがKubernetesワークロードに専用のストレージVMを使用しているかどうかを確認し、分離性を向上させ、ストレージ管理を簡素化します。</block>
+  <block id="e8b78d1ad4445d483c25f605f3dcd508" category="list-text">*専用のKubernetesエクスポートポリシー*：各Kubernetes永続ボリュームに、クラスターのワーカーノードからのアクセスのみを許可する専用のエクスポートポリシーがあるかどうかを確認します。</block>
+  <block id="15c94f3b03de47c250527326d660fabe" category="list-text">*Kubernetes iSCSIバックエンドの双方向CHAP*：Trident iSCSIバックエンドでセキュリティのために相互CHAP認証が有効になっているかどうかを確認します。</block>
+  <block id="a9f15f720c325ed93ec2ae6e8f017053" category="list-text">*アプリケーションストレージVMでの<block ref="d51321f13693d09d4a9cbb2758b42d12" prefix=" " category="inline-code"></block>の無効化*：クライアントがアクセスできないエクスポートを一覧表示するのを防ぐため、アプリケーションストレージVMで<block ref="d51321f13693d09d4a9cbb2758b42d12" prefix=" " category="inline-code"></block>が無効になっているかどうかを確認します。</block>
+  <block id="8c491145be7052ead6caabd40f13d8d8" category="paragraph">データベースワークロードの場合：</block>
+  <block id="109086be5976370a05137d1276790c52" category="list-text">*SAP HANAスナップショットポリシー*：アクティブなデータベースデータのストレージコストを削減し、パフォーマンスを向上させるために、SAP HANAボリュームのスナップショットポリシーが「なし」に設定されているかどうかを確認します。</block>
+  <block id="f516997bc5858804907fffead3bf17bc" category="list-text">*MySQLスナップショットポリシー*：アクティブなデータベースデータのストレージコストを削減し、パフォーマンスを向上させるために、MySQLボリュームのスナップショットポリシーが「なし」に設定されているかどうかを確認します。</block>
+  <block id="326acdfcec515bde261a6c24416222fc" category="list-text">*PostgreSQLスナップショットポリシー*：アクティブなデータベースデータのストレージコストを削減し、パフォーマンスを向上させるために、PostgreSQLボリュームのスナップショットポリシーが「なし」に設定されているかどうかを確認します。</block>
+  <block id="b37f9a2971bf4d3f39ba06b420da1cf6" category="section-title">構成の現在の値と推奨値</block>
+  <block id="da748e56834f287fe9b9c164de80a667" category="paragraph">適切に設計されたダッシュボードでは、最適化されていない一部の構成について、現在の値と推奨値を確認できます。これは、修正する前に推奨される値を示しています。</block>
+  <block id="4c3fd0f1c4be65a2279b728897c84838" category="section-title">コスト改善</block>
+  <block id="7d9291e210fb85e5195b3fd168c5441e" category="section-title">コスト予測と分析</block>
+  <block id="abc7b1907c0e0856759e4d13b2c516f0" category="paragraph">コスト予測機能を使用して、FSx for ONTAPファイルシステムのコストを予測できるようになりました。これは、予算計画を立て、リソースを効果的に最適化するのに役立ちます。また、コストや利用パターンに関する分析結果を確認することで、コスト最適化の機会を特定することもできます。</block>
+  <block id="0e1d8ca59fdf60970c2d4a8bbabe2e5b" category="section-title">AWS コストおよび使用状況レポート（CUR）</block>
+  <block id="133a30124f90912db7b6e93321823906" category="paragraph">Workload Factoryは、お客様所有のS3バケットに配信される詳細な請求記録を提供するために、AWS Cost Explorerの代わりにAWS Cost and Usage Reports（CUR）を使用するようになりました。CURはより詳細なコスト情報を提供し、高度なFinOps、チャージバック、およびコスト配分のユースケースの基盤として機能します。</block>
+  <block id="9744964a1ca6fbce3b75a4f5042f9597" category="section-title">ストレージVM移行の改善</block>
+  <block id="e6567f9c034c2cedd4efbe2f207f9b2a" category="paragraph">Workload Factoryは、ストレージVMの移行に関して、ユーザーインターフェース内でより詳細なガイダンスを提供します。これには、移行を本番環境に導入する前に、段階的な手順説明とテスト実行が含まれます。</block>
+  <block id="5d9883007f4bc5361c0311ad3ad7cfd1" category="inline-link-macro">ストレージVM移行について詳しくはこちらをご覧ください</block>
+  <block id="3bcf392ef4e690644e59c7c7eb9bb71f" category="paragraph"><block ref="3bcf392ef4e690644e59c7c7eb9bb71f" category="inline-link-macro-rx"></block></block>
+  <block id="f96336c52a88a7b30c68866854b7e3f2" category="section-title">レプリケーション遅延メール通知の改善</block>
+  <block id="1e403f6a94558e4fb3362faed8f74a9b" category="paragraph">関連するレプリケーション遅延イベントが多数発生した場合、Workload Factoryはそれらを自動的に1つのメール通知に統合するため、通知が多すぎて混乱することはありません。</block>
+  <block id="f45963c176c2d5c66e1ddbfab6e6a59e" category="section-title">自動容量管理機能の強化</block>
+  <block id="cc7093a020c173b1abf32b6436684cd2" category="paragraph">Workload Factoryに容量の自動管理を依頼する前に、自動容量管理通知を有効にして機能を試用できるようになりました。ファイルシステムの容量が少なくなると、通知されます。</block>
+  <block id="44c9fa36f4500e57d111bbc550132124" category="paragraph">クライアントのスループットに関する推奨事項と、自動化の決定ポイントを確認できるようになりました。決定ポイントにカーソルを合わせると、現在のSKUと推奨SKU、または一定期間内に違反した指標（%）などの詳細情報が表示されます。</block>
+  <block id="d5700d6fbdfdaa11c8c6dcbd565d8446" category="doc">カスタムダッシュボードのデータを確認して更新します</block>
+  <block id="a2ace9589bb1ff3e1b64e40ba9982721" category="paragraph">カスタムダッシュボードの指標が最後に更新された日時を確認したり、手動で更新したりできるようになりました。「データの更新」にカーソルを合わせると、最終更新日時が表示されます。</block>
+  <block id="6497706c70a607634590a156941b4e50" category="paragraph">*データの更新* を選択して、新しいスキャンを開始します。スキャンが開始されたことを示すバナーが表示され、スキャンが完了するまでボタンは無効になります。</block>
+  <block id="2895998bd3d7c5fdb39e7fddc2bd608a" category="paragraph">新しいデータが利用可能になったら、通知バナーの*今すぐ読み込む*を選択してダッシュボードを更新してください。</block>
+  <block id="f418ba29e821ca3da1b907e6156d2db5" category="paragraph">「データの更新」と「今すぐ読み込む」の両方で、Tracker にデータ収集イベントが作成されます。</block>
+  <block id="0b62b5947fe6e091e6c0c1e387e32e69" category="inline-link-macro">カスタムダッシュボードデータを更新する方法を確認する</block>
+  <block id="348426e840eb5ae32d612438487c2065" category="paragraph"><block ref="348426e840eb5ae32d612438487c2065" category="inline-link-macro-rx"></block></block>
+  <block id="524f9b4ee818c419ee1585959e10855c" category="section-title">カスタムダッシュボードのリージョンを指定します</block>
+  <block id="9aca8419896ce9b5d75b523be971bafb" category="paragraph">カスタムダッシュボードでは、リクエストに含まれていない地域を1つ以上選択するよう求められるようになりました。ダッシュボードのデータは、選択した地域に限定されます。</block>
+  <block id="35a63836682befdc98086e583b61298a" category="inline-link-macro">カスタムダッシュボードの作成方法を学習します</block>
+  <block id="c41b815c81909f8ff39eb5b52d29746d" category="paragraph"><block ref="c41b815c81909f8ff39eb5b52d29746d" category="inline-link-macro-rx"></block></block>
+  <block id="cc2d0ca75f186230ede0faa3f7692c06" category="section-title">リンク作成のためのIAMポリシー</block>
+  <block id="20721709cc5df2882070722a30cc34c3" category="paragraph">リンクを作成するためのCloudFormationテンプレートとTerraformコードでは、インラインのLambda権限ではなく、IAMポリシーを使用するようになりました。</block>
+  <block id="68cd2ca9724f378c0a2815415eeecfbd" category="inline-link-macro">リンクの作成方法を学ぶ</block>
+  <block id="38b63c1d391fa52af61b987953824171" category="paragraph"><block ref="38b63c1d391fa52af61b987953824171" category="inline-link-macro-rx"></block></block>
+  <block id="b3e7d6d7f8501adc86f1a7337ebfb531" category="section-title">AIエージェントの動作に関する監査と追跡</block>
+  <block id="fc5902f94dd3899ad0ce791954b6f521" category="paragraph">Trackerを使用すると、AIエージェントの設定変更を確認できるほか、読み書きモードで、エージェントの質問とユーザーの回答を含む各承認リクエストを確認できるようになりました。</block>
+  <block id="25d50a8630b3c335d684f59cca6d3ace" category="paragraph">Workload Factory APIを介して行われたリソースの変更は、その操作を実行するWorkload Factoryサービスがログに記録します。</block>
+  <block id="db0781c4ffb5f26ba7ad4f2ffe3dfdbd" category="inline-link-macro">エージェントのアクションの監査と追跡について学ぶ</block>
+  <block id="9b06f95ad3e4fc8477f2ca89d854a603" category="paragraph"><block ref="9b06f95ad3e4fc8477f2ca89d854a603" category="inline-link-macro-rx"></block></block>
+  <block id="3714dde7378ac290c154f62d9c080369" category="section-title">リンク作成の改善</block>
+  <block id="73501dc89cd2fc3be142f43eaffe971b" category="paragraph">Workload Factoryは、リンク作成用のCodebox出力を更新し、インラインLambda権限をCloudFormationテンプレートおよびTerraform用のIAMポリシーに置き換えました。</block>
+  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026年9月27日</block>
 </blocks>
