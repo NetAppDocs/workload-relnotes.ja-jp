@@ -194,4 +194,21 @@
   <block id="034feb9138972a75bb0c4407e9663857" category="paragraph"><block ref="034feb9138972a75bb0c4407e9663857" category="inline-link-macro-rx"></block></block>
   <block id="8b253c1d4259c21c8314fc85adcb31d6" category="section-title">2026年11月1日</block>
   <block id="f535eb1278ad100b4d323539a7942781" category="section-title">2026年10月14日</block>
+  <block id="b3ae445fa637203f0dc17550b5c4a56c" category="doc">適切に設計されたダッシュボードに含まれるデータベース構成</block>
+  <block id="17d52f36b5492e8aeada41d949434243" category="paragraph">適切に設計されたダッシュボードには、データベース構成に関する推奨事項が含まれるようになり、ベストプラクティスに基づいて設定を評価および最適化できるようになりました。ダッシュボードに含まれる最初の設定項目は以下のとおりです：</block>
+  <block id="0ab265b548fdc40b21483e61ffde3aba" category="list-text">コールドデータ階層化</block>
+  <block id="af20abc7154e9ee224c54b48b6ec7d63" category="list-text">ストレージ効率</block>
+  <block id="4c0abf2d4c54820b8d33061abaf30759" category="list-text">Snapshot ポリシー</block>
+  <block id="6f5cf50fa90f8d99bf50f65e676c6cba" category="list-text">SSDの容量余裕</block>
+  <block id="ea87fe154a3b0752922812472bd1e33d" category="list-text">ブロックデバイスのスペース管理</block>
+  <block id="6fcd25081a49cfc1b0ec4806afa3d35f" category="list-text">OS タイプ</block>
+  <block id="935aff9bc7bcf43dd1fe5825226b72c1" category="list-text">ブロックデバイスのOSタイプをホストと一致させる</block>
+  <block id="868e9efce60d04bdf51fc2494a73a9ce" category="list-text">非アクティブなブロックデバイス（LUN）</block>
+  <block id="797a6fe95ffc7bef7107556bac722567" category="list-text">データファイル（.mdf）の配置</block>
+  <block id="27c70398ced593abb96a3c33b5e1072b" category="list-text">ログファイル（.ldf）の配置</block>
+  <block id="346c87aaab415cd5adb218f88181ede8" category="list-text">マルチパスI/Oステータス</block>
+  <block id="92a6dbd219f1455bd74f5d666b1b27c5" category="list-text">マルチパスI/Oタイムアウト</block>
+  <block id="6716a97e4d0f5c2b2ba84a9c8a65b74d" category="list-text">クラスタークォーラム</block>
+  <block id="34d46ee23892b96b30e5db7bf4eb7871" category="list-text">コンピューティングリソースの最適化</block>
+  <block id="33bf723377efe51bc70f70bbb5efa8a4" category="paragraph">Workload Factoryコンソールでメインメニューを選択し、次に*Well-architected*を選択してWell-architectedダッシュボードを見つけます。</block>
 </blocks>
