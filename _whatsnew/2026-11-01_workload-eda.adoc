@@ -1,0 +1,37 @@
+= レイテンシー分析におけるボリュームの詳細
+:allow-uri-read: 
+
+
+
+
+[[volume-details-in-latency-analysis]]
+=== レイテンシー分析におけるボリュームの詳細
+
+*詳細なレイテンシ分析*ページで、追加のボリューム詳細である*ボリュームタイプ*（RW/DP）および*ボリュームスタイル*（FlexVolおよびFlexGroup）を表示できるようになりました。
+
+
+
+[[file-system-pressure-check-for-latency-events]]
+=== ファイルシステムのレイテンシイベントに対する負荷チェック
+
+レイテンシアラートが設定されているボリュームについては、イベント発生時にファイルシステムがパフォーマンスに影響を与えるほどの負荷を受けていたかどうかを確認できるようになりました。イベント発生前の40分間のCloudWatchデータを表示し、ファイルシステムへのリンクをたどってさらに調査することができます。
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["レイテンシ傾向の分析について"^]。
+
+
+
+[[throughput-decision-points]]
+=== スループット決定ポイント
+
+クライアントのスループットに関する推奨事項と、自動化の決定ポイントを確認できるようになりました。決定ポイントにカーソルを合わせると、現在のSKUと推奨SKU、または一定期間内に違反した指標（%）などの詳細情報が表示されます。
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#analyze-capacity-trends-and-decision-points["意思決定ポイントについて学ぶ"^]。
+
+
+
+[[re-run-latency-analysis]]
+=== レイテンシー分析を再実行
+
+*分析を再度実行* を選択して、ボリュームの新しいレイテンシ分析を開始し、オンデマンドで結果を更新できるようになりました。
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-issues.html["遅延問題の分析について"^]。

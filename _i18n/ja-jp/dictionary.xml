@@ -33,91 +33,8 @@
   <block id="ed09318eed7d979b31cfb4afc3b11097" category="sidebar">これらのリリース ノートでは、 NetApp Workload Factory の一部であるクラウド サービスの最近の機能強化について説明します。</block>
   <block id="9ff48e1eaa80562d8bc97f2d59b40e41" category="sidebar">NetApp Workload Factory リリースノート</block>
   <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">EDAワークロード</block>
-  <block id="992672ecff7fe59cf2782ddb79f58e1d" category="doc">カスタムダッシュボード</block>
-  <block id="da0c92072a1db7fee3208bcad3ad822b" category="doc">データベースのIAMアクセス許可ポリシーを更新しました</block>
-  <block id="e9e3af45119a834b75ee5ce8ad5fc96d" category="paragraph">データベースのアクセス権限が更新され、機能へのアクセス性が向上し、不要なSSMへのアクセスが制限されました。</block>
-  <block id="6f70bfe68d48e1ab770cfb69bea59dfd" category="paragraph">表示、計画、および分析の権限は、AWS SSM ドキュメントに限定されます。これらの権限があれば、ホスト、インスタンス、データベースを表示できます。また、リソースの基本的なオンデマンドの Well-Architected 分析を実行することもできます。</block>
-  <block id="e9ad7ba5991717b52c215bd25e788b28" category="paragraph">操作および修復権限を使用すると、リソースの変更、エラーログの分析、リソースの包括的なウェルアーキテクテッド分析の取得、および構成上の問題の修正を行うことができます。</block>
-  <block id="b8646f09ea34b75c077cfea12f75617b" category="inline-link-macro">権限リファレンス</block>
-  <block id="d5eb0f9120b28b557f3e367589adf4bb" category="section-title">カスタムダッシュボードの通知</block>
-  <block id="fb5e135dfdab99cdebbb946a22093655" category="paragraph">Workload Factoryは、カスタムダッシュボードの準備が完了したとき、または作成が失敗したときに通知するようになりました。</block>
-  <block id="7a99102fbba6a5729480bc61967c8423" category="paragraph">カスタムダッシュボードを作成すると、それを直接表示するためのリンクが記載された通知が届きます。作成に失敗した場合は、カスタムダッシュボードのインベントリへのリンクを含む通知が表示され、再度お試しいただけます。</block>
-  <block id="a9402b6e97b8b59ffa86012d5cfb7f9a" category="paragraph">これにより、ダッシュボードの準備が整ったタイミングが分かりやすくなり、確認や再作成も容易になります。</block>
-  <block id="359ab637c5369e269d0e004308b6c089" category="inline-link-macro">カスタムダッシュボードの作成方法を説明します</block>
-  <block id="863d814c29385fa8ebfd13bc1c1c7e96" category="inline-link-macro">通知の設定について</block>
-  <block id="27a522e1e6e4d9921e08ab5e7ad99158" category="section-title">プライベートおよびパブリックのカスタムダッシュボード</block>
-  <block id="add4e669fb22c004f4eef61607cc5df8" category="paragraph">カスタムダッシュボードに共有設定が追加されました。ダッシュボードは非公開にすることも、チームと共有することもできます。</block>
-  <block id="1bdd40db25752f704baa9b254470fb9a" category="paragraph">新しいダッシュボードはデフォルトでは非公開設定になっており、あなた以外には表示されません。ダッシュボードはいつでも公開設定にして、Workload Factoryアカウント内のすべてのユーザーと共有できます。</block>
-  <block id="26e05170ba3616166d4659e72d415450" category="paragraph">各ダッシュボードカードには「プライベート」または「パブリック」のラベルが表示されるため、どのダッシュボードが共有されているかをすぐに確認できます。</block>
-  <block id="29f897a53b188561913c2393050ce43a" category="inline-link-macro">ダッシュボードの表示設定と共有について</block>
-  <block id="c0bb5d7518380c44f5710f0803f9b3f4" category="inline-link-macro">ダッシュボードの共有方法について説明します</block>
-  <block id="b6ea1239e82705b159df88578e6fb6f0" category="section-title">AI機能管理</block>
-  <block id="1c7ba82e26fc30a97a625aaad623e4f4" category="paragraph">Workload Factoryの管理画面で以下の設定を行うことで、組織全体におけるAI機能へのアクセスを制御できます。</block>
-  <block id="e585625dd2a0a8e71ca8d8a269834ba9" category="list-text">NetAppが管理するBedrockを使用します（推奨、デフォルトで有効、月単位のクレジット制限あり）</block>
-  <block id="7f72da8c356eeacf603a52c235e09676" category="list-text">すべてのAI機能をオフにする</block>
-  <block id="aa55b63e5a41704f1621780515cd8a24" category="paragraph">新しい管理ページでは、これらの設定を1か所で管理できます。</block>
-  <block id="cd89624525aeeba4f9fce9dcfb6d9a91" category="paragraph">AI機能には、Ask Me、カスタムダッシュボード、ルールビルダー、およびEMS、データベースログ、ボリュームレイテンシ用のアナライザーが含まれます。</block>
-  <block id="dc363e90d503e57b6cddc555e2f96d5f" category="paragraph">AI機能がオフになっている場合、ユーザーにはAIが利用できないというメッセージが表示されます。</block>
   <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">AI機能の管理について</block>
-  <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026年8月3日</block>
-  <block id="1eda45f1f79ca6e9d6b738032665f7c6" category="doc">コスト管理を伴うAIレイテンシ分析</block>
-  <block id="b171182b7dc211a76d3e7cecbdf5e425" category="paragraph">Workload Factoryの管理者として、組織全体におけるAIレイテンシ分析へのアクセスを制御できます。</block>
-  <block id="4c9d3f8b46f94437f92a47d3612a2829" category="list-text">*NetApp 管理AIクレジット*：管理者が有効にしている場合は、NetAppが管理するAmazon Bedrockとの統合を通じてAI分析を使用できます。追加の設定は不要です。お客様の月間使用量は、割り当てられた予算によって制限されます。月間利用制限に達すると、AI搭載機能は無効になり、メッセージが表示されます。</block>
-  <block id="67ee5da1047f90d8a684f7e0d2ca1944" category="list-text">*管理者によって無効化されています*：管理者がAI機能を無効にした場合、AI分析オプションはグレー表示され、機能が無効になっていることを示すメッセージが表示されます。</block>
-  <block id="69e316ff96b412dd2a5045f8dd2f433c" category="section-title">弾力的なスループット増加管理</block>
-  <block id="a01f5f5609c9aee121b699114cfe006f" category="paragraph">EDA概要ページから、選択した1つ以上のFSx for ONTAPファイルシステムのスループット増加動作を管理できるようになりました。</block>
-  <block id="9c3ee7dcbca3424fcc3c760549aa303d" category="list-text">*モード選択*：*自動*または*推奨*を選択してください。</block>
-  <block id="b9722197734c8293fedc4e7c6db77abe" category="list-text">*一括更新*：1つまたは複数のファイルシステムを選択し、モードとパラメータの変更を一度に適用します。</block>
-  <block id="1a97c66f134399c6e8ddf03e8cd9055e" category="list-text">*スループット管理ダイアログの変更*：ダイアログでEDAのデフォルト値を使用してスループット増加設定を編集します。</block>
-  <block id="0e71e5ed033b79a12a3d33146bbef832" category="list-text">*詳細設定*：展開可能な *詳細設定* セクションで、追加のスループット決定パラメータを設定します。</block>
-  <block id="3c559babe76da927fd273d0640ba2089" category="list-text">*テーブルの可視性*：Clusters テーブルに新しい *スループット管理* 列が追加され、列設定から有効にできます。</block>
-  <block id="b353daec82916c89eec0f9b0557132c1" category="list-text">*トップカード構成*：上部のカードは、SSD管理と同様に、スループット増加モード構成をサポートするようになりました。</block>
-  <block id="e6ae1bdcdd4c1d6a5bc23c326f27ff3f" category="inline-link-macro">概要ダッシュボードの使用方法を説明します</block>
-  <block id="070faad8fac25fb3d4c659a4b7497b19" category="paragraph"><block ref="0a3eee7cb6c31ec86c09cd7ae18ee1d3" category="inline-link-macro-rx"></block>。</block>
-  <block id="da6f5bf8aee08ef83468ad38ab52796b" category="doc">すべての FSx for ONTAP システムで新しいwell-architectedダッシュボードが利用可能になりました</block>
-  <block id="7fca025a8bf1b5d72a149731d5c88125" category="paragraph">ウェルアーキテクテッド分析が、NetApp Workload Factory の新しいウェルアーキテクテッドダッシュボードから、FSx for ONTAP ファイルシステムで利用できるようになりました。新しいダッシュボードでは、アカウントやリージョンをまたがるすべてのファイルシステムとその構成を一元的に確認できます。ファイルシステムから「Well-architected」タブにアクセスすると、ポップアップ通知が表示されます。Workload Factory の左側のナビゲーションメニューから「Well-architected」を選択すると、新しいダッシュボードにアクセスできます。</block>
-  <block id="b09ad8a2ad81c470093e9c74313ea0c2" category="paragraph">特定のファイルシステムのWell-architected分析には、引き続きアクセスできます。また、ストレージの「Well-architected」メニューオプションからもアクセスできます。</block>
-  <block id="63960000d4e139f329b74b4b91c43feb" category="section-title">ストレージダッシュボードに新しいウィジェットが追加されました</block>
-  <block id="1b701a8eaad0525cd9d21842a87a1800" category="paragraph">ストレージダッシュボードに、ストレージの使用状況を把握し、最適化する方法を見つけるのに役立つ2つの新しいウィジェットが追加されました。</block>
-  <block id="0e2bbff5eb55e16098106686c6657f4e" category="list-text">*検出された上位ワークロード* タグ付けサービスによって環境全体で検出されたワークロードデータを表示します。ボリュームやブロックデバイスなどの関連する FSx リソースを含む、信頼度スコアが 80% を超えるワークロードを表示します。各ワークロードには、その名前、リソース数、プロビジョニングされた容量、および使用済み容量が表示されます。リソース数（デフォルト）、プロビジョニング済み容量、または使用済み容量で並べ替えることで、最大のワークロードをすばやく特定し、ストレージの使用パターンを把握できます。</block>
-  <block id="dea1b9553440d525973da9d88c579dd0" category="list-text">*AIを活用した洞察と観察* 管理対象資産に関するAI生成の洞察を表示します。このウィジェットは、選択した範囲内の資産データを分析し、容量、パフォーマンス、データ保護、レプリケーション、コスト削減、ストレージの傾向など、主要な分野における上位3つの発見事項を強調表示します。</block>
-  <block id="e3b3cc77c3245b045d666342b4d976b2" category="paragraph">各インサイトには、概要、詳細な調査結果、および推奨アクションが含まれています。インサイトを展開すると、詳細を確認し、深刻度、パフォーマンスの改善、コスト削減の機会に基づいて問題の優先順位を付けることができます。</block>
-  <block id="cd4ef961255320407f22a2c9683cfd1d" category="section-title">ワークロードタグ付け</block>
-  <block id="6e7c3ced7d1755c7c375f47ca6b2c3f0" category="section-title">ワークロードタグ付けのためのAWS Systems Managerとの統合</block>
-  <block id="8cc8dc3c329756b30481400836ca180c" category="paragraph">ワークロードタグ付けサービスは、AWS Systems Managerと連携して、ホストインベントリデータに詳細情報を追加できるようになりました。Workload Factoryは、SSMインベントリ情報を収集および処理することで、ワークロードの識別と分類をより適切に行えるようになりました。AWS SSM属性もタグ付けプロセスに含まれており、ワークロード検出の精度向上に役立てられています。</block>
-  <block id="7f1ecac494abdd70b1fef3cc1209be0c" category="paragraph">適切に設計されたダッシュボード内のボリューム関連の設定すべてにおいて、リソーステーブルに「ワークロード」列が追加されました。この列は、Workload Factory が各ボリュームに関連付けているワークロードを示しています。</block>
-  <block id="b26629c4d0db7a100913103c2501115d" category="section-title">ワークロードタグ付けとAI機能</block>
-  <block id="c6e3575ea0e96a40eeea1698ed97e99f" category="paragraph">管理者がAI機能を無効にした場合、ワークロードにはタグ付けされません。Workload Factoryアカウントの設定でAI機能が無効になっている場合、タグ付けサービスはストレージリソース上のワークロードを識別または分類しません。</block>
-  <block id="9801425a2145ab6ed5aa12b9446c905c" category="inline-link-macro">AI管理について学ぶ</block>
-  <block id="39cf1aaf3e84c5c49c930c5bfe27e098" category="section-title">節約額のスナップショット計算の改善点を確認する</block>
-  <block id="a4f25c93cc96e84a15a9a235f569bbe2" category="paragraph">「Explore savings now」では一貫したスナップショット容量計算が使用されるようになったため、FSx for ONTAP の節約額の見積もりに追加のスナップショット容量プール要件が正しく考慮されます。</block>
-  <block id="e14c4b029cabd340fe3b6c67835e9927" category="inline-link-macro">Amazon Elastic Block Store、FSx for Windows File Server、Elastic File System のストレージ環境におけるコスト削減効果をご確認ください。</block>
-  <block id="01ee25f562cbb2e8ca2ff8f41e96f80d" category="paragraph"><block ref="01ee25f562cbb2e8ca2ff8f41e96f80d" category="inline-link-macro-rx"></block></block>
-  <block id="347a810d994926c5e31d1bd690b34fcf" category="section-title">レプリケーション遅延データをCSVファイルにエクスポートする</block>
-  <block id="45cbeaeb98d1d075d560a8e62269fbbb" category="paragraph">レプリケーション遅延データをCSVファイルにエクスポートして、スプレッドシートでデータを分析したり、他のユーザーと共有したりできるようになりました。</block>
-  <block id="abda6db4ef1e45cf251dcf456064a874" category="section-title">S3アクセスポイントイベント</block>
-  <block id="084779dffb2a62383b80e6fbe69e0dc4" category="paragraph">S3アクセスポイントのイベントを、設定したスケジュールに従ってSNSトピックに送信できるようになりました。各アップデートには、前回のアップデート以降に発生したすべてのイベントが含まれます。</block>
-  <block id="c634bf7b5214ed8f0d82613de1e29eff" category="inline-link-macro">S3アクセスポイントを編集する</block>
-  <block id="84118bd808a8989867b6fc874b0b1b45" category="paragraph">S3 イベントの通知を設定するには、<block ref="5014cadb2b53045b84df58ebddada57a" category="inline-link-macro-rx"></block> *Journal table* セクションで *Send S3 events by SNS* を選択します。</block>
-  <block id="adf6bc23c10d536eed25c42f34ba48e8" category="section-title">2026年8月2日</block>
-  <block id="bb971caaebe9e5940267caf457500810" category="paragraph"><block ref="247b746a5e5f871115d636673a8fd3a7" category="inline-link-macro-rx"></block>。</block>
-  <block id="78a4e31d1c34a343ac1189ff737a0982" category="doc">ウェルアーキテクテッド分析における Oracle および Microsoft SQL Server の構成変更</block>
-  <block id="1d617de46837a3d67b6850fd27b13c02" category="paragraph">複数のデータベース構成が統合され、適切なアーキテクチャ分析において以下の構成に名称変更されました。</block>
-  <block id="70dc13ee7e3320f270e7236f7fa9f60d" category="list-text">*ブロックデバイス領域管理*：スペース リザベーション、スペース割り当て、およびフラクショナルリザーブが含まれます</block>
-  <block id="c75bc7e1a77b2b8e809bf87a1b1c2b5b" category="list-text">*ストレージ効率*：圧縮、重複排除、およびコンパクションが含まれます</block>
-  <block id="706125d817b831eb4c31ea90c004eee2" category="list-text">*階層化/TCO最適化*：階層化ポリシーと階層化最低冷却日数が含まれます</block>
-  <block id="08ab4e6e5d6d250dd93617842402b41f" category="list-text">*ローカルスナップショットのスケジュール*：スナップショットポリシーが含まれます</block>
-  <block id="3791b9a912543795aa72719e1fa5c488" category="inline-link-macro">ワークロードファクトリーにおける構成分析</block>
-  <block id="5874b771173388bd46c8912da31750a0" category="paragraph"><block ref="5874b771173388bd46c8912da31750a0" category="inline-link-macro-rx"></block></block>
-  <block id="c041c2dfd235a9062883922df8e04748" category="paragraph"><block ref="c041c2dfd235a9062883922df8e04748" category="inline-link-macro-rx"></block></block>
-  <block id="167e20b67f84068555b3081057c696b8" category="paragraph"><block ref="167e20b67f84068555b3081057c696b8" category="inline-link-macro-rx"></block></block>
-  <block id="0e23d2a91e2fd1a7eb141ceb8cd9ddcf" category="paragraph"><block ref="0e23d2a91e2fd1a7eb141ceb8cd9ddcf" category="inline-link-macro-rx"></block></block>
-  <block id="d972d2e4f90697cd9aea0ea06c6d65ea" category="paragraph"><block ref="d972d2e4f90697cd9aea0ea06c6d65ea" category="inline-link-macro-rx"></block></block>
-  <block id="5243974c66976ebd592df24b62b1b9bf" category="paragraph"><block ref="5243974c66976ebd592df24b62b1b9bf" category="inline-link-macro-rx"></block></block>
-  <block id="a8d7b4c293e04e8a879f9be70ed380ba" category="paragraph"><block ref="a8d7b4c293e04e8a879f9be70ed380ba" category="inline-link-macro-rx"></block></block>
   <block id="8d20116cd01bc3ce31dae628497af0dc" category="paragraph"><block ref="8d20116cd01bc3ce31dae628497af0dc" category="inline-link-macro-rx"></block></block>
-  <block id="935b1e26eff078e94b224d92e0db898a" category="section-title">Volumes ExplorerにONTAPの機能が表示される</block>
-  <block id="2d4406cf931edb2fbd5ab72e7eb07c66" category="paragraph">ボリュームエクスプローラーのボリュームテーブルに ONTAP 機能が追加されました。これらの機能により、保護範囲、自律型ランサムウェア保護（ARP/AI）ステータス、ストレージ効率、階層化ポリシー、ボリュームの自動拡張など、ボリュームの構成とステータスに関するより詳細な情報が得られます。</block>
   <block id="9b988decb4830a521f8e1487584f0385" category="doc">ボリュームエクスプローラーで利用可能なボリューム操作</block>
   <block id="a0c01b4b61e4e5c8542aca4694a620d6" category="paragraph">ボリュームに関するすべての操作は、1つまたは複数のボリュームに対して、ボリュームエクスプローラーから直接利用できます。これにより、ボリュームレベルの操作をより迅速に実行できるようになります。ボリューム操作には、ボリューム設定の変更、スナップショットの管理、およびボリュームエクスプローラーを離れることなく実行できるその他のボリュームタスクが含まれます。これらの操作は、FSx for ONTAP ファイルシステムの概要にある「ボリューム」タブからもアクセスできます。</block>
   <block id="7ade7e78371066efd6d4e823d8da1fd8" category="section-title">2026年8月11日</block>
@@ -252,4 +169,29 @@
   <block id="1703fc0755f2533bd9d727fa0298c500" category="inline-link-macro">カスタムダッシュボードのトラブルシューティング</block>
   <block id="6690aacdf8125a25e4539caa3239e86f" category="paragraph"><block ref="6690aacdf8125a25e4539caa3239e86f" category="inline-link-macro-rx"></block></block>
   <block id="6cd19393862a5a23e39bb63b43a86baa" category="section-title">2026年10月4日</block>
+  <block id="b680b1a7fd35564d77eb715d3c89f5cb" category="doc">AIツールには独自のAmazon Bedrockインスタンスを使用してください</block>
+  <block id="aefffefabafd2a723ba252259d49413b" category="paragraph">Workload FactoryのAI設定ページに、お客様が独自のAmazon Bedrockインスタンスを使用できる別のオプションが追加されました。</block>
+  <block id="59071a98cbd118cd70a7342fac20edee" category="paragraph">このオプションは、お客様管理のBedrock for AIツールで利用可能であり、すべてのWorkload Factory AIサービスでサポートされています。</block>
+  <block id="723b7f36410bdffd1d79fc26537b0350" category="paragraph">接続後、Workload Factoryは接続が成功したかどうかを通知します。</block>
+  <block id="c13ffbb74415f75e6bfbceb28746aa00" category="doc">レイテンシー分析におけるボリュームの詳細</block>
+  <block id="e702df4af5908b691938e2a636bf0d11" category="paragraph">*詳細なレイテンシ分析*ページで、追加のボリューム詳細である*ボリュームタイプ*（RW/DP）および*ボリュームスタイル*（FlexVolおよびFlexGroup）を表示できるようになりました。</block>
+  <block id="84040e078366ab4b302c9f45a3caa89d" category="section-title">ファイルシステムのレイテンシイベントに対する負荷チェック</block>
+  <block id="06aefa6560003b3171cd7662ef2b3d9d" category="paragraph">レイテンシアラートが設定されているボリュームについては、イベント発生時にファイルシステムがパフォーマンスに影響を与えるほどの負荷を受けていたかどうかを確認できるようになりました。イベント発生前の40分間のCloudWatchデータを表示し、ファイルシステムへのリンクをたどってさらに調査することができます。</block>
+  <block id="3e7850720206a5fe00f7310f49f139ef" category="inline-link-macro">レイテンシ傾向の分析について</block>
+  <block id="4082bd9c59dc64a78f083ec07f0f1ade" category="paragraph"><block ref="e0c19bfe1186d72bb091851a5915268f" category="inline-link-macro-rx"></block>。</block>
+  <block id="84ae0158deb3f95e6027fdf8d5ff467d" category="section-title">スループット決定ポイント</block>
+  <block id="d561222faafa1c2e107d8307549a4372" category="paragraph">クライアントのスループットに関する推奨事項と、自動化の決定ポイントを確認できるようになりました。決定ポイントにカーソルを合わせると、現在のSKUと推奨SKU、または一定期間内に違反した指標（%）などの詳細情報が表示されます。</block>
+  <block id="e7e1d8130eb396a11055ef0aad27b20c" category="inline-link-macro">意思決定ポイントについて学ぶ</block>
+  <block id="b1b6afda8cefc68653435f204de78f32" category="paragraph"><block ref="c182c1de3b13ab1f612ac32dab94169a" category="inline-link-macro-rx"></block>。</block>
+  <block id="1e67c2facf6c9ccaed8c578497980ba2" category="section-title">レイテンシー分析を再実行</block>
+  <block id="95386ac844fe5334b9e7743d6098dfab" category="paragraph">*分析を再度実行* を選択して、ボリュームの新しいレイテンシ分析を開始し、オンデマンドで結果を更新できるようになりました。</block>
+  <block id="1e2beb43d53ce6e7e78ce598ad680f34" category="inline-link-macro">遅延問題の分析について</block>
+  <block id="7ab17ff19aa466bc8531cc7568dea5a6" category="paragraph"><block ref="13291cb64cb4778475d22fb041bce2e0" category="inline-link-macro-rx"></block>。</block>
+  <block id="d6ed55c5fa0490be9e9d07719ba741ce" category="doc">EVS TCO 計算ツールにおける i7i.metal-24xl および i7i.metal-48xl インスタンスのサポート</block>
+  <block id="b6c3bb340d0b13e009a53c6c8a2b9219" category="paragraph">EVSのTCO計算ツールが、クラスターホストとしてAWSのi7i.metal-24xlおよびi7i.metal-48xl EC2インスタンスをサポートするようになりました。i4i.metal構成と比較して、i7i.metal-24xlインスタンスは、コンピューティングのEVS初期コストを約33%、vSANストレージのEVS初期コストを約25%削減します。</block>
+  <block id="e50148793a31ae443693925cfda40d91" category="paragraph">この計算ツールは、すべてのインスタンスタイプを比較し、最もコストの低いオプションを自動的に選択します。新しい比較セクションでは、EVSホストの構成を並べて表示することで、ニーズに最適な設定をより簡単に選択できます。</block>
+  <block id="0665cdd8950328e06e0db9b1e16938d3" category="inline-link-macro">EVSの推定節約額を計算する</block>
+  <block id="034feb9138972a75bb0c4407e9663857" category="paragraph"><block ref="034feb9138972a75bb0c4407e9663857" category="inline-link-macro-rx"></block></block>
+  <block id="8b253c1d4259c21c8314fc85adcb31d6" category="section-title">2026年11月1日</block>
+  <block id="f535eb1278ad100b4d323539a7942781" category="section-title">2026年10月14日</block>
 </blocks>
