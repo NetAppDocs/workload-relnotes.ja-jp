@@ -276,4 +276,6 @@
   <block id="3714dde7378ac290c154f62d9c080369" category="section-title">リンク作成の改善</block>
   <block id="73501dc89cd2fc3be142f43eaffe971b" category="paragraph">Workload Factoryは、リンク作成用のCodebox出力を更新し、インラインLambda権限をCloudFormationテンプレートおよびTerraform用のIAMポリシーに置き換えました。</block>
   <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026年9月27日</block>
+  <block id="7cc20c44b067a9d650d7a25d5be9d67d" category="section-title">分類に関する顧客管理型Bedrockサポート</block>
+  <block id="8a8cb6e7e1b94c2efc52b7f5d677eb4d" category="paragraph">Workload Factoryでは、ワークロードのタグ付け分類に独自のAmazon Bedrock環境を使用できるようになりました。独自のBedrockエンドポイントと認証情報を提供することで、分類リクエストを独自のBedrock構成を通して実行させることができます。</block>
 </blocks>

@@ -131,6 +131,12 @@ Workload Factoryに容量の自動管理を依頼する前に、自動容量管�
 
 
 
+==== 分類に関する顧客管理型Bedrockサポート
+
+Workload Factoryでは、ワークロードのタグ付け分類に独自のAmazon Bedrock環境を使用できるようになりました。独自のBedrockエンドポイントと認証情報を提供することで、分類リクエストを独自のBedrock構成を通して実行させることができます。
+
+
+
 [[database-workloads]]
 === データベースワークロード
 
