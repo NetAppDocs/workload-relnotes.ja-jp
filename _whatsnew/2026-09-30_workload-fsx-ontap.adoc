@@ -32,7 +32,7 @@ Workload Factory は、ワークロードのタグ付け対象となる AWS サ�
 
 Workload Factory コンソールのメインメニューから、またはファイルシステム内から、Well-architected ダッシュボードにアクセスできます。メインメニューから Well-architected ダッシュボードを見つけるには、メインメニューを選択し、次に「Well-architected」を選択します。
 
-image:well-architected-menu-option.png["Workload Factory コンソールの Well-architected メニューオプション"]
+image:workload-fsx-ontap/well-architected-menu-option.png["Workload Factory コンソールの Well-architected メニューオプション"]
 
 
 
@@ -72,7 +72,7 @@ Workload Factoryは、ボリュームの特性と使用パターンに基づい�
 
 ボリュームエクスプローラー画面に、すべてのファイルシステムにわたるボリュームのNetApp Autonomous Ransomware Protection with AI（ARP/AI）ステータスを表示するカードが追加されました。このカードには保護されているボリュームの数が表示され、リスクにさらされているボリュームがあるかどうかが示されます。このカードから「攻撃を分析」して、潜在的なランサムウェアの脅威を調査し、データを保護するための適切な対策を講じることができます。
 
-image:volumes-explorer-arp-ai-card.png["スクリーンショットは、ボリュームエクスプローラー画面に新しいカードが表示され、すべてのファイルシステムにわたるボリュームの ARP/AI ステータスが表示されている様子を示しています。このカードには、保護されているボリュームの数とリスクにさらされているボリュームの数が示されています。ユーザーは「Analyze attacks」というテキストを選択することで、疑わしい攻撃を調査し、データを保護するための適切な措置を講じることができます。"]
+image:workload-fsx-ontap/volumes-explorer-arp-ai-card.png["スクリーンショットは、ボリュームエクスプローラー画面に新しいカードが表示され、すべてのファイルシステムにわたるボリュームの ARP/AI ステータスが表示されている様子を示しています。このカードには、保護されているボリュームの数とリスクにさらされているボリュームの数が示されています。ユーザーは「Analyze attacks」というテキストを選択することで、疑わしい攻撃を調査し、データを保護するための適切な措置を講じることができます。"]
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["ランサムウェア対策について詳しくはこちらをご覧ください。"]
 

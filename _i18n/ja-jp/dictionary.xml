@@ -106,7 +106,6 @@
   <block id="a4b0895311938bbe97380c217d8bc91a" category="section-title">適切に設計されたダッシュボードへのアクセス</block>
   <block id="99443f6b5bfec8a35e6748e731a10d71" category="paragraph">Workload Factory コンソールのメインメニューから、またはファイルシステム内から、Well-architected ダッシュボードにアクセスできます。メインメニューから Well-architected ダッシュボードを見つけるには、メインメニューを選択し、次に「Well-architected」を選択します。</block>
   <block id="2d647234501319107057acb4d3f8dfaf" category="inline-image-macro">Workload Factory コンソールの Well-architected メニューオプション</block>
-  <block id="353cc99df6b21e74c805e74bdab4b8aa" category="paragraph"><block ref="353cc99df6b21e74c805e74bdab4b8aa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9864fa88fc3747e67b6fc38c9b938677" category="section-title">優れたアーキテクチャ分析における新たな推奨事項</block>
   <block id="a38b9a0af0de5e85c5e64a158079deb5" category="paragraph">Workload Factory は、FSx for ONTAP ファイルシステムの適切なアーキテクチャ分析に以下の構成を含めるようになりました：</block>
   <block id="3b4bb2bfc2800826050f3805ec9d835a" category="list-text">*ボリューム領域管理の設定*：FSx for ONTAP ボリュームの協調ボリューム領域管理を有効にすることを推奨します。</block>
@@ -122,7 +121,6 @@
   <block id="a187114bcc51b42124813d0e4d20730d" category="section-title">ボリュームエクスプローラーは、すべてのファイルシステムにわたるボリュームのARP/AIステータスを表示します。</block>
   <block id="14bbbfe188029f45698ccb26b1280a48" category="paragraph">ボリュームエクスプローラー画面に、すべてのファイルシステムにわたるボリュームのNetApp Autonomous Ransomware Protection with AI（ARP/AI）ステータスを表示するカードが追加されました。このカードには保護されているボリュームの数が表示され、リスクにさらされているボリュームがあるかどうかが示されます。このカードから「攻撃を分析」して、潜在的なランサムウェアの脅威を調査し、データを保護するための適切な対策を講じることができます。</block>
   <block id="3f25080804b8d019675a456a436cb471" category="inline-image-macro">スクリーンショットは、ボリュームエクスプローラー画面に新しいカードが表示され、すべてのファイルシステムにわたるボリュームの ARP/AI ステータスが表示されている様子を示しています。このカードには、保護されているボリュームの数とリスクにさらされているボリュームの数が示されています。ユーザーは「Analyze attacks」というテキストを選択することで、疑わしい攻撃を調査し、データを保護するための適切な措置を講じることができます。</block>
-  <block id="3984208540eb5fb15ca89127c0ce9c35" category="paragraph"><block ref="3984208540eb5fb15ca89127c0ce9c35" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3ae39496097bf7dd54def47f219d44a2" category="inline-link-macro">ランサムウェア対策について詳しくはこちらをご覧ください。</block>
   <block id="32d61e76f54bb5b368f607bb435c5c1f" category="paragraph"><block ref="32d61e76f54bb5b368f607bb435c5c1f" category="inline-link-macro-rx"></block></block>
   <block id="bf408a384d3111f4dc3c9bd2e2488084" category="section-title">正常でないレプリケーション関係に関するメール通知</block>
@@ -278,4 +276,7 @@
   <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026年9月27日</block>
   <block id="7cc20c44b067a9d650d7a25d5be9d67d" category="section-title">分類に関する顧客管理型Bedrockサポート</block>
   <block id="8a8cb6e7e1b94c2efc52b7f5d677eb4d" category="paragraph">Workload Factoryでは、ワークロードのタグ付け分類に独自のAmazon Bedrock環境を使用できるようになりました。独自のBedrockエンドポイントと認証情報を提供することで、分類リクエストを独自のBedrock構成を通して実行させることができます。</block>
+  <block id="442d917e6f977497aa9164bdb334b30b" category="paragraph"><block ref="442d917e6f977497aa9164bdb334b30b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b38510edecee128bcf57a2052192d3fa" category="paragraph"><block ref="b38510edecee128bcf57a2052192d3fa" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="33d18edd919b0af815bbf108537020f0" category="paragraph"><block ref="33d18edd919b0af815bbf108537020f0" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
